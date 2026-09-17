@@ -1,0 +1,119 @@
+{
+  "report_date": "2026-09-17",
+  "window_start_utc": "2026-09-16T05:01:23Z",
+  "window_end_utc": "2026-09-17T05:01:23Z",
+  "generated_at_utc": "2026-09-17T05:02:26Z",
+  "channels": [
+    {
+      "channel_name": "theAIsearch",
+      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "videos": []
+    },
+    {
+      "channel_name": "PaulJLipsky",
+      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "videos": [
+        {
+          "video_id": "kXfHQbyMjkc",
+          "title": "7 Mind Blowing Use Cases for Grok Bot",
+          "published_at": "2026-09-16T13:00:00Z",
+          "url": "https://www.youtube.com/watch?v=kXfHQbyMjkc",
+          "ai_tech_id": "Grok Bot (xAI Grok, sponsored by SpaceXAI)",
+          "summary": [
+            "Paul J Lipsky demonstrates seven practical \"Grok Bot\" teammates he built using xAI's Grok, each assigned to a different recurring task in his life. The video is sponsored by SpaceXAI and positions Grok Bot as a personal-automation layer rather than a single chatbot, with each bot given its own name, persona, and job description.",
+            "The seven bots covered are Fixer (home maintenance memory), Kin (family appointment helper), Booker (recurring appointment booking), Coach Cal (fitness coaching), Nope (free-trial cancellation tracker), Scout (bargain hunting), and Weekender (weekend planning). Lipsky walks through timestamped segments showing how each bot is configured and used in daily workflows.",
+            "The throughline is using Grok as a multi-agent personal assistant system to offload household and administrative overhead, illustrating a consumer-facing use case for xAI's Grok model beyond general chat."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "futurepedia_io",
+      "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
+      "videos": [
+        {
+          "video_id": "vEpkDv8B4T8",
+          "title": "Testing a ridiculously complex prompt in GPT Image 2.5",
+          "published_at": "2026-09-16T15:03:07Z",
+          "url": "https://www.youtube.com/watch?v=vEpkDv8B4T8",
+          "ai_tech_id": "GPT Image 2.5 (OpenAI image generation model)",
+          "summary": [
+            "Futurepedia stress-tests OpenAI's GPT Image 2.5 with a deliberately complex prompt: a U.S. map with every national park pinned, plus arrows pointing to matching retro travel posters for each park.",
+            "The model successfully handles the overall creative scope, rendering retro-style posters that look convincingly accurate to the genre, which the host calls impressive given the compound nature of the request.",
+            "However, spatial precision breaks down: many pins land on the wrong states and several arrows fail to point anywhere near their intended park, highlighting that GPT Image 2.5's weak spot remains precise geographic/spatial accuracy even as its stylistic generation improves."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "nateherk",
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "videos": [
+        {
+          "video_id": "FqnNL8fnUWo",
+          "title": "How to Build GPT-6 Astra Automations (that don't eat your usage limit)",
+          "published_at": "2026-09-16T22:56:45Z",
+          "url": "https://www.youtube.com/watch?v=FqnNL8fnUWo",
+          "ai_tech_id": "GPT-6 Astra / Codex SDK (OpenAI), Trigger.dev",
+          "summary": [
+            "Nate Herk addresses a practical problem for power users of OpenAI's Codex/GPT-6 Astra: running scheduled and event-triggered automations directly inside a Codex thread quietly consumes subscription usage allowance. His fix is moving those jobs to an external host.",
+            "He walks through migrating a morning-brief automation and a webhook-triggered automation into Trigger.dev, explaining the distinction between a deterministic workflow (sufficient for most scheduled jobs) and a full Codex SDK agentic loop (needed for more adaptive tasks). The video covers local build and validation, deployment to Trigger.dev, and testing hosted delivery end-to-end.",
+            "The core takeaway is a cost-and-reliability pattern for AI power users: keep simple, repeatable automations off your LLM usage meter by hosting them externally, reserving the agentic Codex SDK loop only for genuinely dynamic automation logic."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "simonscrapes",
+      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "videos": []
+    },
+    {
+      "channel_name": "sabrina_ramonov",
+      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "videos": [
+        {
+          "video_id": "wKhzdmeAtRE",
+          "title": "20 Ways To Get Business Ideas",
+          "published_at": "2026-09-17T01:00:35Z",
+          "url": "https://www.youtube.com/watch?v=wKhzdmeAtRE",
+          "ai_tech_id": "General-purpose AI agents / ChatGPT (used as an ideation and daily research tool)",
+          "summary": [
+            "Sabrina Ramonov lays out 20 tactics for sourcing business ideas from real-world evidence rather than pure brainstorming, arguing that ideas rooted in observed pain points, spending, or complaints outperform invented ones.",
+            "The list spans research-driven methods (mining Reddit and TikTok/Instagram comments, analyzing 1-star Amazon reviews, scanning Craigslist and niche Discord \"help\" channels) and AI-assisted methods, including setting up a daily AI agent to research one idea per day and asking ChatGPT what you'd build if money weren't a concern.",
+            "The unifying AI angle is using automated agents and LLMs as a continuous idea-sourcing and validation layer alongside traditional market research, rather than relying on one-off inspiration."
+          ]
+        },
+        {
+          "video_id": "pwh24LZJNEs",
+          "title": "Instagram DM Strategy For Leads And Sales",
+          "published_at": "2026-09-16T18:30:37Z",
+          "url": "https://www.youtube.com/watch?v=pwh24LZJNEs",
+          "ai_tech_id": "Blotato (AI/automation-driven DM funnel tool)",
+          "summary": [
+            "Sabrina Ramonov shares the DM automation strategy she credits with driving 6,300+ leads and $120K in sales, arguing that views and followers are just raw material until a social funnel converts them into leads.",
+            "The mechanism uses Blotato to automate Instagram/Facebook DMs: a caption instructs viewers to comment a keyword, which triggers an automated DM containing a link, guide, or offer, converting passive viewers into captured leads without manual outreach.",
+            "She frames the setup process (connect account, choose a keyword, decide follow-gating or email capture, attach a link) as the missing piece between content creation and revenue, positioning automation as what turns audience attention into actual sales."
+          ]
+        },
+        {
+          "video_id": "EZEm8lz6WcE",
+          "title": "Free Claude And ChatGPT Watermark Remover",
+          "published_at": "2026-09-16T13:00:25Z",
+          "url": "https://www.youtube.com/watch?v=EZEm8lz6WcE",
+          "ai_tech_id": "Claude (Anthropic) and ChatGPT (OpenAI) text watermarking / Claude ReWriter",
+          "summary": [
+            "Sabrina Ramonov addresses a pain point for writers who use Claude or ChatGPT to polish their own drafts: AI-written text can carry watermarking signals that get flagged as AI-generated even when the underlying ideas are human.",
+            "She introduces a free tool she built to strip obvious metadata and reduce common text-based watermark patterns, and separately recommends enabling Claude's \"ReWriter\" feature, which helps paraphrase output to reduce detectable AI patterns.",
+            "She's explicit that neither method offers a guaranteed bypass of AI-detection, framing the tool as a partial mitigation for creators editing their own writing with AI assistance rather than a foolproof solution."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "JeffSu",
+      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "videos": []
+    }
+  ]
+}
