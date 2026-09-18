@@ -1,46 +1,46 @@
 {
-  "report_date": "2026-09-17",
-  "window_start_utc": "2026-09-16T05:01:23Z",
-  "window_end_utc": "2026-09-17T05:01:23Z",
-  "generated_at_utc": "2026-09-17T05:02:26Z",
+  "report_date": "2026-09-18",
+  "window_start_utc": "2026-09-17T05:00:28Z",
+  "window_end_utc": "2026-09-18T05:00:28Z",
+  "generated_at_utc": "2026-09-18T05:10:00Z",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "MImgH4KMtj8",
+          "title": "Deepseek just did the impossible",
+          "published_at": "2026-09-18T03:24:05Z",
+          "url": "https://www.youtube.com/watch?v=MImgH4KMtj8",
+          "ai_tech_id": "DeepSeek V4.1 Flash (DeepSeek AI)",
+          "summary": [
+            "theAIsearch breaks down DeepSeek's newly released V4.1 Flash model, walking through its technical report to explain how the team pushed inference efficiency well beyond prior DeepSeek releases.",
+            "The video covers a string of architectural techniques behind the gains: prefill vs. decode tradeoffs, a causal encoder-decoder design, global vs. local KV caching, sliding-window attention, aggressive cache compression, a technique called CSA2, a hierarchical sparse indexer, and a bounded-replay approach to local memory, plus a single-pass multi-head compression method and an \"Engram\" component tied to DeepSeek's DSpark line.",
+            "The throughline is that DeepSeek V4.1 Flash achieves frontier-level performance while flattening the usual cost/compute curve, positioning it as a major efficiency leap in open large language model design rather than just a capability bump."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "kXfHQbyMjkc",
-          "title": "7 Mind Blowing Use Cases for Grok Bot",
-          "published_at": "2026-09-16T13:00:00Z",
-          "url": "https://www.youtube.com/watch?v=kXfHQbyMjkc",
-          "ai_tech_id": "Grok Bot (xAI Grok, sponsored by SpaceXAI)",
-          "summary": [
-            "Paul J Lipsky demonstrates seven practical \"Grok Bot\" teammates he built using xAI's Grok, each assigned to a different recurring task in his life. The video is sponsored by SpaceXAI and positions Grok Bot as a personal-automation layer rather than a single chatbot, with each bot given its own name, persona, and job description.",
-            "The seven bots covered are Fixer (home maintenance memory), Kin (family appointment helper), Booker (recurring appointment booking), Coach Cal (fitness coaching), Nope (free-trial cancellation tracker), Scout (bargain hunting), and Weekender (weekend planning). Lipsky walks through timestamped segments showing how each bot is configured and used in daily workflows.",
-            "The throughline is using Grok as a multi-agent personal assistant system to offload household and administrative overhead, illustrating a consumer-facing use case for xAI's Grok model beyond general chat."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "vEpkDv8B4T8",
-          "title": "Testing a ridiculously complex prompt in GPT Image 2.5",
-          "published_at": "2026-09-16T15:03:07Z",
-          "url": "https://www.youtube.com/watch?v=vEpkDv8B4T8",
-          "ai_tech_id": "GPT Image 2.5 (OpenAI image generation model)",
+          "video_id": "h5jAM71SVrw",
+          "title": "Flawless infographic in minutes with this AI.",
+          "published_at": "2026-09-17T15:26:16Z",
+          "url": "https://www.youtube.com/watch?v=h5jAM71SVrw",
+          "ai_tech_id": "GPT Image 2.5 with Astra research (OpenAI)",
           "summary": [
-            "Futurepedia stress-tests OpenAI's GPT Image 2.5 with a deliberately complex prompt: a U.S. map with every national park pinned, plus arrows pointing to matching retro travel posters for each park.",
-            "The model successfully handles the overall creative scope, rendering retro-style posters that look convincingly accurate to the genre, which the host calls impressive given the compound nature of the request.",
-            "However, spatial precision breaks down: many pins land on the wrong states and several arrows fail to point anywhere near their intended park, highlighting that GPT Image 2.5's weak spot remains precise geographic/spatial accuracy even as its stylistic generation improves."
+            "Futurepedia demonstrates a workflow where OpenAI's GPT Image 2.5 doesn't just generate an image directly from a prompt, but first spends several minutes using an \"Astra\" research step to gather real factual information before compiling its own detailed prompt.",
+            "Using that self-researched prompt, the model produces a text-heavy infographic that the host reports came back with dense, accurate text and no visible errors, a notable improvement over typical AI image generation struggles with legible, correct text.",
+            "The takeaway is that this research-then-generate pattern makes GPT Image 2.5 particularly strong for text-heavy visual content like dashboards, comparison charts, and posters, areas where AI image tools have historically been weakest."
           ]
         }
       ]
@@ -50,15 +50,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "FqnNL8fnUWo",
-          "title": "How to Build GPT-6 Astra Automations (that don't eat your usage limit)",
-          "published_at": "2026-09-16T22:56:45Z",
-          "url": "https://www.youtube.com/watch?v=FqnNL8fnUWo",
-          "ai_tech_id": "GPT-6 Astra / Codex SDK (OpenAI), Trigger.dev",
+          "video_id": "oWCcN6hSFjA",
+          "title": "This ONE GPT-6 Astra Skill Replaces Your Higgsfield Subscription",
+          "published_at": "2026-09-18T00:11:06Z",
+          "url": "https://www.youtube.com/watch?v=oWCcN6hSFjA",
+          "ai_tech_id": "Higgsfield API + OpenAI Codex/GPT-6 Astra (Seedance, Kling, MiniMax video/image models)",
           "summary": [
-            "Nate Herk addresses a practical problem for power users of OpenAI's Codex/GPT-6 Astra: running scheduled and event-triggered automations directly inside a Codex thread quietly consumes subscription usage allowance. His fix is moving those jobs to an external host.",
-            "He walks through migrating a morning-brief automation and a webhook-triggered automation into Trigger.dev, explaining the distinction between a deterministic workflow (sufficient for most scheduled jobs) and a full Codex SDK agentic loop (needed for more adaptive tasks). The video covers local build and validation, deployment to Trigger.dev, and testing hosted delivery end-to-end.",
-            "The core takeaway is a cost-and-reliability pattern for AI power users: keep simple, repeatable automations off your LLM usage meter by hosting them externally, reserving the agentic Codex SDK loop only for genuinely dynamic automation logic."
+            "Nate Herk shows how Higgsfield's new usage-based API can be connected directly into Codex, replacing a flat-rate Higgsfield subscription with pay-per-generation access to multiple video and image models.",
+            "He walks through creating and securely storing the API key in a .env file, running a first generation, and building a free Codex skill that handles model settings and automatic cost tracking, then compares output quality and price across Seedance, Kling, and MiniMax for the same prompt.",
+            "The core argument is a cost-optimization pattern for AI creators: testing the same prompt across competing models via a single API integration reveals meaningful quality/price differences, and using a reusable Codex skill turns that comparison into a repeatable system rather than a one-off subscription cost."
           ]
         }
       ]
@@ -66,46 +66,59 @@
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "-URQjhtvxZo",
+          "title": "Claude Beginner to Pro in 18 Minutes",
+          "published_at": "2026-09-17T16:37:15Z",
+          "url": "https://www.youtube.com/watch?v=-URQjhtvxZo",
+          "ai_tech_id": "Claude / Claude Code (Anthropic)",
+          "summary": [
+            "Simon Scrapes argues that best practices for prompting Claude have shifted and that techniques which worked previously may now be hurting output quality, framing the video as an update based on Anthropic's latest documentation.",
+            "He walks through five concrete upgrades: a revised \"perfect prompt\" structure, techniques for more autonomous working sessions, a recommended way to organize Claude projects, guidance on building reusable Claude skills as intended by Anthropic, and updates to how Claude's memory feature should be used.",
+            "The video frames these five changes as stackable, positioning Claude Code fluency (skills, memory, and project organization together) as the difference between beginner-level and pro-level usage of the model."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "wKhzdmeAtRE",
-          "title": "20 Ways To Get Business Ideas",
-          "published_at": "2026-09-17T01:00:35Z",
-          "url": "https://www.youtube.com/watch?v=wKhzdmeAtRE",
-          "ai_tech_id": "General-purpose AI agents / ChatGPT (used as an ideation and daily research tool)",
+          "video_id": "EieJpQjX_Vk",
+          "title": "10 AI Skills To Become Irreplaceable",
+          "published_at": "2026-09-18T01:00:29Z",
+          "url": "https://www.youtube.com/watch?v=EieJpQjX_Vk",
+          "ai_tech_id": "General-purpose AI/LLM tools (ChatGPT-style assistants, used as learning and automation aids)",
           "summary": [
-            "Sabrina Ramonov lays out 20 tactics for sourcing business ideas from real-world evidence rather than pure brainstorming, arguing that ideas rooted in observed pain points, spending, or complaints outperform invented ones.",
-            "The list spans research-driven methods (mining Reddit and TikTok/Instagram comments, analyzing 1-star Amazon reviews, scanning Craigslist and niche Discord \"help\" channels) and AI-assisted methods, including setting up a daily AI agent to research one idea per day and asking ChatGPT what you'd build if money weren't a concern.",
-            "The unifying AI angle is using automated agents and LLMs as a continuous idea-sourcing and validation layer alongside traditional market research, rather than relying on one-off inspiration."
+            "Sabrina Ramonov argues that AI fluency alone won't protect careers, and that what actually makes people hard to replace is judgment, feedback loops, and visible proof of work built on top of AI tools.",
+            "She lists ten habits: fact-checking AI output, using AI to learn something new daily and turn it into content, always supplying goals/context/constraints, asking AI to find flaws in ideas, using it as a tutor, describing simple tools for AI to build, automating repeat tasks, iteratively correcting a 30-day-old AI system, and building real projects rather than passively consuming AI content.",
+            "The unifying theme is treating AI as an active training partner, testing ideas and catching errors through repeated use, rather than a static tool, as the actual skill that creates durable value."
           ]
         },
         {
-          "video_id": "pwh24LZJNEs",
-          "title": "Instagram DM Strategy For Leads And Sales",
-          "published_at": "2026-09-16T18:30:37Z",
-          "url": "https://www.youtube.com/watch?v=pwh24LZJNEs",
-          "ai_tech_id": "Blotato (AI/automation-driven DM funnel tool)",
+          "video_id": "12UrsiPtVsQ",
+          "title": "ChatGPT Reveals Your Secrets",
+          "published_at": "2026-09-17T18:30:28Z",
+          "url": "https://www.youtube.com/watch?v=12UrsiPtVsQ",
+          "ai_tech_id": "ChatGPT (OpenAI)",
           "summary": [
-            "Sabrina Ramonov shares the DM automation strategy she credits with driving 6,300+ leads and $120K in sales, arguing that views and followers are just raw material until a social funnel converts them into leads.",
-            "The mechanism uses Blotato to automate Instagram/Facebook DMs: a caption instructs viewers to comment a keyword, which triggers an automated DM containing a link, guide, or offer, converting passive viewers into captured leads without manual outreach.",
-            "She frames the setup process (connect account, choose a keyword, decide follow-gating or email capture, attach a link) as the missing piece between content creation and revenue, positioning automation as what turns audience attention into actual sales."
+            "Sabrina Ramonov shares four ChatGPT prompts designed to surface a person's hidden fears, money beliefs, relationship patterns, and self-image by leveraging what the model remembers about the user over time.",
+            "The centerpiece prompt asks ChatGPT to identify \"the ONE cycle keeping me average forever,\" followed by a prompt projecting what a successful version of the user's life looks like in five years if that cycle is fixed.",
+            "She frames this explicitly as a self-reflection tool rather than a truth engine, cautioning viewers to treat the model's pattern-matching as a prompt for further questioning rather than accepting it as objective fact about themselves."
           ]
         },
         {
-          "video_id": "EZEm8lz6WcE",
-          "title": "Free Claude And ChatGPT Watermark Remover",
-          "published_at": "2026-09-16T13:00:25Z",
-          "url": "https://www.youtube.com/watch?v=EZEm8lz6WcE",
-          "ai_tech_id": "Claude (Anthropic) and ChatGPT (OpenAI) text watermarking / Claude ReWriter",
+          "video_id": "EPiyaZ2MLic",
+          "title": "5 Power Words For ChatGPT",
+          "published_at": "2026-09-17T13:00:56Z",
+          "url": "https://www.youtube.com/watch?v=EPiyaZ2MLic",
+          "ai_tech_id": "ChatGPT (OpenAI)",
           "summary": [
-            "Sabrina Ramonov addresses a pain point for writers who use Claude or ChatGPT to polish their own drafts: AI-written text can carry watermarking signals that get flagged as AI-generated even when the underlying ideas are human.",
-            "She introduces a free tool she built to strip obvious metadata and reduce common text-based watermark patterns, and separately recommends enabling Claude's \"ReWriter\" feature, which helps paraphrase output to reduce detectable AI patterns.",
-            "She's explicit that neither method offers a guaranteed bypass of AI-detection, framing the tool as a partial mitigation for creators editing their own writing with AI assistance rather than a foolproof solution."
+            "Sabrina Ramonov presents five short trigger phrases meant to reframe what \"job\" ChatGPT thinks it's doing before answering a prompt, rather than treating it as a plain search box.",
+            "The five are TRUTHMODE (blunt honesty instead of flattery), /human (more natural, less stiff phrasing for drafts and posts), REDTEAM (pressure-testing an idea for flaws and hidden assumptions), ELI10 (simplified explanations without condescension), and FUTUREYOU (advice framed from a future self who already solved the problem).",
+            "The video positions these as lightweight, memorizable prompt modifiers that meaningfully change ChatGPT's tone and rigor across everyday use cases like writing, planning, and self-critique."
           ]
         }
       ]
