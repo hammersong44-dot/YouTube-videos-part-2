@@ -1,46 +1,46 @@
 {
-  "report_date": "2026-09-18",
-  "window_start_utc": "2026-09-17T05:00:28Z",
-  "window_end_utc": "2026-09-18T05:00:28Z",
-  "generated_at_utc": "2026-09-18T05:10:00Z",
+  "report_date": "2026-09-19",
+  "window_start_utc": "2026-09-18T05:00:58Z",
+  "window_end_utc": "2026-09-19T05:00:58Z",
+  "generated_at_utc": "2026-09-19T05:15:00Z",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "MImgH4KMtj8",
-          "title": "Deepseek just did the impossible",
-          "published_at": "2026-09-18T03:24:05Z",
-          "url": "https://www.youtube.com/watch?v=MImgH4KMtj8",
-          "ai_tech_id": "DeepSeek V4.1 Flash (DeepSeek AI)",
-          "summary": [
-            "theAIsearch breaks down DeepSeek's newly released V4.1 Flash model, walking through its technical report to explain how the team pushed inference efficiency well beyond prior DeepSeek releases.",
-            "The video covers a string of architectural techniques behind the gains: prefill vs. decode tradeoffs, a causal encoder-decoder design, global vs. local KV caching, sliding-window attention, aggressive cache compression, a technique called CSA2, a hierarchical sparse indexer, and a bounded-replay approach to local memory, plus a single-pass multi-head compression method and an \"Engram\" component tied to DeepSeek's DSpark line.",
-            "The throughline is that DeepSeek V4.1 Flash achieves frontier-level performance while flattening the usual cost/compute curve, positioning it as a major efficiency leap in open large language model design rather than just a capability bump."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "SsHZaH2ml_U",
+          "title": "So Much AI News: New ChatGPT Tools, NotebookLM Updates, Big Claude Changes, Grok Bot Live, + More!",
+          "published_at": "2026-09-18T13:00:31Z",
+          "url": "https://www.youtube.com/watch?v=SsHZaH2ml_U",
+          "ai_tech_id": "Weekly AI news roundup: Claude (Anthropic), NotebookLM/Gemini (Google), ChatGPT (OpenAI), Grok (xAI), Meta Muse",
+          "summary": [
+            "Paul J Lipsky runs through the week's biggest AI news, covering updates across Claude, Google's Gemini/NotebookLM ecosystem, OpenAI's ChatGPT, and Grok, framing it as a digest of what actually matters out of a busy week in the industry.",
+            "The video opens with an extended look at Claude updates, including Anthropic bringing Chat and Cowork together, before moving into Gemini Notebook's new learning features, Gemini Live, broader Google updates, OpenAI updates, Grok's new voice bot, and Meta's Muse assistant, each given its own timestamped segment.",
+            "The throughline is a single weekly catch-up format across the major AI labs, spotlighting Anthropic's Chat/Cowork merger and NotebookLM's new learning tools as the two biggest developments of the week."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "h5jAM71SVrw",
-          "title": "Flawless infographic in minutes with this AI.",
-          "published_at": "2026-09-17T15:26:16Z",
-          "url": "https://www.youtube.com/watch?v=h5jAM71SVrw",
-          "ai_tech_id": "GPT Image 2.5 with Astra research (OpenAI)",
+          "video_id": "yZbwnggURYs",
+          "title": "Character sheets are basically solved. GPT Image 2.5 nails it.",
+          "published_at": "2026-09-18T15:35:02Z",
+          "url": "https://www.youtube.com/watch?v=yZbwnggURYs",
+          "ai_tech_id": "GPT Image 2.5 (OpenAI)",
           "summary": [
-            "Futurepedia demonstrates a workflow where OpenAI's GPT Image 2.5 doesn't just generate an image directly from a prompt, but first spends several minutes using an \"Astra\" research step to gather real factual information before compiling its own detailed prompt.",
-            "Using that self-researched prompt, the model produces a text-heavy infographic that the host reports came back with dense, accurate text and no visible errors, a notable improvement over typical AI image generation struggles with legible, correct text.",
-            "The takeaway is that this research-then-generate pattern makes GPT Image 2.5 particularly strong for text-heavy visual content like dashboards, comparison charts, and posters, areas where AI image tools have historically been weakest."
+            "Futurepedia showcases OpenAI's GPT Image 2.5 handling character sheet generation, demonstrating that the model can hold a character's appearance consistent across multiple angles, expressions, lighting setups, and textures even for highly detailed designs.",
+            "The video also tests style transfer, feeding the model a distinctive Midjourney-generated look and showing it carry that exact aesthetic into an entirely new character and scene without losing the original style's identity.",
+            "The takeaway is that GPT Image 2.5 closes a long-standing gap for artists and character designers, effectively solving consistent multi-angle character sheets and reliable style transfer in a single tool rather than requiring manual touch-up work."
           ]
         }
       ]
@@ -50,15 +50,27 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "oWCcN6hSFjA",
-          "title": "This ONE GPT-6 Astra Skill Replaces Your Higgsfield Subscription",
-          "published_at": "2026-09-18T00:11:06Z",
-          "url": "https://www.youtube.com/watch?v=oWCcN6hSFjA",
-          "ai_tech_id": "Higgsfield API + OpenAI Codex/GPT-6 Astra (Seedance, Kling, MiniMax video/image models)",
+          "video_id": "TIYCa6hOx1Q",
+          "title": "Run Your Entire Cold Outreach From One Tool",
+          "published_at": "2026-09-18T13:45:31Z",
+          "url": "https://www.youtube.com/watch?v=TIYCa6hOx1Q",
+          "ai_tech_id": "Clay (AI-powered outreach automation, Sequencer 2.0)",
           "summary": [
-            "Nate Herk shows how Higgsfield's new usage-based API can be connected directly into Codex, replacing a flat-rate Higgsfield subscription with pay-per-generation access to multiple video and image models.",
-            "He walks through creating and securely storing the API key in a .env file, running a first generation, and building a free Codex skill that handles model settings and automatic cost tracking, then compares output quality and price across Seedance, Kling, and MiniMax for the same prompt.",
-            "The core argument is a cost-optimization pattern for AI creators: testing the same prompt across competing models via a single API integration reveals meaningful quality/price differences, and using a reusable Codex skill turns that comparison into a repeatable system rather than a one-off subscription cost."
+            "Nate Herk demonstrates running an entire cold outreach pipeline from a single tool, Clay, showing how it identifies target companies and the right contact person within them automatically.",
+            "He highlights Clay's new Sequencer 2.0 feature, which extends the platform beyond research and copywriting into domain warming and actual email sending, collapsing what used to require roughly seven separate tools into one system.",
+            "Framed as a sponsored walkthrough (an Instagram DM offer is included), the video positions Clay as an end-to-end AI-driven outreach stack covering company and contact discovery, personalized copywriting, domain warmup, and sending in a single connected workflow."
+          ]
+        },
+        {
+          "video_id": "QDsenEcAJIk",
+          "title": "Anthropic’s CEO: How to Build a 1 Person Business with Claude",
+          "published_at": "2026-09-18T13:01:25Z",
+          "url": "https://www.youtube.com/watch?v=QDsenEcAJIk",
+          "ai_tech_id": "Claude (Anthropic)",
+          "summary": [
+            "Nate Herk unpacks Anthropic CEO Dario Amodei's prediction that the first one-person billion-dollar company will be built this year, using it as the jumping-off point for how he's personally scaling a solo AI-driven business toward $1 million using Claude.",
+            "He walks through Dario's three filters for picking a winning business idea, discusses which types of ideas succeed under those filters, and covers tactics like using \"mystery shopper\" style testing and deciding who actually sells the resulting product or service.",
+            "The video closes with the math behind reaching $1 million as a single-employee operation built around Claude, positioning Claude as the core operational engine, research, building, and selling, that makes a lean one-person AI company financially viable."
           ]
         }
       ]
@@ -68,15 +80,15 @@
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
       "videos": [
         {
-          "video_id": "-URQjhtvxZo",
-          "title": "Claude Beginner to Pro in 18 Minutes",
-          "published_at": "2026-09-17T16:37:15Z",
-          "url": "https://www.youtube.com/watch?v=-URQjhtvxZo",
-          "ai_tech_id": "Claude / Claude Code (Anthropic)",
+          "video_id": "afVpjeoQF2I",
+          "title": "Anthropic Just Built It’s Own Agentic OS",
+          "published_at": "2026-09-18T17:06:55Z",
+          "url": "https://www.youtube.com/watch?v=afVpjeoQF2I",
+          "ai_tech_id": "Claude Projects / agentic OS (Anthropic)",
           "summary": [
-            "Simon Scrapes argues that best practices for prompting Claude have shifted and that techniques which worked previously may now be hurting output quality, framing the video as an update based on Anthropic's latest documentation.",
-            "He walks through five concrete upgrades: a revised \"perfect prompt\" structure, techniques for more autonomous working sessions, a recommended way to organize Claude projects, guidance on building reusable Claude skills as intended by Anthropic, and updates to how Claude's memory feature should be used.",
-            "The video frames these five changes as stackable, positioning Claude Code fluency (skills, memory, and project organization together) as the difference between beginner-level and pro-level usage of the model."
+            "Simon Scrapes breaks down Anthropic's major update to Claude Projects, describing it as an early version of a true agentic operating system built directly into the platform rather than a simple project-organization feature.",
+            "He covers the specific new capabilities: long-running orchestrator conversations that persist and coordinate work over time, threads that inherit context and memory from one another, built-in retrieval-augmented generation (RAG) for querying massive knowledge bases, and upcoming team permission controls.",
+            "The video frames this release as a signal of where Anthropic is heading, arguing it lays the groundwork for custom-built agentic operating systems where Claude manages long-running, multi-thread work with persistent memory and organizational knowledge baked in."
           ]
         }
       ]
@@ -86,39 +98,39 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "EieJpQjX_Vk",
-          "title": "10 AI Skills To Become Irreplaceable",
-          "published_at": "2026-09-18T01:00:29Z",
-          "url": "https://www.youtube.com/watch?v=EieJpQjX_Vk",
-          "ai_tech_id": "General-purpose AI/LLM tools (ChatGPT-style assistants, used as learning and automation aids)",
+          "video_id": "awlFsPTkWNg",
+          "title": "Claude Changed YouTube Shorts Forever",
+          "published_at": "2026-09-19T01:00:24Z",
+          "url": "https://www.youtube.com/watch?v=awlFsPTkWNg",
+          "ai_tech_id": "Claude (Anthropic)",
           "summary": [
-            "Sabrina Ramonov argues that AI fluency alone won't protect careers, and that what actually makes people hard to replace is judgment, feedback loops, and visible proof of work built on top of AI tools.",
-            "She lists ten habits: fact-checking AI output, using AI to learn something new daily and turn it into content, always supplying goals/context/constraints, asking AI to find flaws in ideas, using it as a tutor, describing simple tools for AI to build, automating repeat tasks, iteratively correcting a 30-day-old AI system, and building real projects rather than passively consuming AI content.",
-            "The unifying theme is treating AI as an active training partner, testing ideas and catching errors through repeated use, rather than a static tool, as the actual skill that creates durable value."
+            "Sabrina Ramonov demonstrates using Claude to generate avatar and anime-style YouTube Shorts directly from a single prompt, aimed at creators who want to publish faceless content without opening a traditional video editor.",
+            "She walks through the workflow of describing the avatar or anime character, specifying the topic and visual style, and letting Claude produce a usable draft short, keeping the entire process inside Claude rather than switching between multiple editing tools and timelines.",
+            "She's careful to note the tool speeds up production rather than replacing creative judgment, viewers still need a strong hook and a clear reason for someone to keep watching, but argues Claude meaningfully shortens the path from blank page to a publishable faceless short."
           ]
         },
         {
-          "video_id": "12UrsiPtVsQ",
-          "title": "ChatGPT Reveals Your Secrets",
-          "published_at": "2026-09-17T18:30:28Z",
-          "url": "https://www.youtube.com/watch?v=12UrsiPtVsQ",
-          "ai_tech_id": "ChatGPT (OpenAI)",
+          "video_id": "wyA5sgjhmTk",
+          "title": "5 Free AI Tools I Use To Run My Business",
+          "published_at": "2026-09-18T18:30:23Z",
+          "url": "https://www.youtube.com/watch?v=wyA5sgjhmTk",
+          "ai_tech_id": "NotebookLM (Google), Apify, Astra + Vercel, n8n, GitHub",
           "summary": [
-            "Sabrina Ramonov shares four ChatGPT prompts designed to surface a person's hidden fears, money beliefs, relationship patterns, and self-image by leveraging what the model remembers about the user over time.",
-            "The centerpiece prompt asks ChatGPT to identify \"the ONE cycle keeping me average forever,\" followed by a prompt projecting what a successful version of the user's life looks like in five years if that cycle is fixed.",
-            "She frames this explicitly as a self-reflection tool rather than a truth engine, cautioning viewers to treat the model's pattern-matching as a prompt for further questioning rather than accepting it as objective fact about themselves."
+            "Sabrina Ramonov lists five free AI-adjacent tools she uses to run her business without a large team: NotebookLM, Apify, a combination of Astra and Vercel, n8n, and GitHub.",
+            "She explains specific use cases for each: NotebookLM for quickly studying a creator, market, or batch of YouTube videos; Apify for scraping top-performing niche videos to guide content decisions; Astra plus Vercel for cheap website deployment versus a builder like Webflow; a self-hosted n8n instance running an AI support agent that resolves roughly 70% of repetitive customer questions; and GitHub for version control so she can roll back and diagnose breakages.",
+            "The overarching message is that a solo founder can replace much of a traditional team's tooling with free, largely automatable AI and developer tools, provided they're willing to self-host and wire the pieces together themselves."
           ]
         },
         {
-          "video_id": "EPiyaZ2MLic",
-          "title": "5 Power Words For ChatGPT",
-          "published_at": "2026-09-17T13:00:56Z",
-          "url": "https://www.youtube.com/watch?v=EPiyaZ2MLic",
+          "video_id": "bJCR8yrm2Qg",
+          "title": "Secret ChatGPT Codes For Studying",
+          "published_at": "2026-09-18T13:00:24Z",
+          "url": "https://www.youtube.com/watch?v=bJCR8yrm2Qg",
           "ai_tech_id": "ChatGPT (OpenAI)",
           "summary": [
-            "Sabrina Ramonov presents five short trigger phrases meant to reframe what \"job\" ChatGPT thinks it's doing before answering a prompt, rather than treating it as a plain search box.",
-            "The five are TRUTHMODE (blunt honesty instead of flattery), /human (more natural, less stiff phrasing for drafts and posts), REDTEAM (pressure-testing an idea for flaws and hidden assumptions), ELI10 (simplified explanations without condescension), and FUTUREYOU (advice framed from a future self who already solved the problem).",
-            "The video positions these as lightweight, memorizable prompt modifiers that meaningfully change ChatGPT's tone and rigor across everyday use cases like writing, planning, and self-critique."
+            "Sabrina Ramonov shares five ChatGPT \"slash command\" style prompts meant to replace vague study questions with structured, purpose-built output formats.",
+            "The five commands are /handwritten for plain-language explanations, /make-sticky-notes for condensing a topic into key points before a test, /visualize-learning for generating diagrams or mental models on concepts that don't click through text alone, /question-predictor for forecasting likely exam questions, and /socrates for active learning where ChatGPT quizzes the student with questions instead of just presenting notes.",
+            "The framing throughout is that effective studying with ChatGPT means shifting from passively collecting information to actively retrieving, explaining, comparing, and applying it, with these five commands acting as reusable triggers for that shift."
           ]
         }
       ]
