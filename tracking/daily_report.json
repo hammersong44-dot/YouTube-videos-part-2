@@ -1,27 +1,14 @@
 {
-  "report_date": "2026-09-20",
-  "window_start_utc": "2026-09-19T05:00:05Z",
-  "window_end_utc": "2026-09-20T05:00:05Z",
-  "generated_at_utc": "2026-09-20T05:20:00Z",
-  "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list). Substituted the known-correct channel IDs from the prior day's report, each re-verified by name before use. theAIsearch's supplied ID was valid and used as-is.",
+  "report_date": "2026-09-21",
+  "window_start_utc": "2026-09-20T05:00:05Z",
+  "window_end_utc": "2026-09-21T05:01:08Z",
+  "generated_at_utc": "2026-09-21T05:01:08Z",
+  "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list). Substituted the known-correct channel IDs from prior days' reports, each re-verified by name/customUrl before use. theAIsearch's supplied ID was valid and used as-is.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "hygMRgnDD7w",
-          "title": "OpenAI hacked, Jev, Google’s RSI, Qwen 3.8 Omni, Bonsai 2, new Gemini Live: AI NEWS",
-          "published_at": "2026-09-20T03:28:57Z",
-          "url": "https://www.youtube.com/watch?v=hygMRgnDD7w",
-          "ai_tech_id": "Multi-model AI news roundup: Jev (Typesafe AI \"System One\" models), Google Dream RSI (recursive self-improvement), Qwen 3.8 Omni Flash & Live Translate (Alibaba), Gemini 3.8 Live w/ extended thinking (Google), Bonsai 2 27B, OpenAI Astra for Law, OpenAI security breach",
-          "summary": [
-            "AI Search's daily news roundup covers roughly twenty separate AI releases and stories from the past day, anchored by a reported OpenAI hack, the debut of a fast/cheap decision-model called Jev from Typesafe AI, and Google's \"Dream RSI\" recursive self-improvement demo alongside a new extended-thinking version of Gemini Live (3.8).",
-            "Other segments cover Qwen's 3.8 Omni Flash and Live Translate models from Alibaba, the open-weight Bonsai 2 27B model, OpenAI's Astra for Law product, and a string of smaller items including Meridian, R2T2, Jing Dao's world-simulation research, Xiaomi's real-time RL work, and a project claiming to have decrypted a WWII-era German Enigma message with modern compute.",
-            "As a news-digest video, its value is breadth rather than depth: it functions as a single checkpoint across labs (Google, Alibaba/Qwen, OpenAI, and several smaller AI startups) for anyone tracking model releases, security incidents, and infrastructure announcements from the last 24 hours."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
@@ -33,15 +20,15 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "0geOeaTgXu0",
-          "title": "GPT Image 2.5 vs. Gemini 2: which model nails a camouflaged spider in one shot?",
-          "published_at": "2026-09-19T14:23:16Z",
-          "url": "https://www.youtube.com/watch?v=0geOeaTgXu0",
-          "ai_tech_id": "GPT Image 2.5 (OpenAI) vs. Gemini 2 (Google) image generation",
+          "video_id": "D8qiNmxPSuc",
+          "title": "One-click background removal just got way smarter with this AI.",
+          "published_at": "2026-09-20T13:31:09Z",
+          "url": "https://www.youtube.com/watch?v=D8qiNmxPSuc",
+          "ai_tech_id": "GPT Image 2.5 (OpenAI) background removal / transparency handling",
           "summary": [
-            "Futurepedia runs a head-to-head image-generation test between OpenAI's GPT Image 2.5 and Google's Gemini 2, using a single shared prompt: generate a highly detailed image of a spider camouflaged in its environment.",
-            "GPT Image 2.5 successfully blends the spider into the surrounding texture while holding up under close detail, whereas Gemini 2's output is described as not close to matching that level of camouflage or texture fidelity.",
-            "The short clip frames this single-prompt test as further evidence that GPT Image 2.5 currently leads on complex, texture-heavy scene generation compared to Gemini 2, a useful data point for anyone choosing an image model for detailed compositional work."
+            "Futurepedia highlights an upgrade to GPT Image 2.5's one-click background removal, showing that it now handles genuinely complex transparency, subjects like jellyfish bells and dragonfly wings that need to look convincingly see-through rather than just cut out.",
+            "The clip demonstrates that the updated remove-background button preserves subtle lighting effects such as the glow around a subject, a detail the previous version of the model reportedly lost when isolating an object from its background.",
+            "For the hardest cases, heavy transparency across an entire body rather than just edges, Futurepedia recommends prompting for the effect directly instead of relying on the one-click button, framing this as a practical workflow tip for anyone using GPT Image 2.5 for product or nature photography edits."
           ]
         }
       ]
@@ -49,32 +36,7 @@
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": [
-        {
-          "video_id": "ymgH8jS6Wb8",
-          "title": "I Tested Jev on 12 Real Use Cases. My Honest Thoughts.",
-          "published_at": "2026-09-19T17:25:09Z",
-          "url": "https://www.youtube.com/watch?v=ymgH8jS6Wb8",
-          "ai_tech_id": "Jev (fast, low-cost decision-making AI model)",
-          "summary": [
-            "Nate Herk tests Jev, an AI model built to make fast, low-cost decisions rather than write text or hold conversations, across twelve real-world use cases to see where it actually fits in production automations.",
-            "He benchmarks its speed and cost against traditional language models on tasks like email classification, then shows live builds including an X feed classifier Chrome extension and a real-time paper-trading prototype, walking through comments, community automations, and meeting/video-clip handling along the way.",
-            "The video's conclusion is a practical evaluation framework rather than a pure endorsement: Jev is positioned as strong for narrow, high-volume decision tasks where speed and cost matter most, with Nate flagging specific scenarios where it underperforms slower, more capable models."
-          ]
-        },
-        {
-          "video_id": "9KOtMsZ9I28",
-          "title": "How to Build Codex Skills Better than 99% of People",
-          "published_at": "2026-09-19T12:57:24Z",
-          "url": "https://www.youtube.com/watch?v=9KOtMsZ9I28",
-          "ai_tech_id": "OpenAI Codex \"skills\" (custom agent recipes) tested across multiple models",
-          "summary": [
-            "Nate Herk breaks down a six-step framework for building reusable \"skills\" inside OpenAI Codex, treating a skill as a recipe that lets an agent repeat a process consistently: reverse-engineer a strong output, give each skill one job and one trigger, choose the right autonomy/freedom level, build in verification loops, test cheaper models first, and iterate after every run.",
-            "He then applies the framework live, running his own \"X Article\" skill across several models he refers to as Sol, Terra, and Luna, and comparing those results against a model called Astra to see which produces the most usable output for the least cost.",
-            "The video positions disciplined skill design, not just prompting, as the real lever for getting consistent agent output inside Codex, and demonstrates a repeatable process for choosing which underlying model to route a given skill to."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "simonscrapes",
@@ -86,39 +48,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "avGSp-xVvSA",
-          "title": "Most People Are Still New To AI",
-          "published_at": "2026-09-19T20:45:21Z",
-          "url": "https://www.youtube.com/watch?v=avGSp-xVvSA",
-          "ai_tech_id": "General AI adoption commentary (references Grok Bot, Hermes agents as examples of \"insider\" AI chatter)",
+          "video_id": "VzG2sBheKvs",
+          "title": "Should You Switch From Claude To ChatGPT?",
+          "published_at": "2026-09-20T20:45:27Z",
+          "url": "https://www.youtube.com/watch?v=VzG2sBheKvs",
+          "ai_tech_id": "Claude / Claude Code (Anthropic) vs. ChatGPT Work & Codex (OpenAI) automation and image workflows",
           "summary": [
-            "Sabrina Ramonov argues that AI hype is concentrated in a handful of \"bubble\" cities (San Francisco, LA, New York) where debates rage over the newest agents, model versions, and benchmarks, while most people outside those circles are still asking basic questions.",
-            "She lists the actual questions she hears most often from her audience, such as which AI app to install, how to set it up on mobile, how to talk to it, and how to write a better prompt, contrasting that with insider chatter about things like Grok Bot or Hermes agents that means nothing to a typical user.",
-            "The takeaway is aimed at anyone selling AI consulting, coaching, or education: meet customers where they actually are, with patient, first-step explanations, rather than assuming they're tracking the same cutting-edge releases as the AI-Twitter crowd."
+            "Sabrina Ramonov addresses whether people should switch from Claude to ChatGPT, opening with the position that most users should not migrate and that her own switch was driven by two specific, narrow pain points rather than a general endorsement of one platform over the other.",
+            "Her first reason was consolidation: Claude's scheduled tasks and Claude Code's routines were split across surfaces and the routines lacked browser access, whereas ChatGPT Work and Codex keep her automations together with an in-app browser that handles logged-in workflows without needing API access. Her second reason was native image generation, ChatGPT's canvas lets her generate, edit, and iterate on images in one place, a workflow she found added friction inside Claude.",
+            "She also describes the mechanics of the migration itself, noting that Claude skills stored in a `.skills` folder map fairly cleanly onto Codex `.agents`, and that she used ChatGPT to convert them while simultaneously simplifying older automation workarounds, closing with the caveat that switching only makes sense if a viewer's own workflow hits the same two specific pain points."
           ]
         },
         {
-          "video_id": "mlYFZfu_qO0",
-          "title": "Stop Feeling Behind On AI News",
-          "published_at": "2026-09-19T15:45:27Z",
-          "url": "https://www.youtube.com/watch?v=mlYFZfu_qO0",
-          "ai_tech_id": "General AI tooling commentary (ChatGPT vs. Gemini positioning)",
+          "video_id": "l21mEqccbr0",
+          "title": "How To Get Your First AI Consulting Clients",
+          "published_at": "2026-09-20T15:45:27Z",
+          "url": "https://www.youtube.com/watch?v=l21mEqccbr0",
+          "ai_tech_id": "General AI consulting/coaching business advice (references ChatGPT and Claude as the tools being taught)",
           "summary": [
-            "Sabrina Ramonov pushes back on AI-news FOMO, explaining that she deliberately does not try to track every new tool, model update, or viral launch in real time.",
-            "Her stated approach is to wait a few months while early adopters stress-test new releases, surface bugs and security issues, and figure out which use cases actually matter, arguing she's still effectively \"early\" relative to most users even on a multi-month delay.",
-            "She closes with a practical prescription, pick fewer tools, learn them more deeply, and spend less time on social media, noting that the most common question she still gets from her audience is simply whether to use ChatGPT or Gemini."
-          ]
-        },
-        {
-          "video_id": "Fgutvd4-F_0",
-          "title": "The ONLY 10 Ways to Make Money with AI in 2026 (Ranked List)",
-          "published_at": "2026-09-19T15:00:20Z",
-          "url": "https://www.youtube.com/watch?v=Fgutvd4-F_0",
-          "ai_tech_id": "General AI monetization roundup; references her own Blotato.com AI social-content automation SaaS",
-          "summary": [
-            "Sabrina Ramonov presents a ranked list of ten ways to make money with AI in 2026, with the stated ranking criteria being how easy each path is for a complete beginner to start earning from.",
-            "She frames the list around her own background, from founding an NLP-in-healthcare startup, through a pivot into real-time AI call guidance for sales and support that was later acquired by Pegasystems, to her current work teaching AI to a mass audience and running Blotato, her AI-driven social content distribution SaaS.",
-            "The video functions as both a monetization guide and a personal case study, using her own trajectory, healthcare AI, then AI-powered customer support, then AI content/education, as proof points for how the ranked opportunities can play out in practice."
+            "Sabrina Ramonov lays out where first-time AI consultants should look for their earliest clients: their warm network, defined broadly to include past coworkers, old classmates, club members, neighbors, local business owners, other creators, and friends of friends, not just immediate contacts.",
+            "Her recommended first move is public visibility, posting what you're personally learning, the tools you're testing, the automations you're building, the prompts you're using, and small workflow wins, followed by a simple, low-pressure ask inviting referrals from people who know someone needing help with tools like ChatGPT and Claude.",
+            "The underlying logic is that warm contacts already trust the poster and need less proof than a cold lead would, so some will ask for help directly while others will refer someone else; she frames these early warm-network wins as the proof needed to later attract colder, less familiar audiences."
           ]
         }
       ]
