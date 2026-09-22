@@ -1,34 +1,60 @@
 {
-  "report_date": "2026-09-21",
-  "window_start_utc": "2026-09-20T05:00:05Z",
-  "window_end_utc": "2026-09-21T05:01:08Z",
-  "generated_at_utc": "2026-09-21T05:01:08Z",
-  "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list). Substituted the known-correct channel IDs from prior days' reports, each re-verified by name/customUrl before use. theAIsearch's supplied ID was valid and used as-is.",
+  "report_date": "2026-09-22",
+  "window_start_utc": "2026-09-21T05:01:08Z",
+  "window_end_utc": "2026-09-22T05:01:17Z",
+  "generated_at_utc": "2026-09-22T05:01:17Z",
+  "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list). Substituted the known-correct channel IDs used consistently in prior days' reports, each re-verified by name/customUrl before use. theAIsearch's supplied ID was valid and used as-is.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "BaE6UBfNdQk",
+          "title": "Finally! New best local AI image editor is here",
+          "published_at": "2026-09-22T03:26:02Z",
+          "url": "https://www.youtube.com/watch?v=BaE6UBfNdQk",
+          "ai_tech_id": "Qwen Image 2.1 (open-source local image generation/editing model, run in ComfyUI)",
+          "summary": [
+            "theAIsearch reviews Qwen Image 2.1, calling it the new best local, free, open-source AI image editor, and walks through installing and running it inside ComfyUI.",
+            "The video demonstrates the model's editing and reference-image capabilities, text-to-image generation, direct image editing, background removal, and loading custom LoRAs for style or subject consistency, alongside a segment on sponsor tool Luma.",
+            "It closes with practical guidance for lower-VRAM setups and a rundown of the model's license terms, positioning Qwen Image 2.1 as a strong free alternative to closed, subscription-based image generators for users willing to run models locally."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "cnpbeFSYMG4",
+          "title": "There's a Cheaper Way To Use Higgsfield (no subscription)",
+          "published_at": "2026-09-21T15:36:39Z",
+          "url": "https://www.youtube.com/watch?v=cnpbeFSYMG4",
+          "ai_tech_id": "Higgsfield API (pay-per-use image/video generation) integrated into ChatGPT",
+          "summary": [
+            "In a sponsored video, Paul Lipsky shows a cheaper alternative to a monthly Higgsfield subscription: paying per generation through the Higgsfield API and routing those calls through ChatGPT instead of Higgsfield's own app.",
+            "He walks through funding a Higgsfield API account, comparing per-model API pricing against the subscription tiers, generating an API key, connecting it to ChatGPT, and building a reusable custom ChatGPT skill that wraps the API calls so future image and video requests don't need to be reconfigured each time.",
+            "Lipsky closes with live demonstrations of an image generation and a video generation run through the new API-in-ChatGPT setup, then frames the decision as a volume question: casual or occasional users save money on the API's pay-as-you-go pricing, while heavy users may still come out ahead on the flat subscription."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "D8qiNmxPSuc",
-          "title": "One-click background removal just got way smarter with this AI.",
-          "published_at": "2026-09-20T13:31:09Z",
-          "url": "https://www.youtube.com/watch?v=D8qiNmxPSuc",
-          "ai_tech_id": "GPT Image 2.5 (OpenAI) background removal / transparency handling",
+          "video_id": "kkbO0kAzn-U",
+          "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
+          "published_at": "2026-09-21T15:46:00Z",
+          "url": "https://www.youtube.com/watch?v=kkbO0kAzn-U",
+          "ai_tech_id": "GPT-6 Astra (OpenAI) as a computer-use assistant for creative software",
           "summary": [
-            "Futurepedia highlights an upgrade to GPT Image 2.5's one-click background removal, showing that it now handles genuinely complex transparency, subjects like jellyfish bells and dragonfly wings that need to look convincingly see-through rather than just cut out.",
-            "The clip demonstrates that the updated remove-background button preserves subtle lighting effects such as the glow around a subject, a detail the previous version of the model reportedly lost when isolating an object from its background.",
-            "For the hardest cases, heavy transparency across an entire body rather than just edges, Futurepedia recommends prompting for the effect directly instead of relying on the one-click button, framing this as a practical workflow tip for anyone using GPT Image 2.5 for product or nature photography edits."
+            "Futurepedia's short video argues that GPT-6 Astra isn't yet better than human experts at creative software, but that this isn't really the bar it needs to clear to be useful.",
+            "In a tool the presenter barely knows, Google Earth Studio, Astra got them to a usable result on its own; in tools a collaborator (Kevin) already knows well, like Premiere and Photoshop, it handled the tedious setup work and handed back a file the human could keep refining.",
+            "The video's framing is that Astra's current value is as a helper for unfamiliar tools and boring setup steps, not a wholesale replacement for expert creative work, positioning computer-use AI as an assistant layer rather than an autonomous operator."
           ]
         }
       ]
@@ -36,7 +62,32 @@
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "xcxbOcc36dM",
+          "title": "This New AI Makes Decisions for 18 Cents",
+          "published_at": "2026-09-21T17:01:21Z",
+          "url": "https://www.youtube.com/watch?v=xcxbOcc36dM",
+          "ai_tech_id": "Jev (AI decision-making / classification model)",
+          "summary": [
+            "Nate Herk introduces Jev, a new AI model built by a researcher formerly behind ChatGPT, positioned not as a chatbot but as a low-cost decision-making and classification engine.",
+            "He highlights a benchmark where Jev scored roughly 1,700 emails for about 18 cents total, framing this as evidence that purpose-built classifiers can be dramatically cheaper than routing simple yes/no or scoring decisions through a general-purpose language model.",
+            "The video is short and promotional, directing viewers to Instagram to DM \"JEV\" for access rather than explaining setup or workflow on screen, so the content functions mainly as an announcement of the new model's existence and cost profile."
+          ]
+        },
+        {
+          "video_id": "X-pbJWKmwi0",
+          "title": "Build & Sell with Codex (5+ Hour Course)",
+          "published_at": "2026-09-21T12:31:48Z",
+          "url": "https://www.youtube.com/watch?v=X-pbJWKmwi0",
+          "ai_tech_id": "OpenAI Codex / GPT-6 Astra (agentic coding and automation)",
+          "summary": [
+            "Nate Herk publishes a 5+ hour course on building and selling AI tools with OpenAI's Codex, aimed at viewers with no coding background who want to build automations and sell them as services.",
+            "The course covers installing Codex, core Codex concepts, using GPT-6 Astra to build a personal \"AI operating system\" and second brain, creating reusable Codex skills, generating branded deliverables, and producing images, video, and full websites through Codex.",
+            "Later sections address browser-use automation, voice mode, hosting these automations, a comparison of Codex versus Claude Code, and how to price and sell finished AI solutions to paying clients, positioning the video as both a technical tutorial and a business how-to."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "simonscrapes",
@@ -48,27 +99,39 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "VzG2sBheKvs",
-          "title": "Should You Switch From Claude To ChatGPT?",
-          "published_at": "2026-09-20T20:45:27Z",
-          "url": "https://www.youtube.com/watch?v=VzG2sBheKvs",
-          "ai_tech_id": "Claude / Claude Code (Anthropic) vs. ChatGPT Work & Codex (OpenAI) automation and image workflows",
+          "video_id": "_fa1S2CmONs",
+          "title": "Jev Beat ChatGPT Luna 5.6 at AI Classification",
+          "published_at": "2026-09-21T20:45:15Z",
+          "url": "https://www.youtube.com/watch?v=_fa1S2CmONs",
+          "ai_tech_id": "Jev vs. ChatGPT Luna 5.6 (OpenAI) for classification/routing",
           "summary": [
-            "Sabrina Ramonov addresses whether people should switch from Claude to ChatGPT, opening with the position that most users should not migrate and that her own switch was driven by two specific, narrow pain points rather than a general endorsement of one platform over the other.",
-            "Her first reason was consolidation: Claude's scheduled tasks and Claude Code's routines were split across surfaces and the routines lacked browser access, whereas ChatGPT Work and Codex keep her automations together with an in-app browser that handles logged-in workflows without needing API access. Her second reason was native image generation, ChatGPT's canvas lets her generate, edit, and iterate on images in one place, a workflow she found added friction inside Claude.",
-            "She also describes the mechanics of the migration itself, noting that Claude skills stored in a `.skills` folder map fairly cleanly onto Codex `.agents`, and that she used ChatGPT to convert them while simultaneously simplifying older automation workarounds, closing with the caveat that switching only makes sense if a viewer's own workflow hits the same two specific pain points."
+            "Sabrina Ramonov covers the same Jev model as Nate Herk's video but frames it directly against OpenAI's ChatGPT Luna 5.6, explaining that Jev is built for classification and routing tasks and returns probabilities rather than generated text.",
+            "She cites a report from a Vercel engineer that swapping ChatGPT Luna 5.6 for Jev on a safety-command classification task ran 5 to 18 times faster with better accuracy and lower cost, and generalizes the use cases to yes/no checks, sorting inputs, choosing workflows, and labeling spam, risk, intent, or sentiment.",
+            "The takeaway she offers is a simple division of labor: keep general language models like ChatGPT and Claude for drafting and conversation, but swap in a dedicated classifier like Jev whenever a system needs to repeatedly make fast, cheap, structured decisions at scale."
           ]
         },
         {
-          "video_id": "l21mEqccbr0",
-          "title": "How To Get Your First AI Consulting Clients",
-          "published_at": "2026-09-20T15:45:27Z",
-          "url": "https://www.youtube.com/watch?v=l21mEqccbr0",
-          "ai_tech_id": "General AI consulting/coaching business advice (references ChatGPT and Claude as the tools being taught)",
+          "video_id": "063ufyVdq4E",
+          "title": "AI Advantage 2025 - Sabrina Ramonov  🍄",
+          "published_at": "2026-09-21T17:07:21Z",
+          "url": "https://www.youtube.com/watch?v=063ufyVdq4E",
+          "ai_tech_id": "General AI-education/business content; references her own AI SaaS product Blotato.com (no specific new model release covered)",
           "summary": [
-            "Sabrina Ramonov lays out where first-time AI consultants should look for their earliest clients: their warm network, defined broadly to include past coworkers, old classmates, club members, neighbors, local business owners, other creators, and friends of friends, not just immediate contacts.",
-            "Her recommended first move is public visibility, posting what you're personally learning, the tools you're testing, the automations you're building, the prompts you're using, and small workflow wins, followed by a simple, low-pressure ask inviting referrals from people who know someone needing help with tools like ChatGPT and Claude.",
-            "The underlying logic is that warm contacts already trust the poster and need less proof than a cold lead would, so some will ask for help directly while others will refer someone else; she frames these early warm-network wins as the proof needed to later attract colder, less familiar audiences."
+            "This is a replay of Sabrina Ramonov's \"AI Advantage 2025\" talk, posted for reference rather than as new commentary on a specific AI tool or model release.",
+            "She recounts her personal and career story, from studying computer science and physics at UC Berkeley through founding an AI/NLP healthcare startup, pivoting into AI-driven real-time call guidance for sales and support, and eventually selling that company to Pegasystems in a deal worth over $10 million.",
+            "She closes the arc by describing her pivot into public AI education, growing to over 500,000 followers in six months with no ad budget or team, and running Blotato.com, her SaaS tool that uses AI to help creators and entrepreneurs distribute content faster."
+          ]
+        },
+        {
+          "video_id": "gWMpqNAgyFY",
+          "title": "7 Tiny-Team AI Apps Making $40K+ MRR",
+          "published_at": "2026-09-21T15:45:29Z",
+          "url": "https://www.youtube.com/watch?v=gWMpqNAgyFY",
+          "ai_tech_id": "Roundup of AI SaaS products (AI content generation, AI video generation, AI resume/ATS tools, AI outreach generation)",
+          "summary": [
+            "Sabrina Ramonov profiles seven small-team AI-powered apps generating between roughly $41,000 and $252,000 in monthly recurring revenue, using them to argue that most of these teams' effort goes into marketing and distribution rather than product development.",
+            "The apps span AI-generated SEO articles (SEOBOT), AI-generated YouTube thumbnails (ThumbnailCreator), AI-generated faceless videos from scripts (Vid.AI), gamified AI-assisted coding lessons (Codédex), AI-driven search-optimization audits (AEO Engine), AI-personalized LinkedIn outreach (Prosp), and AI resume writing and ATS scoring (Rezi), each given its MRR figure and one-line concept.",
+            "She uses the range of revenue figures, topped by Rezi at over $250K MRR, to make the case that a small team with an AI-generation core product can reach substantial revenue if it prioritizes go-to-market execution over further product polish."
           ]
         }
       ]
