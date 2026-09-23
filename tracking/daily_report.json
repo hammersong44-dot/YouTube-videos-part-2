@@ -1,42 +1,41 @@
 {
-  "report_date": "2026-09-22",
-  "window_start_utc": "2026-09-21T05:01:08Z",
-  "window_end_utc": "2026-09-22T05:01:17Z",
-  "generated_at_utc": "2026-09-22T05:01:17Z",
+  "report_date": "2026-09-23",
+  "window_start_utc": "2026-09-22T05:01:17Z",
+  "window_end_utc": "2026-09-23T05:00:46Z",
+  "generated_at_utc": "2026-09-23T05:00:46Z",
   "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list). Substituted the known-correct channel IDs used consistently in prior days' reports, each re-verified by name/customUrl before use. theAIsearch's supplied ID was valid and used as-is.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "BaE6UBfNdQk",
-          "title": "Finally! New best local AI image editor is here",
-          "published_at": "2026-09-22T03:26:02Z",
-          "url": "https://www.youtube.com/watch?v=BaE6UBfNdQk",
-          "ai_tech_id": "Qwen Image 2.1 (open-source local image generation/editing model, run in ComfyUI)",
-          "summary": [
-            "theAIsearch reviews Qwen Image 2.1, calling it the new best local, free, open-source AI image editor, and walks through installing and running it inside ComfyUI.",
-            "The video demonstrates the model's editing and reference-image capabilities, text-to-image generation, direct image editing, background removal, and loading custom LoRAs for style or subject consistency, alongside a segment on sponsor tool Luma.",
-            "It closes with practical guidance for lower-VRAM setups and a rundown of the model's license terms, positioning Qwen Image 2.1 as a strong free alternative to closed, subscription-based image generators for users willing to run models locally."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "cnpbeFSYMG4",
-          "title": "There's a Cheaper Way To Use Higgsfield (no subscription)",
-          "published_at": "2026-09-21T15:36:39Z",
-          "url": "https://www.youtube.com/watch?v=cnpbeFSYMG4",
-          "ai_tech_id": "Higgsfield API (pay-per-use image/video generation) integrated into ChatGPT",
+          "video_id": "lPNgeaF2Nk4",
+          "title": "GPT-6 Sol Is Here (50% Cheaper!)",
+          "published_at": "2026-09-22T19:01:53Z",
+          "url": "https://www.youtube.com/watch?v=lPNgeaF2Nk4",
+          "ai_tech_id": "GPT-6 Sol and GPT-6 Luna (OpenAI's newest model family, priced roughly 50% cheaper)",
           "summary": [
-            "In a sponsored video, Paul Lipsky shows a cheaper alternative to a monthly Higgsfield subscription: paying per generation through the Higgsfield API and routing those calls through ChatGPT instead of Higgsfield's own app.",
-            "He walks through funding a Higgsfield API account, comparing per-model API pricing against the subscription tiers, generating an API key, connecting it to ChatGPT, and building a reusable custom ChatGPT skill that wraps the API calls so future image and video requests don't need to be reconfigured each time.",
-            "Lipsky closes with live demonstrations of an image generation and a video generation run through the new API-in-ChatGPT setup, then frames the decision as a volume question: casual or occasional users save money on the API's pay-as-you-go pricing, while heavy users may still come out ahead on the flat subscription."
+            "Paul Lipsky covers the release of OpenAI's GPT-6 Sol and Luna models, framing the video around OpenAI's headline claim of a roughly 50% price cut compared to prior GPT-6 tiers.",
+            "The video is a short news-style rundown of what OpenAI is promising with the new models rather than a hands-on test, focused on positioning Sol and Luna within OpenAI's lineup and their pricing relative to earlier releases.",
+            "Lipsky doesn't provide independent benchmarks in the description, so the video functions primarily as a same-day announcement digest for viewers tracking new model releases and pricing changes from OpenAI."
+          ]
+        },
+        {
+          "video_id": "xY5E1AY4hJA",
+          "title": "Opus 5.5 Is Here - Claude Is So Back!",
+          "published_at": "2026-09-22T17:25:58Z",
+          "url": "https://www.youtube.com/watch?v=xY5E1AY4hJA",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic)",
+          "summary": [
+            "Paul Lipsky reacts to Anthropic's release of Claude Opus 5.5, framing it as a comeback moment for Claude relative to competing frontier models.",
+            "As with his companion GPT-6 Sol video, this is a short reaction/news piece summarizing what Anthropic is claiming about Opus 5.5's capabilities rather than an in-depth hands-on review.",
+            "The video is aimed at viewers who want a quick same-day heads-up on Anthropic's newest flagship model release, positioned back-to-back with his coverage of OpenAI's competing GPT-6 Sol launch."
           ]
         }
       ]
@@ -46,15 +45,15 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "kkbO0kAzn-U",
-          "title": "Astra isn't better than the experts. Yet. But it doesn't have to be.",
-          "published_at": "2026-09-21T15:46:00Z",
-          "url": "https://www.youtube.com/watch?v=kkbO0kAzn-U",
-          "ai_tech_id": "GPT-6 Astra (OpenAI) as a computer-use assistant for creative software",
+          "video_id": "gzLaOSggSIg",
+          "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
+          "published_at": "2026-09-22T15:02:23Z",
+          "url": "https://www.youtube.com/watch?v=gzLaOSggSIg",
+          "ai_tech_id": "AI computer-use/video-generation agent operating Google Earth Studio (specific model not named in the description)",
           "summary": [
-            "Futurepedia's short video argues that GPT-6 Astra isn't yet better than human experts at creative software, but that this isn't really the bar it needs to clear to be useful.",
-            "In a tool the presenter barely knows, Google Earth Studio, Astra got them to a usable result on its own; in tools a collaborator (Kevin) already knows well, like Premiere and Photoshop, it handled the tedious setup work and handed back a file the human could keep refining.",
-            "The video's framing is that Astra's current value is as a helper for unfamiliar tools and boring setup steps, not a wholesale replacement for expert creative work, positioning computer-use AI as an assistant layer rather than an autonomous operator."
+            "Futurepedia examines how many attempts it actually takes an AI agent to produce a photorealistic Google Earth animation, continuing the prior day's thread with collaborator Kevin testing AI-driven creative software.",
+            "The first pass renders in under 12 minutes with a solid base but off pacing and camera wobble around Delicate Arch; three follow-up refinement passes over roughly 23 more minutes get the animation to a near-perfect final result.",
+            "Kevin's takeaway is that spending more time upfront on a specific, detailed prompt would cut the number of correction passes roughly in half, framing prompt specificity as the main lever for reducing iteration time with AI-driven animation tools."
           ]
         }
       ]
@@ -64,27 +63,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "xcxbOcc36dM",
-          "title": "This New AI Makes Decisions for 18 Cents",
-          "published_at": "2026-09-21T17:01:21Z",
-          "url": "https://www.youtube.com/watch?v=xcxbOcc36dM",
-          "ai_tech_id": "Jev (AI decision-making / classification model)",
+          "video_id": "eF3yeJuifoQ",
+          "title": "I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases",
+          "published_at": "2026-09-23T04:15:57Z",
+          "url": "https://www.youtube.com/watch?v=eF3yeJuifoQ",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic) vs. GPT-6 Sol (OpenAI) head-to-head comparison",
           "summary": [
-            "Nate Herk introduces Jev, a new AI model built by a researcher formerly behind ChatGPT, positioned not as a chatbot but as a low-cost decision-making and classification engine.",
-            "He highlights a benchmark where Jev scored roughly 1,700 emails for about 18 cents total, framing this as evidence that purpose-built classifiers can be dramatically cheaper than routing simple yes/no or scoring decisions through a general-purpose language model.",
-            "The video is short and promotional, directing viewers to Instagram to DM \"JEV\" for access rather than explaining setup or workflow on screen, so the content functions mainly as an announcement of the new model's existence and cost profile."
-          ]
-        },
-        {
-          "video_id": "X-pbJWKmwi0",
-          "title": "Build & Sell with Codex (5+ Hour Course)",
-          "published_at": "2026-09-21T12:31:48Z",
-          "url": "https://www.youtube.com/watch?v=X-pbJWKmwi0",
-          "ai_tech_id": "OpenAI Codex / GPT-6 Astra (agentic coding and automation)",
-          "summary": [
-            "Nate Herk publishes a 5+ hour course on building and selling AI tools with OpenAI's Codex, aimed at viewers with no coding background who want to build automations and sell them as services.",
-            "The course covers installing Codex, core Codex concepts, using GPT-6 Astra to build a personal \"AI operating system\" and second brain, creating reusable Codex skills, generating branded deliverables, and producing images, video, and full websites through Codex.",
-            "Later sections address browser-use automation, voice mode, hosting these automations, a comparison of Codex versus Claude Code, and how to price and sell finished AI solutions to paying clients, positioning the video as both a technical tutorial and a business how-to."
+            "Nate Herk runs Claude Opus 5.5 and OpenAI's GPT-6 Sol through 10 real-world tasks spanning website building, video editing, 3D world creation, code fixing, and browser use, comparing outputs, time taken, and cost for each.",
+            "The video walks through each test case with timestamps covering meeting transcript retrieval, website design, a sizzle reel and Instagram reel edit, spreadsheet/slide/dashboard generation, a museum escape game, a 3D learning world, interactive trip planning, code review, course building, and Canva drawing, noting two tests that had to be discarded because the models worked on the same files.",
+            "Herk closes with a results/final-thoughts segment identifying tasks where Opus 5.5 outperformed, tasks where GPT-6 Sol won, and a recommendation on when it makes sense to use the two models together rather than picking one exclusively."
           ]
         }
       ]
@@ -99,39 +86,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "_fa1S2CmONs",
-          "title": "Jev Beat ChatGPT Luna 5.6 at AI Classification",
-          "published_at": "2026-09-21T20:45:15Z",
-          "url": "https://www.youtube.com/watch?v=_fa1S2CmONs",
-          "ai_tech_id": "Jev vs. ChatGPT Luna 5.6 (OpenAI) for classification/routing",
+          "video_id": "9AnqXBmq3ZY",
+          "title": "Build ManyChat-Style DM Automations With ChatGPT, Claude, and Blotato",
+          "published_at": "2026-09-22T20:45:23Z",
+          "url": "https://www.youtube.com/watch?v=9AnqXBmq3ZY",
+          "ai_tech_id": "Blotato (AI-driven DM automation platform) used with ChatGPT, Claude, Codex, Gemini, or Hermes",
           "summary": [
-            "Sabrina Ramonov covers the same Jev model as Nate Herk's video but frames it directly against OpenAI's ChatGPT Luna 5.6, explaining that Jev is built for classification and routing tasks and returns probabilities rather than generated text.",
-            "She cites a report from a Vercel engineer that swapping ChatGPT Luna 5.6 for Jev on a safety-command classification task ran 5 to 18 times faster with better accuracy and lower cost, and generalizes the use cases to yes/no checks, sorting inputs, choosing workflows, and labeling spam, risk, intent, or sentiment.",
-            "The takeaway she offers is a simple division of labor: keep general language models like ChatGPT and Claude for drafting and conversation, but swap in a dedicated classifier like Jev whenever a system needs to repeatedly make fast, cheap, structured decisions at scale."
+            "Sabrina Ramonov demonstrates building Facebook and Instagram comment-to-DM automations by giving a single natural-language instruction to ChatGPT, which then configures the flow through Blotato.",
+            "She walks through specifying the trigger comment keyword, adding a follow-request step, and choosing the link sent in the automated DM, with the AI handling the technical setup and ongoing management of the flow once comments trigger it.",
+            "Ramonov notes the same workflow works with Claude, Codex, Gemini, or Hermes in place of ChatGPT, framing the video as a demonstration of using any general-purpose AI assistant to configure Blotato's automation rather than something specific to OpenAI's models."
           ]
         },
         {
-          "video_id": "063ufyVdq4E",
-          "title": "AI Advantage 2025 - Sabrina Ramonov  🍄",
-          "published_at": "2026-09-21T17:07:21Z",
-          "url": "https://www.youtube.com/watch?v=063ufyVdq4E",
-          "ai_tech_id": "General AI-education/business content; references her own AI SaaS product Blotato.com (no specific new model release covered)",
+          "video_id": "HlqSFY9dLOY",
+          "title": "7 AI Apps Making $40K+ Per Month",
+          "published_at": "2026-09-22T15:45:28Z",
+          "url": "https://www.youtube.com/watch?v=HlqSFY9dLOY",
+          "ai_tech_id": "Roundup of AI-powered SaaS products (AI thumbnail generation, AI resume/ATS scoring, AI SEO/AEO tooling, AI faceless video generation, AI-assisted coding education, AI LinkedIn outreach)",
           "summary": [
-            "This is a replay of Sabrina Ramonov's \"AI Advantage 2025\" talk, posted for reference rather than as new commentary on a specific AI tool or model release.",
-            "She recounts her personal and career story, from studying computer science and physics at UC Berkeley through founding an AI/NLP healthcare startup, pivoting into AI-driven real-time call guidance for sales and support, and eventually selling that company to Pegasystems in a deal worth over $10 million.",
-            "She closes the arc by describing her pivot into public AI education, growing to over 500,000 followers in six months with no ad budget or team, and running Blotato.com, her SaaS tool that uses AI to help creators and entrepreneurs distribute content faster."
-          ]
-        },
-        {
-          "video_id": "gWMpqNAgyFY",
-          "title": "7 Tiny-Team AI Apps Making $40K+ MRR",
-          "published_at": "2026-09-21T15:45:29Z",
-          "url": "https://www.youtube.com/watch?v=gWMpqNAgyFY",
-          "ai_tech_id": "Roundup of AI SaaS products (AI content generation, AI video generation, AI resume/ATS tools, AI outreach generation)",
-          "summary": [
-            "Sabrina Ramonov profiles seven small-team AI-powered apps generating between roughly $41,000 and $252,000 in monthly recurring revenue, using them to argue that most of these teams' effort goes into marketing and distribution rather than product development.",
-            "The apps span AI-generated SEO articles (SEOBOT), AI-generated YouTube thumbnails (ThumbnailCreator), AI-generated faceless videos from scripts (Vid.AI), gamified AI-assisted coding lessons (Codédex), AI-driven search-optimization audits (AEO Engine), AI-personalized LinkedIn outreach (Prosp), and AI resume writing and ATS scoring (Rezi), each given its MRR figure and one-line concept.",
-            "She uses the range of revenue figures, topped by Rezi at over $250K MRR, to make the case that a small team with an AI-generation core product can reach substantial revenue if it prioritizes go-to-market execution over further product polish."
+            "Sabrina Ramonov profiles seven AI-powered apps generating between $41,082 and $252,341 in monthly recurring revenue, each solving one narrow problem rather than a broad platform play.",
+            "The lineup covers ThumbnailCreator (AI YouTube thumbnails), Rezi (AI resume writing/ATS scoring, the highest earner at $252K MRR), AEO Engine (AI search-optimization audits), SEOBOT (AI SEO article generation), Vid.AI (AI faceless video generation), Codedex (gamified AI-assisted coding lessons), and Prosp (AI-personalized LinkedIn outreach).",
+            "Her core argument is that none of these products win on technical complexity alone: the differentiator is the amount of effort each team puts into marketing and distribution, and she frames the video as advice for AI builders to study both the product and the go-to-market side."
           ]
         }
       ]
