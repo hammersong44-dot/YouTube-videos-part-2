@@ -1,59 +1,47 @@
 {
-  "report_date": "2026-09-23",
-  "window_start_utc": "2026-09-22T05:01:17Z",
-  "window_end_utc": "2026-09-23T05:00:46Z",
-  "generated_at_utc": "2026-09-23T05:00:46Z",
-  "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list). Substituted the known-correct channel IDs used consistently in prior days' reports, each re-verified by name/customUrl before use. theAIsearch's supplied ID was valid and used as-is.",
+  "report_date": "2026-09-24",
+  "window_start_utc": "2026-09-23T04:59:55Z",
+  "window_end_utc": "2026-09-24T04:59:55Z",
+  "generated_at_utc": "2026-09-24T04:59:55Z",
+  "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list, only theAIsearch's supplied ID matched). Resolved the correct channel IDs via channels.list forHandle for each handle and used those, consistent with prior days' reports.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "gX0L0aFA2xg",
+          "title": "Claude Opus 5.5 is out!",
+          "published_at": "2026-09-24T03:25:26Z",
+          "url": "https://www.youtube.com/watch?v=gX0L0aFA2xg",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic)",
+          "summary": [
+            "AI Search puts Anthropic's newly released Claude Opus 5.5 through a wide-ranging hands-on review, sponsored by Higgsfield, testing the model against recaptcha puzzles, ray tracing, live piano playing, a math explainer video, VR-style Blender real estate rendering, an Unreal Engine 3D game, and music composition.",
+            "The video is a timestamped, demo-driven benchmark rather than a single-task deep dive, also covering a running 'frog test,' a cancer-identification task, deep research, and ideation, before closing with a dedicated segment on specs, published benchmarks, and guardrails/availability.",
+            "The creator explicitly pairs this release with a companion review of OpenAI's competing GPT-6 Astra, framing the video for viewers tracking how the two frontier labs' latest flagship models stack up against each other on the same day."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "lPNgeaF2Nk4",
-          "title": "GPT-6 Sol Is Here (50% Cheaper!)",
-          "published_at": "2026-09-22T19:01:53Z",
-          "url": "https://www.youtube.com/watch?v=lPNgeaF2Nk4",
-          "ai_tech_id": "GPT-6 Sol and GPT-6 Luna (OpenAI's newest model family, priced roughly 50% cheaper)",
-          "summary": [
-            "Paul Lipsky covers the release of OpenAI's GPT-6 Sol and Luna models, framing the video around OpenAI's headline claim of a roughly 50% price cut compared to prior GPT-6 tiers.",
-            "The video is a short news-style rundown of what OpenAI is promising with the new models rather than a hands-on test, focused on positioning Sol and Luna within OpenAI's lineup and their pricing relative to earlier releases.",
-            "Lipsky doesn't provide independent benchmarks in the description, so the video functions primarily as a same-day announcement digest for viewers tracking new model releases and pricing changes from OpenAI."
-          ]
-        },
-        {
-          "video_id": "xY5E1AY4hJA",
-          "title": "Opus 5.5 Is Here - Claude Is So Back!",
-          "published_at": "2026-09-22T17:25:58Z",
-          "url": "https://www.youtube.com/watch?v=xY5E1AY4hJA",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic)",
-          "summary": [
-            "Paul Lipsky reacts to Anthropic's release of Claude Opus 5.5, framing it as a comeback moment for Claude relative to competing frontier models.",
-            "As with his companion GPT-6 Sol video, this is a short reaction/news piece summarizing what Anthropic is claiming about Opus 5.5's capabilities rather than an in-depth hands-on review.",
-            "The video is aimed at viewers who want a quick same-day heads-up on Anthropic's newest flagship model release, positioned back-to-back with his coverage of OpenAI's competing GPT-6 Sol launch."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "gzLaOSggSIg",
-          "title": "How many attempts does it really take to nail a photorealistic Google Earth animation?",
-          "published_at": "2026-09-22T15:02:23Z",
-          "url": "https://www.youtube.com/watch?v=gzLaOSggSIg",
-          "ai_tech_id": "AI computer-use/video-generation agent operating Google Earth Studio (specific model not named in the description)",
+          "video_id": "rJ6NrYS-uGc",
+          "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
+          "published_at": "2026-09-23T16:02:11Z",
+          "url": "https://www.youtube.com/watch?v=rJ6NrYS-uGc",
+          "ai_tech_id": "OpenAI Codex (AI coding/creative agent used asynchronously inside Photoshop)",
           "summary": [
-            "Futurepedia examines how many attempts it actually takes an AI agent to produce a photorealistic Google Earth animation, continuing the prior day's thread with collaborator Kevin testing AI-driven creative software.",
-            "The first pass renders in under 12 minutes with a solid base but off pacing and camera wobble around Delicate Arch; three follow-up refinement passes over roughly 23 more minutes get the animation to a near-perfect final result.",
-            "Kevin's takeaway is that spending more time upfront on a specific, detailed prompt would cut the number of correction passes roughly in half, framing prompt specificity as the main lever for reducing iteration time with AI-driven animation tools."
+            "Futurepedia frames a short workflow piece around a mental shift for working with slower AI agents: while a thumbnail rendered for an hour in the background, the creator wasn't watching the screen, he was downstairs with his kids instead.",
+            "The described workflow has the creator sending Codex a task inside Photoshop, getting a phone notification once the job finishes, reviewing the result, sending a quick follow-up if needed, and walking away again rather than babysitting the render.",
+            "The core argument is that an hour sounds slow only if you sit and watch it happen; treated as async background work, that same hour costs the user nothing, positioning agentic AI tools as most valuable when paired with a hands-off, notification-driven workflow."
           ]
         }
       ]
@@ -63,15 +51,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "eF3yeJuifoQ",
-          "title": "I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases",
-          "published_at": "2026-09-23T04:15:57Z",
-          "url": "https://www.youtube.com/watch?v=eF3yeJuifoQ",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic) vs. GPT-6 Sol (OpenAI) head-to-head comparison",
+          "video_id": "GmLcJVzkxPA",
+          "title": "I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases",
+          "published_at": "2026-09-23T23:33:40Z",
+          "url": "https://www.youtube.com/watch?v=GmLcJVzkxPA",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic) vs. GPT-6 Astra (OpenAI) head-to-head comparison",
           "summary": [
-            "Nate Herk runs Claude Opus 5.5 and OpenAI's GPT-6 Sol through 10 real-world tasks spanning website building, video editing, 3D world creation, code fixing, and browser use, comparing outputs, time taken, and cost for each.",
-            "The video walks through each test case with timestamps covering meeting transcript retrieval, website design, a sizzle reel and Instagram reel edit, spreadsheet/slide/dashboard generation, a museum escape game, a 3D learning world, interactive trip planning, code review, course building, and Canva drawing, noting two tests that had to be discarded because the models worked on the same files.",
-            "Herk closes with a results/final-thoughts segment identifying tasks where Opus 5.5 outperformed, tasks where GPT-6 Sol won, and a recommendation on when it makes sense to use the two models together rather than picking one exclusively."
+            "Nate Herk runs Claude Opus 5.5 and OpenAI's GPT-6 Astra through 12 real-world tasks, including website design, an event sizzle reel, Instagram reel editing, business deliverables, a museum escape game, and a 3D AI learning world.",
+            "The video is a timestamped side-by-side comparison covering additional tasks such as interactive trip planning, a coding challenge, an animated personal story, drawing in Canva, Instagram carousels, and a book website redesign, walking through outputs, time taken, and estimated API cost for each model on every task.",
+            "Herk closes with a final-results segment identifying which tasks favored Opus 5.5, which favored GPT-6 Astra, and what he'd use each model for based on the experiments, giving viewers a practical takeaway on choosing between the two current frontier models."
           ]
         }
       ]
@@ -79,34 +67,47 @@
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "D-Z5HnLW_ho",
+          "title": "Every Jev Concept Explained (use with Claude)",
+          "published_at": "2026-09-23T20:33:14Z",
+          "url": "https://www.youtube.com/watch?v=D-Z5HnLW_ho",
+          "ai_tech_id": "Jev by Typesafe (a 'judgment model' used alongside Claude/Claude Code via an installed skill)",
+          "summary": [
+            "Simon Scrapes walks through Typesafe's newly released Jev, a 'judgment model' that cannot write a sentence or chat but returns calibrated probabilities for yes/no, choice, and score-type questions, reportedly used in its first week to build a Google Flights browser agent and to sort three million website sessions for about $2.",
+            "The video explains why Jev is claimed to be 40 to 1,000x cheaper and faster than LLMs for these narrow judgment calls, how it works alongside Claude rather than replacing it, and then installs the Typesafe skill in Claude Code to build a live customer-support triage system that sorts 50 emails into four categories in 4 seconds for a fraction of a cent.",
+            "It closes by covering four implementation patterns from Typesafe's docs for combining Jev with Claude: speculative fan-out, confidence-gated routing, weighted scoring, and intent routing, demonstrating all four together in a smart-home demo."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "9AnqXBmq3ZY",
-          "title": "Build ManyChat-Style DM Automations With ChatGPT, Claude, and Blotato",
-          "published_at": "2026-09-22T20:45:23Z",
-          "url": "https://www.youtube.com/watch?v=9AnqXBmq3ZY",
-          "ai_tech_id": "Blotato (AI-driven DM automation platform) used with ChatGPT, Claude, Codex, Gemini, or Hermes",
+          "video_id": "v90cPnwnCjA",
+          "title": "The Fastest Way to Find Your First AI Client",
+          "published_at": "2026-09-23T20:45:20Z",
+          "url": "https://www.youtube.com/watch?v=v90cPnwnCjA",
+          "ai_tech_id": "General-purpose AI assistants (ChatGPT) used as an entry point for AI consulting/freelancing",
           "summary": [
-            "Sabrina Ramonov demonstrates building Facebook and Instagram comment-to-DM automations by giving a single natural-language instruction to ChatGPT, which then configures the flow through Blotato.",
-            "She walks through specifying the trigger comment keyword, adding a follow-request step, and choosing the link sent in the automated DM, with the AI handling the technical setup and ongoing management of the flow once comments trigger it.",
-            "Ramonov notes the same workflow works with Claude, Codex, Gemini, or Hermes in place of ChatGPT, framing the video as a demonstration of using any general-purpose AI assistant to configure Blotato's automation rather than something specific to OpenAI's models."
+            "Sabrina Ramonov argues the fastest way to make money with AI is to help people already in your network, starting with family, friends, and past coworkers, and sharing what you're learning about AI on Facebook and LinkedIn before offering to teach a practiced skill.",
+            "For those who want to go further, she suggests walking into local businesses to offer a free audit, listening for repetitive manual work, confusing steps, or tasks owners keep avoiding, then proposing simple fixes rather than advanced builds.",
+            "The concrete advice is to help someone use ChatGPT on their phone, show them voice mode, set up a Project, or write a few useful prompts for work they already do, framing basic AI literacy as valuable to newcomers even though it looks simple to people already deep in AI."
           ]
         },
         {
-          "video_id": "HlqSFY9dLOY",
-          "title": "7 AI Apps Making $40K+ Per Month",
-          "published_at": "2026-09-22T15:45:28Z",
-          "url": "https://www.youtube.com/watch?v=HlqSFY9dLOY",
-          "ai_tech_id": "Roundup of AI-powered SaaS products (AI thumbnail generation, AI resume/ATS scoring, AI SEO/AEO tooling, AI faceless video generation, AI-assisted coding education, AI LinkedIn outreach)",
+          "video_id": "Kx-4XbLAyKM",
+          "title": "7 Videos To Learn The 7 Skills You Need To Succeed",
+          "published_at": "2026-09-23T15:45:24Z",
+          "url": "https://www.youtube.com/watch?v=Kx-4XbLAyKM",
+          "ai_tech_id": "Curated playlist covering AI basics and AI agents alongside general success skills",
           "summary": [
-            "Sabrina Ramonov profiles seven AI-powered apps generating between $41,082 and $252,341 in monthly recurring revenue, each solving one narrow problem rather than a broad platform play.",
-            "The lineup covers ThumbnailCreator (AI YouTube thumbnails), Rezi (AI resume writing/ATS scoring, the highest earner at $252K MRR), AEO Engine (AI search-optimization audits), SEOBOT (AI SEO article generation), Vid.AI (AI faceless video generation), Codedex (gamified AI-assisted coding lessons), and Prosp (AI-personalized LinkedIn outreach).",
-            "Her core argument is that none of these products win on technical complexity alone: the differentiator is the amount of effort each team puts into marketing and distribution, and she frames the video as advice for AI builders to study both the product and the go-to-market side."
+            "Sabrina Ramonov curates a 7-video roadmap covering confidence, learning how to learn, AI basics, mindset, business, AI agents, and social media content, giving one linked video as a starting point for each skill.",
+            "She sequences the list deliberately: confidence first for shy or anxious viewers, learning-how-to-learn as the meta-skill underlying everything else, then AI basics because AI is described as changing everything, followed by mindset to shape how the rest is approached.",
+            "The AI-specific entries point viewers to her business fundamentals video and a dedicated AI agents video, which she frames as worth learning now while the field is still new and full of opportunity, alongside a social media content video to round out the list."
           ]
         }
       ]
