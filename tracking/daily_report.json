@@ -1,27 +1,14 @@
 {
-  "report_date": "2026-09-24",
-  "window_start_utc": "2026-09-23T04:59:55Z",
-  "window_end_utc": "2026-09-24T04:59:55Z",
-  "generated_at_utc": "2026-09-24T04:59:55Z",
-  "note": "Channel IDs supplied in today's scheduled prompt for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu did not resolve to any YouTube channel (verified via channels.list, only theAIsearch's supplied ID matched). Resolved the correct channel IDs via channels.list forHandle for each handle and used those, consistent with prior days' reports.",
+  "report_date": "2026-09-25",
+  "window_start_utc": "2026-09-24T04:59:30Z",
+  "window_end_utc": "2026-09-25T04:59:30Z",
+  "generated_at_utc": "2026-09-25T05:00:05Z",
+  "note": "Channel IDs verified via channels.list; all 7 handles resolved to the same channel IDs used in prior daily reports. New videos found for nateherk, sabrina_ramonov (2), and futurepedia_io; no new videos for theAIsearch, PaulJLipsky, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "gX0L0aFA2xg",
-          "title": "Claude Opus 5.5 is out!",
-          "published_at": "2026-09-24T03:25:26Z",
-          "url": "https://www.youtube.com/watch?v=gX0L0aFA2xg",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic)",
-          "summary": [
-            "AI Search puts Anthropic's newly released Claude Opus 5.5 through a wide-ranging hands-on review, sponsored by Higgsfield, testing the model against recaptcha puzzles, ray tracing, live piano playing, a math explainer video, VR-style Blender real estate rendering, an Unreal Engine 3D game, and music composition.",
-            "The video is a timestamped, demo-driven benchmark rather than a single-task deep dive, also covering a running 'frog test,' a cancer-identification task, deep research, and ideation, before closing with a dedicated segment on specs, published benchmarks, and guardrails/availability.",
-            "The creator explicitly pairs this release with a companion review of OpenAI's competing GPT-6 Astra, framing the video for viewers tracking how the two frontier labs' latest flagship models stack up against each other on the same day."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
@@ -33,15 +20,15 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "rJ6NrYS-uGc",
-          "title": "Astra thumbnail built for an hour, he wasn't waiting. He was downstairs playing with my kids.",
-          "published_at": "2026-09-23T16:02:11Z",
-          "url": "https://www.youtube.com/watch?v=rJ6NrYS-uGc",
-          "ai_tech_id": "OpenAI Codex (AI coding/creative agent used asynchronously inside Photoshop)",
+          "video_id": "PCvnuGFasa8",
+          "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
+          "published_at": "2026-09-24T17:15:09Z",
+          "url": "https://www.youtube.com/watch?v=PCvnuGFasa8",
+          "ai_tech_id": "GPT-6 Astra (OpenAI) \u2014 agentic AI assistant driving Adobe Premiere",
           "summary": [
-            "Futurepedia frames a short workflow piece around a mental shift for working with slower AI agents: while a thumbnail rendered for an hour in the background, the creator wasn't watching the screen, he was downstairs with his kids instead.",
-            "The described workflow has the creator sending Codex a task inside Photoshop, getting a phone notification once the job finishes, reviewing the result, sending a quick follow-up if needed, and walking away again rather than babysitting the render.",
-            "The core argument is that an hour sounds slow only if you sit and watch it happen; treated as async background work, that same hour costs the user nothing, positioning agentic AI tools as most valuable when paired with a hands-off, notification-driven workflow."
+            "Futurepedia shows GPT-6 Astra taking over a tedious video-editing chore: dropping raw images onto a Premiere timeline and asking Astra to add pop-up and wobble animations, then pointing it at a folder of sound effects and letting it pick what fits.",
+            "The workflow is presented in two passes rather than a single generation: a 12-minute first pass to build the animated intro, followed by a 13-minute round of tweaks and SFX searching, for a total of under 25 minutes to reach a polished, ready-to-ship result.",
+            "The framing explicitly isn't that AI replaces a human editor, but that the boring keyframe-and-sync busywork can be handed off to an agentic assistant working inside the editor itself, freeing the creator to do something else while it runs."
           ]
         }
       ]
@@ -51,15 +38,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "GmLcJVzkxPA",
-          "title": "I Tested Opus 5.5 vs. GPT-6 Astra on 12 Real Use Cases",
-          "published_at": "2026-09-23T23:33:40Z",
-          "url": "https://www.youtube.com/watch?v=GmLcJVzkxPA",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic) vs. GPT-6 Astra (OpenAI) head-to-head comparison",
+          "video_id": "QCkHIyEPIYo",
+          "title": "I Tested Opus 5.5 at Every Effort Level. What You Need to Know.",
+          "published_at": "2026-09-24T20:35:45Z",
+          "url": "https://www.youtube.com/watch?v=QCkHIyEPIYo",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic) \u2014 effort-level comparison (Low/Medium/High/Extra/Max/Ultracode)",
           "summary": [
-            "Nate Herk runs Claude Opus 5.5 and OpenAI's GPT-6 Astra through 12 real-world tasks, including website design, an event sizzle reel, Instagram reel editing, business deliverables, a museum escape game, and a 3D AI learning world.",
-            "The video is a timestamped side-by-side comparison covering additional tasks such as interactive trip planning, a coding challenge, an animated personal story, drawing in Canva, Instagram carousels, and a book website redesign, walking through outputs, time taken, and estimated API cost for each model on every task.",
-            "Herk closes with a final-results segment identifying which tasks favored Opus 5.5, which favored GPT-6 Astra, and what he'd use each model for based on the experiments, giving viewers a practical takeaway on choosing between the two current frontier models."
+            "Nate Herk gives Claude Opus 5.5 the identical complex 3D conference prompt six separate times, once at each available effort level: Low, Medium, High, Extra, Max, and Ultracode, to see how output quality scales with compute spend.",
+            "For every run he compares the actual output alongside runtime, estimated API-equivalent cost, token usage, verification checks performed, and clarifying questions the model asked, building a timestamped side-by-side of the same creative build at increasing effort.",
+            "His headline finding is that the most expensive run was not the best one; he closes by naming the specific effort level he'd actually reach for on a complex creative build like this, giving viewers a practical cost-versus-quality guide for choosing effort settings."
           ]
         }
       ]
@@ -67,47 +54,34 @@
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": [
-        {
-          "video_id": "D-Z5HnLW_ho",
-          "title": "Every Jev Concept Explained (use with Claude)",
-          "published_at": "2026-09-23T20:33:14Z",
-          "url": "https://www.youtube.com/watch?v=D-Z5HnLW_ho",
-          "ai_tech_id": "Jev by Typesafe (a 'judgment model' used alongside Claude/Claude Code via an installed skill)",
-          "summary": [
-            "Simon Scrapes walks through Typesafe's newly released Jev, a 'judgment model' that cannot write a sentence or chat but returns calibrated probabilities for yes/no, choice, and score-type questions, reportedly used in its first week to build a Google Flights browser agent and to sort three million website sessions for about $2.",
-            "The video explains why Jev is claimed to be 40 to 1,000x cheaper and faster than LLMs for these narrow judgment calls, how it works alongside Claude rather than replacing it, and then installs the Typesafe skill in Claude Code to build a live customer-support triage system that sorts 50 emails into four categories in 4 seconds for a fraction of a cent.",
-            "It closes by covering four implementation patterns from Typesafe's docs for combining Jev with Claude: speculative fan-out, confidence-gated routing, weighted scoring, and intent routing, demonstrating all four together in a smart-home demo."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "v90cPnwnCjA",
-          "title": "The Fastest Way to Find Your First AI Client",
-          "published_at": "2026-09-23T20:45:20Z",
-          "url": "https://www.youtube.com/watch?v=v90cPnwnCjA",
-          "ai_tech_id": "General-purpose AI assistants (ChatGPT) used as an entry point for AI consulting/freelancing",
+          "video_id": "BVAv7PAsWBs",
+          "title": "How to Connect GPT-6 Astra to DaVinci Resolve With MCP",
+          "published_at": "2026-09-24T20:45:20Z",
+          "url": "https://www.youtube.com/watch?v=BVAv7PAsWBs",
+          "ai_tech_id": "GPT-6 Astra (OpenAI) via DaVinci Resolve MCP bridge",
           "summary": [
-            "Sabrina Ramonov argues the fastest way to make money with AI is to help people already in your network, starting with family, friends, and past coworkers, and sharing what you're learning about AI on Facebook and LinkedIn before offering to teach a practiced skill.",
-            "For those who want to go further, she suggests walking into local businesses to offer a free audit, listening for repetitive manual work, confusing steps, or tasks owners keep avoiding, then proposing simple fixes rather than advanced builds.",
-            "The concrete advice is to help someone use ChatGPT on their phone, show them voice mode, set up a Project, or write a few useful prompts for work they already do, framing basic AI literacy as valuable to newcomers even though it looks simple to people already deep in AI."
+            "Sabrina Ramonov demonstrates GPT-6 Astra editing a video from scratch inside DaVinci Resolve itself, using a new DaVinci Resolve MCP bridge that lets the model operate the editor directly instead of just returning editing instructions to follow manually.",
+            "She walks through the full setup: install DaVinci Resolve 21.0.3, open Codex and select GPT-6 Astra with reasoning effort set to light, feed it the DaVinci Resolve MCP repository link and let it self-install, restart Resolve, then launch the resolve_bridge script from the Workspace/Scripts menu before handing Astra source photos and an editing request.",
+            "She stresses that step order matters (finish MCP setup before restarting Resolve, create the project before launching the bridge script), framing the result as a chat request that becomes real work inside a desktop video editor, with the human still choosing photos and describing intent while Astra executes the edit."
           ]
         },
         {
-          "video_id": "Kx-4XbLAyKM",
-          "title": "7 Videos To Learn The 7 Skills You Need To Succeed",
-          "published_at": "2026-09-23T15:45:24Z",
-          "url": "https://www.youtube.com/watch?v=Kx-4XbLAyKM",
-          "ai_tech_id": "Curated playlist covering AI basics and AI agents alongside general success skills",
+          "video_id": "WD9EoyRQbEY",
+          "title": "5 Videos to Learn 5 AI Skills",
+          "published_at": "2026-09-24T15:45:20Z",
+          "url": "https://www.youtube.com/watch?v=WD9EoyRQbEY",
+          "ai_tech_id": "General AI literacy curriculum \u2014 includes Claude AI, plus AI for money, content, and video generation",
           "summary": [
-            "Sabrina Ramonov curates a 7-video roadmap covering confidence, learning how to learn, AI basics, mindset, business, AI agents, and social media content, giving one linked video as a starting point for each skill.",
-            "She sequences the list deliberately: confidence first for shy or anxious viewers, learning-how-to-learn as the meta-skill underlying everything else, then AI basics because AI is described as changing everything, followed by mindset to shape how the rest is approached.",
-            "The AI-specific entries point viewers to her business fundamentals video and a dedicated AI agents video, which she frames as worth learning now while the field is still new and full of opportunity, alongside a social media content video to round out the list."
+            "Sabrina Ramonov curates a five-video learning path for viewers who feel they keep collecting scattered AI tips without a structured starting point, sequencing the videos from AI basics through monetization, Claude AI specifically, AI content creation, and AI video.",
+            "Rather than new demos, this is a playlist-style roundup linking to five of her existing videos in a deliberate order, paired with explicit advice to pick one video at a time, take notes, and apply the lesson to a real project before moving to the next skill.",
+            "Her core argument is that depth beats dabbling: watching supplies the input but only hands-on practice on a real problem builds the skill, so she recommends working the list in order or jumping straight to whichever skill is needed for an upcoming project."
           ]
         }
       ]
