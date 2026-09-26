@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-09-25",
-  "window_start_utc": "2026-09-24T04:59:30Z",
-  "window_end_utc": "2026-09-25T04:59:30Z",
-  "generated_at_utc": "2026-09-25T05:00:05Z",
-  "note": "Channel IDs verified via channels.list; all 7 handles resolved to the same channel IDs used in prior daily reports. New videos found for nateherk, sabrina_ramonov (2), and futurepedia_io; no new videos for theAIsearch, PaulJLipsky, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-09-26",
+  "window_start_utc": "2026-09-25T04:59:56Z",
+  "window_end_utc": "2026-09-26T04:59:56Z",
+  "generated_at_utc": "2026-09-26T05:01:09Z",
+  "note": "Channel IDs verified via channels.list forHandle; all 7 handles resolved to the same channel IDs used in prior daily reports. New videos found for PaulJLipsky, nateherk, and sabrina_ramonov (2); no new videos for theAIsearch, futurepedia_io, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -13,40 +13,40 @@
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "Q6uuvZmb0t8",
+          "title": "Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More!",
+          "published_at": "2026-09-25T13:00:31Z",
+          "url": "https://www.youtube.com/watch?v=Q6uuvZmb0t8",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic) vs GPT-6 Sol (OpenAI) — head-to-head model comparison, plus Gemini Notebook, Grok 4.7/Grok Bot, and Meta Muse/Muse Charm roundup",
+          "summary": [
+            "Paul J Lipsky runs a same-day head-to-head between Claude Opus 5.5 and GPT-6 Sol, since both models launched together, putting each through identical writing, graphic design, and video-editing tasks to see which handles real creative work better.",
+            "The video is structured as a weekly AI news roundup built around that comparison: after walking through the three test categories and giving his verdict on results, he moves into a rapid-fire section covering updates to Gemini Notebook, other Google product changes, Grok 4.7 and the new Grok Bot, and Meta's Muse platform alongside its Muse Charm feature, plus recent ChatGPT feature additions.",
+            "The framing throughout is practical rather than benchmark-driven: he's less interested in leaderboard scores than in which model an everyday creator or marketer should actually reach for this week, closing with final thoughts on how the Opus 5.5 vs GPT-6 Sol matchup should shift that choice."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "PCvnuGFasa8",
-          "title": "Tired of manually keyframing animations and syncing sound effects? Astra handles fast.",
-          "published_at": "2026-09-24T17:15:09Z",
-          "url": "https://www.youtube.com/watch?v=PCvnuGFasa8",
-          "ai_tech_id": "GPT-6 Astra (OpenAI) \u2014 agentic AI assistant driving Adobe Premiere",
-          "summary": [
-            "Futurepedia shows GPT-6 Astra taking over a tedious video-editing chore: dropping raw images onto a Premiere timeline and asking Astra to add pop-up and wobble animations, then pointing it at a folder of sound effects and letting it pick what fits.",
-            "The workflow is presented in two passes rather than a single generation: a 12-minute first pass to build the animated intro, followed by a 13-minute round of tweaks and SFX searching, for a total of under 25 minutes to reach a polished, ready-to-ship result.",
-            "The framing explicitly isn't that AI replaces a human editor, but that the boring keyframe-and-sync busywork can be handed off to an agentic assistant working inside the editor itself, freeing the creator to do something else while it runs."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "QCkHIyEPIYo",
-          "title": "I Tested Opus 5.5 at Every Effort Level. What You Need to Know.",
-          "published_at": "2026-09-24T20:35:45Z",
-          "url": "https://www.youtube.com/watch?v=QCkHIyEPIYo",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic) \u2014 effort-level comparison (Low/Medium/High/Extra/Max/Ultracode)",
+          "video_id": "7jHXoPGnA4c",
+          "title": "Opus 5.5 Just Changed Video Editing Forever (free skills)",
+          "published_at": "2026-09-25T23:54:59Z",
+          "url": "https://www.youtube.com/watch?v=7jHXoPGnA4c",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic) — running inside Claude Code with custom \"HyperFrames\" editing skills",
           "summary": [
-            "Nate Herk gives Claude Opus 5.5 the identical complex 3D conference prompt six separate times, once at each available effort level: Low, Medium, High, Extra, Max, and Ultracode, to see how output quality scales with compute spend.",
-            "For every run he compares the actual output alongside runtime, estimated API-equivalent cost, token usage, verification checks performed, and clarifying questions the model asked, building a timestamped side-by-side of the same creative build at increasing effort.",
-            "His headline finding is that the most expensive run was not the best one; he closes by naming the specific effort level he'd actually reach for on a complex creative build like this, giving viewers a practical cost-versus-quality guide for choosing effort settings."
+            "Nate Herk breaks down a set of one-prompt AI video edits he says are the best he's gotten yet, all produced by driving Claude Opus 5.5 inside Claude Code using a custom skill set he calls HyperFrames, and walks through the exact prompts behind an intro edit, a YouTube showreel, a live-event sizzle reel, three styles of the same product video, and a spec ad.",
+            "Rather than treating each edit as a one-off trick, he generalizes the approach into a five-step method he says he follows every time he edits with AI: transcribe the footage, cut it down, plan out the beats, build a reusable skill around the pattern, and have the agent verify its own output before calling it done.",
+            "The video positions Opus 5.5 plus HyperFrames as a repeatable production system rather than a novelty demo, and he offers the underlying HyperFrames and a companion website-design skill for free, alongside his usual tool and sponsorship links."
           ]
         }
       ]
@@ -61,27 +61,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "BVAv7PAsWBs",
-          "title": "How to Connect GPT-6 Astra to DaVinci Resolve With MCP",
-          "published_at": "2026-09-24T20:45:20Z",
-          "url": "https://www.youtube.com/watch?v=BVAv7PAsWBs",
-          "ai_tech_id": "GPT-6 Astra (OpenAI) via DaVinci Resolve MCP bridge",
+          "video_id": "6xHf9biSyaM",
+          "title": "Jev vs ChatGPT Luna: 5 to 18x Faster Classification Results",
+          "published_at": "2026-09-25T20:45:23Z",
+          "url": "https://www.youtube.com/watch?v=6xHf9biSyaM",
+          "ai_tech_id": "Jev AI — specialized classification/routing model, contrasted with general LLMs ChatGPT (Luna) and Claude",
           "summary": [
-            "Sabrina Ramonov demonstrates GPT-6 Astra editing a video from scratch inside DaVinci Resolve itself, using a new DaVinci Resolve MCP bridge that lets the model operate the editor directly instead of just returning editing instructions to follow manually.",
-            "She walks through the full setup: install DaVinci Resolve 21.0.3, open Codex and select GPT-6 Astra with reasoning effort set to light, feed it the DaVinci Resolve MCP repository link and let it self-install, restart Resolve, then launch the resolve_bridge script from the Workspace/Scripts menu before handing Astra source photos and an editing request.",
-            "She stresses that step order matters (finish MCP setup before restarting Resolve, create the project before launching the bridge script), framing the result as a chat request that becomes real work inside a desktop video editor, with the human still choosing photos and describing intent while Astra executes the edit."
+            "Sabrina Ramonov introduces Jev AI, a specialized model built for classification and routing tasks that outputs probabilities instead of generating written responses, and contrasts it directly with general-purpose LLMs like ChatGPT and Claude, which read input, reason over it, and produce text.",
+            "She cites a case where an engineer swapped ChatGPT Luna out for Jev on a classification task and reported results 5 to 18 times faster with improved accuracy, framing this as evidence that generating extra tokens is wasted overhead when a workflow only needs a label, score, route, or yes/no decision.",
+            "Her practical takeaway is a simple decision rule for builders of AI agent workflows: reach for a general LLM when the task needs language and reasoning, but swap in a lightweight model like Jev for repeated classification or routing decisions such as sorting inputs, choosing a workflow branch, scoring relevance, or detecting spam, risk, intent, or sentiment."
           ]
         },
         {
-          "video_id": "WD9EoyRQbEY",
-          "title": "5 Videos to Learn 5 AI Skills",
-          "published_at": "2026-09-24T15:45:20Z",
-          "url": "https://www.youtube.com/watch?v=WD9EoyRQbEY",
-          "ai_tech_id": "General AI literacy curriculum \u2014 includes Claude AI, plus AI for money, content, and video generation",
+          "video_id": "gssp9qs-Ug8",
+          "title": "GPT-6 Astra Edited This Video in DaVinci Resolve",
+          "published_at": "2026-09-25T15:45:19Z",
+          "url": "https://www.youtube.com/watch?v=gssp9qs-Ug8",
+          "ai_tech_id": "GPT-6 Astra (OpenAI) via DaVinci Resolve MCP, driven through ChatGPT Codex",
           "summary": [
-            "Sabrina Ramonov curates a five-video learning path for viewers who feel they keep collecting scattered AI tips without a structured starting point, sequencing the videos from AI basics through monetization, Claude AI specifically, AI content creation, and AI video.",
-            "Rather than new demos, this is a playlist-style roundup linking to five of her existing videos in a deliberate order, paired with explicit advice to pick one video at a time, take notes, and apply the lesson to a real project before moving to the next skill.",
-            "Her core argument is that depth beats dabbling: watching supplies the input but only hands-on practice on a real problem builds the skill, so she recommends working the list in order or jumping straight to whichever skill is needed for an upcoming project."
+            "Sabrina Ramonov shows the finished result of GPT-6 Astra editing a video directly inside DaVinci Resolve through the new DaVinci Resolve MCP integration, with the whole workflow kicked off from ChatGPT Codex rather than Resolve's native tools.",
+            "She lays out the exact setup path: install DaVinci Resolve 21.0.3, open Codex, gather existing photos and videos into a single folder, point Codex at that folder so it has source material, and then describe the desired style in words or hand it reference screenshots and images when words fall short.",
+            "The core point is that this workflow requires no blank project or new footage shoot; a creator can start from media already on their computer, describe or visually show the target look, and let GPT-6 Astra execute the edit end-to-end via the MCP bridge into DaVinci Resolve."
           ]
         }
       ]
