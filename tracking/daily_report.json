@@ -1,55 +1,55 @@
 {
-  "report_date": "2026-09-26",
-  "window_start_utc": "2026-09-25T04:59:56Z",
-  "window_end_utc": "2026-09-26T04:59:56Z",
-  "generated_at_utc": "2026-09-26T05:01:09Z",
-  "note": "Channel IDs verified via channels.list forHandle; all 7 handles resolved to the same channel IDs used in prior daily reports. New videos found for PaulJLipsky, nateherk, and sabrina_ramonov (2); no new videos for theAIsearch, futurepedia_io, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-09-27",
+  "window_start_utc": "2026-09-26T05:00:36Z",
+  "window_end_utc": "2026-09-27T05:00:36Z",
+  "generated_at_utc": "2026-09-27T05:00:36Z",
+  "note": "Task prompt supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu that do not resolve via channels.list (id lookup returned 0 of those 6). Re-resolved all handles via channels.list forHandle; all 6 matched the channel IDs used in prior daily reports, so those verified IDs were used instead. theAIsearch's supplied ID was already correct. New videos found for theAIsearch, futurepedia_io, and sabrina_ramonov (3); no new videos for PaulJLipsky, nateherk, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "nX0fgBL3sIM",
+          "title": "Waifus incoming, GPT 6 Sol, Grok 4.7, Opus 5.5, Mimo 2.6, Step 5, OpenMuse: AI NEWS",
+          "published_at": "2026-09-27T03:24:32Z",
+          "url": "https://www.youtube.com/watch?v=nX0fgBL3sIM",
+          "ai_tech_id": "Multi-model AI news roundup: GPT-6 Sol/Luna (OpenAI), Grok 4.7 (xAI), Claude Opus 5.5 (Anthropic), Gemini 3.8 TTS (Google), Mimo V2.6 (Xiaomi), Step 5 (StepFun), and OpenMuse (CopilotKit), among other new model and tool releases",
+          "summary": [
+            "theAIsearch runs its regular sponsor-backed weekly AI news roundup, opening with a string of new generative media tools — WorldCrafter, Ming Image, Mira Scene, and Flux 3 Action — before moving into the week's headline model releases.",
+            "The core of the video is a rapid-fire tour through major model launches: Google's Gemini 3.8 text-to-speech model, Xiaomi's Mimo V2.6, StepFun's Step 5, xAI's Grok 4.7, OpenAI's newly introduced GPT-6 Sol and its companion Luna model, and Anthropic's Claude Opus 5.5, alongside a mention of Anthropic's research on using Claude to help discover a novel enzyme system.",
+            "It closes on what the host flags as \"the most important part\" — coverage of Skild AI's physical self-play soccer robotics work, the OpenMuse and CLM open-source model/tool releases, Aikido's open-weight AI security tooling, and Google's Project Suncatcher — framing the episode as a single digest for keeping up with an unusually dense week of AI announcements."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "Q6uuvZmb0t8",
-          "title": "Big AI News: Opus 5.5 vs GPT-6 Sol, NotebookLM Updates, Muse Charm & More!",
-          "published_at": "2026-09-25T13:00:31Z",
-          "url": "https://www.youtube.com/watch?v=Q6uuvZmb0t8",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic) vs GPT-6 Sol (OpenAI) — head-to-head model comparison, plus Gemini Notebook, Grok 4.7/Grok Bot, and Meta Muse/Muse Charm roundup",
-          "summary": [
-            "Paul J Lipsky runs a same-day head-to-head between Claude Opus 5.5 and GPT-6 Sol, since both models launched together, putting each through identical writing, graphic design, and video-editing tasks to see which handles real creative work better.",
-            "The video is structured as a weekly AI news roundup built around that comparison: after walking through the three test categories and giving his verdict on results, he moves into a rapid-fire section covering updates to Gemini Notebook, other Google product changes, Grok 4.7 and the new Grok Bot, and Meta's Muse platform alongside its Muse Charm feature, plus recent ChatGPT feature additions.",
-            "The framing throughout is practical rather than benchmark-driven: he's less interested in leaderboard scores than in which model an everyday creator or marketer should actually reach for this week, closing with final thoughts on how the Opus 5.5 vs GPT-6 Sol matchup should shift that choice."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "WKBIynpvmBM",
+          "title": "Ask Claude to ask YOU. The secret to better AI prompts?",
+          "published_at": "2026-09-26T13:00:26Z",
+          "url": "https://www.youtube.com/watch?v=WKBIynpvmBM",
+          "ai_tech_id": "Claude (Anthropic) — a \"context interview\" prompting technique for surfacing missing background information",
+          "summary": [
+            "Futurepedia shares a short practical tip built around Claude: rather than guessing which background details the model needs to give a good answer, the presenter flips the interaction and has Claude interview the user for the context it's missing.",
+            "The recommended workflow is simple — dump in whatever context is on hand even if it's messy and unorganized, and if you're unsure what's relevant, explicitly ask Claude to ask you the clarifying questions it needs before it starts answering.",
+            "The video's closing tip is to push back on Claude's first answer rather than accepting it outright, since the model's initial response after the context interview is rarely its best one; the whole approach is pitched as a way to get sharper Claude responses without learning formal prompt-engineering syntax."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": [
-        {
-          "video_id": "7jHXoPGnA4c",
-          "title": "Opus 5.5 Just Changed Video Editing Forever (free skills)",
-          "published_at": "2026-09-25T23:54:59Z",
-          "url": "https://www.youtube.com/watch?v=7jHXoPGnA4c",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic) — running inside Claude Code with custom \"HyperFrames\" editing skills",
-          "summary": [
-            "Nate Herk breaks down a set of one-prompt AI video edits he says are the best he's gotten yet, all produced by driving Claude Opus 5.5 inside Claude Code using a custom skill set he calls HyperFrames, and walks through the exact prompts behind an intro edit, a YouTube showreel, a live-event sizzle reel, three styles of the same product video, and a spec ad.",
-            "Rather than treating each edit as a one-off trick, he generalizes the approach into a five-step method he says he follows every time he edits with AI: transcribe the footage, cut it down, plan out the beats, build a reusable skill around the pattern, and have the agent verify its own output before calling it done.",
-            "The video positions Opus 5.5 plus HyperFrames as a repeatable production system rather than a novelty demo, and he offers the underlying HyperFrames and a companion website-design skill for free, alongside his usual tool and sponsorship links."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "simonscrapes",
@@ -61,27 +61,39 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "6xHf9biSyaM",
-          "title": "Jev vs ChatGPT Luna: 5 to 18x Faster Classification Results",
-          "published_at": "2026-09-25T20:45:23Z",
-          "url": "https://www.youtube.com/watch?v=6xHf9biSyaM",
-          "ai_tech_id": "Jev AI — specialized classification/routing model, contrasted with general LLMs ChatGPT (Luna) and Claude",
+          "video_id": "g25KXtB3Lrg",
+          "title": "Meta Muse AI: 3 Ways to Use Its New Agent",
+          "published_at": "2026-09-26T20:45:26Z",
+          "url": "https://www.youtube.com/watch?v=g25KXtB3Lrg",
+          "ai_tech_id": "Meta Muse (Meta) — a new AI agent for Facebook Marketplace and Facebook Groups",
           "summary": [
-            "Sabrina Ramonov introduces Jev AI, a specialized model built for classification and routing tasks that outputs probabilities instead of generating written responses, and contrasts it directly with general-purpose LLMs like ChatGPT and Claude, which read input, reason over it, and produce text.",
-            "She cites a case where an engineer swapped ChatGPT Luna out for Jev on a classification task and reported results 5 to 18 times faster with improved accuracy, framing this as evidence that generating extra tokens is wasted overhead when a workflow only needs a label, score, route, or yes/no decision.",
-            "Her practical takeaway is a simple decision rule for builders of AI agent workflows: reach for a general LLM when the task needs language and reasoning, but swap in a lightweight model like Jev for repeated classification or routing decisions such as sorting inputs, choosing a workflow branch, scoring relevance, or detecting spam, risk, intent, or sentiment."
+            "Sabrina Ramonov introduces Muse, Meta's new AI agent built to handle tasks across Facebook Marketplace and Facebook Groups, and cautions that several unrelated apps share the Muse name so users need to confirm they're installing Meta's own app.",
+            "She walks through three concrete uses: telling Muse the style of item you're shopping for (e.g. a dining table) so it checks Marketplace for matching deals throughout the day instead of you refreshing listings manually; handing Muse photos of items to sell so it drafts the listing and benchmarks pricing against comparable items; and pointing Muse at specific Facebook Groups and a neighborhood service need so it alerts you when a relevant post appears.",
+            "Each example follows the same pattern — turning a recurring manual search or listing chore into one delegated task where the user supplies the item, photos, or groups up front and then just reviews what Muse finds or produces."
           ]
         },
         {
-          "video_id": "gssp9qs-Ug8",
-          "title": "GPT-6 Astra Edited This Video in DaVinci Resolve",
-          "published_at": "2026-09-25T15:45:19Z",
-          "url": "https://www.youtube.com/watch?v=gssp9qs-Ug8",
-          "ai_tech_id": "GPT-6 Astra (OpenAI) via DaVinci Resolve MCP, driven through ChatGPT Codex",
+          "video_id": "nT6nPXQPvKE",
+          "title": "Muse AI Privacy Warning: A User Says It Read His Messages",
+          "published_at": "2026-09-26T15:45:23Z",
+          "url": "https://www.youtube.com/watch?v=nT6nPXQPvKE",
+          "ai_tech_id": "Meta Muse (Meta) — AI agent privacy and permissions concerns",
           "summary": [
-            "Sabrina Ramonov shows the finished result of GPT-6 Astra editing a video directly inside DaVinci Resolve through the new DaVinci Resolve MCP integration, with the whole workflow kicked off from ChatGPT Codex rather than Resolve's native tools.",
-            "She lays out the exact setup path: install DaVinci Resolve 21.0.3, open Codex, gather existing photos and videos into a single folder, point Codex at that folder so it has source material, and then describe the desired style in words or hand it reference screenshots and images when words fall short.",
-            "The core point is that this workflow requires no blank project or new footage shoot; a creator can start from media already on their computer, describe or visually show the target look, and let GPT-6 Astra execute the edit end-to-end via the MCP bridge into DaVinci Resolve."
+            "Sabrina Ramonov covers a reported privacy incident involving Meta's Muse AI agent, relaying an account in which Muse allegedly inserted a suggestion into a private message conversation that referenced what the two people were discussing.",
+            "According to the account described, the user says he never granted Muse permission to read those messages and that it also lacked calendar access or other personal-data permissions; when he raised the issue with Meta, the video says the company placed the blame on the user, even though his settings screenshots showed the relevant permissions turned off.",
+            "The video is careful to note it hasn't independently verified what Muse actually accessed or why it responded that way, and frames the real takeaway as a practical caution: since Facebook and Instagram users already share substantial data with Meta, people testing a new AI agent like Muse should stay alert to whether its behavior actually matches the permissions they believe they've granted."
+          ]
+        },
+        {
+          "video_id": "EOiypb2wXM0",
+          "title": "How I Built a $1M Solo AI Business ($0 to $1M)",
+          "published_at": "2026-09-26T15:00:00Z",
+          "url": "https://www.youtube.com/watch?v=EOiypb2wXM0",
+          "ai_tech_id": "AI-powered content distribution (Blotato.com) and earlier natural-language-processing/speech-recognition AI (Qurious, acquired by Pegasystems)",
+          "summary": [
+            "Sabrina Ramonov narrates her path from a computer-science and physics graduate with $250k in student debt to founding Qurious, an NLP-based healthcare AI startup that pivoted into real-time, AI-driven call guidance for sales and support teams combining streaming speech recognition with natural language processing.",
+            "She recounts selling Qurious to Pegasystems in a cash-and-stock deal worth over $10 million, after which the technology was integrated into Pega Voice AI and rolled out to thousands of support agents, before she stepped back to recover from burnout and later pivoted to building an audience by teaching AI to a general audience.",
+            "The video centers on her current venture, Blotato.com, an AI-assisted content-distribution SaaS she built solo that now helps thousands of creators and entrepreneurs publish across platforms faster, framed as the culmination of a no-budget, no-team growth story that took her follower count from zero to over 500,000 in six months."
           ]
         }
       ]
