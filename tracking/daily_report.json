@@ -1,55 +1,55 @@
 {
-  "report_date": "2026-09-27",
-  "window_start_utc": "2026-09-26T05:00:36Z",
-  "window_end_utc": "2026-09-27T05:00:36Z",
-  "generated_at_utc": "2026-09-27T05:00:36Z",
-  "note": "Task prompt supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu that do not resolve via channels.list (id lookup returned 0 of those 6). Re-resolved all handles via channels.list forHandle; all 6 matched the channel IDs used in prior daily reports, so those verified IDs were used instead. theAIsearch's supplied ID was already correct. New videos found for theAIsearch, futurepedia_io, and sabrina_ramonov (3); no new videos for PaulJLipsky, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-09-28",
+  "window_start_utc": "2026-09-27T05:00:12Z",
+  "window_end_utc": "2026-09-28T05:00:12Z",
+  "generated_at_utc": "2026-09-28T05:00:12Z",
+  "note": "Task prompt supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu that do not resolve via channels.list (id lookup returned 0 of those 6). Re-resolved all handles via channels.list forHandle; all 6 matched the channel IDs used in prior daily reports, so those verified IDs were used instead. theAIsearch's supplied ID was already correct. New videos found for PaulJLipsky, nateherk, and sabrina_ramonov (2); no new videos for theAIsearch, futurepedia_io, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "nX0fgBL3sIM",
-          "title": "Waifus incoming, GPT 6 Sol, Grok 4.7, Opus 5.5, Mimo 2.6, Step 5, OpenMuse: AI NEWS",
-          "published_at": "2026-09-27T03:24:32Z",
-          "url": "https://www.youtube.com/watch?v=nX0fgBL3sIM",
-          "ai_tech_id": "Multi-model AI news roundup: GPT-6 Sol/Luna (OpenAI), Grok 4.7 (xAI), Claude Opus 5.5 (Anthropic), Gemini 3.8 TTS (Google), Mimo V2.6 (Xiaomi), Step 5 (StepFun), and OpenMuse (CopilotKit), among other new model and tool releases",
-          "summary": [
-            "theAIsearch runs its regular sponsor-backed weekly AI news roundup, opening with a string of new generative media tools — WorldCrafter, Ming Image, Mira Scene, and Flux 3 Action — before moving into the week's headline model releases.",
-            "The core of the video is a rapid-fire tour through major model launches: Google's Gemini 3.8 text-to-speech model, Xiaomi's Mimo V2.6, StepFun's Step 5, xAI's Grok 4.7, OpenAI's newly introduced GPT-6 Sol and its companion Luna model, and Anthropic's Claude Opus 5.5, alongside a mention of Anthropic's research on using Claude to help discover a novel enzyme system.",
-            "It closes on what the host flags as \"the most important part\" — coverage of Skild AI's physical self-play soccer robotics work, the OpenMuse and CLM open-source model/tool releases, Aikido's open-weight AI security tooling, and Google's Project Suncatcher — framing the episode as a single digest for keeping up with an unusually dense week of AI announcements."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
-    },
-    {
-      "channel_name": "futurepedia_io",
-      "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "WKBIynpvmBM",
-          "title": "Ask Claude to ask YOU. The secret to better AI prompts?",
-          "published_at": "2026-09-26T13:00:26Z",
-          "url": "https://www.youtube.com/watch?v=WKBIynpvmBM",
-          "ai_tech_id": "Claude (Anthropic) — a \"context interview\" prompting technique for surfacing missing background information",
+          "video_id": "lC_-9TD3TfA",
+          "title": "Meta Muse Is Incredible - 5 Features You Need To Try",
+          "published_at": "2026-09-27T13:00:22Z",
+          "url": "https://www.youtube.com/watch?v=lC_-9TD3TfA",
+          "ai_tech_id": "Meta Muse (Meta) — general-purpose AI agent app",
           "summary": [
-            "Futurepedia shares a short practical tip built around Claude: rather than guessing which background details the model needs to give a good answer, the presenter flips the interaction and has Claude interview the user for the context it's missing.",
-            "The recommended workflow is simple — dump in whatever context is on hand even if it's messy and unorganized, and if you're unsure what's relevant, explicitly ask Claude to ask you the clarifying questions it needs before it starts answering.",
-            "The video's closing tip is to push back on Claude's first answer rather than accepting it outright, since the model's initial response after the context interview is rarely its best one; the whole approach is pitched as a way to get sharper Claude responses without learning formal prompt-engineering syntax."
+            "Paul J Lipsky, in a video sponsored by WhisPrompt, gives Meta Muse a strong endorsement, calling it one of the easiest AI agents he's used despite a simple interface that undersells how much it can actually do, and sets up a tour of five standout use cases plus its free usage limits.",
+            "He walks through Muse acting as a personal shopper that tracks down items across the web, demonstrates pairing it with the sponsor tool WhisPrompt, and shows off its voice-response mode and its ability to generate custom podcast episodes on a topic of the user's choosing.",
+            "The video closes on two more capability-heavy features — Muse placing phone calls on the user's behalf and taking remote access of a computer to complete tasks — before breaking down how generous the app's free tier currently is, framing Muse as unusually capable for a no-cost AI agent."
           ]
         }
       ]
     },
     {
+      "channel_name": "futurepedia_io",
+      "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
+      "videos": []
+    },
+    {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "Ktnwygcnd8U",
+          "title": "No, Seriously. Claude Code is Starting To Get Dangerous",
+          "published_at": "2026-09-27T20:38:25Z",
+          "url": "https://www.youtube.com/watch?v=Ktnwygcnd8U",
+          "ai_tech_id": "Claude Code (Anthropic) — agentic coding tool risk and governance",
+          "summary": [
+            "Nate Herk opens by insisting his warning about Claude Code isn't fearmongering, then uses Anthropic's recent decision to shut down one of its own models as a jumping-off point for a broader argument that agentic coding tools are becoming powerful enough to carry real business risk.",
+            "He points to a bug that went unnoticed for days as evidence that autonomous coding agents can quietly cause damage before anyone catches it, and extends the discussion into predictions about how AI will reshape classrooms, cybersecurity practices, and government regulation, floating comparisons to arms-control-style oversight.",
+            "The video ends on three skills Nate argues matter most as agentic AI improves — correctly identifying the real underlying business problem before automating it, tightly controlling what systems and data an agent can access, and taking personal responsibility for whatever an agent produces — framing accountability as the piece most people are currently getting wrong."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "simonscrapes",
@@ -61,39 +61,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "g25KXtB3Lrg",
-          "title": "Meta Muse AI: 3 Ways to Use Its New Agent",
-          "published_at": "2026-09-26T20:45:26Z",
-          "url": "https://www.youtube.com/watch?v=g25KXtB3Lrg",
-          "ai_tech_id": "Meta Muse (Meta) — a new AI agent for Facebook Marketplace and Facebook Groups",
+          "video_id": "ORbmWfWHoSM",
+          "title": "5 ChatGPT Power Words for Visual Answers",
+          "published_at": "2026-09-27T15:45:21Z",
+          "url": "https://www.youtube.com/watch?v=ORbmWfWHoSM",
+          "ai_tech_id": "ChatGPT (OpenAI) — slash-command prompting for visual output formats",
           "summary": [
-            "Sabrina Ramonov introduces Muse, Meta's new AI agent built to handle tasks across Facebook Marketplace and Facebook Groups, and cautions that several unrelated apps share the Muse name so users need to confirm they're installing Meta's own app.",
-            "She walks through three concrete uses: telling Muse the style of item you're shopping for (e.g. a dining table) so it checks Marketplace for matching deals throughout the day instead of you refreshing listings manually; handing Muse photos of items to sell so it drafts the listing and benchmarks pricing against comparable items; and pointing Muse at specific Facebook Groups and a neighborhood service need so it alerts you when a relevant post appears.",
-            "Each example follows the same pattern — turning a recurring manual search or listing chore into one delegated task where the user supplies the item, photos, or groups up front and then just reviews what Muse finds or produces."
+            "Sabrina Ramonov introduces five \"power word\" slash commands that tell ChatGPT to reformat any topic into a specific visual layout rather than plain text, positioning them as a quick way to make ChatGPT answers easier to absorb.",
+            "She runs through the five commands and what each produces: /timelineview for a chronological visual timeline, /anime-explainer for turning a topic into an anime-style story, /visualcheatsheet for a one-page reference sheet, /explodedview for a schematic breaking an object or concept into its parts, and /mindmap for a diagram of how ideas connect.",
+            "The video closes with guidance on when to reach for each command — timelines for sequence-dependent topics, anime explainers for memorability, cheat sheets for studying, exploded views for dissecting components, and mind maps for relational ideas — and encourages viewers to save the list of exact commands for reuse."
           ]
         },
         {
-          "video_id": "nT6nPXQPvKE",
-          "title": "Muse AI Privacy Warning: A User Says It Read His Messages",
-          "published_at": "2026-09-26T15:45:23Z",
-          "url": "https://www.youtube.com/watch?v=nT6nPXQPvKE",
-          "ai_tech_id": "Meta Muse (Meta) — AI agent privacy and permissions concerns",
+          "video_id": "FCrwuDv0uDA",
+          "title": "5 ChatGPT Visual Codes for Timelines, Mind Maps, and Study Guides",
+          "published_at": "2026-09-27T20:45:28Z",
+          "url": "https://www.youtube.com/watch?v=FCrwuDv0uDA",
+          "ai_tech_id": "ChatGPT (OpenAI) — slash-command prompting for visual output formats",
           "summary": [
-            "Sabrina Ramonov covers a reported privacy incident involving Meta's Muse AI agent, relaying an account in which Muse allegedly inserted a suggestion into a private message conversation that referenced what the two people were discussing.",
-            "According to the account described, the user says he never granted Muse permission to read those messages and that it also lacked calendar access or other personal-data permissions; when he raised the issue with Meta, the video says the company placed the blame on the user, even though his settings screenshots showed the relevant permissions turned off.",
-            "The video is careful to note it hasn't independently verified what Muse actually accessed or why it responded that way, and frames the real takeaway as a practical caution: since Facebook and Instagram users already share substantial data with Meta, people testing a new AI agent like Muse should stay alert to whether its behavior actually matches the permissions they believe they've granted."
-          ]
-        },
-        {
-          "video_id": "EOiypb2wXM0",
-          "title": "How I Built a $1M Solo AI Business ($0 to $1M)",
-          "published_at": "2026-09-26T15:00:00Z",
-          "url": "https://www.youtube.com/watch?v=EOiypb2wXM0",
-          "ai_tech_id": "AI-powered content distribution (Blotato.com) and earlier natural-language-processing/speech-recognition AI (Qurious, acquired by Pegasystems)",
-          "summary": [
-            "Sabrina Ramonov narrates her path from a computer-science and physics graduate with $250k in student debt to founding Qurious, an NLP-based healthcare AI startup that pivoted into real-time, AI-driven call guidance for sales and support teams combining streaming speech recognition with natural language processing.",
-            "She recounts selling Qurious to Pegasystems in a cash-and-stock deal worth over $10 million, after which the technology was integrated into Pega Voice AI and rolled out to thousands of support agents, before she stepped back to recover from burnout and later pivoted to building an audience by teaching AI to a general audience.",
-            "The video centers on her current venture, Blotato.com, an AI-assisted content-distribution SaaS she built solo that now helps thousands of creators and entrepreneurs publish across platforms faster, framed as the culmination of a no-budget, no-team growth story that took her follower count from zero to over 500,000 in six months."
+            "Sabrina Ramonov revisits the same five ChatGPT visual slash-command formats covered in her earlier video the same day, reframing them as \"visual codes\" that convert a single topic into a timeline, mind map, cheat sheet, anime explainer, or schematic depending on which command is typed.",
+            "She again lists the five exact commands — /anime-explainer, /timelineview, /mindmap, /visualcheatsheet, and /explodedview — describing each as returning a distinct visual format so the user can pick the view that best fits what they're trying to learn.",
+            "The video repeats the situational guidance on when each format helps most, and adds a call to action pointing viewers to her paid resource for hundreds of additional ChatGPT \"secret codes,\" positioning this video as a companion piece to the earlier upload rather than new material."
           ]
         }
       ]
