@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-09-28",
-  "window_start_utc": "2026-09-27T05:00:12Z",
-  "window_end_utc": "2026-09-28T05:00:12Z",
-  "generated_at_utc": "2026-09-28T05:00:12Z",
-  "note": "Task prompt supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu that do not resolve via channels.list (id lookup returned 0 of those 6). Re-resolved all handles via channels.list forHandle; all 6 matched the channel IDs used in prior daily reports, so those verified IDs were used instead. theAIsearch's supplied ID was already correct. New videos found for PaulJLipsky, nateherk, and sabrina_ramonov (2); no new videos for theAIsearch, futurepedia_io, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-09-29",
+  "window_start_utc": "2026-09-28T05:00:31Z",
+  "window_end_utc": "2026-09-29T05:00:31Z",
+  "generated_at_utc": "2026-09-29T05:00:31Z",
+  "note": "Task prompt supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu that do not resolve via channels.list (id lookup returned 0 of those 6). Re-resolved all handles via channels.list forHandle; all 6 matched the channel IDs used in prior daily reports, so those verified IDs were used instead. theAIsearch's supplied ID was already correct. New videos found for PaulJLipsky, futurepedia_io (2), nateherk (2), and sabrina_ramonov (2); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -15,15 +15,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "lC_-9TD3TfA",
-          "title": "Meta Muse Is Incredible - 5 Features You Need To Try",
-          "published_at": "2026-09-27T13:00:22Z",
-          "url": "https://www.youtube.com/watch?v=lC_-9TD3TfA",
-          "ai_tech_id": "Meta Muse (Meta) — general-purpose AI agent app",
+          "video_id": "AW3Uku__BBE",
+          "title": "Opus 5.5 Is The Best Video Editor I've Ever Used",
+          "published_at": "2026-09-28T13:00:35Z",
+          "url": "https://www.youtube.com/watch?v=AW3Uku__BBE",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic) \u2014 agentic video editing workflow",
           "summary": [
-            "Paul J Lipsky, in a video sponsored by WhisPrompt, gives Meta Muse a strong endorsement, calling it one of the easiest AI agents he's used despite a simple interface that undersells how much it can actually do, and sets up a tour of five standout use cases plus its free usage limits.",
-            "He walks through Muse acting as a personal shopper that tracks down items across the web, demonstrates pairing it with the sponsor tool WhisPrompt, and shows off its voice-response mode and its ability to generate custom podcast episodes on a topic of the user's choosing.",
-            "The video closes on two more capability-heavy features — Muse placing phone calls on the user's behalf and taking remote access of a computer to complete tasks — before breaking down how generous the app's free tier currently is, framing Muse as unusually capable for a no-cost AI agent."
+            "Paul J Lipsky opens by declaring that Claude Opus 5.5 now runs nearly his entire YouTube editing pipeline, a claim he backs by walking through a setup that pairs Claude with the recording/editing tool Borumi (an affiliate partner, though the video itself is unsponsored).",
+            "He demonstrates Claude handling silence removal, cutting bad takes, arranging layouts and zooms, picking highlight moments, generating motion graphics, and even managing screen recordings, moving step by step from recording scenes through manual editing into connecting Claude to automate the heavier lifting.",
+            "The video closes with a review of the AI-assisted edit and a final human polish pass, with Paul framing Claude Opus 5.5 as capable of most of the editing workload while still flagging the specific spots where a human touch remains necessary."
           ]
         }
       ]
@@ -31,22 +31,59 @@
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "4dbaUKz3c1Q",
+          "title": "Your AI designs look generic? Impeccable fixes that.",
+          "published_at": "2026-09-28T16:27:23Z",
+          "url": "https://www.youtube.com/watch?v=4dbaUKz3c1Q",
+          "ai_tech_id": "Impeccable (impeccable.style) \u2014 AI design-polish command tool",
+          "summary": [
+            "The Futurepedia host tackles the common complaint that AI-generated designs look generic, introducing Impeccable, a tool offering 24 commands meant to amplify boring layouts, add real motion, and remove the visual tells that make AI-made sites recognizable.",
+            "He demonstrates the effect live on a flat Utah National Parks site: the 'bolder' command strengthens typography and adds deep forest-green sections and larger imagery, while the 'delight' command adds a stamp-press animation triggered when a user checks off a visited park.",
+            "The video finishes with the 'critique' command, which runs a full design and responsiveness review and surfaces fixes the user can ship immediately, with the host presenting this workflow as the easiest method he's found to elevate AI-generated design output."
+          ]
+        },
+        {
+          "video_id": "3fdb_giOrLo",
+          "title": "9 Free AI Agent Skills You NEED to Install Now",
+          "published_at": "2026-09-28T18:52:20Z",
+          "url": "https://www.youtube.com/watch?v=3fdb_giOrLo",
+          "ai_tech_id": "Claude Skills / ChatGPT skills ecosystem \u2014 installable agent skill packages",
+          "summary": [
+            "The Futurepedia host runs through nine free 'skills' \u2014 installable packages that extend Claude and ChatGPT \u2014 covering use cases like research, writing, video analysis, motion graphics, and website/app building, framing skills as a fast way to specialize a general AI assistant.",
+            "He shows how to install each skill in ChatGPT and Claude and how to customize it for a personal workflow, walking through named examples including Last30Days, Remotion, HyperFrames, SkillSpector, Humanizer, Watch Videos, Superpowers, gstack, and the Impeccable design tool referenced elsewhere in the episode.",
+            "The chapters move skill by skill from an explanation of what a skill actually is and how to customize one, through each of the nine picks, positioning the video as a practical shopping list for viewers who want to upgrade their AI agents with reusable, purpose-built capabilities."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "Ktnwygcnd8U",
-          "title": "No, Seriously. Claude Code is Starting To Get Dangerous",
-          "published_at": "2026-09-27T20:38:25Z",
-          "url": "https://www.youtube.com/watch?v=Ktnwygcnd8U",
-          "ai_tech_id": "Claude Code (Anthropic) — agentic coding tool risk and governance",
+          "video_id": "7eo-11K2e3c",
+          "title": "I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
+          "published_at": "2026-09-29T00:14:17Z",
+          "url": "https://www.youtube.com/watch?v=7eo-11K2e3c",
+          "ai_tech_id": "Claude Sonnet 5.5 vs Claude Opus 5.5 (Anthropic) \u2014 model comparison across real workflows",
           "summary": [
-            "Nate Herk opens by insisting his warning about Claude Code isn't fearmongering, then uses Anthropic's recent decision to shut down one of its own models as a jumping-off point for a broader argument that agentic coding tools are becoming powerful enough to carry real business risk.",
-            "He points to a bug that went unnoticed for days as evidence that autonomous coding agents can quietly cause damage before anyone catches it, and extends the discussion into predictions about how AI will reshape classrooms, cybersecurity practices, and government regulation, floating comparisons to arms-control-style oversight.",
-            "The video ends on three skills Nate argues matter most as agentic AI improves — correctly identifying the real underlying business problem before automating it, tightly controlling what systems and data an agent can access, and taking personal responsibility for whatever an agent produces — framing accountability as the piece most people are currently getting wrong."
+            "Nate Herk runs Claude Sonnet 5.5 and Claude Opus 5.5 head-to-head across seven real workflows \u2014 website design, motion design, spreadsheets, a 90-day action plan, investor decks, visual explainers built with skills, and an AI news dashboard \u2014 to see which model actually earns its higher price.",
+            "He compares the two models on output quality, generation speed, and cost for each task, showing concrete side-by-side results such as website builds and dashboard construction, and discusses how pricing should factor into which model a user picks for a given job.",
+            "The video closes on how clear prompting and reusable skills change the calculus, arguing that with the right setup Sonnet closes much of the gap with Opus on many tasks while Opus still earns its premium on the harder, higher-stakes work."
+          ]
+        },
+        {
+          "video_id": "eg_1NXDcoPk",
+          "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+          "published_at": "2026-09-28T12:37:15Z",
+          "url": "https://www.youtube.com/watch?v=eg_1NXDcoPk",
+          "ai_tech_id": "GPT-6 Astra (OpenAI) with Codex \u2014 autonomous agent stock-trading experiment",
+          "summary": [
+            "Nate Herk hands $10,000 in real money to an agent stack built on Codex and GPT-6 Astra, tasking it with trading stocks over seven trading days with the goal of beating the S&P 500, and documents the full experiment day by day.",
+            "He explains the technical setup \u2014 the routines and handoffs between agents, and why actual trade execution had to be routed through a separate Grok Bot rather than handled directly by the GPT-6 Astra agent \u2014 and describes adjusting the strategy mid-experiment after the agent traded too cautiously.",
+            "The video checks in on results at the end of each trading day, including a Fed rate hike on day six that dragged the portfolio down, before wrapping with the final seven-day performance numbers against the benchmark."
           ]
         }
       ]
@@ -61,27 +98,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "ORbmWfWHoSM",
-          "title": "5 ChatGPT Power Words for Visual Answers",
-          "published_at": "2026-09-27T15:45:21Z",
-          "url": "https://www.youtube.com/watch?v=ORbmWfWHoSM",
-          "ai_tech_id": "ChatGPT (OpenAI) — slash-command prompting for visual output formats",
+          "video_id": "T7HSCpWM_aQ",
+          "title": "2 ChatGPT Prompts for Exam Prep",
+          "published_at": "2026-09-28T19:00:21Z",
+          "url": "https://www.youtube.com/watch?v=T7HSCpWM_aQ",
+          "ai_tech_id": "ChatGPT (OpenAI, also usable with Claude/Gemini) \u2014 quiz-then-study-plan prompting workflow",
           "summary": [
-            "Sabrina Ramonov introduces five \"power word\" slash commands that tell ChatGPT to reformat any topic into a specific visual layout rather than plain text, positioning them as a quick way to make ChatGPT answers easier to absorb.",
-            "She runs through the five commands and what each produces: /timelineview for a chronological visual timeline, /anime-explainer for turning a topic into an anime-style story, /visualcheatsheet for a one-page reference sheet, /explodedview for a schematic breaking an object or concept into its parts, and /mindmap for a diagram of how ideas connect.",
-            "The video closes with guidance on when to reach for each command — timelines for sequence-dependent topics, anime explainers for memorability, cheat sheets for studying, exploded views for dissecting components, and mind maps for relational ideas — and encourages viewers to save the list of exact commands for reuse."
+            "Sabrina Ramonov offers a two-prompt method for using ChatGPT as an exam-prep tutor, arguing that active self-testing beats rereading notes, and frames the workflow as usable interchangeably with Claude or Gemini.",
+            "The first prompt asks the AI to identify the most exam-relevant 20% of a topic and quiz the user one question at a time without revealing answers until the user responds, which she says keeps the quiz adaptive to the learner's actual responses.",
+            "The second prompt, run after the quiz ends, asks the AI to convert the missed questions into a prioritized study plan, so the learner works from their weakest areas forward instead of spending equal time on every topic."
           ]
         },
         {
-          "video_id": "FCrwuDv0uDA",
-          "title": "5 ChatGPT Visual Codes for Timelines, Mind Maps, and Study Guides",
-          "published_at": "2026-09-27T20:45:28Z",
-          "url": "https://www.youtube.com/watch?v=FCrwuDv0uDA",
-          "ai_tech_id": "ChatGPT (OpenAI) — slash-command prompting for visual output formats",
+          "video_id": "8WuIvV6SRGw",
+          "title": "Use ChatGPT to Practice a New Response to Negative Thoughts",
+          "published_at": "2026-09-28T15:00:30Z",
+          "url": "https://www.youtube.com/watch?v=8WuIvV6SRGw",
+          "ai_tech_id": "ChatGPT (OpenAI, also usable with Claude/Gemini) \u2014 cognitive-reframing prompt exercise",
           "summary": [
-            "Sabrina Ramonov revisits the same five ChatGPT visual slash-command formats covered in her earlier video the same day, reframing them as \"visual codes\" that convert a single topic into a timeline, mind map, cheat sheet, anime explainer, or schematic depending on which command is typed.",
-            "She again lists the five exact commands — /anime-explainer, /timelineview, /mindmap, /visualcheatsheet, and /explodedview — describing each as returning a distinct visual format so the user can pick the view that best fits what they're trying to learn.",
-            "The video repeats the situational guidance on when each format helps most, and adds a call to action pointing viewers to her paid resource for hundreds of additional ChatGPT \"secret codes,\" positioning this video as a companion piece to the earlier upload rather than new material."
+            "Sabrina Ramonov presents a four-step prompting exercise for using ChatGPT (or Claude/Gemini) as a lightweight cognitive-reframing tool, built around naming a negative thought and asking the AI a single question to check whether it's actually true.",
+            "After answering that question honestly, the user asks the AI to turn the answer into one new believable thought under ten words, which she says keeps the replacement short enough to actually remember and repeat.",
+            "She frames the goal as practicing an alternative response rather than erasing the original thought, instructing users to say the new thought aloud whenever the old one resurfaces, turning the exercise into a repeatable habit rather than a one-time fix."
           ]
         }
       ]
