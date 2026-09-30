@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-09-29",
-  "window_start_utc": "2026-09-28T05:00:31Z",
-  "window_end_utc": "2026-09-29T05:00:31Z",
-  "generated_at_utc": "2026-09-29T05:00:31Z",
-  "note": "Task prompt supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu that do not resolve via channels.list (id lookup returned 0 of those 6). Re-resolved all handles via channels.list forHandle; all 6 matched the channel IDs used in prior daily reports, so those verified IDs were used instead. theAIsearch's supplied ID was already correct. New videos found for PaulJLipsky, futurepedia_io (2), nateherk (2), and sabrina_ramonov (2); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-09-30",
+  "window_start_utc": "2026-09-29T05:00:32Z",
+  "window_end_utc": "2026-09-30T05:00:32Z",
+  "generated_at_utc": "2026-09-30T05:00:32Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying (matches the verified IDs used in prior daily reports for all 7 channels; the task-prompt IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles). New videos found for futurepedia_io, nateherk, sabrina_ramonov (3), and JeffSu; no new videos for theAIsearch, PaulJLipsky, and simonscrapes in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -13,47 +13,22 @@
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "AW3Uku__BBE",
-          "title": "Opus 5.5 Is The Best Video Editor I've Ever Used",
-          "published_at": "2026-09-28T13:00:35Z",
-          "url": "https://www.youtube.com/watch?v=AW3Uku__BBE",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic) \u2014 agentic video editing workflow",
-          "summary": [
-            "Paul J Lipsky opens by declaring that Claude Opus 5.5 now runs nearly his entire YouTube editing pipeline, a claim he backs by walking through a setup that pairs Claude with the recording/editing tool Borumi (an affiliate partner, though the video itself is unsponsored).",
-            "He demonstrates Claude handling silence removal, cutting bad takes, arranging layouts and zooms, picking highlight moments, generating motion graphics, and even managing screen recordings, moving step by step from recording scenes through manual editing into connecting Claude to automate the heavier lifting.",
-            "The video closes with a review of the AI-assisted edit and a final human polish pass, with Paul framing Claude Opus 5.5 as capable of most of the editing workload while still flagging the specific spots where a human touch remains necessary."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "4dbaUKz3c1Q",
-          "title": "Your AI designs look generic? Impeccable fixes that.",
-          "published_at": "2026-09-28T16:27:23Z",
-          "url": "https://www.youtube.com/watch?v=4dbaUKz3c1Q",
-          "ai_tech_id": "Impeccable (impeccable.style) \u2014 AI design-polish command tool",
+          "video_id": "V_1Vn2WfpEY",
+          "title": "I Tested OpenAI's New Personal Assistant Agent: DOTS",
+          "published_at": "2026-09-29T18:31:54Z",
+          "url": "https://www.youtube.com/watch?v=V_1Vn2WfpEY",
+          "ai_tech_id": "OpenAI Dots — always-on, proactive personal assistant agent",
           "summary": [
-            "The Futurepedia host tackles the common complaint that AI-generated designs look generic, introducing Impeccable, a tool offering 24 commands meant to amplify boring layouts, add real motion, and remove the visual tells that make AI-made sites recognizable.",
-            "He demonstrates the effect live on a flat Utah National Parks site: the 'bolder' command strengthens typography and adds deep forest-green sections and larger imagery, while the 'delight' command adds a stamp-press animation triggered when a user checks off a visited park.",
-            "The video finishes with the 'critique' command, which runs a full design and responsiveness review and surfaces fixes the user can ship immediately, with the host presenting this workflow as the easiest method he's found to elevate AI-generated design output."
-          ]
-        },
-        {
-          "video_id": "3fdb_giOrLo",
-          "title": "9 Free AI Agent Skills You NEED to Install Now",
-          "published_at": "2026-09-28T18:52:20Z",
-          "url": "https://www.youtube.com/watch?v=3fdb_giOrLo",
-          "ai_tech_id": "Claude Skills / ChatGPT skills ecosystem \u2014 installable agent skill packages",
-          "summary": [
-            "The Futurepedia host runs through nine free 'skills' \u2014 installable packages that extend Claude and ChatGPT \u2014 covering use cases like research, writing, video analysis, motion graphics, and website/app building, framing skills as a fast way to specialize a general AI assistant.",
-            "He shows how to install each skill in ChatGPT and Claude and how to customize it for a personal workflow, walking through named examples including Last30Days, Remotion, HyperFrames, SkillSpector, Humanizer, Watch Videos, Superpowers, gstack, and the Impeccable design tool referenced elsewhere in the episode.",
-            "The chapters move skill by skill from an explanation of what a skill actually is and how to customize one, through each of the nine picks, positioning the video as a practical shopping list for viewers who want to upgrade their AI agents with reusable, purpose-built capabilities."
+            "The Futurepedia host reports getting early access to OpenAI's newly launched Dots, an always-on, proactive personal assistant agent, and walks through several days of hands-on testing rather than a first-glance reaction.",
+            "He covers what Dots actually is, how it operates in the background versus a normal chat-triggered assistant, and demonstrates the range of tasks it took on independently during the test period.",
+            "The video closes with his overall take on how capable and reliable a proactive agent like Dots is today, framing it as an early look at OpenAI's push toward assistants that act without being prompted each time."
           ]
         }
       ]
@@ -63,27 +38,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "7eo-11K2e3c",
-          "title": "I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
-          "published_at": "2026-09-29T00:14:17Z",
-          "url": "https://www.youtube.com/watch?v=7eo-11K2e3c",
-          "ai_tech_id": "Claude Sonnet 5.5 vs Claude Opus 5.5 (Anthropic) \u2014 model comparison across real workflows",
+          "video_id": "iafsAWrB8GQ",
+          "title": "Claude Can Now Run Your Entire Email Platform",
+          "published_at": "2026-09-29T19:00:14Z",
+          "url": "https://www.youtube.com/watch?v=iafsAWrB8GQ",
+          "ai_tech_id": "Claude (Anthropic) and ChatGPT integrated into Omnisend — AI-run email marketing platform",
           "summary": [
-            "Nate Herk runs Claude Sonnet 5.5 and Claude Opus 5.5 head-to-head across seven real workflows \u2014 website design, motion design, spreadsheets, a 90-day action plan, investor decks, visual explainers built with skills, and an AI news dashboard \u2014 to see which model actually earns its higher price.",
-            "He compares the two models on output quality, generation speed, and cost for each task, showing concrete side-by-side results such as website builds and dashboard construction, and discusses how pricing should factor into which model a user picks for a given job.",
-            "The video closes on how clear prompting and reusable skills change the calculus, arguing that with the right setup Sonnet closes much of the gap with Opus on many tasks while Opus still earns its premium on the harder, higher-stakes work."
-          ]
-        },
-        {
-          "video_id": "eg_1NXDcoPk",
-          "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
-          "published_at": "2026-09-28T12:37:15Z",
-          "url": "https://www.youtube.com/watch?v=eg_1NXDcoPk",
-          "ai_tech_id": "GPT-6 Astra (OpenAI) with Codex \u2014 autonomous agent stock-trading experiment",
-          "summary": [
-            "Nate Herk hands $10,000 in real money to an agent stack built on Codex and GPT-6 Astra, tasking it with trading stocks over seven trading days with the goal of beating the S&P 500, and documents the full experiment day by day.",
-            "He explains the technical setup \u2014 the routines and handoffs between agents, and why actual trade execution had to be routed through a separate Grok Bot rather than handled directly by the GPT-6 Astra agent \u2014 and describes adjusting the strategy mid-experiment after the agent traded too cautiously.",
-            "The video checks in on results at the end of each trading day, including a Fed rate hike on day six that dragged the portfolio down, before wrapping with the final seven-day performance numbers against the benchmark."
+            "Nate Herk introduces this sponsored segment (marked #ad) by framing a shift in AI email tools: instead of just giving copywriting advice, Omnisend now runs on Claude and ChatGPT to actually execute email marketing tasks on the user's behalf.",
+            "The video is built around promoting Omnisend's AI integration, directing viewers to Nate's Instagram for a special discount code rather than walking through an independent technical breakdown of the feature set in the description.",
+            "As a sponsored placement, the claim that 'Claude can now run your entire email platform' should be read as marketing framing for Omnisend's product rather than an independent review of Anthropic's own capabilities."
           ]
         }
       ]
@@ -98,27 +61,39 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "T7HSCpWM_aQ",
-          "title": "2 ChatGPT Prompts for Exam Prep",
-          "published_at": "2026-09-28T19:00:21Z",
-          "url": "https://www.youtube.com/watch?v=T7HSCpWM_aQ",
-          "ai_tech_id": "ChatGPT (OpenAI, also usable with Claude/Gemini) \u2014 quiz-then-study-plan prompting workflow",
+          "video_id": "wBOckIgqXDk",
+          "title": "Use AI to Find Recurring Charges in 3 Months of Spending",
+          "published_at": "2026-09-29T19:00:25Z",
+          "url": "https://www.youtube.com/watch?v=wBOckIgqXDk",
+          "ai_tech_id": "ChatGPT (OpenAI, including its new Finance feature) — spending-statement analysis prompting workflow",
           "summary": [
-            "Sabrina Ramonov offers a two-prompt method for using ChatGPT as an exam-prep tutor, arguing that active self-testing beats rereading notes, and frames the workflow as usable interchangeably with Claude or Gemini.",
-            "The first prompt asks the AI to identify the most exam-relevant 20% of a topic and quiz the user one question at a time without revealing answers until the user responds, which she says keeps the quiz adaptive to the learner's actual responses.",
-            "The second prompt, run after the quiz ends, asks the AI to convert the missed questions into a prioritized study plan, so the learner works from their weakest areas forward instead of spending equal time on every topic."
+            "Sabrina Ramonov shows how to turn three months of exported spending data into an AI-assisted audit of recurring charges, either by uploading a statement file to a chat AI or using ChatGPT's new Finance feature.",
+            "She gives two prompts: the first asks the AI to find every subscription, fee, and repeating monthly charge in the data, and the second asks it to pick three charges the user won't miss and explain exactly how to cancel each one.",
+            "She stresses reviewing the AI's output against the user's own records before acting, positioning the exercise as replacing a tedious manual spending review with three focused questions rather than requiring willpower-based budgeting."
           ]
         },
         {
-          "video_id": "8WuIvV6SRGw",
-          "title": "Use ChatGPT to Practice a New Response to Negative Thoughts",
-          "published_at": "2026-09-28T15:00:30Z",
-          "url": "https://www.youtube.com/watch?v=8WuIvV6SRGw",
-          "ai_tech_id": "ChatGPT (OpenAI, also usable with Claude/Gemini) \u2014 cognitive-reframing prompt exercise",
+          "video_id": "PTc2xCaaATA",
+          "title": "4 AI Prompts to Review Medical Bills and Appeal Denials",
+          "published_at": "2026-09-29T15:00:59Z",
+          "url": "https://www.youtube.com/watch?v=PTc2xCaaATA",
+          "ai_tech_id": "ChatGPT (OpenAI, also usable with Claude/Gemini) — medical billing and insurance-appeal prompt set",
           "summary": [
-            "Sabrina Ramonov presents a four-step prompting exercise for using ChatGPT (or Claude/Gemini) as a lightweight cognitive-reframing tool, built around naming a negative thought and asking the AI a single question to check whether it's actually true.",
-            "After answering that question honestly, the user asks the AI to turn the answer into one new believable thought under ten words, which she says keeps the replacement short enough to actually remember and repeat.",
-            "She frames the goal as practicing an alternative response rather than erasing the original thought, instructing users to say the new thought aloud whenever the old one resurfaces, turning the exercise into a repeatable habit rather than a one-time fix."
+            "Sabrina Ramonov shares four free prompts for using AI chat tools to catch errors in medical bills and push back on excessive charges, starting with a prompt that compares an itemized bill against the insurer's Explanation of Benefits to flag duplicate or mismatched charges.",
+            "The remaining prompts have the AI summarize a hospital's financial assistance policy in plain terms, draft a short email requesting a lower price or interest-free payment plan, and turn an uploaded denial letter into a fact-based appeal draft that asks the user clarifying questions before writing.",
+            "She closes with a caution to verify every AI-generated claim against the actual bill and confirm details directly with the insurer and hospital before submitting anything, framing the prompts as a starting point rather than a replacement for direct communication with billing offices."
+          ]
+        },
+        {
+          "video_id": "Zkm1mMpzmE4",
+          "title": "The 6 Claude Prompts to Get You Ahead of 99% of People Using AI",
+          "published_at": "2026-09-29T15:00:21Z",
+          "url": "https://www.youtube.com/watch?v=Zkm1mMpzmE4",
+          "ai_tech_id": "Claude (Anthropic) — prompt set referenced in title (description text is a personal bio, not the prompts)",
+          "summary": [
+            "The video's title promises six Claude prompts meant to put viewers ahead of most AI users, but the YouTube description consists almost entirely of Sabrina Ramonov's personal and career background rather than describing the prompts themselves.",
+            "Her bio traces a path from studying computer science and physics at UC Berkeley through founding the healthcare NLP startup Qurious, its acquisition by Pegasystems, and her more recent pivot to teaching AI to a large following and founding the content-distribution tool Blotato.",
+            "Because the actual six prompts are not enumerated in the available description text, viewers would need to watch the video itself for the promised Claude prompts; the description instead points to a separate free-prompts link at sabrina.dev."
           ]
         }
       ]
@@ -126,7 +101,20 @@
     {
       "channel_name": "JeffSu",
       "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "peP_o66u-vM",
+          "title": "Stop Organizing Files Yourself.",
+          "published_at": "2026-09-29T13:00:30Z",
+          "url": "https://www.youtube.com/watch?v=peP_o66u-vM",
+          "ai_tech_id": "ChatGPT Work with Dropbox integration (applicable to Claude and Gemini Spark) — AI-driven file organization system",
+          "summary": [
+            "Jeff Su tackles the recurring chore of renaming and filing downloaded documents by teaching viewers to give an AI assistant a written 'file management rulebook' that encodes their preferred folder structure and naming conventions.",
+            "He demonstrates the exact setup in ChatGPT Work (noting it applies equally to Claude and Gemini Spark), including using Dropbox in ChatGPT, a sponsor of the video, to reorganize existing Google Drive files according to the rulebook and review proposed changes before applying them.",
+            "The video finishes by showing how to schedule a recurring daily task that applies the same rulebook automatically to newly created files, and Jeff describes using this exact system in his own YouTube production workflow to hand organized footage folders off to his editor."
+          ]
+        }
+      ]
     }
   ]
 }
