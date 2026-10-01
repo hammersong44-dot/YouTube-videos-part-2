@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-09-30",
-  "window_start_utc": "2026-09-29T05:00:32Z",
-  "window_end_utc": "2026-09-30T05:00:32Z",
-  "generated_at_utc": "2026-09-30T05:00:32Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying (matches the verified IDs used in prior daily reports for all 7 channels; the task-prompt IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles). New videos found for futurepedia_io, nateherk, sabrina_ramonov (3), and JeffSu; no new videos for theAIsearch, PaulJLipsky, and simonscrapes in this window.",
+  "report_date": "2026-10-01",
+  "window_start_utc": "2026-09-30T05:00:17Z",
+  "window_end_utc": "2026-10-01T05:00:17Z",
+  "generated_at_utc": "2026-10-01T05:00:17Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying (matches the verified IDs used in prior daily reports for all 7 channels; the task-prompt IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles). New videos found for futurepedia_io (2), nateherk (1), sabrina_ramonov (2), and JeffSu (1); no new videos for theAIsearch, PaulJLipsky, and simonscrapes in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -20,15 +20,27 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "V_1Vn2WfpEY",
-          "title": "I Tested OpenAI's New Personal Assistant Agent: DOTS",
-          "published_at": "2026-09-29T18:31:54Z",
-          "url": "https://www.youtube.com/watch?v=V_1Vn2WfpEY",
-          "ai_tech_id": "OpenAI Dots — always-on, proactive personal assistant agent",
+          "video_id": "GBHSdPXlHRw",
+          "title": "Meet DOTS  the always on agent that orchestrates your entire ChatGPT.",
+          "published_at": "2026-09-30T21:45:23Z",
+          "url": "https://www.youtube.com/watch?v=GBHSdPXlHRw",
+          "ai_tech_id": "OpenAI Dots — always-on orchestration agent for ChatGPT (Pro/Enterprise rollout)",
           "summary": [
-            "The Futurepedia host reports getting early access to OpenAI's newly launched Dots, an always-on, proactive personal assistant agent, and walks through several days of hands-on testing rather than a first-glance reaction.",
-            "He covers what Dots actually is, how it operates in the background versus a normal chat-triggered assistant, and demonstrates the range of tasks it took on independently during the test period.",
-            "The video closes with his overall take on how capable and reliable a proactive agent like Dots is today, framing it as an early look at OpenAI's push toward assistants that act without being prompted each time."
+            "The Futurepedia host introduces Dots, OpenAI's new always-on agent that sits above a user's entire ChatGPT workspace rather than living inside a single chat, positioning it as a fix for the common problem of juggling many separate conversations and work sessions.",
+            "He explains that Dots has access to the user's memories, connected tools, skills, and scheduled tasks, and can spin up new chats, work sessions, or Codex sessions on its own, including tasks that run on the user's computer while it stays powered on.",
+            "The video highlights that Dots gets its own persistent cloud computer and keeps the same conversation synced across phone and desktop, noting the feature is rolling out first to Pro and Enterprise subscribers."
+          ]
+        },
+        {
+          "video_id": "q5O1mIpvXQ8",
+          "title": "Can Humanizer make AI writing sound human?",
+          "published_at": "2026-09-30T16:45:17Z",
+          "url": "https://www.youtube.com/watch?v=q5O1mIpvXQ8",
+          "ai_tech_id": "Humanizer skill (used with Claude) — AI-writing-pattern removal tool",
+          "summary": [
+            "The video asks whether a tool called Humanizer can strip the telltale patterns of AI-generated writing, calling out specific cliches like the 'it's not this, it's that' construction, a stock 'welcome to system one models' closing line, and a vague 'essay vs. decision' setup that the host says show up by default in Claude's own tweets.",
+            "The host demonstrates installing the Humanizer skill and running a draft through it, showing how it rewrites the formulaic 'slop' lines into phrasing that reads more like something a person actually wrote.",
+            "The video frames the tool as most valuable on longer pieces of writing rather than short posts like tweets, suggesting it's better suited to documents, articles, or other extended text where AI-writing tics are more noticeable and more damaging to credibility."
           ]
         }
       ]
@@ -38,15 +50,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "iafsAWrB8GQ",
-          "title": "Claude Can Now Run Your Entire Email Platform",
-          "published_at": "2026-09-29T19:00:14Z",
-          "url": "https://www.youtube.com/watch?v=iafsAWrB8GQ",
-          "ai_tech_id": "Claude (Anthropic) and ChatGPT integrated into Omnisend — AI-run email marketing platform",
+          "video_id": "BvvfZKKz4Yo",
+          "title": "I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+          "published_at": "2026-09-30T18:24:50Z",
+          "url": "https://www.youtube.com/watch?v=BvvfZKKz4Yo",
+          "ai_tech_id": "OpenAI Dots vs. Meta Muse — competing personal AI agent platforms",
           "summary": [
-            "Nate Herk introduces this sponsored segment (marked #ad) by framing a shift in AI email tools: instead of just giving copywriting advice, Omnisend now runs on Claude and ChatGPT to actually execute email marketing tasks on the user's behalf.",
-            "The video is built around promoting Omnisend's AI integration, directing viewers to Nate's Instagram for a special discount code rather than walking through an independent technical breakdown of the feature set in the description.",
-            "As a sponsored placement, the claim that 'Claude can now run your entire email platform' should be read as marketing framing for Omnisend's product rather than an independent review of Anthropic's own capabilities."
+            "Nate Herk runs a head-to-head comparison of OpenAI's Dots and Meta's Muse, two competing always-on personal AI agents, evaluating them across features, pricing, memory handling, and third-party integrations based on hands-on use of both.",
+            "He walks through how each agent fits into existing workflows and ecosystems, including Codex, Slack, and WhatsApp, and candidly reports the bugs and limitations he ran into with each platform during testing rather than giving a purely promotional take.",
+            "The video closes with his personal verdict on which tool he'd choose, including who he thinks Muse is actually a good fit for, and his broader prediction on where personal AI agents are headed as both OpenAI and Meta push further into this space."
           ]
         }
       ]
@@ -61,39 +73,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "wBOckIgqXDk",
-          "title": "Use AI to Find Recurring Charges in 3 Months of Spending",
-          "published_at": "2026-09-29T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=wBOckIgqXDk",
-          "ai_tech_id": "ChatGPT (OpenAI, including its new Finance feature) — spending-statement analysis prompting workflow",
+          "video_id": "biOxroDZuiQ",
+          "title": "5 ChatGPT Study Codes for Notes, Quizzes, and Test Prep",
+          "published_at": "2026-09-30T19:00:21Z",
+          "url": "https://www.youtube.com/watch?v=biOxroDZuiQ",
+          "ai_tech_id": "ChatGPT (OpenAI) — slash-command study-prompt set",
           "summary": [
-            "Sabrina Ramonov shows how to turn three months of exported spending data into an AI-assisted audit of recurring charges, either by uploading a statement file to a chat AI or using ChatGPT's new Finance feature.",
-            "She gives two prompts: the first asks the AI to find every subscription, fee, and repeating monthly charge in the data, and the second asks it to pick three charges the user won't miss and explain exactly how to cancel each one.",
-            "She stresses reviewing the AI's output against the user's own records before acting, positioning the exercise as replacing a tedious manual spending review with three focused questions rather than requiring willpower-based budgeting."
+            "Sabrina Ramonov shares five short ChatGPT commands meant to turn one study topic into five different formats for exam prep, starting with /stickynotes for quick main-point notes and /questionpredictor to surface the roughly 20% of material most likely to appear on a test.",
+            "She covers two more visually- and interactively-oriented codes: /studyguide to generate a visual diagram with a step-by-step walkthrough of a topic, and /quizme, which asks one adaptive question at a time and adjusts difficulty based on the user's answers.",
+            "The fifth code, /storymode, turns the lesson into a narrative sequence, and she frames the whole set as a way to study the same topic from five angles by simply pasting a different code into ChatGPT each time."
           ]
         },
         {
-          "video_id": "PTc2xCaaATA",
-          "title": "4 AI Prompts to Review Medical Bills and Appeal Denials",
-          "published_at": "2026-09-29T15:00:59Z",
-          "url": "https://www.youtube.com/watch?v=PTc2xCaaATA",
-          "ai_tech_id": "ChatGPT (OpenAI, also usable with Claude/Gemini) — medical billing and insurance-appeal prompt set",
+          "video_id": "xB5BipOHVX4",
+          "title": "3 Claude Prompts for a 20-Day Business Plan",
+          "published_at": "2026-09-30T15:00:29Z",
+          "url": "https://www.youtube.com/watch?v=xB5BipOHVX4",
+          "ai_tech_id": "Claude (Anthropic) — sequential business-brainstorming prompt chain",
           "summary": [
-            "Sabrina Ramonov shares four free prompts for using AI chat tools to catch errors in medical bills and push back on excessive charges, starting with a prompt that compares an itemized bill against the insurer's Explanation of Benefits to flag duplicate or mismatched charges.",
-            "The remaining prompts have the AI summarize a hospital's financial assistance policy in plain terms, draft a short email requesting a lower price or interest-free payment plan, and turn an uploaded denial letter into a fact-based appeal draft that asks the user clarifying questions before writing.",
-            "She closes with a caution to verify every AI-generated claim against the actual bill and confirm details directly with the insurer and hospital before submitting anything, framing the prompts as a starting point rather than a replacement for direct communication with billing offices."
-          ]
-        },
-        {
-          "video_id": "Zkm1mMpzmE4",
-          "title": "The 6 Claude Prompts to Get You Ahead of 99% of People Using AI",
-          "published_at": "2026-09-29T15:00:21Z",
-          "url": "https://www.youtube.com/watch?v=Zkm1mMpzmE4",
-          "ai_tech_id": "Claude (Anthropic) — prompt set referenced in title (description text is a personal bio, not the prompts)",
-          "summary": [
-            "The video's title promises six Claude prompts meant to put viewers ahead of most AI users, but the YouTube description consists almost entirely of Sabrina Ramonov's personal and career background rather than describing the prompts themselves.",
-            "Her bio traces a path from studying computer science and physics at UC Berkeley through founding the healthcare NLP startup Qurious, its acquisition by Pegasystems, and her more recent pivot to teaching AI to a large following and founding the content-distribution tool Blotato.",
-            "Because the actual six prompts are not enumerated in the available description text, viewers would need to watch the video itself for the promised Claude prompts; the description instead points to a separate free-prompts link at sabrina.dev."
+            "Sabrina Ramonov presents a three-prompt Claude sequence designed to move someone from a vague idea to a concrete first-income plan, starting with a prompt asking for two ways to make $1,000 in 30 days using skills the user already has, with no existing audience required.",
+            "The second prompt has Claude identify a single person the user should model their approach after, and the third asks Claude to role-play as that person and build a 20-day, sub-$1,000 plan focused on landing a first paying customer as quickly as possible, including starting outreach on day one.",
+            "She stresses keeping all three prompts in the same chat so Claude retains context, answering its follow-up questions about the user's skills, time, and budget, and then committing to testing just one resulting idea rather than overanalyzing options."
           ]
         }
       ]
@@ -103,15 +103,15 @@
       "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
       "videos": [
         {
-          "video_id": "peP_o66u-vM",
-          "title": "Stop Organizing Files Yourself.",
-          "published_at": "2026-09-29T13:00:30Z",
-          "url": "https://www.youtube.com/watch?v=peP_o66u-vM",
-          "ai_tech_id": "ChatGPT Work with Dropbox integration (applicable to Claude and Gemini Spark) — AI-driven file organization system",
+          "video_id": "VXuN2iMwzqI",
+          "title": "Microsoft’s plan to win the AI race, explained",
+          "published_at": "2026-09-30T13:00:01Z",
+          "url": "https://www.youtube.com/watch?v=VXuN2iMwzqI",
+          "ai_tech_id": "Microsoft Copilot (multi-model Auto mode) with Work IQ — enterprise AI strategy",
           "summary": [
-            "Jeff Su tackles the recurring chore of renaming and filing downloaded documents by teaching viewers to give an AI assistant a written 'file management rulebook' that encodes their preferred folder structure and naming conventions.",
-            "He demonstrates the exact setup in ChatGPT Work (noting it applies equally to Claude and Gemini Spark), including using Dropbox in ChatGPT, a sponsor of the video, to reorganize existing Google Drive files according to the rulebook and review proposed changes before applying them.",
-            "The video finishes by showing how to schedule a recurring daily task that applies the same rulebook automatically to newly created files, and Jeff describes using this exact system in his own YouTube production workflow to hand organized footage folders off to his editor."
+            "Jeff Su breaks down Microsoft's strategy for the new Copilot, framing it around two pillars: letting users choose which underlying AI model handles a task (or letting an Auto mode pick one automatically) and giving Copilot deep context about the company itself.",
+            "He explains Work IQ, the piece that lets Copilot find relevant information scattered across dozens of Word documents, Teams channels, and emails, while strictly respecting each user's existing permissions so it only surfaces what they're already allowed to see.",
+            "The video frames Microsoft's overall bet as building AI for entire companies rather than individual users, pairing flexible model selection with deep organizational context, and closes by asking viewers who use Copilot at work to share their real-world experiences with the new app."
           ]
         }
       ]
