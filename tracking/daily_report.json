@@ -1,120 +1,49 @@
 {
-  "report_date": "2026-10-02",
-  "window_start_utc": "2026-10-01T05:00:30Z",
-  "window_end_utc": "2026-10-02T05:00:30Z",
-  "generated_at_utc": "2026-10-02T05:02:05Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying (matches the verified IDs used in prior daily reports for all 7 channels; the task-prompt IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles). New videos found for PaulJLipsky (1), futurepedia_io (1), nateherk (1), simonscrapes (1), and sabrina_ramonov (2); no new videos for theAIsearch and JeffSu in this window.",
+  "report_date": "2026-10-03",
+  "run_timestamp_utc": "2026-10-03T05:00:09Z",
+  "window_start_utc": "2026-10-02T05:00:09Z",
+  "window_end_utc": "2026-10-03T05:00:09Z",
   "channels": [
     {
-      "channel_name": "theAIsearch",
+      "name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "new_videos_count": 0,
       "videos": []
     },
     {
-      "channel_name": "PaulJLipsky",
-      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "dkNYOlIK7ZI",
-          "title": "Give Me 12 Minutes, I’ll Make You a Gemini Notebook Pro",
-          "published_at": "2026-10-01T13:00:40Z",
-          "url": "https://www.youtube.com/watch?v=dkNYOlIK7ZI",
-          "ai_tech_id": "Google Gemini Notebook (formerly NotebookLM) — source-grounded research and content assistant",
-          "summary": [
-            "Paul J Lipsky walks through Google's Gemini Notebook, the renamed NotebookLM, in a condensed 12-minute tutorial sponsored by HubSpot, aimed at taking viewers from zero to proficient with the tool quickly.",
-            "He demonstrates the core workflow: creating a notebook, adding source material, and asking questions that return answers cited directly back to those sources, emphasizing how the tool grounds its responses in the uploaded documents rather than general knowledge.",
-            "The video also covers the Studio features, showing how to generate infographics and audio overviews from the same source material and touring additional studio tools, positioning the notebook as a research-to-output pipeline for people working through multiple documents."
-          ]
-        }
-      ]
+      "name": "PaulJLipsky",
+      "channel_id": "UCnBj5-_MO1cCWsLIXjjAOLA",
+      "new_videos_count": 0,
+      "videos": []
     },
     {
-      "channel_name": "futurepedia_io",
-      "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "kqqgPi8neys",
-          "title": "DOTS just did your entire content setup.",
-          "published_at": "2026-10-01T16:04:00Z",
-          "url": "https://www.youtube.com/watch?v=kqqgPi8neys",
-          "ai_tech_id": "OpenAI Dots — multi-skill agent orchestration across Work and Codex for content production",
-          "summary": [
-            "Futurepedia shows OpenAI's Dots agent handling an entire content-production setup from a single prompt, producing three intro options, a thumbnail, and motion graphics timed to a script, all without the user manually directing each step.",
-            "The host highlights that Dots delegated the work across both the Work and Codex environments on its own initiative, writing more detailed instructions to each underlying skill than a human would typically bother typing, effectively acting as a project manager for its own sub-skills.",
-            "The video frames this as a shift from single-skill prompting to one agent orchestrating multiple parallel threads and skills toward a unified output, continuing the channel's recent coverage of Dots as an always-on orchestration layer over ChatGPT."
-          ]
-        }
-      ]
+      "name": "futurepedia_io",
+      "channel_id": "UCq9H5VYZoKkCPdMxNzQfIPQ",
+      "new_videos_count": 0,
+      "videos": []
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": [
-        {
-          "video_id": "pY5_Ux_YJjo",
-          "title": "I Tested Codex's $500/mo Ultrafast. What You Need to Know.",
-          "published_at": "2026-10-01T17:33:07Z",
-          "url": "https://www.youtube.com/watch?v=pY5_Ux_YJjo",
-          "ai_tech_id": "OpenAI Codex Ultrafast tier (GPT-6 Astra) — premium coding/agent speed tier",
-          "summary": [
-            "Nate Herk tests OpenAI Codex's $500/month Ultrafast tier against the Standard tier, both running on GPT-6 Astra, to see whether the higher price buys meaningfully better results.",
-            "He runs two real tasks, editing a travel reel and building a YouTube resource guide, timing each tier, comparing output quality side by side, and tracking how much of the weekly usage allowance each task consumed.",
-            "He closes with a practical verdict on when the extra speed is worth paying for, aimed at helping viewers decide if Ultrafast fits their workflow versus sticking with Standard."
-          ]
-        }
-      ]
+      "name": "nateherk",
+      "channel_id": "UCrqjlVIGF3H0YlNfq5mBRkQ",
+      "new_videos_count": 0,
+      "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": [
-        {
-          "video_id": "e7TY56-yIvM",
-          "title": "Everything You Know About Skills IS OUTDATED",
-          "published_at": "2026-10-01T15:38:23Z",
-          "url": "https://www.youtube.com/watch?v=e7TY56-yIvM",
-          "ai_tech_id": "Claude Agent Skills — updated authoring best practices (Anthropic)",
-          "summary": [
-            "Simon Scrapes addresses why previously reliable Claude skills may now behave inconsistently, tracing the problem to recent, subtle changes in how Claude processes skill files, including a change that limits reading to only the first 100 lines of a reference file.",
-            "Drawing on Anthropic's updated best-practices documentation, he walks through seven concrete rules for building more reliable skills, covering content lists, degrees of freedom, testing across every model, nested references, checklists, self-correction loops, and dependency handling.",
-            "The video is aimed at skill builders who have run into inconsistent behavior and offers both the diagnostic (what changed) and the fix (a revised set of authoring rules), plus a pointer to a skill-audit prompt shared in his community."
-          ]
-        }
-      ]
+      "name": "simonscrapes",
+      "channel_id": "UCvjgXvBlh0iDkwslyeyzrnA",
+      "new_videos_count": 0,
+      "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
-      "videos": [
-        {
-          "video_id": "BMdOUxFYwPA",
-          "title": "6 YouTube Videos for Learning, AI, Confidence, and Business",
-          "published_at": "2026-10-01T19:06:21Z",
-          "url": "https://www.youtube.com/watch?v=BMdOUxFYwPA",
-          "ai_tech_id": "ChatGPT and Claude — referenced as productivity tools within a curated learning roadmap",
-          "summary": [
-            "Sabrina Ramonov curates a six-video \"YouTube University\" roadmap meant to be worked through one topic at a time, starting with a video on learning techniques to use as a foundation for absorbing the rest of the material faster.",
-            "The roadmap includes a video specifically on using ChatGPT and Claude to be more productive by turning the tools into support for real tasks, alongside videos on building speaking confidence, examining money mindset, and growing a personal brand from zero followers.",
-            "The final entry covers nine AI businesses to start today with pros and cons for each, and she frames the whole list as modular, advising viewers to pick the video tied to their current goal rather than watching all six at once."
-          ]
-        },
-        {
-          "video_id": "cMn6WjX4Y5A",
-          "title": "3 ChatGPT Prompt Add-Ons for Better Answers",
-          "published_at": "2026-10-01T15:00:22Z",
-          "url": "https://www.youtube.com/watch?v=cMn6WjX4Y5A",
-          "ai_tech_id": "ChatGPT (OpenAI) — prompt add-on phrases for context-gathering and perspective-shifting",
-          "summary": [
-            "Sabrina Ramonov shares three short phrases to append to the end of any ChatGPT prompt, framing them not as hidden modes but as simple instructions that change how the model approaches a request.",
-            "The first has ChatGPT ask clarifying questions until it's 95% confident it understands the task, the second asks it to answer as a top 0.1% expert in the relevant field, and the third asks it to show a new way of seeing the same problem when the user feels stuck on one interpretation.",
-            "She positions these as portable, copy-paste add-ons that still work in 2026, useful for ambiguous requests, wanting a higher-caliber response, or breaking out of a single framing of a problem."
-          ]
-        }
-      ]
+      "name": "sabrina_ramonov",
+      "channel_id": "UCs2n7Dsr7-nMMILdwG9UJFA",
+      "new_videos_count": 0,
+      "videos": []
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "name": "JeffSu",
+      "channel_id": "UCvpkpAesDJo7XhCJYDu9QRg",
+      "new_videos_count": 0,
       "videos": []
     }
   ]
