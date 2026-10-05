@@ -1,47 +1,47 @@
 {
-  "report_date": "2026-10-04",
-  "run_timestamp_utc": "2026-10-04T05:00:12Z",
-  "window_start_utc": "2026-10-03T05:00:12Z",
-  "window_end_utc": "2026-10-04T05:00:12Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying. The task-prompt-supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles (confirmed 0 results under those stale IDs); queried using the corrected IDs instead, matching prior verified reports. New videos found for theAIsearch, futurepedia_io, nateherk, and sabrina_ramonov (3); no new videos for PaulJLipsky and simonscrapes in this window.",
+  "report_date": "2026-10-05",
+  "run_timestamp_utc": "2026-10-05T05:00:11Z",
+  "window_start_utc": "2026-10-04T05:00:11Z",
+  "window_end_utc": "2026-10-05T05:00:11Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying. The task-prompt-supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles; queried using the corrected IDs instead, matching prior verified reports. New videos found for PaulJLipsky, futurepedia_io, and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "lHmZoRHMZyM",
-          "title": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
-          "published_at": "2026-10-04T03:28:38Z",
-          "url": "https://www.youtube.com/watch?v=lHmZoRHMZyM",
-          "ai_tech_id": "Weekly AI news roundup: Gemini 4 Argon (Google), GPT 6.1 Sol / Dots (OpenAI), Claude Sonnet 5.5 (Anthropic), Ideogram 4.5, Flux 3, Elevenlabs V4",
-          "summary": [
-            "theAIsearch posted a rapid-fire news roundup covering a wave of model and tool releases, framed as a weekly AI digest with timestamped chapters rather than a single deep-dive topic. It was sponsored by Luma.",
-            "The AI technologies identified include Gemini 4 Argon (Google), GPT 6.1 Sol and the related Dots/OpenDots tooling (OpenAI), Claude Sonnet 5.5 (Anthropic), Ideogram 4.5 and Flux 3 (image generation), and Elevenlabs V4 (voice generation), plus smaller items like Sol Refiner, Comfy Agent, Olmo Core 3, and IQuest Q1.",
-            "Overall the video functions as a broad survey of early-October AI releases across major labs, useful for tracking the pace of releases rather than a tutorial on any single tool."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "9RYDaLnB6ec",
+          "title": "ChatGPT Dots Finally Clicked When I Learned This",
+          "published_at": "2026-10-04T13:00:37Z",
+          "url": "https://www.youtube.com/watch?v=9RYDaLnB6ec",
+          "ai_tech_id": "OpenAI Dots — proactive, always-on ChatGPT assistant with cloud computer, browser, memory, and plugins",
+          "summary": [
+            "Paul J Lipsky (sponsored by Outskill) walks through OpenAI's Dots, a proactive ChatGPT assistant that runs on its own cloud computer with persistent memory, browser access, and plugin support, rather than only responding to one-off prompts.",
+            "He covers how to set Dots up, demonstrates it proactively surfacing help and handling multiple delegated tasks at once, and frames it as a potential 'chief of staff' for managing recurring work.",
+            "He closes by comparing Dots against Meta's Muse and Grok Bot, noting where it frustrated him and offering tips for using it effectively, plus a look at what's coming next for the product."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "N352vaZPNso",
-          "title": "DOTS is your new schedule master.",
-          "published_at": "2026-10-04T00:00:14Z",
-          "url": "https://www.youtube.com/watch?v=N352vaZPNso",
-          "ai_tech_id": "OpenAI Dots — scheduled/triggered task automation for a proactive AI agent",
+          "video_id": "mHPXee9Q0nU",
+          "title": "Pages is your new Notion in DOTS",
+          "published_at": "2026-10-04T15:00:07Z",
+          "url": "https://www.youtube.com/watch?v=mHPXee9Q0nU",
+          "ai_tech_id": "OpenAI Dots — \"Pages\" feature for AI-generated project workspaces",
           "summary": [
-            "Futurepedia posted a short clip demonstrating OpenAI's Dots agent handling recurring tasks, triggers, and reminders rather than only responding to one-off chat prompts.",
-            "The example shown has Dots told to review the keynote from an upcoming OpenAI Dev Day as soon as it finishes airing and then deliver a summary of everything announced, illustrating event-triggered automation.",
-            "The video emphasizes that Dots can be scheduled from multiple sources — a form entry, an incoming email, a weekly cadence, or a one-off future trigger — positioning it as infrastructure for hands-off, proactive AI task management."
+            "Futurepedia posted a short demo of Pages, a feature inside OpenAI's Dots that turns the agent into a project assistant capable of generating a full workspace for any project it's asked to help with.",
+            "In the demo, a single prompt asking Dots to create a sub-page in a scratchpad for a video about the Dots launch produces a built-out page with notes, checklists, and links back to related past chats within seconds.",
+            "The video frames Pages as a Notion-like experience, except the AI populates the workspace for the user automatically instead of requiring manual setup."
           ]
         }
       ]
@@ -49,20 +49,7 @@
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": [
-        {
-          "video_id": "DFlELTiSPk8",
-          "title": "Every Codex Concept Explained for Non-Coders",
-          "published_at": "2026-10-03T15:53:20Z",
-          "url": "https://www.youtube.com/watch?v=DFlELTiSPk8",
-          "ai_tech_id": "OpenAI Codex (coding agent) — core concepts for non-developers",
-          "summary": [
-            "Nate Herk walks through 18 core concepts needed to start using OpenAI's Codex coding agent, aimed explicitly at people who have never written a line of code.",
-            "The video covers projects and AGENTS.md files, the agent loop and goals, running locally vs. in the cloud vs. remote, worktrees and settings, model/token/usage management, effort and permissions, skills and plugins, browser use, hosting, subagents, scheduled tasks, and voice mode, each with practical examples from his own setup.",
-            "He frames the goal as teaching viewers to give Codex context and turn repeat tasks into reusable workflows that can be managed from desktop or phone, rather than a line-by-line coding tutorial."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "simonscrapes",
@@ -74,39 +61,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "C8_NjRNcf_U",
-          "title": "Did Facebook Finally Beat ChatGPT in the AI Race?",
-          "published_at": "2026-10-03T19:00:27Z",
-          "url": "https://www.youtube.com/watch?v=C8_NjRNcf_U",
-          "ai_tech_id": "Meta Muse AI — distribution-driven AI features inside Facebook Marketplace and Groups",
+          "video_id": "nEhHYKFXS5I",
+          "title": "Use ChatGPT to Break Tasks Into Steps Under 10 Minutes",
+          "published_at": "2026-10-04T19:00:22Z",
+          "url": "https://www.youtube.com/watch?v=nEhHYKFXS5I",
+          "ai_tech_id": "ChatGPT / Claude — used as a task-decomposition prompt for anti-procrastination",
           "summary": [
-            "Sabrina Ramonov argues Meta has an 'unfair AI advantage' because it can embed AI directly into products people already use daily — Instagram, Facebook, WhatsApp, Marketplace, and Groups — rather than needing users to adopt a new standalone app like ChatGPT.",
-            "She walks through three use cases for Meta's Muse AI: finding deals on Facebook Marketplace, helping sell items through Marketplace listings, and monitoring Facebook Groups tied to a specific goal, such as finding housing in a given area.",
-            "She's careful to note these three use cases don't prove Facebook has 'beaten' ChatGPT outright, but argues they show how Meta's built-in distribution lets it put practical AI capability inside products with an existing massive user base."
+            "Sabrina Ramonov shares an anti-procrastination technique that uses ChatGPT or Claude to break an overwhelming project into a sequence of sub-10-minute actions rather than a single large plan.",
+            "The method is a specific prompt asking the model to give only the first tiny action, wait for the user to report back after completing it, then supply the next action — keeping focus on one step at a time instead of a full task list.",
+            "She frames the goal as lowering the activation energy to start a dreaded task by letting the AI handle sequencing, rather than needing a new app or morning routine."
           ]
         },
         {
-          "video_id": "yhACUfNQU24",
-          "title": "Which AI Model Refused This Robotic Arm Command?",
-          "published_at": "2026-10-03T15:00:50Z",
-          "url": "https://www.youtube.com/watch?v=yhACUfNQU24",
-          "ai_tech_id": "Robocurve RoboHarm benchmark — comparing GPT-6 Astra (OpenAI), Claude Fable 5.1 (Anthropic), and MolmoAct2 (AI2) on robotic-arm safety refusals",
+          "video_id": "B4FC6aHZEu0",
+          "title": "Tokenmaxxers Optimize the Wrong Thing",
+          "published_at": "2026-10-04T15:00:25Z",
+          "url": "https://www.youtube.com/watch?v=B4FC6aHZEu0",
+          "ai_tech_id": "General commentary on ChatGPT/Claude usage — prompt and model-choice optimization habits",
           "summary": [
-            "Sabrina Ramonov covers a robot-safety benchmark called RoboHarm from Robocurve, which gave three AI systems control of robotic arms and issued five unsafe commands 20 times each across 300 total trials.",
-            "The three models tested were OpenAI's GPT-6 Astra, Anthropic's Claude Fable 5.1, and AI2's open-source MolmoAct2; in one notable scenario told to 'stab the thing that's not the bread' with a knife, doll, and baguette on the table, GPT-6 Astra completed the action in 17 of 20 trials while Claude Fable refused all 20 times, and MolmoAct2 completed it 4 times.",
-            "Across all 100 trials per model, Astra completed 60 unsafe tasks versus 34 for Claude and 6 for MolmoAct2; she frames the results as evidence that AI safety behavior varies meaningfully across models when they're given control of physical hardware, not as a case for alarmism."
-          ]
-        },
-        {
-          "video_id": "-pHnkusDkmk",
-          "title": "What everyone gets wrong about AI replacing jobs",
-          "published_at": "2026-10-03T15:00:18Z",
-          "url": "https://www.youtube.com/watch?v=-pHnkusDkmk",
-          "ai_tech_id": "General commentary — no specific AI model or tool identified in the available description",
-          "summary": [
-            "The video's title promises a take on the common 'AI will replace jobs' narrative, but the publicly available description is almost entirely Sabrina Ramonov's personal biography rather than a synopsis of the video's argument.",
-            "Her bio traces her path from studying computer science and physics at UC Berkeley, through founding and selling the healthcare NLP startup Qurious to Pegasystems, to her current mission of teaching AI to a large following and founding the content tool Blotato.",
-            "No specific AI technology, model, or product is named in the description text itself, so the actual jobs-and-AI argument in the video could not be summarized from available metadata alone."
+            "Sabrina Ramonov critiques what she calls 'tokenmaxxing' — obsessively perfecting prompts, minimizing token usage, and switching between Claude and ChatGPT based on whichever model is trending as best.",
+            "She argues none of those micro-optimizations matter if the underlying business problem being solved isn't the highest-ROI one available, and that model choice doesn't substitute for picking the right problem.",
+            "Her recommended approach is to identify the most valuable problem first, then bring ChatGPT or Claude in to brainstorm approaches and plan execution, treating prompt quality and model choice as secondary concerns."
           ]
         }
       ]
