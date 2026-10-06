@@ -1,47 +1,47 @@
 {
-  "report_date": "2026-10-05",
-  "run_timestamp_utc": "2026-10-05T05:00:11Z",
-  "window_start_utc": "2026-10-04T05:00:11Z",
-  "window_end_utc": "2026-10-05T05:00:11Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying. The task-prompt-supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles; queried using the corrected IDs instead, matching prior verified reports. New videos found for PaulJLipsky, futurepedia_io, and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-06",
+  "run_timestamp_utc": "2026-10-06T04:59:55Z",
+  "window_start_utc": "2026-10-05T04:59:55Z",
+  "window_end_utc": "2026-10-06T04:59:55Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for theAIsearch, nateherk, futurepedia_io, and sabrina_ramonov; no new videos for PaulJLipsky, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "h5zkzon0gM4",
+          "title": "The AI unlock has begun",
+          "published_at": "2026-10-06T03:36:24Z",
+          "url": "https://www.youtube.com/watch?v=h5zkzon0gM4",
+          "ai_tech_id": "Claude Opus 5.5 — used as a reverse-engineering/game-modding agent, alongside Runway for video generation",
+          "summary": [
+            "AI Search covers how AI models, including Claude Opus 5.5, are now being used to mod video games end-to-end: reverse engineering compiled binaries, building pass-through mods, and rebuilding original game logic in Rust.",
+            "The video walks through porting mechanics across platforms and demonstrates prompting workflows for cracking software and modding tools, pointing to several open-source repos (universal modders, Ghidra/IDA MCP servers, decompilers) that make this pipeline possible.",
+            "It frames this as an inflection point where AI collapses the skill barrier for reverse engineering and modding, segments which previously required deep specialist expertise, and includes a sponsored segment for Runway."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "9RYDaLnB6ec",
-          "title": "ChatGPT Dots Finally Clicked When I Learned This",
-          "published_at": "2026-10-04T13:00:37Z",
-          "url": "https://www.youtube.com/watch?v=9RYDaLnB6ec",
-          "ai_tech_id": "OpenAI Dots — proactive, always-on ChatGPT assistant with cloud computer, browser, memory, and plugins",
-          "summary": [
-            "Paul J Lipsky (sponsored by Outskill) walks through OpenAI's Dots, a proactive ChatGPT assistant that runs on its own cloud computer with persistent memory, browser access, and plugin support, rather than only responding to one-off prompts.",
-            "He covers how to set Dots up, demonstrates it proactively surfacing help and handling multiple delegated tasks at once, and frames it as a potential 'chief of staff' for managing recurring work.",
-            "He closes by comparing Dots against Meta's Muse and Grok Bot, noting where it frustrated him and offering tips for using it effectively, plus a look at what's coming next for the product."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "mHPXee9Q0nU",
-          "title": "Pages is your new Notion in DOTS",
-          "published_at": "2026-10-04T15:00:07Z",
-          "url": "https://www.youtube.com/watch?v=mHPXee9Q0nU",
-          "ai_tech_id": "OpenAI Dots — \"Pages\" feature for AI-generated project workspaces",
+          "video_id": "RxB56eE5BRc",
+          "title": "Remotion vs  Hyperframes. One prompt. One map skill",
+          "published_at": "2026-10-05T14:28:14Z",
+          "url": "https://www.youtube.com/watch?v=RxB56eE5BRc",
+          "ai_tech_id": "Remotion Maps (AI video-generation skill) vs. Hyperframes — programmatic/AI video rendering tools",
           "summary": [
-            "Futurepedia posted a short demo of Pages, a feature inside OpenAI's Dots that turns the agent into a project assistant capable of generating a full workspace for any project it's asked to help with.",
-            "In the demo, a single prompt asking Dots to create a sub-page in a scratchpad for a video about the Dots launch produces a built-out page with notes, checklists, and links back to related past chats within seconds.",
-            "The video frames Pages as a Notion-like experience, except the AI populates the workspace for the user automatically instead of requiring manual setup."
+            "Futurepedia pits Remotion's built-in 'Remotion Maps' skill against Hyperframes using a single shared prompt and task: generate a cinematic map animation that follows real highways with smooth camera movement.",
+            "The video shows Remotion Maps taking a natural-language description of a route, map style, and camera motion and rendering it directly into a polished animated video, then checks whether Hyperframes can reproduce the same result from the identical prompt.",
+                "It's a head-to-head format aimed at helping creators decide which AI video tool currently handles cinematic, route-based map animation better for content production."
           ]
         }
       ]
@@ -49,7 +49,20 @@
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "bvGptCLDhyo",
+          "title": "I Built Another Andrej Karpathy Using Claude",
+          "published_at": "2026-10-05T12:43:22Z",
+          "url": "https://www.youtube.com/watch?v=bvGptCLDhyo",
+          "ai_tech_id": "Claude Code — used to build a persona/expert-clone agent from a large personal corpus",
+          "summary": [
+            "Nate Herk builds a Claude Code agent modeled on Andrej Karpathy, trained on over 700,000 words pulled from Karpathy's lectures, blog posts, and social posts so it explains AI concepts the way Karpathy does.",
+            "He walks through the 4-step process: compiling the corpus into a personal 'wiki', distilling it into a small set of behavioral rules, assembling the Claude Code agent, and then running and testing it live on-camera.",
+            "He frames the technique as generalizable — once you've cloned one expert's teaching style into a Claude Code agent, the same 4 steps can be applied to clone almost any other expert you want to learn from."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "simonscrapes",
@@ -61,27 +74,15 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "nEhHYKFXS5I",
-          "title": "Use ChatGPT to Break Tasks Into Steps Under 10 Minutes",
-          "published_at": "2026-10-04T19:00:22Z",
-          "url": "https://www.youtube.com/watch?v=nEhHYKFXS5I",
-          "ai_tech_id": "ChatGPT / Claude — used as a task-decomposition prompt for anti-procrastination",
+          "video_id": "2Wv3uSpPW6w",
+          "title": "10 Secret Codes for ChatGPT and Muse",
+          "published_at": "2026-10-05T15:45:35Z",
+          "url": "https://www.youtube.com/watch?v=2Wv3uSpPW6w",
+          "ai_tech_id": "ChatGPT and Meta Muse — used via named output-format prompt commands",
           "summary": [
-            "Sabrina Ramonov shares an anti-procrastination technique that uses ChatGPT or Claude to break an overwhelming project into a sequence of sub-10-minute actions rather than a single large plan.",
-            "The method is a specific prompt asking the model to give only the first tiny action, wait for the user to report back after completing it, then supply the next action — keeping focus on one step at a time instead of a full task list.",
-            "She frames the goal as lowering the activation energy to start a dreaded task by letting the AI handle sequencing, rather than needing a new app or morning routine."
-          ]
-        },
-        {
-          "video_id": "B4FC6aHZEu0",
-          "title": "Tokenmaxxers Optimize the Wrong Thing",
-          "published_at": "2026-10-04T15:00:25Z",
-          "url": "https://www.youtube.com/watch?v=B4FC6aHZEu0",
-          "ai_tech_id": "General commentary on ChatGPT/Claude usage — prompt and model-choice optimization habits",
-          "summary": [
-            "Sabrina Ramonov critiques what she calls 'tokenmaxxing' — obsessively perfecting prompts, minimizing token usage, and switching between Claude and ChatGPT based on whichever model is trending as best.",
-            "She argues none of those micro-optimizations matter if the underlying business problem being solved isn't the highest-ROI one available, and that model choice doesn't substitute for picking the right problem.",
-            "Her recommended approach is to identify the most valuable problem first, then bring ChatGPT or Claude in to brainstorm approaches and plan execution, treating prompt quality and model choice as secondary concerns."
+            "Sabrina Ramonov shares 10 short command codes (e.g. MAKE-VISUAL-STUDYGUIDE, MAKE-MINDMAP, QUIZME, ELI5, FEYNMAN-TECHNIQUE, SOCRATES, FIRSTPRINCIPLES) that tell ChatGPT or Muse exactly what output format and teaching method to use instead of relying on open-ended prompting.",
+            "Each code maps to a specific study need — visual summaries, mind maps, sticky-note recall, diagrams, one-question-at-a-time quizzing, simplified explanations, prioritized 80/20 review, or first-principles breakdowns — so naming the format upfront produces more consistent answers.",
+            "She positions this as a faster alternative to prompt guesswork for students, pointing viewers to a larger paid list of similar 'secret codes' for other use cases beyond studying."
           ]
         }
       ]
