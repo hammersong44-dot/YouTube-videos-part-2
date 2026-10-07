@@ -1,47 +1,47 @@
 {
-  "report_date": "2026-10-06",
-  "run_timestamp_utc": "2026-10-06T04:59:55Z",
-  "window_start_utc": "2026-10-05T04:59:55Z",
-  "window_end_utc": "2026-10-06T04:59:55Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for theAIsearch, nateherk, futurepedia_io, and sabrina_ramonov; no new videos for PaulJLipsky, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-07",
+  "run_timestamp_utc": "2026-10-07T05:00:35Z",
+  "window_start_utc": "2026-10-06T05:00:35Z",
+  "window_end_utc": "2026-10-07T05:00:35Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for sabrina_ramonov, futurepedia_io, and PaulJLipsky; no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "h5zkzon0gM4",
-          "title": "The AI unlock has begun",
-          "published_at": "2026-10-06T03:36:24Z",
-          "url": "https://www.youtube.com/watch?v=h5zkzon0gM4",
-          "ai_tech_id": "Claude Opus 5.5 — used as a reverse-engineering/game-modding agent, alongside Runway for video generation",
-          "summary": [
-            "AI Search covers how AI models, including Claude Opus 5.5, are now being used to mod video games end-to-end: reverse engineering compiled binaries, building pass-through mods, and rebuilding original game logic in Rust.",
-            "The video walks through porting mechanics across platforms and demonstrates prompting workflows for cracking software and modding tools, pointing to several open-source repos (universal modders, Ghidra/IDA MCP servers, decompilers) that make this pipeline possible.",
-            "It frames this as an inflection point where AI collapses the skill barrier for reverse engineering and modding, segments which previously required deep specialist expertise, and includes a sponsored segment for Runway."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "uwXpc3q1VLs",
+          "title": "Nano Banana 2.1 Is Here! (I Tested It vs GPT Image 2.5 + Nano Banana Pro)",
+          "published_at": "2026-10-06T16:48:48Z",
+          "url": "https://www.youtube.com/watch?v=uwXpc3q1VLs",
+          "ai_tech_id": "Google Nano Banana 2.1 (image generation model) — benchmarked against Nano Banana 2, Nano Banana Pro, and OpenAI's GPT Image 2.5",
+          "summary": [
+            "Paul J Lipsky runs a head-to-head comparison of the newly released Nano Banana 2.1 against its predecessor Nano Banana 2, the higher-tier Nano Banana Pro, and OpenAI's GPT Image 2.5, feeding each model identical prompts inside the OpenArt platform.",
+            "The test suite covers realistic photo generation, text rendering, instruction-following accuracy, infographic creation, YouTube thumbnail design, and photo editing using an image of himself, with timestamped chapters for a coffee-shop scene test, a movement/motion test, an infographic test, and an edit test.",
+            "The video is sponsored by OpenArt, which is promoting a 50%-off Seedance deal through October 14, and closes with Lipsky's take on which model currently produces the strongest results for each use case tested."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "RxB56eE5BRc",
-          "title": "Remotion vs  Hyperframes. One prompt. One map skill",
-          "published_at": "2026-10-05T14:28:14Z",
-          "url": "https://www.youtube.com/watch?v=RxB56eE5BRc",
-          "ai_tech_id": "Remotion Maps (AI video-generation skill) vs. Hyperframes — programmatic/AI video rendering tools",
+          "video_id": "JwZVcb_vJT0",
+          "title": "Use Skills and Gemini to execute tasks consistently",
+          "published_at": "2026-10-06T16:38:56Z",
+          "url": "https://www.youtube.com/watch?v=JwZVcb_vJT0",
+          "ai_tech_id": "Google Gemini Skills — a reusable-workflow feature live in Gemini Chat and Gemini Spark",
           "summary": [
-            "Futurepedia pits Remotion's built-in 'Remotion Maps' skill against Hyperframes using a single shared prompt and task: generate a cinematic map animation that follows real highways with smooth camera movement.",
-            "The video shows Remotion Maps taking a natural-language description of a route, map style, and camera motion and rendering it directly into a polished animated video, then checks whether Hyperframes can reproduce the same result from the identical prompt.",
-                "It's a head-to-head format aimed at helping creators decide which AI video tool currently handles cinematic, route-based map animation better for content production."
+            "Futurepedia introduces Gemini's new 'Skills' feature, describing it as a recipe card for the AI: a reusable workflow that teaches Gemini to execute the same task the same way every time instead of improvising a fresh approach on each request.",
+            "The video explains that a Skill can be as simple as a plain set of instructions or as rich as a bundle that packs in reference material and tools so Gemini actually completes the job rather than just describing how to do it, and notes the feature is now live in both Gemini Chat (under Settings) and the more agentic Gemini Spark platform.",
+            "It walks through the three ways to create one — a guided interview, writing it manually, or uploading an existing skill file exported from Claude or ChatGPT — positioning this as a quick way for creators to standardize repeatable AI workflows across tools."
           ]
         }
       ]
@@ -49,20 +49,7 @@
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": [
-        {
-          "video_id": "bvGptCLDhyo",
-          "title": "I Built Another Andrej Karpathy Using Claude",
-          "published_at": "2026-10-05T12:43:22Z",
-          "url": "https://www.youtube.com/watch?v=bvGptCLDhyo",
-          "ai_tech_id": "Claude Code — used to build a persona/expert-clone agent from a large personal corpus",
-          "summary": [
-            "Nate Herk builds a Claude Code agent modeled on Andrej Karpathy, trained on over 700,000 words pulled from Karpathy's lectures, blog posts, and social posts so it explains AI concepts the way Karpathy does.",
-            "He walks through the 4-step process: compiling the corpus into a personal 'wiki', distilling it into a small set of behavioral rules, assembling the Claude Code agent, and then running and testing it live on-camera.",
-            "He frames the technique as generalizable — once you've cloned one expert's teaching style into a Claude Code agent, the same 4 steps can be applied to clone almost any other expert you want to learn from."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "simonscrapes",
@@ -74,15 +61,39 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "2Wv3uSpPW6w",
-          "title": "10 Secret Codes for ChatGPT and Muse",
-          "published_at": "2026-10-05T15:45:35Z",
-          "url": "https://www.youtube.com/watch?v=2Wv3uSpPW6w",
-          "ai_tech_id": "ChatGPT and Meta Muse — used via named output-format prompt commands",
+          "video_id": "jdLNeJeWnlU",
+          "title": "6 ChatGPT Prompts to Beat Weak AI Answers",
+          "published_at": "2026-10-06T20:45:33Z",
+          "url": "https://www.youtube.com/watch?v=jdLNeJeWnlU",
+          "ai_tech_id": "OpenAI ChatGPT — via six prompt add-on techniques for sharper outputs",
           "summary": [
-            "Sabrina Ramonov shares 10 short command codes (e.g. MAKE-VISUAL-STUDYGUIDE, MAKE-MINDMAP, QUIZME, ELI5, FEYNMAN-TECHNIQUE, SOCRATES, FIRSTPRINCIPLES) that tell ChatGPT or Muse exactly what output format and teaching method to use instead of relying on open-ended prompting.",
-            "Each code maps to a specific study need — visual summaries, mind maps, sticky-note recall, diagrams, one-question-at-a-time quizzing, simplified explanations, prioritized 80/20 review, or first-principles breakdowns — so naming the format upfront produces more consistent answers.",
-            "She positions this as a faster alternative to prompt guesswork for students, pointing viewers to a larger paid list of similar 'secret codes' for other use cases beyond studying."
+            "Sabrina Ramonov shares six short prompt add-ons designed to fix the root cause of weak ChatGPT answers: a weak initial request, arguing that AI can't read a user's mind and needs to be explicitly steered toward a better response.",
+            "The six techniques are ELI10 (simplify a hard answer), asking ChatGPT to pose five clarifying questions before answering, pasting liked/disliked examples so the model has a concrete target, converting a working chat into a reusable skill, asking the model to find blind spots and weak assumptions, and giving the model a rule set to check its own work against before declaring a task done.",
+            "She frames these as quick, repeatable add-ons anyone can drop into an existing prompt to get more useful output without rebuilding their request from scratch."
+          ]
+        },
+        {
+          "video_id": "kkTwZeK2yjQ",
+          "title": "Meta Muse Builds Profiles of People in Your Life",
+          "published_at": "2026-10-06T15:45:20Z",
+          "url": "https://www.youtube.com/watch?v=kkTwZeK2yjQ",
+          "ai_tech_id": "Meta Muse — Meta's AI companion/memory agent",
+          "summary": [
+            "Sabrina Ramonov covers reporting that Meta's Muse AI builds and updates profile pages not just for its own users but for the people around them, including family, partners, friends, coworkers, collaborators, and people a user follows.",
+            "She explains that these pages can include details like where someone lives, what they do, recurring plans or conversations, and important dates, starting small and growing as Muse accumulates more context, and notes that Muse's internal rules say it should rely on evidence rather than fabricate details, while Meta states each user gets a dedicated virtual machine for their data.",
+            "The video raises the underlying privacy question of how much of another person's life ends up stored in someone else's AI memory even if that person never opted into using Muse themselves, and urges viewers to think about what boundaries they want before trusting an AI agent with that kind of context."
+          ]
+        },
+        {
+          "video_id": "3XLJG3LkOPw",
+          "title": "Unboxing Unitree R1 Edu Robot",
+          "published_at": "2026-10-06T15:00:36Z",
+          "url": "https://www.youtube.com/watch?v=3XLJG3LkOPw",
+          "ai_tech_id": "Unitree R1 Edu — educational humanoid robot platform",
+          "summary": [
+            "Sabrina Ramonov unboxes the Unitree R1 Edu, a humanoid robot aimed at education and hobbyist AI/robotics experimentation, giving viewers a first look at the hardware as it comes out of the box.",
+            "The video doubles as an introduction to her own background for new subscribers, tracing her path from a computer science and physics degree through founding and selling the AI startup Qurious to her current work teaching AI to a broad audience and running the content-distribution platform Blotato.",
+            "As an unboxing-style video it's lighter on technical benchmarking than her other uploads, functioning mainly as an early hands-on reaction to the robot alongside a pointer to her free AI prompts, playbooks, and agents resource."
           ]
         }
       ]
