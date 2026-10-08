@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-10-05",
-  "run_timestamp_utc": "2026-10-05T05:00:11Z",
-  "window_start_utc": "2026-10-04T05:00:11Z",
-  "window_end_utc": "2026-10-05T05:00:11Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying. The task-prompt-supplied channel IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles; queried using the corrected IDs instead, matching prior verified reports. New videos found for PaulJLipsky, futurepedia_io, and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-08",
+  "run_timestamp_utc": "2026-10-08T04:59:56Z",
+  "window_start_utc": "2026-10-07T04:59:56Z",
+  "window_end_utc": "2026-10-08T04:59:56Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for PaulJLipsky and sabrina_ramonov; no new videos for theAIsearch, futurepedia_io, nateherk, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -15,15 +15,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "9RYDaLnB6ec",
-          "title": "ChatGPT Dots Finally Clicked When I Learned This",
-          "published_at": "2026-10-04T13:00:37Z",
-          "url": "https://www.youtube.com/watch?v=9RYDaLnB6ec",
-          "ai_tech_id": "OpenAI Dots — proactive, always-on ChatGPT assistant with cloud computer, browser, memory, and plugins",
+          "video_id": "RWCljagU6no",
+          "title": "ChatGPT Space: 7 Incredible Use Cases You Need To Try",
+          "published_at": "2026-10-07T13:00:19Z",
+          "url": "https://www.youtube.com/watch?v=RWCljagU6no",
+          "ai_tech_id": "OpenAI ChatGPT — new Space and Pages workspace features",
           "summary": [
-            "Paul J Lipsky (sponsored by Outskill) walks through OpenAI's Dots, a proactive ChatGPT assistant that runs on its own cloud computer with persistent memory, browser access, and plugin support, rather than only responding to one-off prompts.",
-            "He covers how to set Dots up, demonstrates it proactively surfacing help and handling multiple delegated tasks at once, and frames it as a potential 'chief of staff' for managing recurring work.",
-            "He closes by comparing Dots against Meta's Muse and Grok Bot, noting where it frustrated him and offering tips for using it effectively, plus a look at what's coming next for the product."
+            "Paul J Lipsky explores ChatGPT's new Space and Pages features, OpenAI's workspace-style additions that let users organize conversations and turn them into persistent, shareable documents rather than disposable chat threads.",
+            "He walks through seven practical use cases with timestamped chapters: co-writing documents inside a Space, converting an existing chat into a standalone Page, Pages that automatically update over time, visual brainstorming, sharing interactive reports with others, collaborating with teammates inside a shared Space, and generating structured meeting notes.",
+            "The video is sponsored by Abacus AI's ChatLLM platform, and Lipsky frames Space and Pages as a shift toward treating ChatGPT as an ongoing workspace for documents and projects rather than a one-off question-and-answer tool."
           ]
         }
       ]
@@ -31,20 +31,7 @@
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "mHPXee9Q0nU",
-          "title": "Pages is your new Notion in DOTS",
-          "published_at": "2026-10-04T15:00:07Z",
-          "url": "https://www.youtube.com/watch?v=mHPXee9Q0nU",
-          "ai_tech_id": "OpenAI Dots — \"Pages\" feature for AI-generated project workspaces",
-          "summary": [
-            "Futurepedia posted a short demo of Pages, a feature inside OpenAI's Dots that turns the agent into a project assistant capable of generating a full workspace for any project it's asked to help with.",
-            "In the demo, a single prompt asking Dots to create a sub-page in a scratchpad for a video about the Dots launch produces a built-out page with notes, checklists, and links back to related past chats within seconds.",
-            "The video frames Pages as a Notion-like experience, except the AI populates the workspace for the user automatically instead of requiring manual setup."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "nateherk",
@@ -61,27 +48,15 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "nEhHYKFXS5I",
-          "title": "Use ChatGPT to Break Tasks Into Steps Under 10 Minutes",
-          "published_at": "2026-10-04T19:00:22Z",
-          "url": "https://www.youtube.com/watch?v=nEhHYKFXS5I",
-          "ai_tech_id": "ChatGPT / Claude — used as a task-decomposition prompt for anti-procrastination",
+          "video_id": "KTfSRFPQapE",
+          "title": "3 Unhinged Job Interview Hacks to Try Before You Leave",
+          "published_at": "2026-10-07T15:45:29Z",
+          "url": "https://www.youtube.com/watch?v=KTfSRFPQapE",
+          "ai_tech_id": "OpenAI ChatGPT — used as a research and interview-prep assistant",
           "summary": [
-            "Sabrina Ramonov shares an anti-procrastination technique that uses ChatGPT or Claude to break an overwhelming project into a sequence of sub-10-minute actions rather than a single large plan.",
-            "The method is a specific prompt asking the model to give only the first tiny action, wait for the user to report back after completing it, then supply the next action — keeping focus on one step at a time instead of a full task list.",
-            "She frames the goal as lowering the activation energy to start a dreaded task by letting the AI handle sequencing, rather than needing a new app or morning routine."
-          ]
-        },
-        {
-          "video_id": "B4FC6aHZEu0",
-          "title": "Tokenmaxxers Optimize the Wrong Thing",
-          "published_at": "2026-10-04T15:00:25Z",
-          "url": "https://www.youtube.com/watch?v=B4FC6aHZEu0",
-          "ai_tech_id": "General commentary on ChatGPT/Claude usage — prompt and model-choice optimization habits",
-          "summary": [
-            "Sabrina Ramonov critiques what she calls 'tokenmaxxing' — obsessively perfecting prompts, minimizing token usage, and switching between Claude and ChatGPT based on whichever model is trending as best.",
-            "She argues none of those micro-optimizations matter if the underlying business problem being solved isn't the highest-ROI one available, and that model choice doesn't substitute for picking the right problem.",
-            "Her recommended approach is to identify the most valuable problem first, then bring ChatGPT or Claude in to brainstorm approaches and plan execution, treating prompt quality and model choice as secondary concerns."
+            "Sabrina Ramonov shares three unconventional moves for the final minutes of a job interview, using OpenAI's ChatGPT as a research and preparation tool rather than presenting any single tool as the hack itself.",
+            "The three tactics are: asking the interviewer directly whether anything from the interview would prevent you from being their top choice and then listening rather than talking; prompting ChatGPT to research the hiring manager's public social media presence and likely motivations ahead of the meeting; and asking ChatGPT to generate three questions designed to get the interviewer talking at length, since people who talk more tend to rate the conversation more positively.",
+            "She frames these as ways to leave an interview with fewer unanswered doubts about where you stand, cautions viewers to verify any research themselves and use it for genuine preparation rather than manipulation, and notes that none of the steps guarantees a job offer."
           ]
         }
       ]
