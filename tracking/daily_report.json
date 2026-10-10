@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-10-09",
-  "run_timestamp_utc": "2026-10-09T05:01:28Z",
-  "window_start_utc": "2026-10-08T05:01:28Z",
-  "window_end_utc": "2026-10-09T05:01:28Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for nateherk (5), simonscrapes (1), and sabrina_ramonov (2); no new videos for theAIsearch, PaulJLipsky, futurepedia_io, and JeffSu in this window.",
+  "report_date": "2026-10-10",
+  "run_timestamp_utc": "2026-10-10T05:00:42Z",
+  "window_start_utc": "2026-10-09T05:00:42Z",
+  "window_end_utc": "2026-10-10T05:00:42Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for PaulJLipsky (1), futurepedia_io (2), nateherk (1), and sabrina_ramonov (1); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -13,75 +13,65 @@
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "S-IQRTRsJjo",
+          "title": "Weekly AI Recap: GrokBot Just Did the Unthinkable, ChatGPT Looks Completely Different & More!",
+          "published_at": "2026-10-09T13:00:40Z",
+          "url": "https://www.youtube.com/watch?v=S-IQRTRsJjo",
+          "ai_tech_id": "xAI Grok Bot, Anthropic Claude/Claude Cowork, Midjourney, Suno, OpenAI ChatGPT, Google Gemini/Nano Banana 2.1",
+          "summary": [
+            "Paul Lipsky runs his weekly AI news recap, leading with Grok Bot's plan to integrate Claude, Midjourney, and Suno into its automation stack, a move he frames as a notable expansion of what the bot can orchestrate across providers.",
+            "He covers OpenAI's rollout of a new \"Intelligent UI\" for ChatGPT that changes how the interface looks and behaves, Anthropic's move of Claude Cowork to the cloud, and Google updates including Gemini plan changes and the Nano Banana 2.1 image model, alongside a hands-on test of Google Playground.",
+            "The video is sponsored by Okou (an AI tool with a discount code for viewers) and closes with Paul's own takeaways on the week's developments, serving as a digest format for viewers tracking shifts across multiple major AI labs at once."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "6YEtBN76MK0",
+          "title": "Does Gemini's Write Like Me make emails sound like you?",
+          "published_at": "2026-10-09T16:30:58Z",
+          "url": "https://www.youtube.com/watch?v=6YEtBN76MK0",
+          "ai_tech_id": "Google Gemini — \"Write Like Me\" skill",
+          "summary": [
+            "Futurepedia tests Gemini's new \"Write Like Me\" skill, which pulls writing samples from the user's sent email folder to learn their tone, sentence length, openings, and closings.",
+            "Once set up, the skill can be invoked in any new chat: the user pastes in an email and a short instruction like \"decline this,\" and Gemini drafts a reply styled to match how that person actually writes, aiming for a one-click-ready response.",
+            "The video is pitched at people who let repetitive emails pile up, presenting the skill as a quick setup that pays off in reclaimed time, and fits Futurepedia's pattern of walking through a single practical AI feature in depth."
+          ]
+        },
+        {
+          "video_id": "QLv4WCKVqd0",
+          "title": "The Ultimate Image Generator Showdown",
+          "published_at": "2026-10-09T13:38:49Z",
+          "url": "https://www.youtube.com/watch?v=QLv4WCKVqd0",
+          "ai_tech_id": "Nano Banana 2.1 vs. OpenAI ChatGPT Image 2.5, Flux 3 Image, and Seedream 5.0",
+          "summary": [
+            "Prompted by the release of Nano Banana 2.1, Futurepedia runs a head-to-head comparison against ChatGPT Image 2.5, Flux 3 Image, and Seedream 5.0 across identical prompts.",
+            "The test spans marketing materials, image editing, infographics, photorealism, human character consistency, thumbnail generation, style transfer, and character sheets, with a winner declared for each category and an overall tally at the end.",
+            "The video functions as a practical buyer's guide for creators choosing an image-generation model for specific use cases rather than a single \"best overall\" pick, with chapter markers for each test category."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "f_WsOXdGm4w",
-          "title": "Grok Bot now runs on Opus 5.5",
-          "published_at": "2026-10-09T02:21:31Z",
-          "url": "https://www.youtube.com/watch?v=f_WsOXdGm4w",
-          "ai_tech_id": "Anthropic Claude Opus 5.5 — new backbone model for Nate's custom \"Grok Bot\" agent",
+          "video_id": "A8YuAEUQEos",
+          "title": "Oracle's New AI Only Thinks When It Has To",
+          "published_at": "2026-10-09T18:00:05Z",
+          "url": "https://www.youtube.com/watch?v=A8YuAEUQEos",
+          "ai_tech_id": "Oracle Fusion Claw — enterprise AI/agent orchestration tool",
           "summary": [
-            "Nate Herk announces that his custom automation project, \"Grok Bot,\" now runs on Anthropic's Claude Opus 5.5 model, a shift in which large language model powers the bot's reasoning.",
-            "No video description was published, but the title indicates this is a quick update in Nate's ongoing series tracking upgrades to his personal AI agent stack, likely showing how the switch changes response quality or capability for the tasks Grok Bot handles.",
-            "This fits his recurring pattern of swapping and combining model providers (xAI's Grok ecosystem alongside Anthropic's Claude models) to optimize his automation agency's bots for cost and capability."
-          ]
-        },
-        {
-          "video_id": "kebGZLyrvZg",
-          "title": "Grok Bot uses my Claude Code subscription. Here's how.",
-          "published_at": "2026-10-09T02:03:27Z",
-          "url": "https://www.youtube.com/watch?v=kebGZLyrvZg",
-          "ai_tech_id": "Anthropic Claude Code — used as a subscription-based backend for an automation bot",
-          "summary": [
-            "Nate Herk explains how he connected his personal Claude Code subscription to power his Grok Bot automation instead of paying for metered API usage.",
-            "No description was published, but the title signals a cost-saving technique: routing agentic bot workloads through a flat-rate Claude Code subscription rather than per-token API billing.",
-            "The approach is relevant to builders running always-on AI agents who want predictable costs by using a coding-assistant subscription as the model backend for broader automation tasks."
-          ]
-        },
-        {
-          "video_id": "MgvwZaDPCs4",
-          "title": "Grok Bot Just Got 2 Massive Upgrades. Do These Things Now.",
-          "published_at": "2026-10-09T02:02:31Z",
-          "url": "https://www.youtube.com/watch?v=MgvwZaDPCs4",
-          "ai_tech_id": "xAI Grok (automatic model routing, native X search) and Anthropic Claude Code",
-          "summary": [
-            "Nate walks through two new upgrades to his Grok Bot: automatic model routing, which lets the bot pick the best underlying model per task, and native X (Twitter) search, replacing his previous paid X API integration.",
-            "He discusses rethinking how he structures the bot's \"skills\" now that routing is automatic, and demos his favorite current setup: running Claude Code inside Grok Bot so he can access his coding projects remotely from his phone using his own Claude Code subscription.",
-            "He also offers a free \"AI OS\" template and gives timestamped chapters covering model routing, native X search, the free kit, rethinking skills, and the Claude-Code-in-Grok-Bot workflow."
-          ]
-        },
-        {
-          "video_id": "w4R4l1xtfGU",
-          "title": "Your Popup Can Now Optimize Itself for Every Visitor",
-          "published_at": "2026-10-09T00:00:20Z",
-          "url": "https://www.youtube.com/watch?v=w4R4l1xtfGU",
-          "ai_tech_id": "Alia — AI-driven self-optimizing website popup / A-B testing tool (sponsored)",
-          "summary": [
-            "This is a sponsored (#ad) video showcasing \"Alia,\" an AI tool that runs self-optimizing A/B tests on website popups automatically for each visitor.",
-            "Alia ties discount offers to detected buying intent and optimizes for actual revenue rather than vanity metrics like signups, pitched as useful for e-commerce sites preparing for Black Friday traffic.",
-            "Nate presents it as a plug-and-play growth tool and offers viewers a 30-day free trial through his link, reflecting the broader trend of AI-driven on-site personalization products."
-          ]
-        },
-        {
-          "video_id": "oz2CwrPV2Rg",
-          "title": "Anthropic Engineers Just 10x'd Everyone's Claude Code",
-          "published_at": "2026-10-08T20:48:59Z",
-          "url": "https://www.youtube.com/watch?v=oz2CwrPV2Rg",
-          "ai_tech_id": "Anthropic Claude Code — context engineering guidance and the /doctor diagnostic command",
-          "summary": [
-            "Nate breaks down new context-engineering guidance from Anthropic, arguing that piling more instructions into a CLAUDE.md file doesn't always improve Claude Code's results — leaner, well-organized context can outperform a bloated one.",
-            "He runs Claude Code's built-in /doctor diagnostic against his own setup to audit what's cluttering his configuration, then walks through a concrete fix he applied to his YouTube production workflow as a result.",
-            "The video covers what belongs directly in CLAUDE.md versus what should be split into on-demand skills, and recommends scheduling regular \"AIOS\" (AI operating system) audits, useful for anyone maintaining a non-trivial Claude Code setup."
+            "Nate Herk covers Oracle's newly announced \"Fusion Claw,\" an enterprise AI system pitched around the idea that it only invokes model reasoning when a task actually needs it, letting conventional software handle the rest.",
+            "The brief description frames this as a cost and efficiency play: rather than routing every action through an LLM, Fusion Claw reserves AI reasoning for the specific decision points where it adds value, with deterministic software covering the rest of the workflow.",
+            "The video ties into Oracle's AI World event in Las Vegas (Oct 26-27), where the product will be shown live, positioning this as an early look at enterprise-grade agentic tooling ahead of a bigger announcement."
           ]
         }
       ]
@@ -89,47 +79,22 @@
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": [
-        {
-          "video_id": "zac3kEUwIlg",
-          "title": "You Should Be Using Jev's Browser Agent, Here's Why",
-          "published_at": "2026-10-08T15:30:22Z",
-          "url": "https://www.youtube.com/watch?v=zac3kEUwIlg",
-          "ai_tech_id": "Jev Browser Agent (fast page classification) combined with Anthropic Claude (reasoning)",
-          "summary": [
-            "Simon introduces \"Jev's Browser Agent,\" a browser automation tool he argues is far faster than typical browser agents, which often take 10-20 minutes to complete a simple task.",
-            "He explains the speed comes from pairing Jev's fast page-classification system with Claude's reasoning for decision-making, letting the agent act in a fraction of a second instead of exhaustively analyzing every page.",
-            "Simon demonstrates building a custom version of the agent with a single prompt and covers where the approach currently breaks down, giving viewers both the upside and the current limits of this hybrid classification-plus-LLM-reasoning browser agent design."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "qS5tKLwjYl8",
-          "title": "Best AI Tools for Every Task in 2026",
-          "published_at": "2026-10-08T20:45:25Z",
-          "url": "https://www.youtube.com/watch?v=qS5tKLwjYl8",
-          "ai_tech_id": "Comparison of Anthropic Claude, Perplexity, Emergent, Blotato, and OpenAI ChatGPT",
+          "video_id": "Rd9wYEFIUrw",
+          "title": "10 Secret ChatGPT Codes to Learn Anything",
+          "published_at": "2026-10-09T15:45:18Z",
+          "url": "https://www.youtube.com/watch?v=Rd9wYEFIUrw",
+          "ai_tech_id": "OpenAI ChatGPT — structured study/prompting technique codes",
           "summary": [
-            "Sabrina Ramonov shares her curated list of go-to AI tools for 2026, matched to specific tasks rather than defaulting to one all-purpose chatbot.",
-            "Her picks: Claude for writing, coding, and money-making tasks; Perplexity for research; Emergent for building websites; and Blotato for content creation, explicitly steering viewers away from using ChatGPT for everything.",
-            "The short-form video functions as a quick-reference tool map for viewers unsure which AI app fits a given job, with Claude recommended across three of the five listed categories."
-          ]
-        },
-        {
-          "video_id": "xUJscO5zUlo",
-          "title": "10 ChatGPT Codes to Study Smarter",
-          "published_at": "2026-10-08T15:45:27Z",
-          "url": "https://www.youtube.com/watch?v=xUJscO5zUlo",
-          "ai_tech_id": "OpenAI ChatGPT — structured study/prompting techniques",
-          "summary": [
-            "Sabrina presents 10 short prompt \"codes\" for getting more out of ChatGPT while studying, arguing that vague study prompts underuse the model's ability to teach.",
-            "The codes include QUIZME (active-recall testing), SOCRATES (one-question-at-a-time Socratic dialogue), FEYNMAN-TECHNIQUE and ELI5 (simplified explanations), 80/20 (prioritizing the highest-value material), and visual-output prompts like MAKE-STICKY-NOTES, MAKE-VISUAL-STUDYGUIDE, MAKE-MINDMAP, FIRSTPRINCIPLES, and MAKE-SCHEMATIC.",
-            "She ties each code to a specific study problem (forgetting facts, confusing lessons, messy notes), giving viewers a practical prompt library for turning ChatGPT into an adaptive tutor."
+            "Sabrina Ramonov shares 10 short prompt \"codes\" meant to turn ChatGPT into a more active study partner instead of a simple answer engine.",
+            "The codes include ELI5 and FEYNMAN-TECHNIQUE for simplified explanations, 80/20 for prioritizing high-value material, QUIZME and SOCRATES for active-recall and question-driven learning, and visual-output prompts like MAKE-STICKY-NOTES, MAKE-MINDMAP, MAKE-VISUAL-STUDYGUIDE, FIRSTPRINCIPLES, and MAKE-SCHEMATIC.",
+            "Viewers are told to start with one command and paste their topic (or notes) after it, giving a reusable prompt library aimed at students or anyone using ChatGPT to learn new material more efficiently than with ad-hoc questions."
           ]
         }
       ]
