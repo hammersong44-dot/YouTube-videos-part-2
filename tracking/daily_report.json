@@ -1,59 +1,47 @@
 {
-  "report_date": "2026-10-10",
-  "run_timestamp_utc": "2026-10-10T05:00:42Z",
-  "window_start_utc": "2026-10-09T05:00:42Z",
-  "window_end_utc": "2026-10-10T05:00:42Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for PaulJLipsky (1), futurepedia_io (2), nateherk (1), and sabrina_ramonov (1); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-11",
+  "run_timestamp_utc": "2026-10-11T05:00:38Z",
+  "window_start_utc": "2026-10-10T05:00:38Z",
+  "window_end_utc": "2026-10-11T05:00:38Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for theAIsearch (1), futurepedia_io (1), simonscrapes (1), and sabrina_ramonov (3); no new videos for PaulJLipsky, nateherk, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "X0_GDOkLKzQ",
+          "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
+          "published_at": "2026-10-11T03:27:53Z",
+          "url": "https://www.youtube.com/watch?v=X0_GDOkLKzQ",
+          "ai_tech_id": "OpenAI math-research models, Google DeepMind AlphaProtein Novo & Botanic 1 & Nano Banana 2.1, Kandinsky 6.0, Mistral Large 4, Anthropic Claude Haiku 5.5, Higgsfield (sponsor)",
+          "summary": [
+            "AI Search runs its recurring AI-news roundup, leading with a wave of research announcements: OpenAI's push into formal math problem-solving (700+ claimed breakthroughs), Google DeepMind's AlphaProtein Novo and Botanic-1 models for protein design and DNA-mutation prediction, and a reported advance in room-temperature magnetic semiconductors.",
+            "The video also surveys new model releases across labs, including Kandinsky 6.0, Mistral Large 4, Google's Nano Banana 2.1 image model, Embedding Gemma 2, and Anthropic's Claude Haiku 5.5, alongside smaller research projects like WorldPlay 2, MSFlow, ALoDLM, GenIA, and FlashDexRetarget, each timestamped in the description for quick navigation.",
+            "The episode is sponsored by Higgsfield and follows the channel's standard digest format, aimed at viewers who want a single weekly-adjacent sweep of lab releases and research papers across text, image, biology, and materials-science AI rather than a deep dive on any one tool."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "S-IQRTRsJjo",
-          "title": "Weekly AI Recap: GrokBot Just Did the Unthinkable, ChatGPT Looks Completely Different & More!",
-          "published_at": "2026-10-09T13:00:40Z",
-          "url": "https://www.youtube.com/watch?v=S-IQRTRsJjo",
-          "ai_tech_id": "xAI Grok Bot, Anthropic Claude/Claude Cowork, Midjourney, Suno, OpenAI ChatGPT, Google Gemini/Nano Banana 2.1",
-          "summary": [
-            "Paul Lipsky runs his weekly AI news recap, leading with Grok Bot's plan to integrate Claude, Midjourney, and Suno into its automation stack, a move he frames as a notable expansion of what the bot can orchestrate across providers.",
-            "He covers OpenAI's rollout of a new \"Intelligent UI\" for ChatGPT that changes how the interface looks and behaves, Anthropic's move of Claude Cowork to the cloud, and Google updates including Gemini plan changes and the Nano Banana 2.1 image model, alongside a hands-on test of Google Playground.",
-            "The video is sponsored by Okou (an AI tool with a discount code for viewers) and closes with Paul's own takeaways on the week's developments, serving as a digest format for viewers tracking shifts across multiple major AI labs at once."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "6YEtBN76MK0",
-          "title": "Does Gemini's Write Like Me make emails sound like you?",
-          "published_at": "2026-10-09T16:30:58Z",
-          "url": "https://www.youtube.com/watch?v=6YEtBN76MK0",
-          "ai_tech_id": "Google Gemini — \"Write Like Me\" skill",
+          "video_id": "R4W9FJ8XR0o",
+          "title": "Gemini Skills for repeatable tasks",
+          "published_at": "2026-10-11T01:37:02Z",
+          "url": "https://www.youtube.com/watch?v=R4W9FJ8XR0o",
+          "ai_tech_id": "Google Gemini — Skills feature",
           "summary": [
-            "Futurepedia tests Gemini's new \"Write Like Me\" skill, which pulls writing samples from the user's sent email folder to learn their tone, sentence length, openings, and closings.",
-            "Once set up, the skill can be invoked in any new chat: the user pastes in an email and a short instruction like \"decline this,\" and Gemini drafts a reply styled to match how that person actually writes, aiming for a one-click-ready response.",
-            "The video is pitched at people who let repetitive emails pile up, presenting the skill as a quick setup that pays off in reclaimed time, and fits Futurepedia's pattern of walking through a single practical AI feature in depth."
-          ]
-        },
-        {
-          "video_id": "QLv4WCKVqd0",
-          "title": "The Ultimate Image Generator Showdown",
-          "published_at": "2026-10-09T13:38:49Z",
-          "url": "https://www.youtube.com/watch?v=QLv4WCKVqd0",
-          "ai_tech_id": "Nano Banana 2.1 vs. OpenAI ChatGPT Image 2.5, Flux 3 Image, and Seedream 5.0",
-          "summary": [
-            "Prompted by the release of Nano Banana 2.1, Futurepedia runs a head-to-head comparison against ChatGPT Image 2.5, Flux 3 Image, and Seedream 5.0 across identical prompts.",
-            "The test spans marketing materials, image editing, infographics, photorealism, human character consistency, thumbnail generation, style transfer, and character sheets, with a winner declared for each category and an overall tally at the end.",
-            "The video functions as a practical buyer's guide for creators choosing an image-generation model for specific use cases rather than a single \"best overall\" pick, with chapter markers for each test category."
+            "Futurepedia highlights Google Gemini's \"Skills\" feature, framing it as a way to turn a one-off conversation into a reusable, packaged workflow instead of starting from scratch each time.",
+            "The video gives two concrete entry points: grabbing a ready-made prompt from a free skills guide to spin up a first skill in a new chat, or revisiting a past chat where the user already iterated with Gemini to get something right and asking it to bundle that exchange into a skill.",
+            "The pitch is that most of the work users think they still need to do manually has already happened in earlier chats, and the video positions Skills as the mechanism for capturing that prior iteration so repeatable tasks (reports, templated replies, recurring formats) stop requiring re-prompting from zero."
           ]
         }
       ]
@@ -61,40 +49,64 @@
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": [
-        {
-          "video_id": "A8YuAEUQEos",
-          "title": "Oracle's New AI Only Thinks When It Has To",
-          "published_at": "2026-10-09T18:00:05Z",
-          "url": "https://www.youtube.com/watch?v=A8YuAEUQEos",
-          "ai_tech_id": "Oracle Fusion Claw — enterprise AI/agent orchestration tool",
-          "summary": [
-            "Nate Herk covers Oracle's newly announced \"Fusion Claw,\" an enterprise AI system pitched around the idea that it only invokes model reasoning when a task actually needs it, letting conventional software handle the rest.",
-            "The brief description frames this as a cost and efficiency play: rather than routing every action through an LLM, Fusion Claw reserves AI reasoning for the specific decision points where it adds value, with deterministic software covering the rest of the workflow.",
-            "The video ties into Oracle's AI World event in Las Vegas (Oct 26-27), where the product will be shown live, positioning this as an early look at enterprise-grade agentic tooling ahead of a bigger announcement."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "J9NQTYUP6k0",
+          "title": "How the Top 1% Use Claude Code Differently",
+          "published_at": "2026-10-10T16:24:57Z",
+          "url": "https://www.youtube.com/watch?v=J9NQTYUP6k0",
+          "ai_tech_id": "Anthropic Claude Code",
+          "summary": [
+            "Simon Scrapes argues that expert usage patterns for Claude Code have shifted significantly over the past year, and that older advice — relying on \"plan mode,\" prompting it to \"think harder,\" and other once-common conventions — is now largely obsolete.",
+            "The video walks through ten updated strategies top users apply instead, including treating plan mode as redundant, skipping manual effort-level selection, distinguishing \"checks\" from \"plans,\" defaulting to autonomous runs via a /goal-style command, turning CLAUDE.md into an index rather than a monolithic doc, writing custom Skills only for what Claude gets wrong, favoring no-Skill approaches most of the time, encoding must-hold rules in hooks, and letting Claude assemble its own sub-agent team.",
+            "Framed around building more autonomous, less supervised Claude Code workflows, the video functions as an advanced-practices update for viewers already using Claude Code who want to modernize their setup past six-month-old conventions."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "Rd9wYEFIUrw",
-          "title": "10 Secret ChatGPT Codes to Learn Anything",
-          "published_at": "2026-10-09T15:45:18Z",
-          "url": "https://www.youtube.com/watch?v=Rd9wYEFIUrw",
-          "ai_tech_id": "OpenAI ChatGPT — structured study/prompting technique codes",
+          "video_id": "Fn_xRD1DBMw",
+          "title": "10 ChatGPT Broken Codes",
+          "published_at": "2026-10-10T20:45:29Z",
+          "url": "https://www.youtube.com/watch?v=Fn_xRD1DBMw",
+          "ai_tech_id": "OpenAI ChatGPT — prompt-code shortcuts",
           "summary": [
-            "Sabrina Ramonov shares 10 short prompt \"codes\" meant to turn ChatGPT into a more active study partner instead of a simple answer engine.",
-            "The codes include ELI5 and FEYNMAN-TECHNIQUE for simplified explanations, 80/20 for prioritizing high-value material, QUIZME and SOCRATES for active-recall and question-driven learning, and visual-output prompts like MAKE-STICKY-NOTES, MAKE-MINDMAP, MAKE-VISUAL-STUDYGUIDE, FIRSTPRINCIPLES, and MAKE-SCHEMATIC.",
-            "Viewers are told to start with one command and paste their topic (or notes) after it, giving a reusable prompt library aimed at students or anyone using ChatGPT to learn new material more efficiently than with ad-hoc questions."
+            "Sabrina Ramonov shares 10 short prompt \"codes\" meant to replace ChatGPT's often vague default answers with sharper, more targeted responses by prefacing a question with one of the codes.",
+            "The codes include LINDYMODE, 80/20, TRUTHMODE, ELI10, REDTEAM, HORMOZI, YCOMBINATOR, GARYVEE, SOCRATES, and FUTUREYOU, each nudging the model toward a different response style — for example ELI10 for a simplified explanation, 80/20 for the highest-value points only, and SOCRATES for a question-driven, teaching-style answer.",
+            "The format mirrors the channel's earlier prompt-code videos, positioning this as a quick-reference list viewers can paste in front of any ChatGPT question to get more specific, less generic output."
+          ]
+        },
+        {
+          "video_id": "zQGgNSETqe0",
+          "title": "Claude + Canva Is a Literal Cheat Code",
+          "published_at": "2026-10-10T15:45:20Z",
+          "url": "https://www.youtube.com/watch?v=zQGgNSETqe0",
+          "ai_tech_id": "Anthropic Claude (Connectors) + Canva integration",
+          "summary": [
+            "Sabrina Ramonov demonstrates connecting Canva to Claude via Claude's Connectors settings, enabling Claude to generate Canva-based designs directly from a chat.",
+            "She walks through the setup (Settings → Connectors → Browse Connectors → Add Canva) and shows asking Claude to produce graphics, posters, Instagram carousels, and branded content using the user's existing Canva templates, brand kit, and colors, with the option to have Claude post the results to social media from within the chat.",
+            "The video targets creators and small-business owners who build their own marketing visuals, pitching the Claude-Canva connector as a way to design social content without switching between separate apps and tabs."
+          ]
+        },
+        {
+          "video_id": "gjMYWFube5s",
+          "title": "How Much AI Actually Damages the Planet",
+          "published_at": "2026-10-10T15:00:00Z",
+          "url": "https://www.youtube.com/watch?v=gjMYWFube5s",
+          "ai_tech_id": "General AI/compute environmental-impact discussion (no single named model or tool)",
+          "summary": [
+            "Sabrina Ramonov addresses the environmental footprint of AI, tackling the broader question of how much energy and resources AI systems actually consume versus common perception.",
+            "The description does not detail specific figures or sources covered in the video itself, instead carrying the channel's standard founder bio for Sabrina Ramonov and her company Blotato, a content-distribution SaaS for creators.",
+            "Given the title and channel's typical style, the video likely frames AI's environmental cost (energy/water use, data-center demand) as a myth-busting or explainer segment aimed at her broader AI-education audience rather than at any single product."
           ]
         }
       ]
