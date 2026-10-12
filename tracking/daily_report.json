@@ -1,112 +1,75 @@
 {
-  "report_date": "2026-10-11",
-  "run_timestamp_utc": "2026-10-11T05:00:38Z",
-  "window_start_utc": "2026-10-10T05:00:38Z",
-  "window_end_utc": "2026-10-11T05:00:38Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for theAIsearch (1), futurepedia_io (1), simonscrapes (1), and sabrina_ramonov (3); no new videos for PaulJLipsky, nateherk, and JeffSu in this window.",
+  "report_date": "2026-10-12",
+  "run_timestamp_utc": "2026-10-12T05:00:29Z",
+  "window_start_utc": "2026-10-11T05:00:29Z",
+  "window_end_utc": "2026-10-12T05:00:29Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for PaulJLipsky (1), nateherk (1), and sabrina_ramonov (1); no new videos for theAIsearch, futurepedia_io, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "X0_GDOkLKzQ",
-          "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
-          "published_at": "2026-10-11T03:27:53Z",
-          "url": "https://www.youtube.com/watch?v=X0_GDOkLKzQ",
-          "ai_tech_id": "OpenAI math-research models, Google DeepMind AlphaProtein Novo & Botanic 1 & Nano Banana 2.1, Kandinsky 6.0, Mistral Large 4, Anthropic Claude Haiku 5.5, Higgsfield (sponsor)",
-          "summary": [
-            "AI Search runs its recurring AI-news roundup, leading with a wave of research announcements: OpenAI's push into formal math problem-solving (700+ claimed breakthroughs), Google DeepMind's AlphaProtein Novo and Botanic-1 models for protein design and DNA-mutation prediction, and a reported advance in room-temperature magnetic semiconductors.",
-            "The video also surveys new model releases across labs, including Kandinsky 6.0, Mistral Large 4, Google's Nano Banana 2.1 image model, Embedding Gemma 2, and Anthropic's Claude Haiku 5.5, alongside smaller research projects like WorldPlay 2, MSFlow, ALoDLM, GenIA, and FlashDexRetarget, each timestamped in the description for quick navigation.",
-            "The episode is sponsored by Higgsfield and follows the channel's standard digest format, aimed at viewers who want a single weekly-adjacent sweep of lab releases and research papers across text, image, biology, and materials-science AI rather than a deep dive on any one tool."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "hbPvZvpu9KU",
+          "title": "The New Claude Motion Is Awesome",
+          "published_at": "2026-10-11T13:00:38Z",
+          "url": "https://www.youtube.com/watch?v=hbPvZvpu9KU",
+          "ai_tech_id": "Anthropic Claude Motion (new animation feature) + Claude Dashboards",
+          "summary": [
+            "Paul J Lipsky walks through Claude Motion, a new Anthropic feature that turns raw data into animated charts and explainer-style motion graphics directly from a Claude conversation, rather than requiring a separate video-editing tool.",
+            "He demonstrates several concrete workflows: animating a dataset into a chart, editing that animation after the fact, generating explainer videos from scratch, matching a provided screenshot's visual style, and syncing generated motion graphics to timestamps in an existing video. He also shows an example of animating travel memories as a lighter, personal use case.",
+            "The video closes on Claude Dashboards, a related new capability for building animated/interactive dashboards, positioning the two features together as a way for creators and marketers to produce polished motion content without touching traditional animation software."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "R4W9FJ8XR0o",
-          "title": "Gemini Skills for repeatable tasks",
-          "published_at": "2026-10-11T01:37:02Z",
-          "url": "https://www.youtube.com/watch?v=R4W9FJ8XR0o",
-          "ai_tech_id": "Google Gemini — Skills feature",
-          "summary": [
-            "Futurepedia highlights Google Gemini's \"Skills\" feature, framing it as a way to turn a one-off conversation into a reusable, packaged workflow instead of starting from scratch each time.",
-            "The video gives two concrete entry points: grabbing a ready-made prompt from a free skills guide to spin up a first skill in a new chat, or revisiting a past chat where the user already iterated with Gemini to get something right and asking it to bundle that exchange into a skill.",
-            "The pitch is that most of the work users think they still need to do manually has already happened in earlier chats, and the video positions Skills as the mechanism for capturing that prior iteration so repeatable tasks (reports, templated replies, recurring formats) stop requiring re-prompting from zero."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "HhZdNYI4pJs",
+          "title": "I Tried 100+ Github Repos for Claude. These 6 Are the Best",
+          "published_at": "2026-10-11T12:30:18Z",
+          "url": "https://www.youtube.com/watch?v=HhZdNYI4pJs",
+          "ai_tech_id": "Anthropic Claude Code / Claude Skills ecosystem (Hyperframes, Google Workspace CLI, Apify MCP Server, Scrollcraft, Humanizer, Addy Osmani's Agent Skills, Expo Skills, Supabase Agent Skills, Stripe Best Practices, Playwright CLI, Claude Security, OpenSEO)",
+          "summary": [
+            "Nate Herk reports on testing over 100 of the GitHub repositories built around Claude and Claude Code, arguing most are not worth a user's time, before narrowing down to the six he considers genuinely essential to his workflow.",
+            "The six picks span different jobs: Hyperframes for video editing, a Google Workspace CLI and Apify's MCP server for data and automation tasks, Scrollcraft for website design and Humanizer for more natural copy, a set of Agent Skills repos (from Addy Osmani, Expo, and Supabase) for planning and scaffolding builds, Stripe's best-practices skill and Playwright's CLI for browser testing, Anthropic's own Claude Security plugin, and OpenSEO for data-backed SEO work.",
+            "Framed as a practical buyer's guide for Claude Code users drowning in repo options, the video pitches these tools as the ones that meaningfully sped up his projects or replaced paid software, aimed at viewers building client or business work on top of Claude."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": [
-        {
-          "video_id": "J9NQTYUP6k0",
-          "title": "How the Top 1% Use Claude Code Differently",
-          "published_at": "2026-10-10T16:24:57Z",
-          "url": "https://www.youtube.com/watch?v=J9NQTYUP6k0",
-          "ai_tech_id": "Anthropic Claude Code",
-          "summary": [
-            "Simon Scrapes argues that expert usage patterns for Claude Code have shifted significantly over the past year, and that older advice — relying on \"plan mode,\" prompting it to \"think harder,\" and other once-common conventions — is now largely obsolete.",
-            "The video walks through ten updated strategies top users apply instead, including treating plan mode as redundant, skipping manual effort-level selection, distinguishing \"checks\" from \"plans,\" defaulting to autonomous runs via a /goal-style command, turning CLAUDE.md into an index rather than a monolithic doc, writing custom Skills only for what Claude gets wrong, favoring no-Skill approaches most of the time, encoding must-hold rules in hooks, and letting Claude assemble its own sub-agent team.",
-            "Framed around building more autonomous, less supervised Claude Code workflows, the video functions as an advanced-practices update for viewers already using Claude Code who want to modernize their setup past six-month-old conventions."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "Fn_xRD1DBMw",
-          "title": "10 ChatGPT Broken Codes",
-          "published_at": "2026-10-10T20:45:29Z",
-          "url": "https://www.youtube.com/watch?v=Fn_xRD1DBMw",
-          "ai_tech_id": "OpenAI ChatGPT — prompt-code shortcuts",
+          "video_id": "fZZ2M1WRPeY",
+          "title": "5 Stages of AI Mastery: Automation Comes Last",
+          "published_at": "2026-10-11T15:45:23Z",
+          "url": "https://www.youtube.com/watch?v=fZZ2M1WRPeY",
+          "ai_tech_id": "General AI workflow/skill-building framework referencing ChatGPT and Claude (no single named tool)",
           "summary": [
-            "Sabrina Ramonov shares 10 short prompt \"codes\" meant to replace ChatGPT's often vague default answers with sharper, more targeted responses by prefacing a question with one of the codes.",
-            "The codes include LINDYMODE, 80/20, TRUTHMODE, ELI10, REDTEAM, HORMOZI, YCOMBINATOR, GARYVEE, SOCRATES, and FUTUREYOU, each nudging the model toward a different response style — for example ELI10 for a simplified explanation, 80/20 for the highest-value points only, and SOCRATES for a question-driven, teaching-style answer.",
-            "The format mirrors the channel's earlier prompt-code videos, positioning this as a quick-reference list viewers can paste in front of any ChatGPT question to get more specific, less generic output."
-          ]
-        },
-        {
-          "video_id": "zQGgNSETqe0",
-          "title": "Claude + Canva Is a Literal Cheat Code",
-          "published_at": "2026-10-10T15:45:20Z",
-          "url": "https://www.youtube.com/watch?v=zQGgNSETqe0",
-          "ai_tech_id": "Anthropic Claude (Connectors) + Canva integration",
-          "summary": [
-            "Sabrina Ramonov demonstrates connecting Canva to Claude via Claude's Connectors settings, enabling Claude to generate Canva-based designs directly from a chat.",
-            "She walks through the setup (Settings → Connectors → Browse Connectors → Add Canva) and shows asking Claude to produce graphics, posters, Instagram carousels, and branded content using the user's existing Canva templates, brand kit, and colors, with the option to have Claude post the results to social media from within the chat.",
-            "The video targets creators and small-business owners who build their own marketing visuals, pitching the Claude-Canva connector as a way to design social content without switching between separate apps and tabs."
-          ]
-        },
-        {
-          "video_id": "gjMYWFube5s",
-          "title": "How Much AI Actually Damages the Planet",
-          "published_at": "2026-10-10T15:00:00Z",
-          "url": "https://www.youtube.com/watch?v=gjMYWFube5s",
-          "ai_tech_id": "General AI/compute environmental-impact discussion (no single named model or tool)",
-          "summary": [
-            "Sabrina Ramonov addresses the environmental footprint of AI, tackling the broader question of how much energy and resources AI systems actually consume versus common perception.",
-            "The description does not detail specific figures or sources covered in the video itself, instead carrying the channel's standard founder bio for Sabrina Ramonov and her company Blotato, a content-distribution SaaS for creators.",
-            "Given the title and channel's typical style, the video likely frames AI's environmental cost (energy/water use, data-center demand) as a myth-busting or explainer segment aimed at her broader AI-education audience rather than at any single product."
+            "Sabrina Ramonov lays out a five-stage maturity model for working with AI tools, arguing that jumping straight to full automation is a mistake and that each earlier stage builds the trust and process needed for the next.",
+            "The stages run: Ask AI (get a one-off answer), Think with AI (use it to find gaps or blind spots in an idea), Teach AI (feed it context, examples, and feedback until a repeatable process can be saved as a reusable skill), Delegate to AI (hand it a real multi-file assignment while still checking every figure), and finally Automate with AI (schedule a vetted skill to run on its own, starting with human-reviewed drafts).",
+            "Rather than promoting a specific product, the video (hashtagged #chatgpt and #claude) functions as a general framework for her audience of entrepreneurs and operators on how to graduate from casual AI use to reliable, scheduled automation without skipping the verification steps in between."
           ]
         }
       ]
