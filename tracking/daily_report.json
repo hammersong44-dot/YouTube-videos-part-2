@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-10-13",
-  "run_timestamp_utc": "2026-10-13T05:00:17Z",
-  "window_start_utc": "2026-10-12T05:00:17Z",
-  "window_end_utc": "2026-10-13T05:00:17Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for PaulJLipsky (1), nateherk (2, a Short teaser plus the full video), and sabrina_ramonov (2); no new videos for theAIsearch, futurepedia_io, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-14",
+  "run_timestamp_utc": "2026-10-14T05:01:40Z",
+  "window_start_utc": "2026-10-13T05:00:21Z",
+  "window_end_utc": "2026-10-14T05:01:40Z",
+  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for PaulJLipsky (1), futurepedia_io (1), nateherk (3), sabrina_ramonov (2), and JeffSu (1); no new videos for theAIsearch and simonscrapes in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -15,15 +15,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "iXjh7VSSLDE",
-          "title": "Meta's New Muse Wonder Is Huge!",
-          "published_at": "2026-10-12T19:17:18Z",
-          "url": "https://www.youtube.com/watch?v=iXjh7VSSLDE",
-          "ai_tech_id": "Meta Muse Wonder and Muse Wonder Full (Meta's generative AI app features, including Active Memory and Active Focus)",
+          "video_id": "3MMbWDF4xYI",
+          "title": "Gemini 4 Argon Is Here (Fully Tested)",
+          "published_at": "2026-10-13T16:00:18Z",
+          "url": "https://www.youtube.com/watch?v=3MMbWDF4xYI",
+          "ai_tech_id": "Google Gemini 4 Argon (new frontier model, including Gemini Spark and the Antigravity coding/agent environment), benchmarked against Anthropic's Opus 5.5",
           "summary": [
-            "Paul J Lipsky covers Meta's newly announced Muse Wonder and Muse Wonder Full, framing the release as a significant step up for Meta's AI creative tools rather than an incremental update.",
-            "He walks through Meta's own demo material for the two features, focusing on Active Memory (which lets the system retain context across a creative session) and Active Focus (which steers generation toward a specific subject or intent), and relays the benchmark figures Meta published to support its claims about the new models' capability.",
-            "The video closes by speculating on what Muse Wonder means for the broader Muse app, positioning it as a notable competitive move in the generative AI space that Meta is betting on to keep pace with other major AI labs."
+            "Paul J Lipsky puts Google's newly released Gemini 4 Argon through a hands-on test suite, covering model benchmarks, game generation inside Antigravity, app debugging, writing, the new Gemini Spark feature, and video/graphics editing.",
+            "He walks through each test case to show where Argon performs well versus where it struggles, then directly compares its output quality and behavior against Anthropic's Opus 5.5 to give viewers a practical sense of how the two frontier models stack up on real tasks rather than just benchmark charts.",
+            "The video closes with a verdict on Argon's overall capability and availability, framed as a sponsored segment for Hyperagent, and is aimed at viewers deciding which current-generation model to rely on for coding, writing, and creative work."
           ]
         }
       ]
@@ -31,34 +31,59 @@
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "7-556KlDMfg",
+          "title": "Last 30 Days: your new real-time web search",
+          "published_at": "2026-10-13T14:31:31Z",
+          "url": "https://www.youtube.com/watch?v=7-556KlDMfg",
+          "ai_tech_id": "\"Last 30 Days\" (a free AI skill for real-time social/web research across YouTube transcripts, Reddit, Polymarket, Hacker News, and GitHub)",
+          "summary": [
+            "Futurepedia introduces \"Last 30 Days,\" a free AI skill positioned as a replacement for relying on stale, traditional web search when researching what people are currently discussing online.",
+            "Rather than pulling from a conventional search index, the tool scans recent YouTube transcripts, Reddit threads, Polymarket, Hacker News, and GitHub activity, then scores, filters, and synthesizes that raw activity into a short, digestible report of real-time sentiment and discussion.",
+            "The video frames this as a practical upgrade for anyone doing trend research, content ideation, or market/sentiment checks, since it surfaces what people are \"actually saying right now\" across multiple platforms in one synthesized pass instead of manual cross-platform searching."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "nRXHWckVxoM",
-          "title": "I Built the Ultimate AI Board of Advisors (free claude skill)",
-          "published_at": "2026-10-13T02:42:52Z",
-          "url": "https://www.youtube.com/watch?v=nRXHWckVxoM",
-          "ai_tech_id": "Anthropic Claude Code sub-agents / Claude Skills (a free \"Roast Room\" multi-agent skill)",
+          "video_id": "rL5tw6h78zo",
+          "title": "I Tested the Viral Reverse Engineer Anything Skill. What You Need to Know.",
+          "published_at": "2026-10-13T17:34:41Z",
+          "url": "https://www.youtube.com/watch?v=rL5tw6h78zo",
+          "ai_tech_id": "\"Reverse Engineer Anything\" (REA) GitHub repo used as a Claude Code skill/workflow",
           "summary": [
-            "Nate Herk introduces the \"Roast Room,\" a system he built in Claude Code where seven AI sub-agents modeled on well-known business figures (including personas inspired by Jeff Bezos, Alex Hormozi, and Warren Buffett) debate a business decision and return a scored verdict, and he is giving the underlying skill away for free.",
-            "He walks through how the sub-agents are configured and what shapes each advisor's reasoning, demonstrates a live debate among the council over a sample decision, and shows how to install the free skill into a viewer's own Claude Code setup, including tips for phrasing questions so the advisors produce sharper, more useful pushback.",
-            "Framed for solo operators and AI agency builders, the video positions the Roast Room as a way to outsource the legwork of gathering diverse business perspectives while the human retains final judgment, and includes timestamped chapters covering setup, the advisor debate, and how to ask better questions."
+            "Nate Herk tests \"Reverse Engineer Anything\" (REA), a GitHub repo and accompanying Claude Code skill designed to help an AI agent rebuild features from existing apps by learning from concrete reference examples rather than vague instructions.",
+            "He demonstrates the approach by rebuilding features from his own Loom-inspired screen recorder, walking through a five-step REA workflow and explaining how giving Claude Code clear examples of desired output improves the quality of generated skills and workflows, while also flagging the limitations and edge cases he ran into during testing.",
+            "The video ends with his overall results and takeaways on REA's practical usefulness for AI agency builders and automation workflows, including links to the open-source repo and his own related free resources."
           ]
         },
         {
-          "video_id": "7GTWAXCTy0o",
-          "title": "I Built the Ultimate AI Board of Advisors",
-          "published_at": "2026-10-13T02:43:49Z",
-          "url": "https://www.youtube.com/watch?v=7GTWAXCTy0o",
-          "ai_tech_id": "Anthropic Claude Code sub-agents / Claude Skills (short-form teaser for the \"Roast Room\" skill)",
+          "video_id": "hxJDcw540IE",
+          "title": "The Viral \"Reverse Engineer Anything\" Repo Explained Clearly",
+          "published_at": "2026-10-13T17:39:04Z",
+          "url": "https://www.youtube.com/watch?v=hxJDcw540IE",
+          "ai_tech_id": "\"Reverse Engineer Anything\" (REA) GitHub repo (companion explainer, paired with a free guide download)",
           "summary": [
-            "This is a short-form (under two minute) companion to Nate Herk's longer video of the same project, posted within a minute of it and reusing the same title without the \"(free claude skill)\" suffix.",
-            "It is built from the Claude Code \"Roast Room\" concept: a panel of AI sub-agents modeled on prominent business figures that debates a decision and hands back a verdict, condensed into a quick highlight rather than the full walkthrough.",
-            "It functions as a teaser/Short to drive traffic to the full explainer video (nRXHWckVxoM), rather than standing on its own as a tutorial."
+            "This is a short companion explainer to Nate Herk's hands-on test video, breaking down what the viral \"Reverse Engineer Anything\" (REA) repository is and why it is gaining rapid attention in the AI automation community.",
+            "The video distills the core concept in plain terms for viewers who want a quick orientation before diving into the longer test video, pointing to a free downloadable guide for readers who want the written walkthrough rather than the video explanation.",
+            "Published the same day as his deeper test video and a third related short, it functions as an accessible entry point into the REA concept for the channel's AI automation and agency-builder audience."
+          ]
+        },
+        {
+          "video_id": "CklLenf9fNc",
+          "title": "Why the Reverse Engineer Anything Repo Gained 100k Stars in a Day",
+          "published_at": "2026-10-14T01:29:00Z",
+          "url": "https://www.youtube.com/watch?v=CklLenf9fNc",
+          "ai_tech_id": "\"Reverse Engineer Anything\" (REA) GitHub repo (viral-growth follow-up, no description provided)",
+          "summary": [
+            "This short follow-up from Nate Herk addresses the explosive growth of the \"Reverse Engineer Anything\" (REA) repository, which the title states gained 100,000 GitHub stars in a single day, continuing the channel's same-day coverage of the tool.",
+            "No video description was published with this upload, so the specific talking points are not available from the metadata, but the title and timing place it as a rapid-reaction piece capitalizing on the viral spread of REA immediately after his earlier explainer and hands-on test videos.",
+            "Viewers already following the channel's REA coverage would likely watch this as the capstone reaction video explaining the scale of the repo's sudden popularity within the AI automation and Claude Code tooling community."
           ]
         }
       ]
@@ -73,27 +98,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "M8fDfC_BYtw",
-          "title": "Robots at SF Tech Week",
-          "published_at": "2026-10-12T15:45:19Z",
-          "url": "https://www.youtube.com/watch?v=M8fDfC_BYtw",
-          "ai_tech_id": "Consumer/service humanoid robots from FF Robotics and Unitree (general robotics, no specific LLM or software platform named)",
+          "video_id": "N24XLMf5tH0",
+          "title": "3 AI Prompts for Critical Thinking",
+          "published_at": "2026-10-13T15:45:29Z",
+          "url": "https://www.youtube.com/watch?v=N24XLMf5tH0",
+          "ai_tech_id": "General-purpose AI chatbots (ChatGPT-style) used via targeted prompt engineering for fact-checking and critical thinking",
           "summary": [
-            "Sabrina Ramonov shares a short, personal-style clip from SF Tech Week where she got an up-close look at humanoid and service robots from makers including FF Robotics and Unitree.",
-            "The video is light on technical detail and framed as an in-person reaction piece, contrasting the feel of seeing robots move through a crowd with watching a polished demo video online, and inviting viewers to react to which robot they'd want to meet first.",
-            "It reads as audience-engagement content for her AI/tech-focused following rather than a deep dive on any one product, using the robots as a hook to discuss how physical AI is starting to show up at industry events in San Francisco."
+            "Sabrina Ramonov shares three prompts designed to counter the tendency to treat AI answers as proof, aimed at helping viewers question their own ideas and verify claims an AI model produces.",
+            "She details each prompt: asking the AI what it might be missing from an idea, asking it to provide data and sources for every claim so the viewer can independently verify them, and a keyword prompt called \"SOCRATES\" that has the AI probe the user's own understanding of a topic by having them answer from memory first.",
+            "The video is framed as a short, practical media-literacy exercise for anyone using AI tools like ChatGPT for research or learning, emphasizing checking cited sources directly rather than trusting AI-generated summaries at face value."
           ]
         },
         {
-          "video_id": "yNE4NNL0_OM",
-          "title": "Robots on the Runway at SF Tech Week",
-          "published_at": "2026-10-12T20:45:21Z",
-          "url": "https://www.youtube.com/watch?v=yNE4NNL0_OM",
-          "ai_tech_id": "Consumer/service humanoid robots in a crowd-judged exhibition format (general robotics, no specific LLM or software platform named)",
+          "video_id": "IRhfjdDCQiQ",
+          "title": "Try This 5-Minute ChatGPT Reflection Prompt",
+          "published_at": "2026-10-13T20:45:18Z",
+          "url": "https://www.youtube.com/watch?v=IRhfjdDCQiQ",
+          "ai_tech_id": "General-purpose AI chatbots (ChatGPT, Claude, or Gemini) used via a structured positive-psychology reflection prompt",
           "summary": [
-            "A follow-up clip from the same SF Tech Week coverage, this time showing robots competing in a runway-style exhibition judged live by the audience in attendance.",
-            "Sabrina Ramonov frames it as a lighthearted but genuine showcase of how far humanoid robotics has come, noting the novelty of a crowd picking a 'winner' among competing robot entries rather than reviewing a controlled lab demo.",
-            "Like the companion video posted a few hours earlier, it's built for engagement (asking viewers to vote on their favorite) rather than technical analysis, functioning as a window into the event's atmosphere rather than a product review."
+                        "Sabrina Ramonov presents a full, copy-ready prompt that turns ChatGPT, Claude, or Gemini into a guided five-minute daily reflection exercise rooted in positive psychology, intended to train attention toward genuinely positive moments rather than generic AI flattery.",
+            "The prompt instructs the AI to ask one question at a time: identifying three specific good things from the day, exploring why each mattered, selecting a favorite moment to mentally relive for twenty seconds using sensory recall, and then naming what the user appreciates most about it, explicitly avoiding generic compliments or forced positivity.",
+            "The video closes the loop by having the AI help the user set an intention to notice one small good thing the next day, positioning the exercise as a lightweight, repeatable mental-health habit built entirely on prompt design rather than any specialized app or tool."
           ]
         }
       ]
@@ -101,7 +126,20 @@
     {
       "channel_name": "JeffSu",
       "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "HdI_aYzgJIg",
+          "title": "Personal Agents, Clearly Explained",
+          "published_at": "2026-10-13T13:00:11Z",
+          "url": "https://www.youtube.com/watch?v=HdI_aYzgJIg",
+          "ai_tech_id": "Personal AI agents (Meta Muse, Dots, Grok Bot) versus DIY agents and a personal AI Workspace, compared against general chatbots like ChatGPT, Claude, and Gemini",
+          "summary": [
+            "Jeff Su breaks down the spectrum of AI assistance available today, distinguishing plain chatbots (ChatGPT, Claude, Gemini) from do-it-yourself agents the user configures themselves, and from pre-built personal AI agents such as Meta's Muse, Dots, and Grok Bot.",
+            "He explains that the key difference between these tiers is how much the AI remembers about the user and how much setup work is required: personal agents are easier to start using out of the box, while a self-built AI Workspace with portable memory files gives the user more control and lets that memory move between different tools.",
+            "The video also addresses the privacy tradeoffs and ecosystem lock-in risks of committing to a vendor's personal-agent product versus maintaining an independent, tool-agnostic memory setup, closing with a recap to help viewers choose the right setup for their needs."
+          ]
+        }
+      ]
     }
   ]
 }
