@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-10-14",
-  "run_timestamp_utc": "2026-10-14T05:01:40Z",
-  "window_start_utc": "2026-10-13T05:00:21Z",
-  "window_end_utc": "2026-10-14T05:01:40Z",
-  "note": "Channel IDs re-verified via channels.list forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used. New videos found for PaulJLipsky (1), futurepedia_io (1), nateherk (3), sabrina_ramonov (2), and JeffSu (1); no new videos for theAIsearch and simonscrapes in this window.",
+  "report_date": "2026-10-15",
+  "run_timestamp_utc": "2026-10-15T05:01:32Z",
+  "window_start_utc": "2026-10-14T05:01:40Z",
+  "window_end_utc": "2026-10-15T05:01:32Z",
+  "note": "Channel IDs re-verified via channels.list/forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles (404), so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for futurepedia_io (1), nateherk (1), and sabrina_ramonov (3); no new videos for theAIsearch, PaulJLipsky, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -13,35 +13,22 @@
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "3MMbWDF4xYI",
-          "title": "Gemini 4 Argon Is Here (Fully Tested)",
-          "published_at": "2026-10-13T16:00:18Z",
-          "url": "https://www.youtube.com/watch?v=3MMbWDF4xYI",
-          "ai_tech_id": "Google Gemini 4 Argon (new frontier model, including Gemini Spark and the Antigravity coding/agent environment), benchmarked against Anthropic's Opus 5.5",
-          "summary": [
-            "Paul J Lipsky puts Google's newly released Gemini 4 Argon through a hands-on test suite, covering model benchmarks, game generation inside Antigravity, app debugging, writing, the new Gemini Spark feature, and video/graphics editing.",
-            "He walks through each test case to show where Argon performs well versus where it struggles, then directly compares its output quality and behavior against Anthropic's Opus 5.5 to give viewers a practical sense of how the two frontier models stack up on real tasks rather than just benchmark charts.",
-            "The video closes with a verdict on Argon's overall capability and availability, framed as a sponsored segment for Hyperagent, and is aimed at viewers deciding which current-generation model to rely on for coding, writing, and creative work."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "7-556KlDMfg",
-          "title": "Last 30 Days: your new real-time web search",
-          "published_at": "2026-10-13T14:31:31Z",
-          "url": "https://www.youtube.com/watch?v=7-556KlDMfg",
-          "ai_tech_id": "\"Last 30 Days\" (a free AI skill for real-time social/web research across YouTube transcripts, Reddit, Polymarket, Hacker News, and GitHub)",
+          "video_id": "2zBvyF4IExY",
+          "title": "Nano Banana just dropped me into a barrel wave",
+          "published_at": "2026-10-14T18:11:06Z",
+          "url": "https://www.youtube.com/watch?v=2zBvyF4IExY",
+          "ai_tech_id": "Nano Banana 2.1 (Google's AI image model) benchmarked against GPT Image 2.5, Flux 3, and Seedream 5 for personal-photo scene editing",
           "summary": [
-            "Futurepedia introduces \"Last 30 Days,\" a free AI skill positioned as a replacement for relying on stale, traditional web search when researching what people are currently discussing online.",
-            "Rather than pulling from a conventional search index, the tool scans recent YouTube transcripts, Reddit threads, Polymarket, Hacker News, and GitHub activity, then scores, filters, and synthesizes that raw activity into a short, digestible report of real-time sentiment and discussion.",
-            "The video frames this as a practical upgrade for anyone doing trend research, content ideation, or market/sentiment checks, since it surfaces what people are \"actually saying right now\" across multiple platforms in one synthesized pass instead of manual cross-platform searching."
+            "Futurepedia runs a head-to-head test of four AI image models — Nano Banana 2.1, GPT Image 2.5, Flux 3, and Seedream 5 — using the same source photo of the host and the same prompts, dropping the subject into action scenarios like a barrel wave and a volcano boarding run.",
+            "The comparison focuses on how well each model preserves the subject's likeness while adapting clothing and context to match the new scene; Nano Banana 2.1 is shown swapping the host's outfit to fit the volcano-boarding scene rather than pasting the original shirt onto a new background, while GPT Image 2.5 keeps facial likeness but produces results the host says don't read as a real photo.",
+            "The video positions Nano Banana 2.1 as the winner of both test rounds for keeping the subject recognizable while maintaining photorealism, giving viewers a practical reference point for choosing an AI image-editing tool for personalized, scene-based photo edits."
           ]
         }
       ]
@@ -51,39 +38,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "rL5tw6h78zo",
-          "title": "I Tested the Viral Reverse Engineer Anything Skill. What You Need to Know.",
-          "published_at": "2026-10-13T17:34:41Z",
-          "url": "https://www.youtube.com/watch?v=rL5tw6h78zo",
-          "ai_tech_id": "\"Reverse Engineer Anything\" (REA) GitHub repo used as a Claude Code skill/workflow",
+          "video_id": "CV-k6rPJvJY",
+          "title": "Claude has completely changed how I edit videos",
+          "published_at": "2026-10-14T12:36:04Z",
+          "url": "https://www.youtube.com/watch?v=CV-k6rPJvJY",
+          "ai_tech_id": "Claude (Anthropic) applied to a personal video-editing workflow",
           "summary": [
-            "Nate Herk tests \"Reverse Engineer Anything\" (REA), a GitHub repo and accompanying Claude Code skill designed to help an AI agent rebuild features from existing apps by learning from concrete reference examples rather than vague instructions.",
-            "He demonstrates the approach by rebuilding features from his own Loom-inspired screen recorder, walking through a five-step REA workflow and explaining how giving Claude Code clear examples of desired output improves the quality of generated skills and workflows, while also flagging the limitations and edge cases he ran into during testing.",
-            "The video ends with his overall results and takeaways on REA's practical usefulness for AI agency builders and automation workflows, including links to the open-source repo and his own related free resources."
-          ]
-        },
-        {
-          "video_id": "hxJDcw540IE",
-          "title": "The Viral \"Reverse Engineer Anything\" Repo Explained Clearly",
-          "published_at": "2026-10-13T17:39:04Z",
-          "url": "https://www.youtube.com/watch?v=hxJDcw540IE",
-          "ai_tech_id": "\"Reverse Engineer Anything\" (REA) GitHub repo (companion explainer, paired with a free guide download)",
-          "summary": [
-            "This is a short companion explainer to Nate Herk's hands-on test video, breaking down what the viral \"Reverse Engineer Anything\" (REA) repository is and why it is gaining rapid attention in the AI automation community.",
-            "The video distills the core concept in plain terms for viewers who want a quick orientation before diving into the longer test video, pointing to a free downloadable guide for readers who want the written walkthrough rather than the video explanation.",
-            "Published the same day as his deeper test video and a third related short, it functions as an accessible entry point into the REA concept for the channel's AI automation and agency-builder audience."
-          ]
-        },
-        {
-          "video_id": "CklLenf9fNc",
-          "title": "Why the Reverse Engineer Anything Repo Gained 100k Stars in a Day",
-          "published_at": "2026-10-14T01:29:00Z",
-          "url": "https://www.youtube.com/watch?v=CklLenf9fNc",
-          "ai_tech_id": "\"Reverse Engineer Anything\" (REA) GitHub repo (viral-growth follow-up, no description provided)",
-          "summary": [
-            "This short follow-up from Nate Herk addresses the explosive growth of the \"Reverse Engineer Anything\" (REA) repository, which the title states gained 100,000 GitHub stars in a single day, continuing the channel's same-day coverage of the tool.",
-            "No video description was published with this upload, so the specific talking points are not available from the metadata, but the title and timing place it as a rapid-reaction piece capitalizing on the viral spread of REA immediately after his earlier explainer and hands-on test videos.",
-            "Viewers already following the channel's REA coverage would likely watch this as the capstone reaction video explaining the scale of the repo's sudden popularity within the AI automation and Claude Code tooling community."
+            "Nate Herk explains how he has restructured part of his video-editing workflow around Claude, describing a shift from fully manual editing toward using the AI model to handle portions of the process.",
+            "The video description points viewers to free skills shared through his AI Automation Society community as the practical resource behind the change, suggesting this short serves as an introduction to a broader workflow or skill set rather than a full technical walkthrough.",
+            "Aimed at his AI automation and content-creator audience, the video frames Claude as a meaningful upgrade to a routine creative task like video editing, continuing the channel's pattern of testing and endorsing specific AI tools for practical production use."
           ]
         }
       ]
@@ -98,27 +61,39 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "N24XLMf5tH0",
-          "title": "3 AI Prompts for Critical Thinking",
-          "published_at": "2026-10-13T15:45:29Z",
-          "url": "https://www.youtube.com/watch?v=N24XLMf5tH0",
-          "ai_tech_id": "General-purpose AI chatbots (ChatGPT-style) used via targeted prompt engineering for fact-checking and critical thinking",
+          "video_id": "SxJZXmu3V4U",
+          "title": "AI Keeps Agreeing With You? Try This Prompt",
+          "published_at": "2026-10-14T20:45:21Z",
+          "url": "https://www.youtube.com/watch?v=SxJZXmu3V4U",
+          "ai_tech_id": "General-purpose AI chatbots (ChatGPT-style) used via a single critical-feedback prompt",
           "summary": [
-            "Sabrina Ramonov shares three prompts designed to counter the tendency to treat AI answers as proof, aimed at helping viewers question their own ideas and verify claims an AI model produces.",
-            "She details each prompt: asking the AI what it might be missing from an idea, asking it to provide data and sources for every claim so the viewer can independently verify them, and a keyword prompt called \"SOCRATES\" that has the AI probe the user's own understanding of a topic by having them answer from memory first.",
-            "The video is framed as a short, practical media-literacy exercise for anyone using AI tools like ChatGPT for research or learning, emphasizing checking cited sources directly rather than trusting AI-generated summaries at face value."
+            "Sabrina Ramonov addresses the common complaint that AI chatbots default to agreeing with and praising a user's ideas, offering a short prompt meant to break that pattern.",
+            "She instructs viewers to return to an existing AI chat where they've already shared project details and ask \"What is the one thing I'm missing?\", framing this as a way to surface overlooked weaknesses rather than receive further validation, while reminding viewers to apply their own judgment when evaluating the AI's criticism.",
+            "The video is a quick, practical media-literacy tip for anyone using AI tools like ChatGPT for planning or idea development, encouraging critical engagement with AI feedback instead of treating agreement as validation."
           ]
         },
         {
-          "video_id": "IRhfjdDCQiQ",
-          "title": "Try This 5-Minute ChatGPT Reflection Prompt",
-          "published_at": "2026-10-13T20:45:18Z",
-          "url": "https://www.youtube.com/watch?v=IRhfjdDCQiQ",
-          "ai_tech_id": "General-purpose AI chatbots (ChatGPT, Claude, or Gemini) used via a structured positive-psychology reflection prompt",
+          "video_id": "_l9Ag4--akU",
+          "title": "No Interviews? Try This AI Resume Project Prompt",
+          "published_at": "2026-10-14T15:45:24Z",
+          "url": "https://www.youtube.com/watch?v=_l9Ag4--akU",
+          "ai_tech_id": "Gemini or Claude used via a structured prompt to generate low-budget AI resume/portfolio projects",
           "summary": [
-                        "Sabrina Ramonov presents a full, copy-ready prompt that turns ChatGPT, Claude, or Gemini into a guided five-minute daily reflection exercise rooted in positive psychology, intended to train attention toward genuinely positive moments rather than generic AI flattery.",
-            "The prompt instructs the AI to ask one question at a time: identifying three specific good things from the day, exploring why each mattered, selecting a favorite moment to mentally relive for twenty seconds using sensory recall, and then naming what the user appreciates most about it, explicitly avoiding generic compliments or forced positivity.",
-            "The video closes the loop by having the AI help the user set an intention to notice one small good thing the next day, positioning the exercise as a lightweight, repeatable mental-health habit built entirely on prompt design rather than any specialized app or tool."
+            "Sabrina Ramonov targets job seekers who have sent many applications without landing interviews, suggesting that building a small AI project tailored to a target role can substitute for the experience applications alone don't convey.",
+            "She provides a copy-paste prompt for Gemini or Claude that asks the model to brainstorm ten AI project ideas under $100 relevant to a specified job title, directing viewers to replace a placeholder with their target role before picking an idea and asking the AI for build steps and tool costs.",
+            "The video frames this as a practical, resume-building exercise for the AI-tools job market, emphasizing that the prompt only generates ideas — viewers still need to complete a project and describe it in their application materials to benefit."
+          ]
+        },
+        {
+          "video_id": "6joYowO6Op0",
+          "title": "Give Me 15 minutes, I'll Give You 10,000 Hours of Claude Skills",
+          "published_at": "2026-10-14T15:02:15Z",
+          "url": "https://www.youtube.com/watch?v=6joYowO6Op0",
+          "ai_tech_id": "Claude Skills (Anthropic) — a curated prompt/skills collection framed as '10,000 hours' of expertise",
+          "summary": [
+            "Sabrina Ramonov promotes a collection of Claude Skills prompts, framing the video as a way to compress \"10,000 hours\" of accumulated expertise into prompts viewers can copy and use within fifteen minutes.",
+            "She directs viewers to a linked blog post on her GenAI University site to copy the full prompt set, pairs the pitch with a plug for her own SaaS product Blotato (which she describes using for high-volume social content distribution), and recounts her entrepreneurial background to establish credibility in the AI-content space.",
+            "The video is aimed at her AI-education audience looking for ready-to-use Claude Skills prompts, combining a practical resource drop with brand-building for her personal content business and the Blotato product."
           ]
         }
       ]
@@ -126,20 +101,7 @@
     {
       "channel_name": "JeffSu",
       "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": [
-        {
-          "video_id": "HdI_aYzgJIg",
-          "title": "Personal Agents, Clearly Explained",
-          "published_at": "2026-10-13T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=HdI_aYzgJIg",
-          "ai_tech_id": "Personal AI agents (Meta Muse, Dots, Grok Bot) versus DIY agents and a personal AI Workspace, compared against general chatbots like ChatGPT, Claude, and Gemini",
-          "summary": [
-            "Jeff Su breaks down the spectrum of AI assistance available today, distinguishing plain chatbots (ChatGPT, Claude, Gemini) from do-it-yourself agents the user configures themselves, and from pre-built personal AI agents such as Meta's Muse, Dots, and Grok Bot.",
-            "He explains that the key difference between these tiers is how much the AI remembers about the user and how much setup work is required: personal agents are easier to start using out of the box, while a self-built AI Workspace with portable memory files gives the user more control and lets that memory move between different tools.",
-            "The video also addresses the privacy tradeoffs and ecosystem lock-in risks of committing to a vendor's personal-agent product versus maintaining an independent, tool-agnostic memory setup, closing with a recap to help viewers choose the right setup for their needs."
-          ]
-        }
-      ]
+      "videos": []
     }
   ]
 }
