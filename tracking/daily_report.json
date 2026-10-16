@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-10-15",
-  "run_timestamp_utc": "2026-10-15T05:01:32Z",
-  "window_start_utc": "2026-10-14T05:01:40Z",
-  "window_end_utc": "2026-10-15T05:01:32Z",
-  "note": "Channel IDs re-verified via channels.list/forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles (404), so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for futurepedia_io (1), nateherk (1), and sabrina_ramonov (3); no new videos for theAIsearch, PaulJLipsky, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-16",
+  "run_timestamp_utc": "2026-10-16T05:01:52Z",
+  "window_start_utc": "2026-10-15T05:01:32Z",
+  "window_end_utc": "2026-10-16T05:01:52Z",
+  "note": "Channel IDs re-verified via channels.list/forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles (404 on channels.list by ID), so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for futurepedia_io (1), nateherk (3), and sabrina_ramonov (2); no new videos for theAIsearch, PaulJLipsky, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -20,15 +20,15 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "2zBvyF4IExY",
-          "title": "Nano Banana just dropped me into a barrel wave",
-          "published_at": "2026-10-14T18:11:06Z",
-          "url": "https://www.youtube.com/watch?v=2zBvyF4IExY",
-          "ai_tech_id": "Nano Banana 2.1 (Google's AI image model) benchmarked against GPT Image 2.5, Flux 3, and Seedream 5 for personal-photo scene editing",
+          "video_id": "umyrdpsnFCA",
+          "title": "Four AI models, one ad, one clear winner.",
+          "published_at": "2026-10-15T17:48:04Z",
+          "url": "https://www.youtube.com/watch?v=umyrdpsnFCA",
+          "ai_tech_id": "Nano Banana 2.1, GPT Image 2.5, and Flux 3 (AI image generation models) compared on a product-ad mockup task",
           "summary": [
-            "Futurepedia runs a head-to-head test of four AI image models — Nano Banana 2.1, GPT Image 2.5, Flux 3, and Seedream 5 — using the same source photo of the host and the same prompts, dropping the subject into action scenarios like a barrel wave and a volcano boarding run.",
-            "The comparison focuses on how well each model preserves the subject's likeness while adapting clothing and context to match the new scene; Nano Banana 2.1 is shown swapping the host's outfit to fit the volcano-boarding scene rather than pasting the original shirt onto a new background, while GPT Image 2.5 keeps facial likeness but produces results the host says don't read as a real photo.",
-            "The video positions Nano Banana 2.1 as the winner of both test rounds for keeping the subject recognizable while maintaining photorealism, giving viewers a practical reference point for choosing an AI image-editing tool for personalized, scene-based photo edits."
+            "Futurepedia runs a short head-to-head comparing three AI image models — Nano Banana 2.1, GPT Image 2.5, and Flux 3 — on a single ad-generation task, using the same FutureFuel can mockup and the same prompt specifying every line of label text and its placement.",
+            "The test is built around a demanding use case: dense, small print on a product label that exposes how reliably each model renders exact text versus approximating it. Nano Banana 2.1 reproduces the label copy, including the \"473 milliliter\" line, cleanly with good lighting and composition; GPT Image 2.5 renders legible text but with a busier, more generic look; Flux 3 comes close but introduces a small error in a numeral.",
+            "The video positions Nano Banana 2.1 as the winner of this specific ad-mockup text-accuracy test, giving marketers and designers a quick reference for which AI image generator to reach for when a creative brief depends on exact on-label text rendering."
           ]
         }
       ]
@@ -38,15 +38,39 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "CV-k6rPJvJY",
-          "title": "Claude has completely changed how I edit videos",
-          "published_at": "2026-10-14T12:36:04Z",
-          "url": "https://www.youtube.com/watch?v=CV-k6rPJvJY",
-          "ai_tech_id": "Claude (Anthropic) applied to a personal video-editing workflow",
+          "video_id": "KZiF2J83zaY",
+          "title": "AI Agents Just Became Multiplayer. Here's How to Build Them.",
+          "published_at": "2026-10-15T15:16:33Z",
+          "url": "https://www.youtube.com/watch?v=KZiF2J83zaY",
+          "ai_tech_id": "Kylon (sponsored shared AI-agent workspace platform) integrated with Claude Code and Codex",
           "summary": [
-            "Nate Herk explains how he has restructured part of his video-editing workflow around Claude, describing a shift from fully manual editing toward using the AI model to handle portions of the process.",
-            "The video description points viewers to free skills shared through his AI Automation Society community as the practical resource behind the change, suggesting this short serves as an introduction to a broader workflow or skill set rather than a full technical walkthrough.",
-            "Aimed at his AI automation and content-creator audience, the video frames Claude as a meaningful upgrade to a routine creative task like video editing, continuing the channel's pattern of testing and endorsing specific AI tools for practical production use."
+            "In this full-length video, Nate Herk walks through Kylon, a sponsored platform that puts humans and AI agents into one shared workspace rather than each person running AI tools in isolated, single-player fashion.",
+            "He demonstrates connecting his team's own Claude Code and Codex subscriptions into Kylon, covering a fresh workspace setup, how credits and pricing work, and a concrete example (an \"AIS Instagram Room\") of how a team could use the shared space, with timestamps guiding viewers from the single-player-vs-multiplayer framing through rollout advice for adopting the tool one work stream at a time.",
+            "Aimed at his AI automation and agency-building audience, the video frames Kylon as infrastructure for moving a team to \"AI native\" collaborative workflows, continuing the channel's pattern of reviewing and promoting, via sponsorship, tools that help teams operationalize AI agents together."
+          ]
+        },
+        {
+          "video_id": "saxdE-U_YS8",
+          "title": "AI Agents Just Became Multiplayer. Here's How to Build Them.",
+          "published_at": "2026-10-15T16:33:38Z",
+          "url": "https://www.youtube.com/watch?v=saxdE-U_YS8",
+          "ai_tech_id": "Shared/multiplayer AI-agent workspace concept (teaser for the Kylon-sponsored full video)",
+          "summary": [
+            "This short is a condensed teaser version of Nate Herk's longer video posted the same day under the identical title, \"AI Agents Just Became Multiplayer. Here's How to Build Them,\" compressing the core pitch into just over a minute with no separate written description.",
+            "The short appears designed to drive traffic to the full-length video, hitting the key hook — that AI agent workflows are moving from single-user (\"single-player\") setups to shared, multiplayer workspaces where humans and agents collaborate together.",
+            "Positioned for his broader short-form audience, the clip functions as a discovery hook for the full tutorial, surfacing the \"multiplayer AI agents\" concept before the companion long-form video delivers the complete walkthrough and sponsor demo."
+          ]
+        },
+        {
+          "video_id": "K70Qf06XBLE",
+          "title": "McKinsey Explains: Build an AI Operating System",
+          "published_at": "2026-10-15T21:06:54Z",
+          "url": "https://www.youtube.com/watch?v=K70Qf06XBLE",
+          "ai_tech_id": "\"AI operating system\" framing for enterprise AI tooling/workflows (referencing McKinsey commentary)",
+          "summary": [
+            "In this short clip, Nate Herk references McKinsey commentary on building an \"AI operating system\" for a business, condensing the idea into a quick, teaser-length short with no written description accompanying it.",
+            "Given the channel's typical focus on AI automation and agency-building, the short likely previews a larger concept Nate covers elsewhere on the channel: structuring AI tools, agents, and workflows into a cohesive operating layer for a team or company rather than relying on disconnected point solutions.",
+            "As a short-form hook aimed at his AI automation audience, the video points viewers toward the broader idea of building AI-driven operating systems for business, consistent with the channel's recurring theme of professionalizing AI adoption inside teams."
           ]
         }
       ]
@@ -61,39 +85,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "SxJZXmu3V4U",
-          "title": "AI Keeps Agreeing With You? Try This Prompt",
-          "published_at": "2026-10-14T20:45:21Z",
-          "url": "https://www.youtube.com/watch?v=SxJZXmu3V4U",
-          "ai_tech_id": "General-purpose AI chatbots (ChatGPT-style) used via a single critical-feedback prompt",
+          "video_id": "Qj9g4t43TXY",
+          "title": "The AI Workshop I Taught at Stanford (Free Slides)",
+          "published_at": "2026-10-15T20:45:33Z",
+          "url": "https://www.youtube.com/watch?v=Qj9g4t43TXY",
+          "ai_tech_id": "General AI prompting, custom \"skills,\" and a scheduled autonomous AI agent, taught as a corporate workshop curriculum",
           "summary": [
-            "Sabrina Ramonov addresses the common complaint that AI chatbots default to agreeing with and praising a user's ideas, offering a short prompt meant to break that pattern.",
-            "She instructs viewers to return to an existing AI chat where they've already shared project details and ask \"What is the one thing I'm missing?\", framing this as a way to surface overlooked weaknesses rather than receive further validation, while reminding viewers to apply their own judgment when evaluating the AI's criticism.",
-            "The video is a quick, practical media-literacy tip for anyone using AI tools like ChatGPT for planning or idea development, encouraging critical engagement with AI feedback instead of treating agreement as validation."
+            "Sabrina Ramonov recaps a 3-hour AI workshop she taught at Stanford covering basic prompting, building custom \"skills,\" and creating a first autonomous AI agent that runs on a schedule, and announces she's giving away the full guide and slide deck for free.",
+            "She frames the free materials as a business opportunity rather than just an education tip: viewers can reuse or modify the guide and PowerPoint to teach their own AI workshops to companies, suggesting they anchor training around a team's actual work and build in practice time, while noting that landing a paying client (she references a $3,000 training fee) and running the session well are still on the user to execute.",
+            "Aimed at her entrepreneurial and AI-education audience, the video doubles as both a condensed account of what an effective corporate AI-literacy workshop covers and a lead-generation pitch for her own linked guide, continuing her pattern of turning personal AI/business experience into monetizable templates for followers."
           ]
         },
         {
-          "video_id": "_l9Ag4--akU",
-          "title": "No Interviews? Try This AI Resume Project Prompt",
-          "published_at": "2026-10-14T15:45:24Z",
-          "url": "https://www.youtube.com/watch?v=_l9Ag4--akU",
-          "ai_tech_id": "Gemini or Claude used via a structured prompt to generate low-budget AI resume/portfolio projects",
+          "video_id": "lSQ9sdTPgDE",
+          "title": "Use AI to Find a Resume Project for Your Target Job",
+          "published_at": "2026-10-15T15:45:34Z",
+          "url": "https://www.youtube.com/watch?v=lSQ9sdTPgDE",
+          "ai_tech_id": "General-purpose AI chatbots (ChatGPT, Claude, Gemini) used via a structured prompt to brainstorm low-budget resume projects",
           "summary": [
-            "Sabrina Ramonov targets job seekers who have sent many applications without landing interviews, suggesting that building a small AI project tailored to a target role can substitute for the experience applications alone don't convey.",
-            "She provides a copy-paste prompt for Gemini or Claude that asks the model to brainstorm ten AI project ideas under $100 relevant to a specified job title, directing viewers to replace a placeholder with their target role before picking an idea and asking the AI for build steps and tool costs.",
-            "The video frames this as a practical, resume-building exercise for the AI-tools job market, emphasizing that the prompt only generates ideas — viewers still need to complete a project and describe it in their application materials to benefit."
-          ]
-        },
-        {
-          "video_id": "6joYowO6Op0",
-          "title": "Give Me 15 minutes, I'll Give You 10,000 Hours of Claude Skills",
-          "published_at": "2026-10-14T15:02:15Z",
-          "url": "https://www.youtube.com/watch?v=6joYowO6Op0",
-          "ai_tech_id": "Claude Skills (Anthropic) — a curated prompt/skills collection framed as '10,000 hours' of expertise",
-          "summary": [
-            "Sabrina Ramonov promotes a collection of Claude Skills prompts, framing the video as a way to compress \"10,000 hours\" of accumulated expertise into prompts viewers can copy and use within fifteen minutes.",
-            "She directs viewers to a linked blog post on her GenAI University site to copy the full prompt set, pairs the pitch with a plug for her own SaaS product Blotato (which she describes using for high-volume social content distribution), and recounts her entrepreneurial background to establish credibility in the AI-content space.",
-            "The video is aimed at her AI-education audience looking for ready-to-use Claude Skills prompts, combining a practical resource drop with brand-building for her personal content business and the Blotato product."
+            "Sabrina Ramonov targets job seekers who want to strengthen their resume with a tangible AI project rather than just listing applications, advising viewers to tie the project directly to the specific role they're targeting.",
+            "She provides a copy-paste prompt for ChatGPT, Claude, or Gemini that asks the model to brainstorm ten AI project ideas under $100 relevant to a given job title, instructing viewers to swap in their target role, pick one idea, and then ask the AI to walk through build steps, required tools, and costs before starting.",
+            "The video closes by stressing execution over ideation — generating a list of ideas isn't the same as a completed project — framing this as a practical, low-cost way for job seekers in the AI-saturated hiring market to produce resume-ready proof of applied AI skills."
           ]
         }
       ]
