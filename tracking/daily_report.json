@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-10-16",
-  "run_timestamp_utc": "2026-10-16T05:01:52Z",
-  "window_start_utc": "2026-10-15T05:01:32Z",
-  "window_end_utc": "2026-10-16T05:01:52Z",
-  "note": "Channel IDs re-verified via channels.list/forHandle before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles (404 on channels.list by ID), so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for futurepedia_io (1), nateherk (3), and sabrina_ramonov (2); no new videos for theAIsearch, PaulJLipsky, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-17",
+  "run_timestamp_utc": "2026-10-17T05:00:37Z",
+  "window_start_utc": "2026-10-16T05:00:37Z",
+  "window_end_utc": "2026-10-17T05:00:37Z",
+  "note": "Channel IDs re-verified via channels.list before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), nateherk (3), and sabrina_ramonov (2); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -13,22 +13,35 @@
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "rimJ8l1Wf2g",
+          "title": "AI News: Argon Is Insane and Muse Wonder May Be Benchmaxxed",
+          "published_at": "2026-10-16T13:00:21Z",
+          "url": "https://www.youtube.com/watch?v=rimJ8l1Wf2g",
+          "ai_tech_id": "Gemini 4 Argon and Meta Muse Wonder (frontier LLMs) plus Grok Voice 3.0 (voice model) and Google AI Studio app demos",
+          "summary": [
+            "Paul J Lipsky runs his weekly AI news roundup, leading with two newly released frontier models, Gemini 4 Argon and Meta Muse Wonder, and arguing that their benchmark scores only tell part of the story compared to how they actually perform in hands-on demos.",
+            "He walks through live demos of Argon-built mini games (an Argon Tennis title and others built in Google AI Studio), tests xAI's new Grok Voice 3.0, and covers a wider sweep of the week's AI news: an OpenAI engineer's arrest, a new X subscription tier, Amazon's Bee wearable, the Flourish 1 robot, and fresh ChatGPT feature updates, all organized with timestamped chapters.",
+            "Sponsored by email-marketing platform Omnisend, the video continues the channel's format of a fast-paced weekly digest aimed at viewers who want a single-video catch-up on the most notable AI model releases, tools, and industry stories from the past week."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "umyrdpsnFCA",
-          "title": "Four AI models, one ad, one clear winner.",
-          "published_at": "2026-10-15T17:48:04Z",
-          "url": "https://www.youtube.com/watch?v=umyrdpsnFCA",
-          "ai_tech_id": "Nano Banana 2.1, GPT Image 2.5, and Flux 3 (AI image generation models) compared on a product-ad mockup task",
+          "video_id": "pur1QwIA0qg",
+          "title": "Who nails the most realistic concert photo?",
+          "published_at": "2026-10-16T17:30:07Z",
+          "url": "https://www.youtube.com/watch?v=pur1QwIA0qg",
+          "ai_tech_id": "Nano Banana 2.1 (AI image generation model) tested on realistic concert-photo generation, including self-insertion",
           "summary": [
-            "Futurepedia runs a short head-to-head comparing three AI image models — Nano Banana 2.1, GPT Image 2.5, and Flux 3 — on a single ad-generation task, using the same FutureFuel can mockup and the same prompt specifying every line of label text and its placement.",
-            "The test is built around a demanding use case: dense, small print on a product label that exposes how reliably each model renders exact text versus approximating it. Nano Banana 2.1 reproduces the label copy, including the \"473 milliliter\" line, cleanly with good lighting and composition; GPT Image 2.5 renders legible text but with a busier, more generic look; Flux 3 comes close but introduces a small error in a numeral.",
-            "The video positions Nano Banana 2.1 as the winner of this specific ad-mockup text-accuracy test, giving marketers and designers a quick reference for which AI image generator to reach for when a creative brief depends on exact on-label text rendering."
+            "Futurepedia puts the newly released Nano Banana 2.1 image model through a realism test built around generating a convincing concert photo from a single prompt, framing the video as a quick head-to-head to see which model 'nails' the shot.",
+            "The test escalates in difficulty by having the creator insert themselves into the generated concert scene, checking whether the model can keep crowd lighting, stage glow, and the inserted person's likeness looking coherent and photorealistic rather than obviously composited.",
+            "Aimed at Futurepedia's audience of marketers, content creators, and AI-curious viewers, the short positions Nano Banana 2.1 as a notable step up in photorealistic AI image generation and gives a quick, concrete benchmark for anyone deciding which image model to use for realistic social or event-style photos."
           ]
         }
       ]
@@ -38,39 +51,39 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "KZiF2J83zaY",
-          "title": "AI Agents Just Became Multiplayer. Here's How to Build Them.",
-          "published_at": "2026-10-15T15:16:33Z",
-          "url": "https://www.youtube.com/watch?v=KZiF2J83zaY",
-          "ai_tech_id": "Kylon (sponsored shared AI-agent workspace platform) integrated with Claude Code and Codex",
+          "video_id": "gNMN-7D9130",
+          "title": "Claude Opus 5.5 is my video editor",
+          "published_at": "2026-10-16T13:21:43Z",
+          "url": "https://www.youtube.com/watch?v=gNMN-7D9130",
+          "ai_tech_id": "Claude Opus 5.5 (Anthropic LLM) used as an autonomous video-editing agent",
           "summary": [
-            "In this full-length video, Nate Herk walks through Kylon, a sponsored platform that puts humans and AI agents into one shared workspace rather than each person running AI tools in isolated, single-player fashion.",
-            "He demonstrates connecting his team's own Claude Code and Codex subscriptions into Kylon, covering a fresh workspace setup, how credits and pricing work, and a concrete example (an \"AIS Instagram Room\") of how a team could use the shared space, with timestamps guiding viewers from the single-player-vs-multiplayer framing through rollout advice for adopting the tool one work stream at a time.",
-            "Aimed at his AI automation and agency-building audience, the video frames Kylon as infrastructure for moving a team to \"AI native\" collaborative workflows, continuing the channel's pattern of reviewing and promoting, via sponsorship, tools that help teams operationalize AI agents together."
+            "In this short, Nate Herk claims he has handed off his video-editing workflow to Claude Opus 5.5, framing the model not just as a coding or writing assistant but as a functioning editor for his own YouTube content.",
+            "No written description accompanies the clip, consistent with the channel's short-form teaser style, but the title alone signals a demonstration of an LLM-driven agent performing a creative production task that is traditionally manual and tool-heavy.",
+            "For his AI-automation audience, the video continues a recurring theme on the channel: pushing general-purpose coding agents like Claude Opus into adjacent, non-coding workflows to show how far agentic AI tooling can be stretched into everyday content-creation work."
           ]
         },
         {
-          "video_id": "saxdE-U_YS8",
-          "title": "AI Agents Just Became Multiplayer. Here's How to Build Them.",
-          "published_at": "2026-10-15T16:33:38Z",
-          "url": "https://www.youtube.com/watch?v=saxdE-U_YS8",
-          "ai_tech_id": "Shared/multiplayer AI-agent workspace concept (teaser for the Kylon-sponsored full video)",
+          "video_id": "Z8lf5oWKfj0",
+          "title": "Matt Pocock: The Most Valuable Skill to Learn in the Age of AI",
+          "published_at": "2026-10-16T19:52:20Z",
+          "url": "https://www.youtube.com/watch?v=Z8lf5oWKfj0",
+          "ai_tech_id": "Claude Opus 5.5 run at 'medium' effort inside an agentic coding workflow, discussed alongside spec-driven development practices",
           "summary": [
-            "This short is a condensed teaser version of Nate Herk's longer video posted the same day under the identical title, \"AI Agents Just Became Multiplayer. Here's How to Build Them,\" compressing the core pitch into just over a minute with no separate written description.",
-            "The short appears designed to drive traffic to the full-length video, hitting the key hook — that AI agent workflows are moving from single-user (\"single-player\") setups to shared, multiplayer workspaces where humans and agents collaborate together.",
-            "Positioned for his broader short-form audience, the clip functions as a discovery hook for the full tutorial, surfacing the \"multiplayer AI agents\" concept before the companion long-form video delivers the complete walkthrough and sponsor demo."
+            "Nate Herk hosts developer-educator Matt Pocock for a long-form conversation about shifting from a decade of hand-writing code to having AI agents write it, covering why the best agent results come from telling the agents what you actually care about and shaping the environment they operate in.",
+            "Pocock explains why spec-driven development made his code worse for months before he adjusted his approach, and details why he currently runs Claude Opus 5.5 at medium reasoning effort for his agentic coding work, alongside broader discussion of model, harness, and effort-level tradeoffs.",
+            "The episode also covers opportunities for non-technical people entering AI-assisted work, how to stand out when anyone can assemble a portfolio quickly with AI tools, and a recommended 'trust ladder' for getting started, fitting the channel's pattern of long-form interviews aimed at its AI-automation and agency-building audience."
           ]
         },
         {
-          "video_id": "K70Qf06XBLE",
-          "title": "McKinsey Explains: Build an AI Operating System",
-          "published_at": "2026-10-15T21:06:54Z",
-          "url": "https://www.youtube.com/watch?v=K70Qf06XBLE",
-          "ai_tech_id": "\"AI operating system\" framing for enterprise AI tooling/workflows (referencing McKinsey commentary)",
+          "video_id": "8kH03pGq4V0",
+          "title": "Why I let my Grok Bot doomscroll on TikTok",
+          "published_at": "2026-10-16T20:34:31Z",
+          "url": "https://www.youtube.com/watch?v=8kH03pGq4V0",
+          "ai_tech_id": "A custom Grok-based bot (xAI's Grok model) set up to autonomously browse/'doomscroll' TikTok",
           "summary": [
-            "In this short clip, Nate Herk references McKinsey commentary on building an \"AI operating system\" for a business, condensing the idea into a quick, teaser-length short with no written description accompanying it.",
-            "Given the channel's typical focus on AI automation and agency-building, the short likely previews a larger concept Nate covers elsewhere on the channel: structuring AI tools, agents, and workflows into a cohesive operating layer for a team or company rather than relying on disconnected point solutions.",
-            "As a short-form hook aimed at his AI automation audience, the video points viewers toward the broader idea of building AI-driven operating systems for business, consistent with the channel's recurring theme of professionalizing AI adoption inside teams."
+            "This short has Nate Herk explaining, in brief, why he deliberately built and let loose a bot powered by xAI's Grok model to scroll through TikTok on its own, treating the experiment as a way to explore what an AI agent 'learns' or surfaces from unsupervised exposure to short-form social content.",
+            "No written description is attached, matching the channel's short-form teaser format, but the premise frames an unconventional, slightly tongue-in-cheek use case for a conversational AI model: turning it loose on a feed typically consumed by humans rather than giving it a narrow productivity task.",
+            "For his AI-automation-focused audience, the clip fits the channel's recurring habit of testing and showcasing offbeat or experimental applications of agentic AI models beyond standard coding and business-automation demos."
           ]
         }
       ]
@@ -85,27 +98,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "Qj9g4t43TXY",
-          "title": "The AI Workshop I Taught at Stanford (Free Slides)",
-          "published_at": "2026-10-15T20:45:33Z",
-          "url": "https://www.youtube.com/watch?v=Qj9g4t43TXY",
-          "ai_tech_id": "General AI prompting, custom \"skills,\" and a scheduled autonomous AI agent, taught as a corporate workshop curriculum",
+          "video_id": "Hq04s_HHLao",
+          "title": "ELI Cactus: Get Simpler ChatGPT Answers",
+          "published_at": "2026-10-16T15:45:16Z",
+          "url": "https://www.youtube.com/watch?v=Hq04s_HHLao",
+          "ai_tech_id": "ChatGPT (OpenAI LLM) prompting technique, a playful variant of 'explain like I'm 10' prompting",
           "summary": [
-            "Sabrina Ramonov recaps a 3-hour AI workshop she taught at Stanford covering basic prompting, building custom \"skills,\" and creating a first autonomous AI agent that runs on a schedule, and announces she's giving away the full guide and slide deck for free.",
-            "She frames the free materials as a business opportunity rather than just an education tip: viewers can reuse or modify the guide and PowerPoint to teach their own AI workshops to companies, suggesting they anchor training around a team's actual work and build in practice time, while noting that landing a paying client (she references a $3,000 training fee) and running the session well are still on the user to execute.",
-            "Aimed at her entrepreneurial and AI-education audience, the video doubles as both a condensed account of what an effective corporate AI-literacy workshop covers and a lead-generation pitch for her own linked guide, continuing her pattern of turning personal AI/business experience into monetizable templates for followers."
+            "Sabrina Ramonov shares a simple ChatGPT prompting trick she calls 'ELI Cactus' — short for 'explain like I'm a cactus' — as a playful twist on the well-known 'explain like I'm 10' (ELI10) prompt pattern, aimed at getting plainer, less jargon-dense answers from the model.",
+            "She walks through exactly how to use it: appending 'ELI Cactus' to a question, and if ChatGPT still misses the cue, following up by explicitly asking for simple words and a first step, giving viewers a reusable template rather than a one-off example.",
+            "Consistent with her channel's focus on practical, bite-sized AI literacy tips, the short turns a lightweight prompt-engineering habit into an easy, memorable takeaway for non-technical viewers who find typical AI explanations too dense or decoded."
           ]
         },
         {
-          "video_id": "lSQ9sdTPgDE",
-          "title": "Use AI to Find a Resume Project for Your Target Job",
-          "published_at": "2026-10-15T15:45:34Z",
-          "url": "https://www.youtube.com/watch?v=lSQ9sdTPgDE",
-          "ai_tech_id": "General-purpose AI chatbots (ChatGPT, Claude, Gemini) used via a structured prompt to brainstorm low-budget resume projects",
+          "video_id": "omIbkrsmxTY",
+          "title": "I Hated Making Content. Then Inc Featured My Story",
+          "published_at": "2026-10-16T20:45:18Z",
+          "url": "https://www.youtube.com/watch?v=omIbkrsmxTY",
+          "ai_tech_id": "No specific AI model or tool demonstrated; personal/career narrative referencing her AI-education content business",
           "summary": [
-            "Sabrina Ramonov targets job seekers who want to strengthen their resume with a tangible AI project rather than just listing applications, advising viewers to tie the project directly to the specific role they're targeting.",
-            "She provides a copy-paste prompt for ChatGPT, Claude, or Gemini that asks the model to brainstorm ten AI project ideas under $100 relevant to a given job title, instructing viewers to swap in their target role, pick one idea, and then ask the AI to walk through build steps, required tools, and costs before starting.",
-            "The video closes by stressing execution over ideation — generating a list of ideas isn't the same as a completed project — framing this as a practical, low-cost way for job seekers in the AI-saturated hiring market to produce resume-ready proof of applied AI skills."
+            "Sabrina Ramonov shares a personal career-arc story rather than a tool demo, recounting how she co-founded speech-analytics startup Qurious.io, sold it to Pegasystems in 2021, and only afterward began teaching people outside Silicon Valley how to use AI.",
+            "She describes initially hating content creation — finding posting cringe-inducing when few people in her tech circles were active on platforms like TikTok — but coming to embrace it because it let her keep building, learning, and teaching, a journey that was eventually featured by Inc.",
+            "While not a hands-on AI tutorial, the video reinforces her channel's positioning as an AI educator with real startup and exit credibility, using her own story to build trust with an audience she otherwise teaches practical AI and ChatGPT tips."
           ]
         }
       ]
