@@ -1,47 +1,47 @@
 {
-  "report_date": "2026-10-17",
-  "run_timestamp_utc": "2026-10-17T05:00:37Z",
-  "window_start_utc": "2026-10-16T05:00:37Z",
-  "window_end_utc": "2026-10-17T05:00:37Z",
-  "note": "Channel IDs re-verified via channels.list before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), nateherk (3), and sabrina_ramonov (2); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-18",
+  "run_timestamp_utc": "2026-10-18T05:00:04Z",
+  "window_start_utc": "2026-10-17T05:00:04Z",
+  "window_end_utc": "2026-10-18T05:00:04Z",
+  "note": "Channel IDs re-verified via channels.list (forHandle) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for theAIsearch (1), futurepedia_io (1), nateherk (1), simonscrapes (1), and sabrina_ramonov (3); no new videos for PaulJLipsky and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "tDWtcyeNNew",
+          "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
+          "published_at": "2026-10-18T03:30:33Z",
+          "url": "https://www.youtube.com/watch?v=tDWtcyeNNew",
+          "ai_tech_id": "Gemini 4 Argon (Google LLM) and Meta Muse Wonder (image/video model), plus MOSS-Image, Kling 4, Krea 3, FLUX 3 Image Klein, Drama 3, and other frontier model releases covered in a weekly AI news roundup",
+          "summary": [
+            "AI Search (theAIsearch) publishes its regular AI-news roundup, opening with Google's quantum computing breakthrough (magic state cultivation) alongside the day's biggest model drops, Google's newly announced Gemini 4 Argon and Meta's Muse Wonder image/video generator.",
+            "The video runs through a dense list of releases via timestamped chapters, including MOSS-Image, Kling 4, Krea 3, FLUX 3 Image Klein, Drama 3 (voice/audio), Matrix-Game 4.0, and smaller open-weight models like NVIDIA Nemotron 3.5 Super VL and LFM2.5-24B-A2B, plus a segment on an alleged OpenAI spy story.",
+            "Sponsored by Luma, the episode continues the channel's format of a single-video weekly catch-up for viewers tracking the fast pace of frontier-model and generative-media releases across image, video, and audio AI."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "rimJ8l1Wf2g",
-          "title": "AI News: Argon Is Insane and Muse Wonder May Be Benchmaxxed",
-          "published_at": "2026-10-16T13:00:21Z",
-          "url": "https://www.youtube.com/watch?v=rimJ8l1Wf2g",
-          "ai_tech_id": "Gemini 4 Argon and Meta Muse Wonder (frontier LLMs) plus Grok Voice 3.0 (voice model) and Google AI Studio app demos",
-          "summary": [
-            "Paul J Lipsky runs his weekly AI news roundup, leading with two newly released frontier models, Gemini 4 Argon and Meta Muse Wonder, and arguing that their benchmark scores only tell part of the story compared to how they actually perform in hands-on demos.",
-            "He walks through live demos of Argon-built mini games (an Argon Tennis title and others built in Google AI Studio), tests xAI's new Grok Voice 3.0, and covers a wider sweep of the week's AI news: an OpenAI engineer's arrest, a new X subscription tier, Amazon's Bee wearable, the Flourish 1 robot, and fresh ChatGPT feature updates, all organized with timestamped chapters.",
-            "Sponsored by email-marketing platform Omnisend, the video continues the channel's format of a fast-paced weekly digest aimed at viewers who want a single-video catch-up on the most notable AI model releases, tools, and industry stories from the past week."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "pur1QwIA0qg",
-          "title": "Who nails the most realistic concert photo?",
-          "published_at": "2026-10-16T17:30:07Z",
-          "url": "https://www.youtube.com/watch?v=pur1QwIA0qg",
-          "ai_tech_id": "Nano Banana 2.1 (AI image generation model) tested on realistic concert-photo generation, including self-insertion",
+          "video_id": "Ar8yKK2liUw",
+          "title": "A to Z without a single mistake?",
+          "published_at": "2026-10-17T23:00:19Z",
+          "url": "https://www.youtube.com/watch?v=Ar8yKK2liUw",
+          "ai_tech_id": "GPT Image 2.5 and Nano Banana 2.1 (AI image generation models) tested head-to-head on alphabet poster accuracy",
           "summary": [
-            "Futurepedia puts the newly released Nano Banana 2.1 image model through a realism test built around generating a convincing concert photo from a single prompt, framing the video as a quick head-to-head to see which model 'nails' the shot.",
-            "The test escalates in difficulty by having the creator insert themselves into the generated concert scene, checking whether the model can keep crowd lighting, stage glow, and the inserted person's likeness looking coherent and photorealistic rather than obviously composited.",
-            "Aimed at Futurepedia's audience of marketers, content creators, and AI-curious viewers, the short positions Nano Banana 2.1 as a notable step up in photorealistic AI image generation and gives a quick, concrete benchmark for anyone deciding which image model to use for realistic social or event-style photos."
+            "Futurepedia runs a head-to-head realism/accuracy test, giving four AI image models the same prompt to generate a full A-to-Z alphabet poster, each letter paired with a matching animal illustration.",
+            "GPT Image 2.5 gets closest to flawless, nailing every letter-animal pairing with only a minor rendering flaw on the letter A, while Nano Banana 2.1 performs nearly as well but consistently substitutes a unicorn for the letter U even on a repeat run.",
+            "Framed as a quick, concrete benchmark rather than a deep dive, the short gives Futurepedia's marketer- and creator-heavy audience an easy comparison point for which current image model handles structured, text-heavy illustration tasks most reliably."
           ]
         }
       ]
@@ -51,39 +51,15 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "gNMN-7D9130",
-          "title": "Claude Opus 5.5 is my video editor",
-          "published_at": "2026-10-16T13:21:43Z",
-          "url": "https://www.youtube.com/watch?v=gNMN-7D9130",
-          "ai_tech_id": "Claude Opus 5.5 (Anthropic LLM) used as an autonomous video-editing agent",
+          "video_id": "NmN6jn6IiMA",
+          "title": "Clay's AI Agent Builds Your Outbound From One Prompt",
+          "published_at": "2026-10-17T11:45:06Z",
+          "url": "https://www.youtube.com/watch?v=NmN6jn6IiMA",
+          "ai_tech_id": "Clay's AI agent (sales/outbound automation agent), run from within Claude Code or OpenAI Codex",
           "summary": [
-            "In this short, Nate Herk claims he has handed off his video-editing workflow to Claude Opus 5.5, framing the model not just as a coding or writing assistant but as a functioning editor for his own YouTube content.",
-            "No written description accompanies the clip, consistent with the channel's short-form teaser style, but the title alone signals a demonstration of an LLM-driven agent performing a creative production task that is traditionally manual and tool-heavy.",
-            "For his AI-automation audience, the video continues a recurring theme on the channel: pushing general-purpose coding agents like Claude Opus into adjacent, non-coding workflows to show how far agentic AI tooling can be stretched into everyday content-creation work."
-          ]
-        },
-        {
-          "video_id": "Z8lf5oWKfj0",
-          "title": "Matt Pocock: The Most Valuable Skill to Learn in the Age of AI",
-          "published_at": "2026-10-16T19:52:20Z",
-          "url": "https://www.youtube.com/watch?v=Z8lf5oWKfj0",
-          "ai_tech_id": "Claude Opus 5.5 run at 'medium' effort inside an agentic coding workflow, discussed alongside spec-driven development practices",
-          "summary": [
-            "Nate Herk hosts developer-educator Matt Pocock for a long-form conversation about shifting from a decade of hand-writing code to having AI agents write it, covering why the best agent results come from telling the agents what you actually care about and shaping the environment they operate in.",
-            "Pocock explains why spec-driven development made his code worse for months before he adjusted his approach, and details why he currently runs Claude Opus 5.5 at medium reasoning effort for his agentic coding work, alongside broader discussion of model, harness, and effort-level tradeoffs.",
-            "The episode also covers opportunities for non-technical people entering AI-assisted work, how to stand out when anyone can assemble a portfolio quickly with AI tools, and a recommended 'trust ladder' for getting started, fitting the channel's pattern of long-form interviews aimed at its AI-automation and agency-building audience."
-          ]
-        },
-        {
-          "video_id": "8kH03pGq4V0",
-          "title": "Why I let my Grok Bot doomscroll on TikTok",
-          "published_at": "2026-10-16T20:34:31Z",
-          "url": "https://www.youtube.com/watch?v=8kH03pGq4V0",
-          "ai_tech_id": "A custom Grok-based bot (xAI's Grok model) set up to autonomously browse/'doomscroll' TikTok",
-          "summary": [
-            "This short has Nate Herk explaining, in brief, why he deliberately built and let loose a bot powered by xAI's Grok model to scroll through TikTok on its own, treating the experiment as a way to explore what an AI agent 'learns' or surfaces from unsupervised exposure to short-form social content.",
-            "No written description is attached, matching the channel's short-form teaser format, but the premise frames an unconventional, slightly tongue-in-cheek use case for a conversational AI model: turning it loose on a feed typically consumed by humans rather than giving it a narrow productivity task.",
-            "For his AI-automation-focused audience, the clip fits the channel's recurring habit of testing and showcasing offbeat or experimental applications of agentic AI models beyond standard coding and business-automation demos."
+            "Nate Herk showcases Clay's new AI agent, which claims to build an entire outbound sales system (lead lists, sequencing, messaging) from a single natural-language prompt.",
+            "He highlights that the agent can be run directly from inside Claude Code or OpenAI's Codex, tying a sales-automation product into the same agentic coding tools he regularly covers; the video is a sponsored promotion (marked #ad) with a call to action to DM him for the workflow.",
+            "Consistent with the channel's AI-automation focus, the short treats Clay's agent as another example of agentic AI being pointed at business-operations tasks like outbound prospecting rather than traditional coding work."
           ]
         }
       ]
@@ -91,34 +67,59 @@
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "YAuWBqZ_gjs",
+          "title": "Claude Changed Completely - Every NEW Concept Explained",
+          "published_at": "2026-10-17T17:52:04Z",
+          "url": "https://www.youtube.com/watch?v=YAuWBqZ_gjs",
+          "ai_tech_id": "Claude Code (Anthropic agentic coding tool) workflow changes — skills, /Advisor, forks vs. subagents, self-starting routines, Opus/Sonnet model-tier tradeoffs",
+          "summary": [
+            "Simon Scrapes delivers a long-form rundown of 15 ways Claude Code has changed over roughly the last 10 months, aimed at viewers whose habits from early usage may now be quietly costing them tokens, time, or output quality.",
+            "Chapters cover concrete workflow shifts: exposed/underused skill packs (noting 7 of 9 popular skill packs failed against a blank test file), picking cheaper vs. more capable models, using /Advisor to get Opus-level reasoning on a Sonnet budget, the current state of plan mode and /goal, context-window pitfalls, forks versus subagents, self-starting routines, and running Claude on another machine.",
+            "Simon notes most of the advice also applies to Codex, Cursor, and other coding-agent desktop apps, reinforcing the channel's niche of practical, up-to-date power-user tutorials for Claude Code and similar agentic coding tools."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "Hq04s_HHLao",
-          "title": "ELI Cactus: Get Simpler ChatGPT Answers",
-          "published_at": "2026-10-16T15:45:16Z",
-          "url": "https://www.youtube.com/watch?v=Hq04s_HHLao",
-          "ai_tech_id": "ChatGPT (OpenAI LLM) prompting technique, a playful variant of 'explain like I'm 10' prompting",
+          "video_id": "msBeixuzshw",
+          "title": "Unboxing My Unitree R1 EDU Robot",
+          "published_at": "2026-10-17T20:45:25Z",
+          "url": "https://www.youtube.com/watch?v=msBeixuzshw",
+          "ai_tech_id": "Unitree R1 EDU (trainable humanoid robot platform)",
           "summary": [
-            "Sabrina Ramonov shares a simple ChatGPT prompting trick she calls 'ELI Cactus' — short for 'explain like I'm a cactus' — as a playful twist on the well-known 'explain like I'm 10' (ELI10) prompt pattern, aimed at getting plainer, less jargon-dense answers from the model.",
-            "She walks through exactly how to use it: appending 'ELI Cactus' to a question, and if ChatGPT still misses the cue, following up by explicitly asking for simple words and a first step, giving viewers a reusable template rather than a one-off example.",
-            "Consistent with her channel's focus on practical, bite-sized AI literacy tips, the short turns a lightweight prompt-engineering habit into an easy, memorable takeaway for non-technical viewers who find typical AI explanations too dense or decoded."
+            "Sabrina Ramonov unboxes the $29,756 Unitree R1 EDU, a trainable humanoid robot, walking through assembly out of the box, powering it on, and watching it stand for the first time via remote control.",
+            "The 'EDU' edition is specifically the trainable variant, and she notes the robot bumped into a wall during the demo, candidly flagging that she still has a lot to learn before giving it more freedom of movement in her space.",
+            "The video functions as a hands-on first-look/unboxing for her AI-education audience, introducing a high-end consumer-trainable robotics platform rather than a software AI tool, and inviting engagement on whether viewers would keep a robot that caused household damage."
           ]
         },
         {
-          "video_id": "omIbkrsmxTY",
-          "title": "I Hated Making Content. Then Inc Featured My Story",
-          "published_at": "2026-10-16T20:45:18Z",
-          "url": "https://www.youtube.com/watch?v=omIbkrsmxTY",
-          "ai_tech_id": "No specific AI model or tool demonstrated; personal/career narrative referencing her AI-education content business",
+          "video_id": "rq1RoOnzFPw",
+          "title": "8 AI and Coding Sites to Explore With Kids",
+          "published_at": "2026-10-17T15:45:26Z",
+          "url": "https://www.youtube.com/watch?v=rq1RoOnzFPw",
+          "ai_tech_id": "Google Labs Playground/Flow, ChatGPT, Suno, Lovable, and kids'-coding platforms (Code.org, Tynker, Create-learn.us)",
           "summary": [
-            "Sabrina Ramonov shares a personal career-arc story rather than a tool demo, recounting how she co-founded speech-analytics startup Qurious.io, sold it to Pegasystems in 2021, and only afterward began teaching people outside Silicon Valley how to use AI.",
-            "She describes initially hating content creation — finding posting cringe-inducing when few people in her tech circles were active on platforms like TikTok — but coming to embrace it because it let her keep building, learning, and teaching, a journey that was eventually featured by Inc.",
-            "While not a hands-on AI tutorial, the video reinforces her channel's positioning as an AI educator with real startup and exit credibility, using her own story to build trust with an audience she otherwise teaches practical AI and ChatGPT tips."
+            "Sabrina Ramonov curates eight AI and coding websites parents and kids can explore together, framing AI exploration as a family activity rather than a solo tool for adults.",
+            "The list spans creative AI tools like Google Labs Playground and Flow, ChatGPT for collaborative storytelling, Suno for AI music generation, and Lovable for app-building, alongside kid-focused coding education platforms Code.org, Tynker, and Create-learn.us, with explicit age/consent guidance (several tools are 18+ or require teen parental consent).",
+            "Aimed at her AI-literacy audience, the video packages mainstream generative-AI tools into a practical, safety-conscious family activity guide rather than a professional or business use case."
+          ]
+        },
+        {
+          "video_id": "hpLTLTAk-6w",
+          "title": "Claude + Fal AI: Build a $20K/Month Faceless Channel",
+          "published_at": "2026-10-17T15:00:25Z",
+          "url": "https://www.youtube.com/watch?v=hpLTLTAk-6w",
+          "ai_tech_id": "Claude (via Cowork with MCP connectors) combined with Fal AI's generative image/video API and the Blotato distribution platform",
+          "summary": [
+            "Sabrina Ramonov demonstrates building an automated 'faceless' YouTube channel capable of $20K/month by combining Claude (used via Cowork with MCP connectors) with Fal AI's generative image/video API and Blotato for multi-platform content distribution.",
+            "She shares the specific MCP connection URLs for Fal and Blotato, the domain allowlist entries needed for Cowork to reach Fal's media endpoints, and links to the two prompts and a 'Fal Connector Skill' used in the video, giving viewers a reproducible setup rather than just a concept overview.",
+            "The video doubles as both a tactical AI-automation tutorial and a personal-brand piece, closing with her founder story (Qurious's sale to Pegasystems, then building Blotato.com), reinforcing her positioning as a practical AI-business educator with real exit credibility."
           ]
         }
       ]
