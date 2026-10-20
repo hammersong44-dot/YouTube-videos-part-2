@@ -1,42 +1,68 @@
 {
-  "report_date": "2026-10-19",
-  "run_timestamp_utc": "2026-10-19T05:00:28Z",
-  "window_start_utc": "2026-10-18T05:00:28Z",
-  "window_end_utc": "2026-10-19T05:00:28Z",
-  "note": "Channel IDs re-verified via channels.list (forHandle) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1) and sabrina_ramonov (2); no new videos for theAIsearch, futurepedia_io, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-20",
+  "run_timestamp_utc": "2026-10-20T05:00:13Z",
+  "window_start_utc": "2026-10-19T05:00:13Z",
+  "window_end_utc": "2026-10-20T05:00:13Z",
+  "note": "Channel IDs re-verified via channels.list (forHandle) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for theAIsearch (1), futurepedia_io (1), and nateherk (1); no new videos for PaulJLipsky, simonscrapes, sabrina_ramonov, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
-    },
-    {
-      "channel_name": "PaulJLipsky",
-      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "YJ_e-dsMruc",
-          "title": "Gemini Has A New AI Super App | Here’s How To Master It",
-          "published_at": "2026-10-18T13:00:20Z",
-          "url": "https://www.youtube.com/watch?v=YJ_e-dsMruc",
-          "ai_tech_id": "Google's Gemini desktop app, including the Gemini 4 Argon model and the Antigravity agentic coding environment",
+          "video_id": "cUeZMUGCxrw",
+          "title": "New top local AI image generator is here!",
+          "published_at": "2026-10-20T03:24:08Z",
+          "url": "https://www.youtube.com/watch?v=cUeZMUGCxrw",
+          "ai_tech_id": "MOSS Image, a local open-weight AI image generation/editing model run inside ComfyUI (via Hugging Face checkpoints and LoRAs)",
           "summary": [
-            "Paul J Lipsky gives a full tour of Google's new Gemini desktop app, positioning it as a general-purpose 'super app' that goes well beyond a chat window, covering how to download it and get oriented across its main features.",
-            "Chapters walk through Tasks (including running jobs remotely from a phone), local folder access so Gemini can read and work on files on disk, connectors and skills for plugging in outside data and workflows, the built-in Antigravity coding environment, choosing between the Gemini 4 Argon and Flash models for a given job, and a 'Speak to Window' voice-dictation feature for working hands-free.",
-            "True to the channel's practical, feature-by-feature tutorial style for AI power users, the video closes by candidly noting what's still missing from the app, giving viewers a realistic sense of its current limits alongside the walkthrough of its capabilities."
+            "theAIsearch reviews and tutorials MOSS Image, a newly released local image generator that the channel positions as a top open-source alternative, running it inside ComfyUI rather than through a hosted web app.",
+            "The video walks through installing and using MOSS Image in ComfyUI, comparing it directly against Krea 2, demonstrating layout control, adding LoRAs for style customization, choosing better checkpoints, speeding up generation, and using the model for image editing rather than just generation from scratch, with timestamped chapters covering each step.",
+            "Consistent with the channel's sponsor-supported, tool-comparison format, the video is sponsored by Higgsfield and links out to the underlying Hugging Face model/LoRA repositories and an ai-toolkit GitHub project, alongside cross-references to the channel's own prior ComfyUI, Krea 2, and Ideogram 4 tutorials."
           ]
         }
       ]
     },
     {
+      "channel_name": "PaulJLipsky",
+      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "videos": []
+    },
+    {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "Ge1B-Ok1Pfk",
+          "title": "Claude Makes a New Kind of Video - Full Tutorial",
+          "published_at": "2026-10-19T15:24:55Z",
+          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+          "ai_tech_id": "Anthropic's Claude, used to code motion-graphics/explainer videos directly (no dedicated video-generation model) via a free 86-prompt 'Style Atlas'",
+          "summary": [
+            "Futurepedia demonstrates a technique for producing motion-graphics and explainer-style videos using Claude, framing it as video creation that doesn't rely on a text-to-video generator at all but instead has Claude write the code that renders the animation.",
+            "The tutorial covers what's new in this workflow, introduces a free 'Style Atlas' of 86 prompt styles viewers can copy and reuse, shows generating a video with no voiceover, inspects the underlying prompt structure, and then shows how to sync a generated animation precisely to a voiceover track.",
+            "True to Futurepedia's practical tool-tutorial format, the video promotes a free prompt pack (gated behind a HubSpot link) and the channel's Skill Leap AI course platform, continuing its pattern of pairing hands-on AI workflow walkthroughs with educational upsells."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "hgLI491ajG0",
+          "title": "I Tried 100+ AI Tools. These 7 Are the Best",
+          "published_at": "2026-10-19T14:22:01Z",
+          "url": "https://www.youtube.com/watch?v=hgLI491ajG0",
+          "ai_tech_id": "A curated roundup of general AI business-automation tools (no single named model), including a voice-to-text tool (Glaido) and VPS-hosted automation infrastructure (Hostinger)",
+          "summary": [
+            "Nate Herk counts down the 7 AI tools he actually keeps using in his AI automation business after testing over 100, framing the list as a practical, no-hype filter rather than a general survey of new releases.",
+            "The video steps through each of the 7 tools in order with timestamps, noting that one tool runs roughly 90% of his daily workflow, one replaced several paid subscriptions, and one keeps his automations running continuously even when his laptop is off, while also plugging a free 'AI OS' template and a voice-to-text tool (Glaido) as part of his daily stack.",
+            "Consistent with the channel's AI-automation-business format, the video is sponsored by Hostinger VPS hosting and promotes the creator's paid and free Skool communities for people building AI automation agencies."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "simonscrapes",
@@ -46,32 +72,7 @@
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
-      "videos": [
-        {
-          "video_id": "tSQhGr-IBmM",
-          "title": "I Built DM Automations With ChatGPT and Blotato",
-          "published_at": "2026-10-18T15:45:20Z",
-          "url": "https://www.youtube.com/watch?v=tSQhGr-IBmM",
-          "ai_tech_id": "ChatGPT (OpenAI) connected to Blotato via MCP (Model Context Protocol) to build social DM automations",
-          "summary": [
-            "Sabrina Ramonov demonstrates building direct-message automations for Facebook and Instagram entirely inside ChatGPT, connecting Blotato through ChatGPT's MCP settings rather than using a no-code automation platform's own interface.",
-            "After the connection is made, she gives ChatGPT a comment keyword, a link, and the message to send, and it builds the DM automation itself, with the added ability to check on or update several existing automations within a single chat conversation.",
-            "She flags a practical safety step, double-checking the keyword, link, and message before switching an automation live, and points viewers to a full written walkthrough on her blog, reinforcing the channel's hands-on, reproducible approach to AI business-automation tutorials."
-          ]
-        },
-        {
-          "video_id": "EZ6_DQlqoDQ",
-          "title": "9 AI Skills to Use in Your Business in 2026",
-          "published_at": "2026-10-18T20:45:30Z",
-          "url": "https://www.youtube.com/watch?v=EZ6_DQlqoDQ",
-          "ai_tech_id": "General-purpose AI assistants and agents (e.g., ChatGPT/Claude-style tools) applied as adoptable business skills rather than a single named product",
-          "summary": [
-            "Sabrina Ramonov reframes AI adoption for small business owners as a set of learnable skills rather than a call to build a standalone 'AI business,' arguing viewers should bring AI into the work they already do.",
-            "She runs through nine specific skills: defaulting to asking AI first, applying healthy skepticism to its output, feeding it meaningful context, using it to augment rather than replace human experts, treating it like a new hire that needs onboarding, building a continuously improving feedback loop, maintaining documentation/playbooks/SOPs, giving AI agents tools to act with, and resisting the urge to chase an AI-business idea instead of improving current operations.",
-            "The video closes by directing viewers to start with the first skill this week and offers a free companion playlist, consistent with her channel's practical, small-business-focused AI education format."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "JeffSu",
