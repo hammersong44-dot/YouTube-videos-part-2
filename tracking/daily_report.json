@@ -1,47 +1,59 @@
 {
-  "report_date": "2026-10-20",
-  "run_timestamp_utc": "2026-10-20T05:00:13Z",
-  "window_start_utc": "2026-10-19T05:00:13Z",
-  "window_end_utc": "2026-10-20T05:00:13Z",
-  "note": "Channel IDs re-verified via channels.list (forHandle) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for theAIsearch (1), futurepedia_io (1), and nateherk (1); no new videos for PaulJLipsky, simonscrapes, sabrina_ramonov, and JeffSu in this window.",
+  "report_date": "2026-10-21",
+  "run_timestamp_utc": "2026-10-21T05:00:11Z",
+  "window_start_utc": "2026-10-20T05:00:11Z",
+  "window_end_utc": "2026-10-21T05:00:11Z",
+  "note": "Channel IDs re-verified via channels.list (forHandle) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (2), nateherk (2), and sabrina_ramonov (2); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "cUeZMUGCxrw",
-          "title": "New top local AI image generator is here!",
-          "published_at": "2026-10-20T03:24:08Z",
-          "url": "https://www.youtube.com/watch?v=cUeZMUGCxrw",
-          "ai_tech_id": "MOSS Image, a local open-weight AI image generation/editing model run inside ComfyUI (via Hugging Face checkpoints and LoRAs)",
-          "summary": [
-            "theAIsearch reviews and tutorials MOSS Image, a newly released local image generator that the channel positions as a top open-source alternative, running it inside ComfyUI rather than through a hosted web app.",
-            "The video walks through installing and using MOSS Image in ComfyUI, comparing it directly against Krea 2, demonstrating layout control, adding LoRAs for style customization, choosing better checkpoints, speeding up generation, and using the model for image editing rather than just generation from scratch, with timestamped chapters covering each step.",
-            "Consistent with the channel's sponsor-supported, tool-comparison format, the video is sponsored by Higgsfield and links out to the underlying Hugging Face model/LoRA repositories and an ai-toolkit GitHub project, alongside cross-references to the channel's own prior ComfyUI, Krea 2, and Ideogram 4 tutorials."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "HhfSBDcLQYI",
+          "title": "Meta Muse: 7 Mind Blowing Use Cases",
+          "published_at": "2026-10-20T13:00:37Z",
+          "url": "https://www.youtube.com/watch?v=HhfSBDcLQYI",
+          "ai_tech_id": "Meta Muse, Meta's personal AI assistant, used here for daily briefings, research, and task tracking",
+          "summary": [
+            "Paul J Lipsky walks through setting up Meta Muse, Meta's personal AI assistant, and frames the video as a practical starter guide rather than a feature dump, encouraging viewers to pick one recurring task to hand off first and expand from there.",
+            "The video steps through seven concrete use cases with timestamps: generating a morning briefing, finding ways to save money, a personal-shopper workflow, booking restaurant reservations, tracking personal goals, and surfacing a daily newsfeed and content ideas, showing each one live inside the Muse interface.",
+            "Consistent with the channel's sponsor-supported format, the video is sponsored by Reception.ai, which gets its own dedicated use-case segment alongside the Meta Muse walkthrough."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "Ge1B-Ok1Pfk",
-          "title": "Claude Makes a New Kind of Video - Full Tutorial",
-          "published_at": "2026-10-19T15:24:55Z",
-          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
-          "ai_tech_id": "Anthropic's Claude, used to code motion-graphics/explainer videos directly (no dedicated video-generation model) via a free 86-prompt 'Style Atlas'",
+          "video_id": "2gVfS19Hudk",
+          "title": "Claude just made motion graphics with zero video generator",
+          "published_at": "2026-10-20T21:45:13Z",
+          "url": "https://www.youtube.com/watch?v=2gVfS19Hudk",
+          "ai_tech_id": "Anthropic's Claude, used to code motion-graphics and explainer-style videos directly instead of relying on a dedicated text-to-video model",
           "summary": [
-            "Futurepedia demonstrates a technique for producing motion-graphics and explainer-style videos using Claude, framing it as video creation that doesn't rely on a text-to-video generator at all but instead has Claude write the code that renders the animation.",
-            "The tutorial covers what's new in this workflow, introduces a free 'Style Atlas' of 86 prompt styles viewers can copy and reuse, shows generating a video with no voiceover, inspects the underlying prompt structure, and then shows how to sync a generated animation precisely to a voiceover track.",
-            "True to Futurepedia's practical tool-tutorial format, the video promotes a free prompt pack (gated behind a HubSpot link) and the channel's Skill Leap AI course platform, continuing its pattern of pairing hands-on AI workflow walkthroughs with educational upsells."
+            "Futurepedia highlights a workflow where Claude produces motion graphics and explainer-style video content without any dedicated video-generation model involved at all.",
+            "The video's framing is that Claude 'doesn't have a video generator, but it doesn't need one' because it writes the underlying code that renders the animation itself, letting the output avoid the telltale look of AI-generated video.",
+            "The short-form video fits Futurepedia's pattern of spotlighting a single striking AI workflow or capability, positioning Claude's code-based rendering approach as a notable alternative to conventional AI video generators."
+          ]
+        },
+        {
+          "video_id": "qXlgk8VExhI",
+          "title": "Your Personalized AI Plan, Free | Futurepedia 2.0",
+          "published_at": "2026-10-20T14:32:18Z",
+          "url": "https://www.youtube.com/watch?v=qXlgk8VExhI",
+          "ai_tech_id": "Futurepedia 2.0, an AI tool-recommendation platform that generates a personalized AI adoption plan by job role",
+          "summary": [
+            "Futurepedia promotes its own revamped platform, Futurepedia 2.0, which builds a free, personalized AI adoption plan based on the viewer's job role and goals.",
+            "The tool matches tools to the viewer's exact job, supplies ready-to-use prompts and complete workflows for those tools, and refreshes with new picks and AI news daily, functioning as a curated discovery and onboarding layer across the broader AI-tool landscape.",
+            "The video is a self-promotional piece for the channel's own product rather than a third-party review, with a HubSpot-hosted link to try the plan generator directly."
           ]
         }
       ]
@@ -51,15 +63,27 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "hgLI491ajG0",
-          "title": "I Tried 100+ AI Tools. These 7 Are the Best",
-          "published_at": "2026-10-19T14:22:01Z",
-          "url": "https://www.youtube.com/watch?v=hgLI491ajG0",
-          "ai_tech_id": "A curated roundup of general AI business-automation tools (no single named model), including a voice-to-text tool (Glaido) and VPS-hosted automation infrastructure (Hostinger)",
+          "video_id": "ezCmuRCAVXY",
+          "title": "Claude Code + Blender = Insane 3D Renders",
+          "published_at": "2026-10-20T17:52:06Z",
+          "url": "https://www.youtube.com/watch?v=ezCmuRCAVXY",
+          "ai_tech_id": "Anthropic's Claude Code, used to drive Blender's scripting interface to generate 3D renders",
           "summary": [
-            "Nate Herk counts down the 7 AI tools he actually keeps using in his AI automation business after testing over 100, framing the list as a practical, no-hype filter rather than a general survey of new releases.",
-            "The video steps through each of the 7 tools in order with timestamps, noting that one tool runs roughly 90% of his daily workflow, one replaced several paid subscriptions, and one keeps his automations running continuously even when his laptop is off, while also plugging a free 'AI OS' template and a voice-to-text tool (Glaido) as part of his daily stack.",
-            "Consistent with the channel's AI-automation-business format, the video is sponsored by Hostinger VPS hosting and promotes the creator's paid and free Skool communities for people building AI automation agencies."
+            "Nate Herk pairs Claude Code, Anthropic's coding agent, with Blender to produce 3D renders, continuing the channel's focus on combining coding-capable AI agents with creative software.",
+            "No video description was published alongside the upload, but the title and the channel's established format indicate Claude Code is used to script or automate Blender's rendering pipeline rather than relying on manual 3D modeling work.",
+            "The video fits Nate Herk's recurring pattern of demonstrating AI coding agents applied to unconventional creative or automation tasks outside typical business workflows."
+          ]
+        },
+        {
+          "video_id": "2U8jn2M7g7U",
+          "title": "This GitHub repo will automate getting you a job",
+          "published_at": "2026-10-20T17:48:10Z",
+          "url": "https://www.youtube.com/watch?v=2U8jn2M7g7U",
+          "ai_tech_id": "An open-source GitHub repo / AI agent framework applied to automating job-search tasks (specific model/tool not named in the available metadata)",
+          "summary": [
+            "Nate Herk features a GitHub repository positioned as a way to automate parts of the job-search process, consistent with the channel's broader focus on AI automation agencies and workflow tooling.",
+            "No video description was published alongside the upload, so the specific automation steps (e.g. resume tailoring, job matching, or outreach) aren't confirmed from metadata alone, but the title signals an agentic automation build rather than a single point-and-click tool.",
+            "The video continues Nate Herk's pattern of spotlighting practical, buildable automations that viewers can replicate, often tying back to the channel's AI-automation education and community offerings."
           ]
         }
       ]
@@ -72,7 +96,32 @@
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "ukTIYGNErhw",
+          "title": "5 YouTube Picks for Overthinkers",
+          "published_at": "2026-10-20T19:01:10Z",
+          "url": "https://www.youtube.com/watch?v=ukTIYGNErhw",
+          "ai_tech_id": "None identified; this is a curated listicle of other creators' videos on overthinking, not an AI tool review",
+          "summary": [
+            "Sabrina Ramonov curates five outside YouTube videos aimed at viewers who overthink, covering cognitive-diffusion techniques, why overthinkers stall on progress, how to make hard choices, and yoga for overthinking.",
+            "The video is a linked roundup rather than original tool demonstration, closing with a nod toward 'overthinking' being better spent on learning AI and getting ahead, which links to the creator's own channel rather than any specific AI product.",
+            "No AI tool or model is reviewed or demonstrated in this video; the only AI tie-in is the closing pitch to redirect overthinking energy toward learning AI skills via the creator's channel."
+          ]
+        },
+        {
+          "video_id": "yIn5qx4ehAI",
+          "title": "5 YouTube Videos for Parents of Gifted Kids",
+          "published_at": "2026-10-20T14:01:27Z",
+          "url": "https://www.youtube.com/watch?v=yIn5qx4ehAI",
+          "ai_tech_id": "None; this video is a parenting-content roundup with no AI tool, model, or technology involved",
+          "summary": [
+            "Sabrina Ramonov curates five outside videos for parents of gifted children, touching on how a 'gifted' label can mask unmet support needs, the study-skills gap gifted kids often face, and the emotional pressure to be perfect.",
+            "Sources cited include a TEDx talk on gifted, creative, and highly sensitive children and a comedic take on 'gifted kid syndrome,' continuing the channel's occasional diversions into parenting and personal-development content alongside its usual AI/business material.",
+            "There is no AI technology, tool, or model discussed or demonstrated anywhere in this video; it sits outside the channel's AI-focused content."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "JeffSu",
