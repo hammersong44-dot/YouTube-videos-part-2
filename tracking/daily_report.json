@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-10-21",
-  "run_timestamp_utc": "2026-10-21T05:00:11Z",
-  "window_start_utc": "2026-10-20T05:00:11Z",
-  "window_end_utc": "2026-10-21T05:00:11Z",
-  "note": "Channel IDs re-verified via channels.list (forHandle) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (2), nateherk (2), and sabrina_ramonov (2); no new videos for theAIsearch, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-22",
+  "run_timestamp_utc": "2026-10-22T05:00:41Z",
+  "window_start_utc": "2026-10-21T05:00:41Z",
+  "window_end_utc": "2026-10-22T05:00:41Z",
+  "note": "Channel IDs re-verified via channels.list before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for futurepedia_io (1), nateherk (3), and sabrina_ramonov (2); no new videos for theAIsearch, PaulJLipsky, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
@@ -13,47 +13,22 @@
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "HhfSBDcLQYI",
-          "title": "Meta Muse: 7 Mind Blowing Use Cases",
-          "published_at": "2026-10-20T13:00:37Z",
-          "url": "https://www.youtube.com/watch?v=HhfSBDcLQYI",
-          "ai_tech_id": "Meta Muse, Meta's personal AI assistant, used here for daily briefings, research, and task tracking",
-          "summary": [
-            "Paul J Lipsky walks through setting up Meta Muse, Meta's personal AI assistant, and frames the video as a practical starter guide rather than a feature dump, encouraging viewers to pick one recurring task to hand off first and expand from there.",
-            "The video steps through seven concrete use cases with timestamps: generating a morning briefing, finding ways to save money, a personal-shopper workflow, booking restaurant reservations, tracking personal goals, and surfacing a daily newsfeed and content ideas, showing each one live inside the Muse interface.",
-            "Consistent with the channel's sponsor-supported format, the video is sponsored by Reception.ai, which gets its own dedicated use-case segment alongside the Meta Muse walkthrough."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "2gVfS19Hudk",
-          "title": "Claude just made motion graphics with zero video generator",
-          "published_at": "2026-10-20T21:45:13Z",
-          "url": "https://www.youtube.com/watch?v=2gVfS19Hudk",
-          "ai_tech_id": "Anthropic's Claude, used to code motion-graphics and explainer-style videos directly instead of relying on a dedicated text-to-video model",
+          "video_id": "KZRUdQYU4dI",
+          "title": "Claude video generator turns your single prompt into a stylized movie",
+          "published_at": "2026-10-21T18:51:12Z",
+          "url": "https://www.youtube.com/watch?v=KZRUdQYU4dI",
+          "ai_tech_id": "Anthropic's Claude video generator, which turns a single text prompt into a stylized movie-style video clip",
           "summary": [
-            "Futurepedia highlights a workflow where Claude produces motion graphics and explainer-style video content without any dedicated video-generation model involved at all.",
-            "The video's framing is that Claude 'doesn't have a video generator, but it doesn't need one' because it writes the underlying code that renders the animation itself, letting the output avoid the telltale look of AI-generated video.",
-            "The short-form video fits Futurepedia's pattern of spotlighting a single striking AI workflow or capability, positioning Claude's code-based rendering approach as a notable alternative to conventional AI video generators."
-          ]
-        },
-        {
-          "video_id": "qXlgk8VExhI",
-          "title": "Your Personalized AI Plan, Free | Futurepedia 2.0",
-          "published_at": "2026-10-20T14:32:18Z",
-          "url": "https://www.youtube.com/watch?v=qXlgk8VExhI",
-          "ai_tech_id": "Futurepedia 2.0, an AI tool-recommendation platform that generates a personalized AI adoption plan by job role",
-          "summary": [
-            "Futurepedia promotes its own revamped platform, Futurepedia 2.0, which builds a free, personalized AI adoption plan based on the viewer's job role and goals.",
-            "The tool matches tools to the viewer's exact job, supplies ready-to-use prompts and complete workflows for those tools, and refreshes with new picks and AI news daily, functioning as a curated discovery and onboarding layer across the broader AI-tool landscape.",
-            "The video is a self-promotional piece for the channel's own product rather than a third-party review, with a HubSpot-hosted link to try the plan generator directly."
+            "Futurepedia spotlights Claude's newly surfaced video generator, which converts a single written prompt into a short, stylized movie clip rather than requiring a dedicated storyboard or multi-step video pipeline.",
+            "The video frames the feature around range: the same prompt-driven workflow can produce output that looks clean and minimal or bold and heavily stylized, with the channel's selling point being that the results intentionally avoid the telltale 'AI video' look common to other generators.",
+            "Consistent with Futurepedia's short-form format, the video is a quick capability spotlight rather than a deep tutorial, positioning Claude's video generator as a notable new entrant in the text-to-video space alongside dedicated video-generation models."
           ]
         }
       ]
@@ -63,27 +38,39 @@
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": [
         {
-          "video_id": "ezCmuRCAVXY",
-          "title": "Claude Code + Blender = Insane 3D Renders",
-          "published_at": "2026-10-20T17:52:06Z",
-          "url": "https://www.youtube.com/watch?v=ezCmuRCAVXY",
-          "ai_tech_id": "Anthropic's Claude Code, used to drive Blender's scripting interface to generate 3D renders",
+          "video_id": "kj60zAD8lLU",
+          "title": "Alex Hormozi, Jeff Bezos, and Warren Buffet help me make decisions",
+          "published_at": "2026-10-21T17:26:49Z",
+          "url": "https://www.youtube.com/watch?v=kj60zAD8lLU",
+          "ai_tech_id": "An AI persona/agent setup simulating well-known business figures (Alex Hormozi, Jeff Bezos, Warren Buffett) as decision-making advisors; the underlying model is not confirmed since no description was published",
           "summary": [
-            "Nate Herk pairs Claude Code, Anthropic's coding agent, with Blender to produce 3D renders, continuing the channel's focus on combining coding-capable AI agents with creative software.",
-            "No video description was published alongside the upload, but the title and the channel's established format indicate Claude Code is used to script or automate Blender's rendering pipeline rather than relying on manual 3D modeling work.",
-            "The video fits Nate Herk's recurring pattern of demonstrating AI coding agents applied to unconventional creative or automation tasks outside typical business workflows."
+            "Nate Herk frames this video around using AI-generated personas modeled on Alex Hormozi, Jeff Bezos, and Warren Buffett as a sounding board for his own business decisions, continuing the channel's pattern of applying AI agents to real operational and entrepreneurial problems rather than purely technical demos.",
+            "No video description was published alongside the upload, so the specific tool or prompting method used to stand up these personas (a custom GPT/Claude project, a multi-agent framework, or a dedicated persona app) isn't confirmed from metadata alone, but the title signals a role-play or multi-perspective decision framework rather than a single-shot chatbot query.",
+            "The video fits Nate Herk's broader focus on AI automation for business builders, using recognizable public figures as a hook to make an abstract 'AI as advisor' workflow feel concrete and relatable to viewers running their own ventures."
           ]
         },
         {
-          "video_id": "2U8jn2M7g7U",
-          "title": "This GitHub repo will automate getting you a job",
-          "published_at": "2026-10-20T17:48:10Z",
-          "url": "https://www.youtube.com/watch?v=2U8jn2M7g7U",
-          "ai_tech_id": "An open-source GitHub repo / AI agent framework applied to automating job-search tasks (specific model/tool not named in the available metadata)",
+          "video_id": "OawSCIZdZmU",
+          "title": "Opus 5.5 + Blender = Insane 3D Renders",
+          "published_at": "2026-10-21T13:09:29Z",
+          "url": "https://www.youtube.com/watch?v=OawSCIZdZmU",
+          "ai_tech_id": "Anthropic's Claude Opus 5.5, used to drive Blender's scripting interface to produce 3D renders",
           "summary": [
-            "Nate Herk features a GitHub repository positioned as a way to automate parts of the job-search process, consistent with the channel's broader focus on AI automation agencies and workflow tooling.",
-            "No video description was published alongside the upload, so the specific automation steps (e.g. resume tailoring, job matching, or outreach) aren't confirmed from metadata alone, but the title signals an agentic automation build rather than a single point-and-click tool.",
-            "The video continues Nate Herk's pattern of spotlighting practical, buildable automations that viewers can replicate, often tying back to the channel's AI-automation education and community offerings."
+            "Nate Herk pairs Anthropic's Claude Opus 5.5 model with Blender to generate what the title bills as standout 3D renders, extending the channel's recurring theme of combining frontier coding-capable models with creative production software.",
+            "No video description was published alongside the upload, but given the title and the channel's established format, Opus 5.5 is most likely used to write or adjust Blender scripts/Python automation that drives scene setup, lighting, or rendering rather than the model generating imagery directly.",
+            "The video appears to be part of a comparison or follow-up series with the channel's same-day 'Claude Code + Blender' upload, suggesting Nate Herk is testing how different Claude variants perform on the identical Blender automation task."
+          ]
+        },
+        {
+          "video_id": "zTfpVoIT03s",
+          "title": "Claude Code + Blender = Beautiful 3D Renders",
+          "published_at": "2026-10-21T13:09:27Z",
+          "url": "https://www.youtube.com/watch?v=zTfpVoIT03s",
+          "ai_tech_id": "Anthropic's Claude Code, used to drive Blender's scripting interface to generate 3D renders",
+          "summary": [
+            "Nate Herk uses Anthropic's Claude Code coding agent to automate Blender, producing what the title describes as beautiful 3D renders, continuing the channel's focus on applying coding-capable AI agents to creative, non-business tasks.",
+            "No video description was published alongside the upload, so the exact workflow isn't confirmed from metadata, but based on the channel's established format Claude Code most likely writes or edits Blender Python scripts to control scene composition, materials, or lighting rather than generating images directly.",
+            "Published within seconds of the channel's 'Opus 5.5 + Blender' upload, this video appears to be the paired comparison piece testing Claude Code specifically against the Opus 5.5 model on the same Blender rendering task."
           ]
         }
       ]
@@ -98,27 +85,27 @@
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "ukTIYGNErhw",
-          "title": "5 YouTube Picks for Overthinkers",
-          "published_at": "2026-10-20T19:01:10Z",
-          "url": "https://www.youtube.com/watch?v=ukTIYGNErhw",
-          "ai_tech_id": "None identified; this is a curated listicle of other creators' videos on overthinking, not an AI tool review",
+          "video_id": "_-qEnpXWXXY",
+          "title": "Your College Major Fits More Careers Than You Think",
+          "published_at": "2026-10-21T19:00:15Z",
+          "url": "https://www.youtube.com/watch?v=_-qEnpXWXXY",
+          "ai_tech_id": "dearCC's Field Report, an AI-assisted career-matching tool that maps a college major to hundreds of related job titles with projected openings and pay",
           "summary": [
-            "Sabrina Ramonov curates five outside YouTube videos aimed at viewers who overthink, covering cognitive-diffusion techniques, why overthinkers stall on progress, how to make hard choices, and yoga for overthinking.",
-            "The video is a linked roundup rather than original tool demonstration, closing with a nod toward 'overthinking' being better spent on learning AI and getting ahead, which links to the creator's own channel rather than any specific AI product.",
-            "No AI tool or model is reviewed or demonstrated in this video; the only AI tie-in is the closing pitch to redirect overthinking energy toward learning AI skills via the creator's channel."
+            "Sabrina Ramonov promotes Field Report, a tool from dearCC, which argues that a given college major maps to far more job titles than graduates typically search for, using a sociology degree mapping to 800+ related careers as the headline example.",
+            "The video frames the problem as new grads searching too narrowly by job title instead of by degree, and positions Field Report as the fix: users search their major and get a map of related roles, including projected job openings and entry-level pay broken out by state.",
+            "As with the channel's other dearCC-sponsored content, the video closes with a direct link to try Field Report and a set of suggested search queries ('What jobs fit my college major?'), reflecting the channel's recurring focus on AI-assisted career and job-search tools for Gen Z and new graduates."
           ]
         },
         {
-          "video_id": "yIn5qx4ehAI",
-          "title": "5 YouTube Videos for Parents of Gifted Kids",
-          "published_at": "2026-10-20T14:01:27Z",
-          "url": "https://www.youtube.com/watch?v=yIn5qx4ehAI",
-          "ai_tech_id": "None; this video is a parenting-content roundup with no AI tool, model, or technology involved",
+          "video_id": "dSp_iMEc2D4",
+          "title": "Free Job Search Help for New Grads: Resume, LinkedIn, Mentors | dearCC",
+          "published_at": "2026-10-21T14:00:44Z",
+          "url": "https://www.youtube.com/watch?v=dSp_iMEc2D4",
+          "ai_tech_id": "dearCC, a free New Work Foundation program bundling resume help, LinkedIn guidance, peer community, and mentorship for new grads navigating AI-driven hiring (including AI bot interviews)",
           "summary": [
-            "Sabrina Ramonov curates five outside videos for parents of gifted children, touching on how a 'gifted' label can mask unmet support needs, the study-skills gap gifted kids often face, and the emotional pressure to be perfect.",
-            "Sources cited include a TEDx talk on gifted, creative, and highly sensitive children and a comedic take on 'gifted kid syndrome,' continuing the channel's occasional diversions into parenting and personal-development content alongside its usual AI/business material.",
-            "There is no AI technology, tool, or model discussed or demonstrated anywhere in this video; it sits outside the channel's AI-focused content."
+            "Sabrina Ramonov introduces dearCC, a free program from the New Work Foundation aimed at helping new college graduates land their first job, explicitly naming the exhausting cycle of mass applications and 'AI bot interviews' as the problem it's meant to solve.",
+            "The program bundles four kinds of support in one place: resume improvement help, LinkedIn profile optimization, a peer community of other Gen Z job seekers, and access to mentors with industry experience, pitched as a single stop rather than separate scattered resources.",
+            "The video continues the channel's dearCC partnership content seen elsewhere in this window, closing with a direct link to the program and suggested search prompts, reinforcing Sabrina Ramonov's focus on AI-era career tools and support systems for new grads."
           ]
         }
       ]
