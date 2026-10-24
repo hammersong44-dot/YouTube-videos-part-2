@@ -1,47 +1,47 @@
 {
-  "report_date": "2026-10-23",
-  "run_timestamp_utc": "2026-10-23T05:00:22Z",
-  "window_start_utc": "2026-10-22T05:00:22Z",
-  "window_end_utc": "2026-10-23T05:00:22Z",
-  "note": "Channel IDs re-verified via channels.list(forHandle) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for theAIsearch (1), futurepedia_io (1), nateherk (3), simonscrapes (1), and sabrina_ramonov (3); no new videos for PaulJLipsky and JeffSu in this window.",
+  "report_date": "2026-10-24",
+  "run_timestamp_utc": "2026-10-24T05:00:26Z",
+  "window_start_utc": "2026-10-23T05:00:26Z",
+  "window_end_utc": "2026-10-24T05:00:26Z",
+  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
   "channels": [
     {
       "channel_name": "theAIsearch",
       "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": [
-        {
-          "video_id": "1Aqhg0FVm-w",
-          "title": "Deepseek strikes again",
-          "published_at": "2026-10-23T03:29:27Z",
-          "url": "https://www.youtube.com/watch?v=1Aqhg0FVm-w",
-          "ai_tech_id": "DeepSeek V4.1 Flash 1017, a new open-weight model from DeepSeek AI, reviewed alongside its DeepInfer inference tooling",
-          "summary": [
-            "theAIsearch reviews DeepSeek's newly released V4.1 Flash 1017 model together with DeepInfer, running the pair through a broad battery of demos rather than a narrow benchmark comparison.",
-            "The video walks through the model explaining its own math reasoning in an explainer clip, generating an Unreal Engine game, composing music, controlling a Blender scene in VR, and attempting cancer identification and deep-research tasks, framing DeepSeek's latest release as a capable general-purpose contender rather than a single-use specialist.",
-            "The channel closes with a look at published specs and benchmarks plus a DeepInfer-specific segment, continuing theAIsearch's format of rapid hands-on probing of new model releases against real, varied tasks rather than relying on vendor-reported numbers alone."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": []
+      "videos": [
+        {
+          "video_id": "vDYqh1FGrgQ",
+          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
+          "published_at": "2026-10-23T13:00:11Z",
+          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
+          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "summary": [
+            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
+            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
+            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "xr024WjmJUY",
-          "title": "Claude video style database for free",
-          "published_at": "2026-10-22T18:00:17Z",
-          "url": "https://www.youtube.com/watch?v=xr024WjmJUY",
-          "ai_tech_id": "Anthropic's Claude, used to generate a video-style database and a companion JavaScript sound-effects library without any dedicated video-generation model involved",
+          "video_id": "eMFpzUYNv3o",
+          "title": "using Claude video generator to add captions and timestamps",
+          "published_at": "2026-10-23T18:42:53Z",
+          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
+          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
           "summary": [
-            "Futurepedia highlights a workflow where Claude took roughly 20 to 30 seed video-style ideas supplied by the creator and expanded them into a free database of 86 distinct video styles, with no separate video-generation model doing the actual stylistic work.",
-            "Beyond the visual styles, Claude was also used to build its own sound-effects library from scratch in JavaScript, pairing audio assets to the generated styles so the whole toolkit was produced end-to-end by the model rather than assembled from third-party libraries.",
-            "Each style ships with a 15-second sample explaining how it works before use, and Futurepedia frames the entire free database as a practical example of using a general-purpose LLM like Claude as a generative design and tooling engine rather than strictly a text or code assistant."
+            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
+            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
+            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
           ]
         }
       ]
@@ -49,97 +49,39 @@
     {
       "channel_name": "nateherk",
       "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": [
-        {
-          "video_id": "DSS1Yqb6-qE",
-          "title": "/roast-room: How I Use Claude to Think Like the Top 1%",
-          "published_at": "2026-10-22T14:18:13Z",
-          "url": "https://www.youtube.com/watch?v=DSS1Yqb6-qE",
-          "ai_tech_id": "Anthropic's Claude Code, used to build and run a custom multi-agent 'Roast Room' of AI advisor personas modeled on public figures",
-          "summary": [
-            "Nate Herk walks through his 'Roast Room,' a setup built inside Claude Code where multiple AI advisor personas, constructed from the public work and writings of figures like Jeff Bezos, Alex Hormozi, and Warren Buffett, debate and critique his business decisions.",
-            "He explains how each advisor's 'brain' is organized as a distinct Claude Code skill (a 'New Roaster' skill for building additional personas), then runs a live council debate complete with opening positions, points of disagreement, and a final verdict, demonstrating multi-agent deliberation rather than a single chatbot answer.",
-            "The video extends the demo by adding an Elon Musk persona to the council on camera and offers the underlying skills for free, continuing the channel's focus on turning Claude Code into a practical, repeatable decision-support system for entrepreneurs."
-          ]
-        },
-        {
-          "video_id": "GnFFcLnmWuQ",
-          "title": "Claude has completely changed how I edit videos",
-          "published_at": "2026-10-22T13:18:04Z",
-          "url": "https://www.youtube.com/watch?v=GnFFcLnmWuQ",
-          "ai_tech_id": "Anthropic's Claude, applied to video editing workflows; no description was published so the specific technique is not confirmed from metadata",
-          "summary": [
-            "Nate Herk's title claims Claude has fundamentally changed his video editing process, but no video description was published alongside the upload, so the exact mechanism (script-driven editing automation, clip selection, captioning, or something else) cannot be confirmed from metadata alone.",
-            "Given the channel's established pattern of pairing Claude and Claude Code with creative production tools, the video most likely demonstrates Claude writing or driving editing scripts/automation against a video editor rather than the model manipulating footage directly.",
-            "The upload continues the channel's running theme this window of exploring Claude across creative, non-business workflows (also seen in the channel's same-window Blender renders), positioning the model as a general automation layer for content creators."
-          ]
-        },
-        {
-          "video_id": "biQmfyYZAHw",
-          "title": "This AI Gives Every Shopper a Different Popup",
-          "published_at": "2026-10-22T11:00:32Z",
-          "url": "https://www.youtube.com/watch?v=biQmfyYZAHw",
-          "ai_tech_id": "An unnamed sponsored e-commerce personalization AI tool that generates a different on-site popup per shopper and self-optimizes for revenue; the underlying model/vendor is not identified in the title or description",
-          "summary": ["Nate Herk, in a clearly marked sponsored (#ad) segment, demonstrates an AI tool that shows each individual website visitor a different popup rather than one static offer, pitched specifically for merchants bracing for Black Friday traffic.", "The video frames the tool's core capability as continuous self-optimization for revenue: the system is said to keep testing and adjusting which popup variant each shopper sees based on behavior, rather than relying on a single A/B-tested design.", "Beyond naming it 'AI,' neither the title nor the description identifies the underlying model, vendor name, or personalization technique, and the call to action is a demo booking with a discount code tied to the channel, consistent with the video's sponsored-content format rather than a technical deep dive."]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "simonscrapes",
       "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": [
-        {
-          "video_id": "v9YVQoeSp-I",
-          "title": "5 Claude Tips Everyone Recommends (But Shouldn't)",
-          "published_at": "2026-10-22T15:45:21Z",
-          "url": "https://www.youtube.com/watch?v=v9YVQoeSp-I",
-          "ai_tech_id": "Anthropic's Claude Code, specifically its Plan Mode, CLAUDE.md configuration files, agent teams, model selection, and plugin ecosystem",
-          "summary": [
-            "simonscrapes pushes back on widely repeated Claude Code advice, arguing several common 'best practices' are outdated or only half-right, starting with a direct challenge to the near-universal recommendation to always use Plan Mode.",
-            "The video works through four more contested practices in turn: whether to delete a project's CLAUDE.md file, whether multi-agent 'agent teams' setups are still worth the overhead, whether to default to a cheaper or more capable model for a given task, and whether Claude Code's plugin ecosystem still pulls its weight.",
-            "Consistent with the channel's tutorial format for builders using Claude Code day to day, each segment pairs the contrarian claim with a concrete alternative workflow, aiming to correct advice the channel judges stale rather than simply critique it."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "sabrina_ramonov",
       "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
       "videos": [
         {
-          "video_id": "IkBSqYXHylI",
-          "title": "5 ChatGPT Commands for Studying",
-          "published_at": "2026-10-22T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=IkBSqYXHylI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with five custom slash-style study commands (/handwritten, /make-sticky-notes, /visualize-learning, /question-predictor, /socrates)",
+          "video_id": "d-IgmwcNhHI",
+          "title": "Make ChatGPT Sound More Human",
+          "published_at": "2026-10-23T19:00:25Z",
+          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
+          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
           "summary": [
-            "Sabrina Ramonov shares five prompt 'commands' designed to turn ChatGPT into a faster study tool, each targeting a different learning style: simplified handwritten-style notes, sticky-note key points, a visual topic breakdown, predicted practice questions, and one-question-at-a-time Socratic teaching.",
-            "The video is explicit about verification, instructing viewers to check ChatGPT's output against their own class notes or another source and noting that the question-predictor command can't actually know the real exam content, a caveat distinguishing this from a blind 'trust the AI' pitch.",
-            "Framed as quick, actionable study hacks rather than a deep tutorial, the video fits the channel's pattern of giving students and self-learners copy-paste-ready prompts for mainstream chatbots, closing with suggested follow-up questions to keep the study session going."
+            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
+            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
+            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
           ]
         },
         {
-          "video_id": "5z5q5BdzZEE",
-          "title": "1,000 Hours of Making Money With Claude in 18 Minutes (Beginner to Pro)",
-          "published_at": "2026-10-22T15:00:14Z",
-          "url": "https://www.youtube.com/watch?v=5z5q5BdzZEE",
-          "ai_tech_id": "Anthropic's Claude, used as the core AI tool behind Sabrina Ramonov's content and business-building workflow",
+          "video_id": "V-c8yDu4Rls",
+          "title": "6 Free Videos for 6 Life Skills",
+          "published_at": "2026-10-23T14:00:27Z",
+          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
+          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
           "summary": [
-            "Sabrina Ramonov condenses roughly 1,000 hours of hands-on experience using Claude for income-generating work into an 18-minute walkthrough aimed at taking a complete beginner to a more advanced practitioner.",
-            "The video is framed around her own biography and track record (from founding an NLP healthcare startup to a multi-million-dollar acquisition and later growing to 500,000+ followers with no paid budget), positioning Claude as the current tool she credits for her content and business output.",
-            "Consistent with the channel's teach-first positioning ('I'm on a mission to teach 1 million people AI'), the video promises a structured beginner-to-pro progression rather than a single trick, tying Claude usage directly to monetizable outcomes for creators and solo founders."
-          ]
-        },
-        {
-          "video_id": "fC0DrwJ8gns",
-          "title": "What's Your Degree Worth? Compare Careers and Salaries | Field Report",
-          "published_at": "2026-10-22T14:01:20Z",
-          "url": "https://www.youtube.com/watch?v=fC0DrwJ8gns",
-          "ai_tech_id": "Field Report by dearCC, an AI-assisted career-exploration tool that maps a college major to related careers, salaries, and growth/AI-exposure data",
-          "summary": [
-            "Sabrina Ramonov promotes Field Report, a dearCC tool that lets users search by college major to surface related career paths, including ones outside the obvious job titles graduates typically search for.",
-            "The pitch centers on five decision-relevant data points the tool surfaces per career path: entry-level salary, projected job openings over time, which paths are growing, whether a role is exposed to AI disruption, and how competitive the path is, aimed at helping new grads build a shortlist grounded in data rather than guesswork.",
-            "The video continues Sabrina Ramonov's recurring dearCC partnership content from prior windows, reinforcing her broader focus on AI-assisted career and job-search tooling for Gen Z graduates navigating an AI-driven hiring market."
+            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
+            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
+            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
           ]
         }
       ]
