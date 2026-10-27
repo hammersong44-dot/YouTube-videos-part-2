@@ -1,13 +1,18 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-27",
+  "run_timestamp_utc": "2026-10-27T05:03:07Z",
+  "window_start_utc": "2026-10-26T04:59:49Z",
+  "window_end_utc": "2026-10-27T05:03:07Z",
+  "note": "All 8 channel IDs supplied in the task prompt were used exactly as given and verified via channels.list to resolve to the expected channel names before querying. New videos found for PaulJLipsky (1), NickShirley (3), LibertyHangout (1), and TheTravelingClatt (8); no new videos for SandeepSwadia, Kanaju, futurepedia_io, and natefriedman in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": []
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
@@ -15,15 +20,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "9WTqqWBPCsk",
+          "title": "The New Way To Use Claude For Regular People",
+          "published_at": "2026-10-26T13:00:14Z",
+          "url": "https://www.youtube.com/watch?v=9WTqqWBPCsk",
+          "ai_technology": "Claude",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky opens by arguing that Claude Code is no longer just a tool for developers, framing the episode as a walkthrough aimed at regular, non-technical viewers who want to put Anthropic's coding assistant to use without writing code themselves.",
+            "The video moves through a set of practical use cases: building simple custom apps, generating documents, presentations and motion graphics, and running multi-threaded projects, before showing how Claude Code can be run locally on a computer and checked on from a phone.",
+            "Consistent with the channel's recurring format of turning Claude's feature set into accessible, non-coder-friendly tutorials, the video closes by contrasting Claude Code's project/thread workflow with the Claude Cowork style of working, positioning it as the more approachable way for ordinary users to get hands-on with AI-built software."
           ]
         }
       ]
@@ -31,65 +36,174 @@
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
-          "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "Usk9QJqf408",
+          "title": "Lula Declared Winner of Brazil Election 💀",
+          "published_at": "2026-10-26T20:56:34Z",
+          "url": "https://www.youtube.com/watch?v=Usk9QJqf408",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "In this short-form update, Nick Shirley reports that Luiz Inácio Lula da Silva has been declared the winner of Brazil's election, framing the result with the skull emoji in the title as a signal of the channel's critical, reaction-style take on the outcome.",
+            "No video description was provided by the channel, so the clip appears to function as a quick reaction and announcement piece rather than a long-form explainer, consistent with how the channel posts rapid-fire updates alongside its longer on-the-ground reporting from Brazil.",
+            "The video sits alongside two other Brazil-election uploads from the same day, suggesting it is part of a same-day sequence of short clips feeding into the channel's broader coverage of the vote and its aftermath."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "PSTcRF0GBvo",
+          "title": "Brazil Has Fallen... Communist Take Over The Country",
+          "published_at": "2026-10-26T19:06:50Z",
+          "url": "https://www.youtube.com/watch?v=PSTcRF0GBvo",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "Nick Shirley covers the aftermath of Lula's declared win over Flavio Bolsonaro, opening with footage of self-described communists celebrating the result and framing the election as a turning point he characterizes as a communist takeover.",
+            "The video walks through a timeline of chapters covering supporters' reactions, claims that the vote reflects opposition to U.S. interference, a visible communist tattoo among celebrants, a disputed two-hour voting extension, riot police appearing at celebrations, and chants invoking Cuba and Venezuela over the United States.",
+            "The chapter list continues into questions about irregularities, including stopped buses and free buses tied to celebrations, and closes with Flavio Bolsonaro refusing to concede, fitting the channel's pattern of on-the-ground, reaction-driven political coverage of Latin American elections."
+          ]
+        },
+        {
+          "video_id": "r4jqTv9X0hY",
+          "title": "Brazil Right Wing Attempted to take back the country…",
+          "published_at": "2026-10-26T14:14:00Z",
+          "url": "https://www.youtube.com/watch?v=r4jqTv9X0hY",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This clip continues Nick Shirley's same-day Brazil election coverage, with the title suggesting footage or commentary on an attempt by right-wing supporters to contest or reverse the declared election result.",
+            "As with other short Brazil-election uploads from the channel on this date, no description was provided, so specific on-the-ground detail is not available beyond the title's framing of a right-wing attempt to take back the country.",
+            "Published between the channel's \"Lula Declared Winner\" clip and its longer \"Brazil Has Fallen\" video, it appears to be another piece of the day's rolling coverage of the contested election results and the public reaction to them."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": [
+        {
+          "video_id": "ASfb-Yzx1vc",
+          "title": "Trump Is WORSE Than STALIN? Democrats Say Yes!",
+          "published_at": "2026-10-27T00:15:10Z",
+          "url": "https://www.youtube.com/watch?v=ASfb-Yzx1vc",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Liberty Hangout posts a street-interview segment filmed at the Mount Dora Arts Festival in which the channel's interviewer asks attendees identifying as Democrats whether they believe Donald Trump is worse than historical communist dictators.",
+            "The description states plainly that the featured interviewees genuinely think Trump is worse than figures like Stalin, Mao, Castro, and Kim Jong Un, per the video's tags, continuing the channel's signature format of capturing provocative on-camera reactions from members of the public.",
+            "As with the channel's typical uploads, the video closes with a plug for Liberty Hangout's branded merchandise, reinforcing its recurring pattern of combining viral street-interview content with direct calls to support the channel commercially."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "UPeunbBTK1Q",
+          "title": "HE CAN’T ANSWER! Why Did Arabs Attack Jews Before Israel?",
+          "published_at": "2026-10-27T02:30:37Z",
+          "url": "https://www.youtube.com/watch?v=UPeunbBTK1Q",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran, host of TheTravelingClatt, engages someone on camera over the historical question of Arab attacks on Jewish communities predating the modern state of Israel, continuing the channel's confrontational debate format on Israeli-Palestinian history.",
+            "The title's framing, that the other party cannot answer, signals the video follows the channel's typical structure of Tal pressing a debate opponent with a pointed historical question meant to challenge a common narrative about the origins of the conflict.",
+            "The description is purely a standard support and monetization block (merch, PayPal, Patreon, Discord, Instagram), with no additional context beyond the title, consistent with nearly all of the channel's recent uploads reusing the same boilerplate description."
+          ]
+        },
+        {
+          "video_id": "PMZNFQMwYOs",
+          "title": "Tal EDUCATES Palestinian on Islamic History!",
+          "published_at": "2026-10-27T01:00:21Z",
+          "url": "https://www.youtube.com/watch?v=PMZNFQMwYOs",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "In this clip, Tal Oran presents himself as correcting or informing a person identified as Palestinian about aspects of Islamic history, fitting the channel's recurring \"Tal educates\" format of on-camera historical debate.",
+            "No description was provided for this upload, so the specific historical claims discussed are not detailed beyond what the title signals: a history-focused exchange framed as Tal providing a corrective account.",
+            "It is one of several same-day \"Tal EDUCATES\" style videos from the channel, suggesting it was filmed as part of a longer debate or interview session that was cut into multiple shorter uploads."
+          ]
+        },
+        {
+          "video_id": "dp-h0RQLGco",
+          "title": "Tal EDUCATES Christian JEW HATER!",
+          "published_at": "2026-10-26T23:00:00Z",
+          "url": "https://www.youtube.com/watch?v=dp-h0RQLGco",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video continues the channel's confrontational format, with Tal Oran shown pushing back against a self-identified Christian individual the title brands a jew hater, reflecting the channel's focus on antisemitism-related confrontations.",
+            "As with other entries in this batch, no written description accompanies the video, leaving the specific arguments exchanged undocumented beyond the inflammatory title framing.",
+            "Posted the same day as several other \"Tal EDUCATES\" clips, it appears to be part of the channel's ongoing series of short, clipped confrontations pulled from longer street or debate footage."
+          ]
+        },
+        {
+          "video_id": "YACyCeixikM",
+          "title": "Katie Hopkins Reveals How To FINISH OFF Islamists In America!",
+          "published_at": "2026-10-26T22:00:37Z",
+          "url": "https://www.youtube.com/watch?v=YACyCeixikM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This upload features commentator Katie Hopkins discussing her views on countering Islamist extremism within the United States, as the centerpiece of this particular TheTravelingClatt clip.",
+            "The description is the channel's standard boilerplate (merch links, PayPal, Buy Me a Coffee, Patreon, Discord, Instagram, and an Epidemic Sound referral), giving no additional detail on Hopkins's specific claims beyond what the title states.",
+            "The video fits the channel's established pattern of featuring guest commentators making sweeping political statements, packaged with the same recurring support-the-channel outro used across nearly all of its recent uploads."
+          ]
+        },
+        {
+          "video_id": "uZuLoC3FzFE",
+          "title": "The Most Insane F***ing Thing On The BBC…",
+          "published_at": "2026-10-26T19:25:38Z",
+          "url": "https://www.youtube.com/watch?v=uZuLoC3FzFE",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran reacts to a clip or segment aired on the BBC that he characterizes in the title as especially shocking, continuing the channel's pattern of reaction content built around mainstream British media coverage.",
+            "Beyond the standard channel support-links boilerplate, no further description specifies which BBC segment or topic is being reacted to.",
+            "The video's placement among same-day uploads covering Israel/Palestine and broader culture-war themes suggests the BBC clip being reacted to likely touches similar subject matter, though this cannot be confirmed from the available text."
+          ]
+        },
+        {
+          "video_id": "pFvRlPnZ_k8",
+          "title": "Victor Davis Hanson “France, It’s Time To Tell You EVERYTHING…”",
+          "published_at": "2026-10-26T17:15:20Z",
+          "url": "https://www.youtube.com/watch?v=pFvRlPnZ_k8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This clip centers on historian and commentator Victor Davis Hanson making remarks the title frames as a direct, pointed message to France, continuing the channel's pattern of amplifying commentary from established conservative intellectuals.",
+            "No additional description beyond the channel's standard support-and-social-links boilerplate accompanies the video, so the exact substance of Hanson's remarks about France is not specified in the text.",
+            "It fits the channel's recurring format of excerpting commentary from recognized pundits and historians on current European political or cultural controversies."
+          ]
+        },
+        {
+          "video_id": "FwMcfuqxjYs",
+          "title": "AUSTRALIA: IN BROAD DAYLIGHT…",
+          "published_at": "2026-10-26T15:15:22Z",
+          "url": "https://www.youtube.com/watch?v=FwMcfuqxjYs",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The video reacts to footage, credited in the description to another YouTube creator, depicting an incident in Australia that the title frames as happening in broad daylight.",
+            "The description credits the source clip via a linked YouTube video but does not otherwise elaborate on the incident's specifics beyond the title's framing and the standard channel support-links block.",
+            "Consistent with several of the channel's other uploads in this batch, it appears to be reaction content built around a third-party clip rather than original footage shot by Tal Oran himself."
+          ]
+        },
+        {
+          "video_id": "yU8O5UeDgEs",
+          "title": "NOBODY Destroyed Dave Smith Better Than Konstantin Just Did!",
+          "published_at": "2026-10-26T13:14:01Z",
+          "url": "https://www.youtube.com/watch?v=yU8O5UeDgEs",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This upload highlights a debate exchange between commentator Dave Smith and Konstantin Kisin, crediting a separate source video, with the title framing Kisin as having decisively bested Smith in the exchange.",
+            "The description credits the original clip via a linked YouTube video and otherwise consists of the channel's standard support-and-social boilerplate, without further detail on the specific arguments made.",
+            "The video continues the channel's practice of curating and reacting to viral debate clips from the broader political commentary space, packaging them for its own audience alongside its original Israel/Palestine-focused content."
+          ]
+        }
+      ]
     }
   ]
 }
