@@ -1,29 +1,60 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-29",
+  "run_timestamp_utc": "2026-10-29T05:00:09Z",
+  "window_start_utc": "2026-10-28T05:00:09Z",
+  "window_end_utc": "2026-10-29T05:00:09Z",
+  "note": "Reporting order and channel IDs used exactly as supplied by the task prompt (SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt). All 8 channels had at least one new video in this 24-hour window; TheTravelingClatt had 10. AI technology classifications are based on YouTube title/description/metadata only (no transcript access available in this environment).",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "MjPZ-CS6edQ",
+          "title": "How To Force AI To Think Differently",
+          "published_at": "2026-10-28T12:00:36Z",
+          "url": "https://www.youtube.com/watch?v=MjPZ-CS6edQ",
+          "ai_technology": "other",
+          "summary": [
+            "Sandeep Swadia's video, titled \"How To Force AI To Think Differently,\" is a short upload whose own description simply repeats the title, aimed at viewers who want to get AI chatbots to break out of their default, formulaic response patterns.",
+            "No vendor is named in the title, description, or video metadata, so the content appears to cover general prompting and reasoning techniques that could apply across today's major assistants rather than a single branded tool, consistent with this channel's typical short, direct AI-tips format.",
+            "Because YouTube's public metadata for this upload offers nothing beyond the repeated title, the specific prompts or examples demonstrated inside are not captured here; viewers wanting the technique itself should watch the full video at the link below."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
+      "videos": [
+        {
+          "video_id": "uHLWY455Moc",
+          "title": "No Man’s Sky FORSAKEN Reaction: Perfect Halloween Follow Up to COSMOS",
+          "published_at": "2026-10-28T18:42:15Z",
+          "url": "https://www.youtube.com/watch?v=uHLWY455Moc",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Kanaju's video is a reaction to the \"FORSAKEN\" update (version 7.10) for the game No Man's Sky, which the creator frames as a fitting Halloween-season follow-up to the game's earlier COSMOS update.",
+            "Per the description, the video covers new \"spooky\" gameplay features and customization options for both the player character and in-game corvette ships, with Kanaju watching and reacting to the official trailer and update notes.",
+            "The content is straightforward gaming commentary with no AI product, model, or technology discussed anywhere in the title, description, or metadata."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "FLum2xzpaHM",
+          "title": "Google Just Announced Gemini 4 Carbon (It Cooks)",
+          "published_at": "2026-10-28T18:42:44Z",
+          "url": "https://www.youtube.com/watch?v=FLum2xzpaHM",
+          "ai_technology": "Gemini",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky covers Google's announcement of \"Gemini 4 Carbon,\" described in the video's own summary as a new frontier AI model built on a predecessor the creator calls \"Argon.\"",
+            "The video breaks down Google's benchmark claims for the new model and discusses what the release could mean for AI agents and cybersecurity use cases, continuing the channel's pattern of same-day reaction videos to major model launches.",
+            "Lipsky also addresses what is currently known about access and pricing for Gemini 4 Carbon, framing it as a notable jump for Google's Gemini line relative to prior versions."
           ]
         }
       ]
@@ -33,63 +64,198 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "isalixh-V0c",
+          "title": "Futurepedia 2.0 is live!",
+          "published_at": "2026-10-28T18:16:49Z",
+          "url": "https://www.youtube.com/watch?v=isalixh-V0c",
+          "ai_technology": "other",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "This upload is an announcement from Futurepedia itself rather than a tool tutorial, introducing a relaunch of the \"Futurepedia 2.0\" product and newsletter experience.",
+            "The description frames the update as a response to AI-tool fatigue: with a new AI tool appearing almost daily, the channel says it rebuilt Futurepedia around surfacing only the few tools worth a viewer's time rather than an exhaustive, noisy directory.",
+            "No single third-party AI model or assistant is the subject here; the video is promotional/informational about Futurepedia's own AI-tool-discovery platform, so it is tagged as general (\"other\") AI technology coverage rather than a specific vendor."
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
-    },
-    {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "jVYaRPiebb4",
+          "title": "I Exposed the Rioters in Paris",
+          "published_at": "2026-10-28T14:14:43Z",
+          "url": "https://www.youtube.com/watch?v=jVYaRPiebb4",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Nate Friedman's video covers rioting activity in Paris, with the description linking out to the creator's security/support fund, a Kalshi prediction-market referral, and a companion segment called \"Friedman Files.\"",
+            "Based on the title and linked resources, the content is on-the-ground or investigative-style reporting and commentary about unrest in Paris rather than any technology story.",
+            "No AI product, model, or company is referenced anywhere in the available title, description, or metadata for this upload."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": [
+        {
+          "video_id": "87RxNFCqnPA",
+          "title": "Brazilians HATE America",
+          "published_at": "2026-10-28T15:14:21Z",
+          "url": "https://www.youtube.com/watch?v=87RxNFCqnPA",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Nick Shirley's video, titled \"Brazilians HATE America,\" carries no description text in the public metadata, but the channel is built around street interviews and reaction segments on political and cultural topics.",
+            "Consistent with that established format, the video most likely features on-camera interviews or reactions gauging opinions of the United States among people in or from Brazil.",
+            "No AI technology is referenced anywhere in the available title or metadata for this video."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": [
+        {
+          "video_id": "RfjVJXC3lP8",
+          "title": "CHRISTIANITY More Dangerous Than SHARIA LAW?!",
+          "published_at": "2026-10-28T22:45:07Z",
+          "url": "https://www.youtube.com/watch?v=RfjVJXC3lP8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Liberty Hangout's video features host Kaitlin interviewing voters who argue that Christian nationalism poses a greater danger to the country than Islam and Sharia law.",
+            "The description frames the content as street-interview commentary intended to highlight views the channel presents as inconsistent or alarming, consistent with its recurring political commentary format.",
+            "The video is political and cultural commentary with no connection to AI technology in its title, description, or metadata."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "-kAvmrIHkks",
+          "title": "The Dawah World Is In Shambles Over This…",
+          "published_at": "2026-10-29T03:00:09Z",
+          "url": "https://www.youtube.com/watch?v=-kAvmrIHkks",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video continues TheTravelingClatt's recurring coverage of online \"Dawah\" (Islamic outreach) debate culture, with the title suggesting a controversy or embarrassing moment involving a figure or group within that online community.",
+            "The description contains only the channel's standard support-link boilerplate (merch, PayPal, Buy Me a Coffee, Ko-Fi) rather than content-specific detail, which is typical of most of this channel's uploads.",
+            "No AI technology is referenced in the available title or metadata; the video sits within the channel's usual religion/culture-war commentary format."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "jouSxnAlH1k",
+          "title": "Woke Women Make “MALE FREE” Island…Then BEG Men To Save Them!",
+          "published_at": "2026-10-29T01:01:28Z",
+          "url": "https://www.youtube.com/watch?v=jouSxnAlH1k",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "The video appears to react to or comment on a viral story or trend about a group of women creating a \"male-free\" community who reportedly later asked men for help, framed by the channel in a critical, culture-war tone.",
+            "As with other uploads from this channel, the description is boilerplate support-link text with no additional content summary provided.",
+            "No AI product or technology is discussed based on the available title and description."
+          ]
+        },
+        {
+          "video_id": "KADVRcfl7zQ",
+          "title": "Dershowitz Oxford Debate Goes Horribly Wrong",
+          "published_at": "2026-10-28T22:51:39Z",
+          "url": "https://www.youtube.com/watch?v=KADVRcfl7zQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video reacts to a debate appearance by Alan Dershowitz at the Oxford Union, sourced and linked from the Oxford Union's own YouTube channel per the description.",
+            "The framing (\"Goes Horribly Wrong\") suggests the video focuses on a contentious moment or perceived misstep during the debate, consistent with the channel's reaction-commentary format.",
+            "The subject matter is legal and political debate commentary; no AI technology is referenced."
+          ]
+        },
+        {
+          "video_id": "NIOM39SG4F8",
+          "title": "Islamists Are Going Berserk Over Viral New Trend Started By American Women!",
+          "published_at": "2026-10-28T20:03:07Z",
+          "url": "https://www.youtube.com/watch?v=NIOM39SG4F8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video covers reaction within online Islamist communities to a viral trend reportedly started by American women, continuing the channel's focus on cross-cultural and religious online controversy.",
+            "The description again contains only the standard channel support-link boilerplate rather than a content-specific summary.",
+            "No AI technology appears in the available title or description for this video."
+          ]
+        },
+        {
+          "video_id": "-GivFmElgjw",
+          "title": "Insane American Hamas Supporter EDUCATED by Tal!",
+          "published_at": "2026-10-28T18:00:27Z",
+          "url": "https://www.youtube.com/watch?v=-GivFmElgjw",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The video appears to document an exchange or debate between the channel's host (Tal) and an American supporter of Hamas, in the channel's confrontational interview and debate style.",
+            "No description text was provided for this upload in the public metadata.",
+            "No AI technology is referenced in the available title or metadata."
+          ]
+        },
+        {
+          "video_id": "XQcbwX2a7gA",
+          "title": "History Made As Parliament FINALLY REJECTS ISLAM!!",
+          "published_at": "2026-10-28T17:13:23Z",
+          "url": "https://www.youtube.com/watch?v=XQcbwX2a7gA",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video covers a parliamentary vote or decision that the channel frames as historic and related to rejecting an Islam-related measure or motion, though the specific country or legislative body is not identified in the title or description.",
+            "The description is limited to the channel's standard support-link boilerplate.",
+            "No AI technology is discussed based on the available metadata."
+          ]
+        },
+        {
+          "video_id": "eRMlxSXOVAw",
+          "title": "PALESTINIANS COULD’NT VOTE! 🇸🇩",
+          "published_at": "2026-10-28T15:30:19Z",
+          "url": "https://www.youtube.com/watch?v=eRMlxSXOVAw",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video addresses voting and electoral participation related to Palestinians, with a Sudanese flag emoji in the title suggesting a connection to recent elections in Sudan rather than the Palestinian territories themselves.",
+            "No description text accompanies the upload in the public metadata.",
+            "No AI technology is referenced in the available title or metadata."
+          ]
+        },
+        {
+          "video_id": "1qmv_CI13nE",
+          "title": "What The F*ck Just Happened In Israel…(elections)",
+          "published_at": "2026-10-28T15:07:18Z",
+          "url": "https://www.youtube.com/watch?v=1qmv_CI13nE",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video reacts to recent elections in Israel, crediting another YouTube video as a source per the description.",
+            "The content continues the channel's pattern of rapid-response commentary on breaking political and electoral news in the Middle East.",
+            "No AI technology is referenced in the available title or description."
+          ]
+        },
+        {
+          "video_id": "dxCQggdidH8",
+          "title": "Elon Musk Just SHOCKED The Internet.",
+          "published_at": "2026-10-28T14:00:23Z",
+          "url": "https://www.youtube.com/watch?v=dxCQggdidH8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video covers a recent statement or action by Elon Musk that the channel frames as having \"shocked the internet,\" though no description text was provided to clarify the specific news being covered.",
+            "Given Musk's range of ventures (Tesla, SpaceX, X, and the AI company xAI/Grok), the specific subject of this video cannot be confirmed from the available title and metadata alone.",
+            "Because no AI product or model is explicitly named in the title or description, this video is tagged as having no confirmed AI technology coverage, though it may still touch on Musk's AI ventures inside the video itself."
+          ]
+        },
+        {
+          "video_id": "cOFS1kRFJ7M",
+          "title": "We Must Stop This From Happening.",
+          "published_at": "2026-10-28T11:37:52Z",
+          "url": "https://www.youtube.com/watch?v=cOFS1kRFJ7M",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video's title signals urgent commentary on a political or cultural issue, but no description text was provided in the public metadata to clarify the specific subject.",
+            "Based on the channel's consistent format, the video most likely continues its established political and religious commentary style rather than covering technology news.",
+            "No AI technology is referenced in the available title or metadata."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
