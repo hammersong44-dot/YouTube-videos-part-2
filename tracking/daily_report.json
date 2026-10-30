@@ -1,13 +1,43 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-30",
+  "run_timestamp_utc": "2026-10-30T05:00:34Z",
+  "window_start_utc": "2026-10-29T05:00:34Z",
+  "window_end_utc": "2026-10-30T05:00:34Z",
+  "note": "Channel list and IDs supplied directly by the task prompt (SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt), used as given. Channel titles returned by the API for each video confirmed the IDs resolve to the expected channels. New videos found for SandeepSwadia (2), PaulJLipsky (1), and TheTravelingClatt (7); no new videos for Kanaju, futurepedia_io, natefriedman, NickShirley, and LibertyHangout in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "WhXPoUVdGcg",
+          "title": "4 Conversation Habits That Make You Unforgettable",
+          "published_at": "2026-10-29T12:00:11Z",
+          "url": "https://www.youtube.com/watch?v=WhXPoUVdGcg",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Sandeep Swadia opens the episode by arguing that conversational mastery isn't about scripted charisma, but about recognizing that half of any conversation belongs to the other person, not yourself.",
+            "He walks through four specific techniques for overcoming conversational anxiety and the \"Liking Gap,\" including the mindset shift of assuming the other person already likes you, aimed at helping shy or introverted viewers build deeper connections.",
+            "The episode includes a sponsored segment for Zapier MCP, an automation and integration tool, but the video's substantive content is a self-improvement piece on communication skills rather than a feature on any AI model."
+          ]
+        },
+        {
+          "video_id": "ukutlQG1-EM",
+          "title": "Look Out For This Thinking Trap",
+          "published_at": "2026-10-29T11:45:15Z",
+          "url": "https://www.youtube.com/watch?v=ukutlQG1-EM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "In this short video, Sandeep Swadia flags a common cognitive \"thinking trap\" that can distort how people interpret situations or other people's intentions.",
+            "The video carries no written description beyond its title, consistent with Swadia occasionally posting brief, title-driven clips where the explanation is delivered on screen rather than in text.",
+            "It fits the channel's recurring focus on everyday psychology and self-improvement rather than any AI product or technology."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
@@ -15,15 +45,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "F3MEjYzc1OY",
+          "title": "Starting a Solo AI Business Using The New X Subscription",
+          "published_at": "2026-10-29T19:59:05Z",
+          "url": "https://www.youtube.com/watch?v=F3MEjYzc1OY",
+          "ai_technology": "Grok",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky walks through building a solo AI business end-to-end using the X (Twitter) subscription bundle, showing how its bundled AI tools can carry an app from idea to public launch.",
+            "He uses Grok to research and plan an app idea, Grok Imagine to design it, Cursor to build it, and Grok Bot to automate feedback management after launching the app on X, with on-screen timestamps marking each stage from planning through launch.",
+            "Framed as a sponsored walkthrough for the X Subscription, the video is a practical, step-by-step case study in using xAI's Grok ecosystem as the backbone of a one-person AI product business."
           ]
         }
       ]
@@ -31,65 +61,112 @@
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
-          "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": []
+    },
+    {
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "MoNVsb-JznI",
+          "title": "Muslim Woman Thought She Can Trash NYC, Till NYer Shows Up!",
+          "published_at": "2026-10-30T01:45:11Z",
+          "url": "https://www.youtube.com/watch?v=MoNVsb-JznI",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Tal Oran reacts to a viral street-encounter clip, credited to another creator, in which a New Yorker confronts a woman seen littering or disrespecting the city.",
+            "Consistent with the channel's reaction-commentary format, Oran plays the source clip and adds his own running commentary on the confrontation as it unfolds.",
+            "No AI technology appears in this video; it is a straightforward reaction upload built around reposted footage, closing with the channel's usual merch, PayPal, and membership appeals."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "dTvbiLef1Tg",
+          "title": "BRITAIN: IN THE DEAD OF NIGHT",
+          "published_at": "2026-10-29T23:28:01Z",
+          "url": "https://www.youtube.com/watch?v=dTvbiLef1Tg",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This upload reacts to a credited source video depicting overnight events in Britain, continuing Oran's pattern of commentary built on reposted footage.",
+            "As with his other reaction videos, the description offers no detail beyond a link credit to the original clip, so the specific subject is conveyed through the video itself rather than written text.",
+            "No AI technology is discussed; the video is political and current-events commentary."
+          ]
+        },
+        {
+          "video_id": "ePefpGEi6QM",
+          "title": "America Is Doing Better Than EVER?!",
+          "published_at": "2026-10-29T23:00:00Z",
+          "url": "https://www.youtube.com/watch?v=ePefpGEi6QM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video carries no written description, but its title signals a reaction or commentary piece questioning claims that the U.S. is currently thriving.",
+            "It follows the channel's established cadence of frequent, short reaction videos on current political and social topics, several posted the same day.",
+            "No AI technology is covered in this video."
+          ]
+        },
+        {
+          "video_id": "I9U9ZmDrM_E",
+          "title": "Ilhan Omar Is On Damage CONTROL!",
+          "published_at": "2026-10-29T21:00:37Z",
+          "url": "https://www.youtube.com/watch?v=I9U9ZmDrM_E",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran comments on remarks or actions by Rep. Ilhan Omar, framing the video around the idea that she is managing fallout from a controversy.",
+            "No description is provided beyond the title, consistent with several of the channel's same-day uploads that lean on the video content itself rather than written summaries.",
+            "The video is political commentary with no AI-technology content."
+          ]
+        },
+        {
+          "video_id": "V3m1RWILIhw",
+          "title": "HISTORIC Moment As Parliament Officially REJECTS ISLAM!!!",
+          "published_at": "2026-10-29T18:40:10Z",
+          "url": "https://www.youtube.com/watch?v=V3m1RWILIhw",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Oran reacts to a credited source clip concerning a parliamentary vote or statement he characterizes as a rejection of Islam.",
+            "As with his other reaction content, the description is limited to a source-video credit link and the channel's standard support and membership call-to-action.",
+            "No AI technology is featured; this is political and religious-commentary reaction content."
+          ]
+        },
+        {
+          "video_id": "1G0GeHp2VCs",
+          "title": "Glenn Beck: “We’re About To Witness An Earth-Altering Event In America…”",
+          "published_at": "2026-10-29T16:37:26Z",
+          "url": "https://www.youtube.com/watch?v=1G0GeHp2VCs",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video reacts to a clip of commentator Glenn Beck making a dramatic prediction about an upcoming \"earth-altering\" event in America, with the original video linked in the credits.",
+            "Oran's commentary track accompanies the clip, continuing the channel's format of reposting notable political commentary with added reaction.",
+            "No AI technology is discussed in this video."
+          ]
+        },
+        {
+          "video_id": "iP-qFsFvBlQ",
+          "title": "Most Controversial Clip On The Internet Right Now",
+          "published_at": "2026-10-29T14:35:23Z",
+          "url": "https://www.youtube.com/watch?v=iP-qFsFvBlQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video has no written description, but the title frames it around a specific clip Oran considers currently the most controversial on the internet.",
+            "It continues the channel's rapid, same-day posting pattern of short reaction and commentary videos built around trending footage.",
+            "No AI technology is covered in this video."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
