@@ -1,13 +1,31 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-10-31",
+  "run_timestamp_utc": "2026-10-31T05:00:06Z",
+  "window_start_utc": "2026-10-30T05:00:06Z",
+  "window_end_utc": "2026-10-31T05:00:06Z",
+  "note": "Monitored the 8 channels specified in the task prompt (SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt), using the exact channel IDs supplied in the prompt. New videos found for SandeepSwadia (1), PaulJLipsky (1), natefriedman (1), and TheTravelingClatt (4); no new videos for Kanaju, futurepedia_io, NickShirley, and LibertyHangout in this window. Daily update email sent to hammersong44@gmail.com.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "qgeAQdJeoOk",
+          "title": "You Only Need One Win",
+          "published_at": "2026-10-30T12:00:06Z",
+          "url": "https://www.youtube.com/watch?v=qgeAQdJeoOk",
+          "ai_tech_id": "No AI technology referenced in the title or description",
+          "summary": [
+            "Sandeep Swadia published a new video titled \"You Only Need One Win.\"",
+            "The video's description offers no further detail beyond the repeated title phrase, suggesting a short, punchy motivational or mindset-focused message rather than a technical or product-focused upload.",
+            "No AI tool, model, or company is mentioned in the title or description, so this video is classified as No AI technology."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
@@ -15,15 +33,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "lXLmgsNP3MY",
+          "title": "AI News: New ChatGPT Limits, iMessage Dot, Gemini 4 Carbon & A Terrifying Voice Model",
+          "published_at": "2026-10-30T13:00:18Z",
+          "url": "https://www.youtube.com/watch?v=lXLmgsNP3MY",
+          "ai_tech_id": "OpenAI's ChatGPT, covered as the lead story alongside Google's Gemini 4 Carbon, Anthropic's Claude, and xAI's Grok Bot in a multi-tool weekly AI news roundup",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky posted his weekly AI news roundup, covering higher ChatGPT usage limits, a new \"text your ChatGPT Dot\" feature, and an unsettling new AI voice model, alongside sponsor content from OpenArt Director.",
+            "The episode also surveys GPT-6.1 Terra and Gemini 4 Carbon, then moves into dedicated segments on Claude app updates, the Anthropic IPO, Claude's new \"Duet\" access, Grok Bot, and further Gemini developments.",
+            "Because the episode is a multi-model weekly digest, it is tagged as ChatGPT here since OpenAI's assistant anchors the title and opening segments, though Claude, Gemini, and Grok are each covered in their own chapters within the same video."
           ]
         }
       ]
@@ -31,65 +49,89 @@
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
+      "videos": []
+    },
+    {
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "6dWLhjTkfpw",
+          "title": "I Asked College Kids in Michigan Who They're Voting For",
+          "published_at": "2026-10-30T10:55:19Z",
+          "url": "https://www.youtube.com/watch?v=6dWLhjTkfpw",
+          "ai_tech_id": "No AI technology referenced in the title or description",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "Nate Friedman published a street-interview style video asking college students in Michigan about their voting plans.",
+            "The description points viewers to his Kalshi prediction-market link, a security/support fund, his \"Friedman Files\" page, and his X account, with no mention of any AI product.",
+            "As neither the title nor description references an AI model or company, this video is classified as No AI technology."
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "XexeXeS-MqU",
+          "title": "SETTLEMENTS: “Why Can’t Jews Live In Palestinian Neighborhoods?”",
+          "published_at": "2026-10-30T22:30:31Z",
+          "url": "https://www.youtube.com/watch?v=XexeXeS-MqU",
+          "ai_tech_id": "No AI technology referenced in the title or description",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Tal Oran's TheTravelingClatt posted a street-interview video filmed in Israeli settlements, asking people why Jews are barred from living in certain Palestinian neighborhoods.",
+            "The description is standard channel boilerplate covering merchandise, Patreon, Discord, and other support links, with no reference to any AI tool or model.",
+            "This video is classified as No AI technology."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "28fBnWhBBXU",
+          "title": "Muslim’s Entire Worldview Collapsed In Seconds…",
+          "published_at": "2026-10-30T19:56:18Z",
+          "url": "https://www.youtube.com/watch?v=28fBnWhBBXU",
+          "ai_tech_id": "No AI technology referenced in the title or description",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This video continues the channel's on-the-ground interview format, centered on a conversation with a Muslim interviewee whose stated views reportedly shift during the exchange.",
+            "As with the channel's other uploads, the description contains only support and merchandise links rather than any content summary.",
+            "No AI technology is referenced in the title or description, so this video is classified as No AI technology."
+          ]
+        },
+        {
+          "video_id": "JQXQhGvUL94",
+          "title": "It’s Time To Come CLEAN…",
+          "published_at": "2026-10-30T17:39:04Z",
+          "url": "https://www.youtube.com/watch?v=JQXQhGvUL94",
+          "ai_tech_id": "No AI technology referenced in the title or description",
+          "summary": [
+            "This upload links out to a separate full interview video and appears to be a follow-up or highlight clip titled \"It's Time To Come CLEAN...\"",
+            "The description again consists of the channel's standard support and merchandise links with no substantive summary of the video's content.",
+            "No AI model or company is mentioned, so it is classified as No AI technology."
+          ]
+        },
+        {
+          "video_id": "QnVn8lAKuX0",
+          "title": "He DIDN’T Expect This! Sorry, Israel Isn’t A Democracy",
+          "published_at": "2026-10-30T12:26:54Z",
+          "url": "https://www.youtube.com/watch?v=QnVn8lAKuX0",
+          "ai_tech_id": "No AI technology referenced in the title or description",
+          "summary": [
+            "This video documents another on-camera interview/confrontation, with the title pointing to a debate over whether Israel qualifies as a democracy.",
+            "The description is the channel's standard boilerplate with support and social links.",
+            "No AI technology is mentioned, so this video is classified as No AI technology."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
