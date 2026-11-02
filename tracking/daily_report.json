@@ -1,95 +1,172 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-02",
+  "run_timestamp_utc": "2026-11-02T05:00:26Z",
+  "window_start_utc": "2026-11-01T05:00:26Z",
+  "window_end_utc": "2026-11-02T05:00:26Z",
+  "note": "Channel IDs used exactly as supplied in the task prompt. New videos found for SandeepSwadia (1), NickShirley (1), and TheTravelingClatt (8); no new videos for Kanaju, PaulJLipsky, futurepedia_io, natefriedman, and LibertyHangout in this window. No video in this window referenced any AI technology.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "nrRo-Y1CEIE",
+          "title": "The Most Useful Feedback I Ever Received",
+          "published_at": "2026-11-01T13:00:26Z",
+          "url": "https://www.youtube.com/watch?v=nrRo-Y1CEIE",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Sandeep Swadia reflects on a single piece of feedback he considers the most valuable he has ever received, framing it as a turning point in his personal or professional journey.",
+            "Consistent with his channel's focus on \"how to make it in a world that no longer makes sense,\" he connects the lesson to his own path, which has spanned time as a homeless teenager, monastic training, and C-level technology executive roles, drawing out a broader principle about growth, resilience, and self-awareness.",
+            "The video fits the channel's recurring format of short, reflective talks aimed at helping viewers navigate career and life setbacks, positioning the feedback story as practical advice rather than abstract motivation."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
-          "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
+      "videos": []
+    },
+    {
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
+      "videos": []
+    },
+    {
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "44I9IZ_b98w",
+          "title": "Brazilians HATE Nationalism",
+          "published_at": "2026-11-01T18:42:56Z",
+          "url": "https://www.youtube.com/watch?v=44I9IZ_b98w",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "Nick Shirley travels to Brazil for this episode and conducts on-the-street interviews asking locals about their views on nationalism, continuing his channel's format of man-on-the-street political and cultural questioning.",
+            "The video's title suggests respondents expressed strongly negative attitudes toward nationalist sentiment, and Shirley likely contrasts these reactions with follow-up questions probing why interviewees feel this way, touching on themes of patriotism, identity, and political history.",
+            "As with his other international interview videos, the piece is edited into a rapid sequence of candid reactions meant to spark debate among viewers about national identity and political culture outside the framework his channel's usual U.S.-focused content implicitly compares against."
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "zB2f47iDnSk",
+          "title": "This Video Will Give You Hope For The Middle East (IRAQI)",
+          "published_at": "2026-11-02T03:00:04Z",
+          "url": "https://www.youtube.com/watch?v=zB2f47iDnSk",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Tal Oran shares a story centered on an Iraqi perspective that he frames as a hopeful counter-narrative to typical Middle East coverage, consistent with his channel's mission of using personal storytelling to shift perceptions of the region.",
+            "Likely featuring testimony or a personal anecdote from an Iraqi voice, the video emphasizes coexistence, resilience, or positive change in the region, themes Oran regularly highlights to push back against purely negative framing of Middle Eastern geopolitics.",
+            "The video continues Oran's pattern of short, emotionally driven commentary pieces designed to build sympathy and understanding for communities in the Middle East, particularly ones that intersect with his advocacy for Israel and regional minorities."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "Mi6oYYf4oXU",
+          "title": "Konstantin Kisin “Stay Away From The UK…It’s About To Get Much Worse!”",
+          "published_at": "2026-11-02T00:00:17Z",
+          "url": "https://www.youtube.com/watch?v=Mi6oYYf4oXU",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This video reacts to commentary from UK-based commentator Konstantin Kisin warning that conditions in Britain are set to deteriorate further, with Oran amplifying and responding to Kisin's remarks.",
+            "The content likely touches on themes Kisin frequently raises, such as immigration policy, free speech, and cultural or political decline in the UK, with Oran adding his own reaction and framing for his audience.",
+            "As a reaction-style upload, the video is positioned as a quick commentary and clip-reaction piece rather than original reporting, fitting the channel's frequent cadence of same-day reactions to notable political commentary clips."
+          ]
+        },
+        {
+          "video_id": "50I8bKF1cwM",
+          "title": "Douglas Said What Everyone Is Thinking.",
+          "published_at": "2026-11-01T23:30:27Z",
+          "url": "https://www.youtube.com/watch?v=50I8bKF1cwM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video reacts to remarks from Douglas Murray, a recurring figure referenced across several of Oran's uploads this cycle, with the title suggesting Murray articulated a widely shared but rarely voiced opinion.",
+            "Oran frames the clip as validating sentiments his audience may already hold, likely on a hot-button political or cultural topic, continuing the channel's pattern of boosting commentary from aligned pundits.",
+            "True to the channel's rapid-fire reaction format, the video is a short, reaction-driven piece rather than long-form original analysis."
+          ]
+        },
+        {
+          "video_id": "172KZXl-mJU",
+          "title": "what happens in Palestine stays in Palestine 🇸🇩🙏🏽❤️🤫",
+          "published_at": "2026-11-01T21:45:34Z",
+          "url": "https://www.youtube.com/watch?v=172KZXl-mJU",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This brief, emoji-titled video appears to be a short-form reaction or commentary clip touching on events or sentiment related to Palestine, using a pointed framing in the title.",
+            "Given the channel's advocacy focus, the video likely offers a sharp take on a specific incident, statement, or piece of footage related to the Palestinian territories, aimed at a quick, shareable reaction rather than deep analysis.",
+            "The absence of a description and its placement among several same-day political reaction uploads suggests this is a quick-turnaround short rather than a flagship video for the channel."
+          ]
+        },
+        {
+          "video_id": "NnysTrAlmj0",
+          "title": "Douglas Murray “I’m Really Risking EVERYTHING To Share This With You..”",
+          "published_at": "2026-11-01T20:45:32Z",
+          "url": "https://www.youtube.com/watch?v=NnysTrAlmj0",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video centers on another Douglas Murray clip, in which Murray reportedly frames upcoming remarks as personally risky to share, suggesting a controversial or high-stakes topic.",
+            "Oran's reaction video amplifies Murray's framing, likely focused on geopolitical or cultural commentary that Murray considers career- or socially risky to state publicly.",
+            "This continues the day's recurring theme across Oran's uploads of reacting to Murray's commentary, suggesting Murray was a focal figure in the news cycle Oran covered on this date."
+          ]
+        },
+        {
+          "video_id": "d5ZBjeHi_1M",
+          "title": "She Got Exactly What She F***ing Deserved…",
+          "published_at": "2026-11-01T18:30:09Z",
+          "url": "https://www.youtube.com/watch?v=d5ZBjeHi_1M",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video reacts to a specific incident involving a woman facing consequences for an action or statement, with the provocative title signaling a strongly opinionated take.",
+            "Without further description available, the piece most likely critiques or mocks the subject's behavior, fitting the channel's confrontational commentary style on viral or newsworthy moments.",
+            "The title and tone are consistent with the channel's attention-grabbing, reaction-driven short-form content rather than measured analysis."
+          ]
+        },
+        {
+          "video_id": "FaC_Xw9riPk",
+          "title": "You WON’T Believe Who Just SIEZED Power In Poland!! ",
+          "published_at": "2026-11-01T16:28:20Z",
+          "url": "https://www.youtube.com/watch?v=FaC_Xw9riPk",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video covers a political development in Poland, with the sensational title suggesting an unexpected figure or party gaining power.",
+            "Oran likely frames the story within broader concerns about European political shifts, possibly tying it to nationalist, populist, or security implications relevant to his typical commentary themes.",
+            "As with the channel's other same-day uploads, this appears to be a quick reaction and news-commentary piece rather than an in-depth investigative report."
+          ]
+        },
+        {
+          "video_id": "grH2u1G7AKU",
+          "title": "Glenn Beck: “We’re About To See A Cataclysmic Event In The United States…”",
+          "published_at": "2026-11-01T14:28:21Z",
+          "url": "https://www.youtube.com/watch?v=grH2u1G7AKU",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video reacts to a Glenn Beck segment, credited in the description to another YouTube source, warning of an impending major event or crisis in the United States.",
+            "Oran's reaction adds his own commentary on Beck's warning, likely engaging with themes of political instability, economic concern, or societal unrest that Beck is known for raising.",
+            "Sourced explicitly from another creator's footage per the video description, this is a reaction and commentary upload built around amplifying a notable political warning rather than original reporting."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
