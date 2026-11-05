@@ -1,95 +1,248 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-04",
+  "run_timestamp_utc": "2026-11-05T05:00:09Z",
+  "window_start_utc": "2026-11-04T05:00:09Z",
+  "window_end_utc": "2026-11-05T05:00:09Z",
+  "note": "8 channels queried per task-prompt-supplied channel IDs via search.list(publishedAfter, order=date, type=video); full video metadata fetched via videos.list. New videos found for SandeepSwadia (2), futurepedia_io (2), NickShirley (1), and TheTravelingClatt (10); no new videos for Kanaju, PaulJLipsky, natefriedman, and LibertyHangout in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
-      "videos": []
-    },
-    {
-      "channel_name": "PaulJLipsky",
-      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "channel_name": "Sandeep Swadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "x9hrptrGGY0",
+          "title": "This ONE AI Agent Will Make You So Productive It's Almost Unfair",
+          "published_at": "2026-11-04T13:00:24Z",
+          "published_central": "2026-11-04 07:00 AM CST",
+          "url": "https://www.youtube.com/watch?v=x9hrptrGGY0",
+          "ai_technology": "Other",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "futurepedia_io",
-      "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
-          "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
-    },
-    {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
-      "videos": [
-        {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
-          "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Sandeep Swadia argues that chasing a dozen different AI apps and chatbots to stay productive backfires, and makes the case for building a single personal AI agent that knows the user well enough to act as an \"AI Chief of Staff\" rather than managing a crowd of disconnected \"AI interns.\"",
+            "He structures the episode around four problems he calls the \"four Fs\" that erode daily productivity -- Fragments (constant app-switching), Flood (an overwhelming stream of communication), Frequency (recurring tasks that quietly fall through the cracks), and Future (losing sight of long-term purpose) -- and walks through how a configured personal agent can serve as the glue, gatekeeper, and external trigger that addresses each one.",
+            "The video closes by tying the productivity framework back to intentionality, urging viewers to make sure the time an AI agent frees up actually gets redirected toward what matters to them, consistent with the channel's recurring focus on practical AI-agent workflows rather than hype about any single branded tool."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "MHgr-iDSeIA",
+          "title": "The Best Vibe Coders Aren't Engineers",
+          "published_at": "2026-11-04T13:00:29Z",
+          "published_central": "2026-11-04 07:00 AM CST",
+          "url": "https://www.youtube.com/watch?v=MHgr-iDSeIA",
+          "ai_technology": "Other",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "In this short-form video, Sandeep Swadia argues that the people getting the best results from \"vibe coding\" -- building software by prompting an AI coding assistant rather than writing code by hand -- are often not trained software engineers.",
+            "The video's own description offers no further detail beyond repeating the title, but the framing fits the channel's recurring theme that non-technical builders who understand a problem deeply, and who iterate quickly with AI tools, can out-produce traditional engineers on certain kinds of projects.",
+            "As with Swadia's other short clips, the piece reads as a provocative, single-idea take meant to spark discussion about shifting skill requirements in an AI-assisted coding era rather than a step-by-step tutorial."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
+    },
+    {
+      "channel_name": "Paul J Lipsky",
+      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "videos": []
+    },
+    {
+      "channel_name": "Futurepedia",
+      "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
+      "videos": [
+        {
+          "video_id": "WLJC4s8Nh1M",
+          "title": "Claude just got rebuilt so hard an engineer called it Claude 2.0",
+          "published_at": "2026-11-04T19:50:44Z",
+          "published_central": "2026-11-04 01:50 PM CST",
+          "url": "https://www.youtube.com/watch?v=WLJC4s8Nh1M",
+          "ai_technology": "Claude",
+          "summary": [
+            "Futurepedia reports that Anthropic has overhauled the Claude desktop app, describing changes substantial enough that one of the engineers who worked on Claude Code reportedly called the update \"basically a Claude 2.0.\"",
+            "The headline change is a navigation overhaul: Cowork has been merged directly into the Chat experience, collapsing what had been several separate areas down to just two top-level tabs, Home and Code, simplifying how users move between conversational chat and coding-focused work.",
+            "Framed as breaking AI-tool news, the video fits Futurepedia's pattern of flagging major interface and product shifts from leading AI labs as soon as they roll out, positioning this redesign as a significant step in Claude's evolution from a chat assistant toward a more unified work environment."
+          ]
+        },
+        {
+          "video_id": "rU5llKCPPwI",
+          "title": "Top 15 Tricks for INSTANTLY Better Claude Designs",
+          "published_at": "2026-11-04T17:18:47Z",
+          "published_central": "2026-11-04 11:18 AM CST",
+          "url": "https://www.youtube.com/watch?v=rU5llKCPPwI",
+          "ai_technology": "Claude",
+          "summary": [
+            "Futurepedia shares a 15-tip roundup for getting visually polished output out of Claude's design/artifact capabilities, aimed at steering results away from the generic, \"obviously AI-made\" look many users get by default.",
+            "The tips reportedly range from beginner fundamentals, such as finding strong visual references and feeding them to Claude, up to more advanced \"power-user\" techniques, with a linked external design guide offered for viewers who want a deeper walkthrough.",
+            "Tied to a promoted Futurepedia AI-tool-matching resource, the video continues the channel's practical, tutorial-driven coverage of Claude as a design tool rather than purely a coding or chat assistant."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Nate Friedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
+      "videos": []
+    },
+    {
+      "channel_name": "Nick Shirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": [
+        {
+          "video_id": "qHXwZAP2v_k",
+          "title": "Don’t Let America Become A Learing Center",
+          "published_at": "2026-11-05T00:08:00Z",
+          "published_central": "2026-11-04 06:08 PM CST",
+          "url": "https://www.youtube.com/watch?v=qHXwZAP2v_k",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Nick Shirley's video carries a warning-style title, \"Don't Let America Become A Learing Center\" (as published by the channel, likely a typo for \"Learning Center\"), signaling political or cultural commentary rather than AI-related content.",
+            "No video description was provided by the channel for this upload, so the specific argument or footage covered isn't detailed beyond what the title implies about concerns over institutional or cultural drift in the U.S.",
+            "Consistent with the channel's typical street-interview and commentary format, the video appears to fit Nick Shirley's broader body of work engaging with social and political topics rather than any AI product or technology."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Liberty Hangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "The Traveling Clatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "d3HZ4Z7k6fQ",
+          "title": "Muslim Community Try To Turn City Hall Into Mosque, Locals Said H*LL NO!",
+          "published_at": "2026-11-05T03:30:28Z",
+          "published_central": "2026-11-04 09:30 PM CST",
+          "url": "https://www.youtube.com/watch?v=d3HZ4Z7k6fQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran's \"The Traveling Clatt\" covers a local dispute in which, per the title, a Muslim community sought to convert a city hall building into a mosque, a proposal the video frames as having been met with pushback from area residents.",
+            "As with much of the channel's content, the video appears to be built around reaction to existing footage or local news coverage of the controversy, though the description contains only the channel's standard support/merch links rather than further detail on the specific city or outcome.",
+            "The video fits the channel's established format of commentary on local religious and cultural flashpoints, continuing its recurring focus on community pushback against mosque or religious-site conversions."
+          ]
+        },
+        {
+          "video_id": "WwuVFfYo4yg",
+          "title": "Islamists F’D Around With The WRONG Dogs In Minnesota!",
+          "published_at": "2026-11-05T01:30:01Z",
+          "published_central": "2026-11-04 07:30 PM CST",
+          "url": "https://www.youtube.com/watch?v=WwuVFfYo4yg",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video, titled \"Islamists F'D Around With The WRONG Dogs In Minnesota!\", appears to react to an incident in Minnesota involving a confrontation between the video's subjects and dogs, framed provocatively in the channel's typical style.",
+            "No further plot or context is given in the description beyond the channel's recurring support-link boilerplate, so the specific underlying footage or news story being reacted to isn't detailed there.",
+            "The video continues Tal Oran's pattern of sensational, reaction-style titles covering incidents involving Muslim or Islamist individuals in the U.S., aimed at a politically engaged audience."
+          ]
+        },
+        {
+          "video_id": "lFQ4M0k0gYk",
+          "title": "This Is Not A FALSE Alarm!",
+          "published_at": "2026-11-05T01:00:31Z",
+          "published_central": "2026-11-04 07:00 PM CST",
+          "url": "https://www.youtube.com/watch?v=lFQ4M0k0gYk",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Titled \"This Is Not A FALSE Alarm!\", the video suggests the creator is flagging a genuine concern or warning to viewers, though the description provides no additional context.",
+            "Without a filled-in description, the specific subject matter can't be confirmed beyond the implication of the title, which frames whatever is being discussed as urgent and credible rather than exaggerated.",
+            "The alarmist framing is consistent with the channel's broader commentary style, which frequently frames current events as pressing threats warranting viewer attention."
+          ]
+        },
+        {
+          "video_id": "mXm3ijCvX6E",
+          "title": "She Celebrated France Riots…Then They Came For Her!",
+          "published_at": "2026-11-04T23:10:08Z",
+          "published_central": "2026-11-04 05:10 PM CST",
+          "url": "https://www.youtube.com/watch?v=mXm3ijCvX6E",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Titled \"She Celebrated France Riots…Then They Came For Her!\", this video reacts to footage (credited to an original source video linked in the description) of a woman who reportedly celebrated rioting in France and then faced backlash or consequences.",
+            "Rather than original reporting, the upload functions as a reaction/commentary piece built on top of someone else's video, a format the channel uses regularly to comment on viral clips.",
+            "The narrative arc suggested by the title -- celebration followed by consequence -- fits the channel's recurring \"comeuppance\" storytelling pattern around politically charged viral moments."
+          ]
+        },
+        {
+          "video_id": "VJAxA_xefdI",
+          "title": "The Prank That SHOOK The Internet.",
+          "published_at": "2026-11-04T23:00:17Z",
+          "published_central": "2026-11-04 05:00 PM CST",
+          "url": "https://www.youtube.com/watch?v=VJAxA_xefdI",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"The Prank That SHOOK The Internet.\" suggests coverage of a viral prank video, though the description contains no further information about its content or who was involved.",
+            "Given the channel's usual mix of political commentary and viral-clip reactions, this entry likely reacts to a prank that generated significant online attention or controversy.",
+            "Without additional description text, the specific details of the prank and its fallout aren't confirmable beyond what the title implies."
+          ]
+        },
+        {
+          "video_id": "aTm9ds1fcT4",
+          "title": "After Yesterday, Will They Come After Us?",
+          "published_at": "2026-11-04T20:41:58Z",
+          "published_central": "2026-11-04 02:41 PM CST",
+          "url": "https://www.youtube.com/watch?v=aTm9ds1fcT4",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Titled \"After Yesterday, Will They Come After Us?\", the video appears to be a follow-up or reflection tied to a prior day's events, and the description credits \"@TousiTV\" for related content, suggesting a collaboration or cross-reference with that channel.",
+            "The question-framed title implies concern about potential retaliation or targeting following an unspecified prior incident, continuing the channel's pattern of framing political and cultural stories around perceived threats.",
+            "Beyond the TousiTV shoutout, the description offers only the channel's standard support links, leaving the specific \"yesterday\" event referenced in the title unconfirmed from the available text."
+          ]
+        },
+        {
+          "video_id": "wryvT2NhSWU",
+          "title": "Islamists EDUCATED on Peace between Jews and Arabs in PALESTINE!",
+          "published_at": "2026-11-04T19:34:38Z",
+          "published_central": "2026-11-04 01:34 PM CST",
+          "url": "https://www.youtube.com/watch?v=wryvT2NhSWU",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"Islamists EDUCATED on Peace between Jews and Arabs in PALESTINE!\" suggests a video depicting someone confronting or debating individuals described as Islamists on the topic of Jewish-Arab relations in the Palestinian context.",
+            "The description does not elaborate further, so the specific speakers, location, or source footage referenced by the title cannot be confirmed beyond the headline framing.",
+            "This entry fits the channel's recurring focus on street-level ideological confrontations around Middle East politics and religious tension."
+          ]
+        },
+        {
+          "video_id": "XhC42qF-DgI",
+          "title": "She Got Exactly What She F***ing Deserved…",
+          "published_at": "2026-11-04T17:30:27Z",
+          "published_central": "2026-11-04 11:30 AM CST",
+          "url": "https://www.youtube.com/watch?v=XhC42qF-DgI",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"She Got Exactly What She F***ing Deserved…\" is framed as a comeuppance-style story, though the description provides no details on who is being discussed or what preceded the outcome referenced in the title.",
+            "As with several other entries from this channel on this date, the video likely reacts to a viral clip or news story, using provocative titling to drive engagement.",
+            "No additional context is available from the description to clarify the specific subject matter."
+          ]
+        },
+        {
+          "video_id": "podOX-R7G5A",
+          "title": "Victor Davis Hanson: “The Collapse Of Iran Is Happening Right Before Our Eyes…”",
+          "published_at": "2026-11-04T15:24:04Z",
+          "published_central": "2026-11-04 09:24 AM CST",
+          "url": "https://www.youtube.com/watch?v=podOX-R7G5A",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video features commentary from historian Victor Davis Hanson, titled \"The Collapse Of Iran Is Happening Right Before Our Eyes…\", suggesting discussion of destabilization or political upheaval in Iran.",
+            "Likely drawn from an interview or commentary segment featuring Hanson, the video appears to focus on geopolitical analysis of Iran's internal situation rather than the U.S. domestic culture-war topics covered elsewhere on the channel that day.",
+            "The description does not add further detail beyond the channel's standard support links, so the specifics of Hanson's argument aren't confirmable from the text alone."
+          ]
+        },
+        {
+          "video_id": "n7Wzb-nyuos",
+          "title": "Non U.S. Citizen Tries To Vote In Midterms, Then THIS Happened",
+          "published_at": "2026-11-04T13:15:19Z",
+          "published_central": "2026-11-04 07:15 AM CST",
+          "url": "https://www.youtube.com/watch?v=n7Wzb-nyuos",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"Non U.S. Citizen Tries To Vote In Midterms, Then THIS Happened\" suggests the video covers an incident of attempted voter fraud or an improper voting attempt tied to the midterm elections.",
+            "Consistent with the channel's political commentary format, the video likely reacts to footage or a news report of the incident, though the description does not supply further specifics about location or outcome.",
+            "The topic fits recurring election-integrity themes the channel has covered around the midterm election cycle."
+          ]
+        }
+      ]
     }
   ]
 }
