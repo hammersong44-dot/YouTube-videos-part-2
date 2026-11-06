@@ -1,95 +1,198 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-05",
+  "run_timestamp_utc": "2026-11-06T04:59:49Z",
+  "window_start_utc": "2026-11-05T04:59:49Z",
+  "window_end_utc": "2026-11-06T04:59:49Z",
+  "note": "All 8 channel IDs as supplied in the task prompt resolved and were queried directly via search.list(channelId, order=date, publishedAfter). New videos found for SandeepSwadia (1), PaulJLipsky (1), futurepedia_io (1), LibertyHangout (1), and TheTravelingClatt (8); no new videos for Kanaju, natefriedman, and NickShirley in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "Sandeep Swadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "3iquGXgO6X4",
+          "title": "Don't Skip This Step When Vibe Coding Cool Apps",
+          "published_at": "2026-11-05T13:00:34Z",
+          "url": "https://www.youtube.com/watch?v=3iquGXgO6X4",
+          "ai_technology": "Other",
+          "summary": [
+            "Sandeep Swadia uses this short video to flag a step builders often skip when \"vibe coding\" (rapidly prompting an AI coding assistant to produce an app), arguing that skipping it is what causes many AI-generated apps to break or look unfinished.",
+            "Framed as a quick tip rather than a full tutorial, the video fits the channel's recurring focus on practical workflow advice for people using AI coding assistants to build software without traditional programming experience.",
+            "No specific AI model or vendor is named in the title or the (minimal) description, so the video reads as general AI-coding/vibe-coding guidance rather than a review or walkthrough of any single AI product."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
-      "channel_name": "PaulJLipsky",
+      "channel_name": "Paul J Lipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "oBaT-wo9RTY",
+          "title": "Google Antigravity Explained for Normal People (Full Tutorial)",
+          "published_at": "2026-11-05T14:00:28Z",
+          "url": "https://www.youtube.com/watch?v=oBaT-wo9RTY",
+          "ai_technology": "Gemini",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky walks non-technical viewers through Google Antigravity, Google's AI-powered agentic development tool built on its Gemini models, covering setup, account settings, project folders, and model selection before building anything.",
+            "The tutorial then demonstrates hands-on use: building a full app, a simple game, generating images with code, and creating motion graphics, with timestamped chapters so viewers can jump to the segment most relevant to them, while stressing visual polish as a priority alongside basic functionality.",
+            "The video is sponsored by Fish Audio, whose Drama 3 API is promoted alongside the Antigravity tutorial, fitting Paul's channel pattern of practical AI-tool walkthroughs paired with a sponsor integration."
           ]
         }
       ]
     },
     {
-      "channel_name": "futurepedia_io",
+      "channel_name": "Futurepedia",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "zl2APMcV-mk",
+          "title": "Claude's Artifacts now even more powerful",
+          "published_at": "2026-11-05T23:54:58Z",
+          "url": "https://www.youtube.com/watch?v=zl2APMcV-mk",
+          "ai_technology": "Claude",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "Futurepedia covers Anthropic's expansion of Claude's Artifacts feature, which now supports five new output formats: Documents, Slides, Design, Dashboard, and Motion.",
+            "The video explains each format: Docs functions like an editable, chat-driven Google Docs; Slides lets users create and present decks directly from Claude or export them as PowerPoint files; and Design is described as a powerful tool for prototyping social posts, websites, apps, or other visual work.",
+            "Motion is highlighted as building animations and motion graphics purely through code rather than an AI video generator, and the video notes that Dashboard and Motion are still in beta and may not be visible to all users yet, consistent with Futurepedia's role tracking new Claude feature rollouts."
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "Nat Friedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "Nick Shirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "Liberty Hangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "E7fNQ3su_tw",
+          "title": "Keep Jesus OUT of Politics, But Not ALLAH!",
+          "published_at": "2026-11-05T23:45:08Z",
+          "url": "https://www.youtube.com/watch?v=E7fNQ3su_tw",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Liberty Hangout's Kaitlin Bennett conducts person-on-the-street interviews asking voters whether religion belongs in government, highlighting what she frames as a double standard among some respondents who say Christianity should be excluded from politics while treating Islam differently.",
+            "The video continues the channel's man-on-the-street interview format used to surface perceived inconsistencies in political and religious viewpoints among passersby, with commentary from Kaitlin threaded throughout.",
+            "The description includes a promotional link for the channel's \"PRO USA\" merchandise; the video covers no AI technology, fitting Liberty Hangout's usual political and cultural commentary content rather than tech coverage."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Tal Oran - TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "oNoM4Vpnyg4",
+          "title": "Vloggers Visiting Palestine 🇸🇩 in 2026!",
+          "published_at": "2026-11-06T03:31:08Z",
+          "url": "https://www.youtube.com/watch?v=oNoM4Vpnyg4",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran discusses other travel vloggers' visits to Palestinian territories in 2026, offering his own commentary and reaction as an Israel-based creator who frequently covers the region's travel and politics.",
+            "No description was provided for this upload, so the exact format (on-location footage, reaction, or commentary-only) is not specified, but it fits the channel's recurring focus on travel-and-politics content involving Israel and the Palestinian territories.",
+            "The video includes no AI technology coverage; it sits squarely within TheTravelingClatt's niche of political travel commentary."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "qJEeYrmKUbo",
+          "title": "He Was STUNNED! “What Can Jews Do In Israel That Arabs Can’t?”",
+          "published_at": "2026-11-06T03:00:32Z",
+          "url": "https://www.youtube.com/watch?v=qJEeYrmKUbo",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "Tal Oran poses a provocative question to a subject on camera about the practical differences in rights or freedoms between Jewish and Arab citizens of Israel, capturing the person's reaction.",
+            "The video follows the channel's signature street-interview format, where Oran engages people (often tourists, locals, or political figures) with pointed questions about Israeli society, politics, and identity to generate a candid or surprised reaction.",
+            "The description is the channel's standard support, merchandise, and social-links boilerplate; no AI technology is discussed in the video."
+          ]
+        },
+        {
+          "video_id": "3WpdFHzSkts",
+          "title": "American Women Are Finally Fighting Back.",
+          "published_at": "2026-11-06T01:24:03Z",
+          "url": "https://www.youtube.com/watch?v=3WpdFHzSkts",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran comments on a trend or news story he frames as American women \"fighting back,\" likely tied to a current social or political issue in the U.S.",
+            "Consistent with the channel's broader scope beyond Israel-specific content, this video appears to be commentary on American domestic politics or culture rather than travel content.",
+            "No description was provided and no AI technology is covered in this video."
+          ]
+        },
+        {
+          "video_id": "EWA2YT300KI",
+          "title": "You WON’T Believe What The UK Just Did To Tommy Robinson!!",
+          "published_at": "2026-11-05T20:55:25Z",
+          "url": "https://www.youtube.com/watch?v=EWA2YT300KI",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran reacts to a recent UK government or legal action involving controversial British political activist Tommy Robinson, framing it as shocking or significant for free speech in the UK.",
+            "The video uses the channel's typical reaction and commentary format on international political news, tying into Oran's recurring themes of free speech and government overreach.",
+            "The description is the channel's standard support-links boilerplate; no AI technology is covered."
+          ]
+        },
+        {
+          "video_id": "rrR875hGdAM",
+          "title": "Glenn Beck: “We’re About To Witness A SEISMIC Event In America…”",
+          "published_at": "2026-11-05T18:55:29Z",
+          "url": "https://www.youtube.com/watch?v=rrR875hGdAM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran shares and reacts to commentary from media personality Glenn Beck warning of an imminent major (\"seismic\") event in America, linking out to the full live stream source.",
+            "The video appears to be a clipped highlight or reaction to Beck's broader live broadcast, fitting Oran's pattern of amplifying commentary from other political media figures he finds noteworthy.",
+            "No AI technology is discussed; the content is political and current-events commentary."
+          ]
+        },
+        {
+          "video_id": "W9RptS-fSDY",
+          "title": "The Inmates are running the asylum…",
+          "published_at": "2026-11-05T16:45:39Z",
+          "url": "https://www.youtube.com/watch?v=W9RptS-fSDY",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran offers political commentary, using the idiom \"the inmates are running the asylum\" to criticize some aspect of current governance, institutions, or leadership he finds dysfunctional.",
+            "The specific subject isn't detailed in the description beyond the channel's standard support-links boilerplate, but the title suggests frustration directed at a particular government, policy, or institutional failure the creator wants to spotlight.",
+            "No AI technology is covered in this video."
+          ]
+        },
+        {
+          "video_id": "SjTdVB3bt6w",
+          "title": "Our Freedoms Are About To Be Taken Away From Us",
+          "published_at": "2026-11-05T14:40:14Z",
+          "url": "https://www.youtube.com/watch?v=SjTdVB3bt6w",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran warns viewers about a perceived threat to civil liberties or freedoms, continuing his pattern of alarmist political commentary on current events.",
+            "As with several other uploads in this window, the description provides no specifics beyond the channel's standard support-links boilerplate, so the exact policy or event being referenced is not detailed in the metadata.",
+            "No AI technology is discussed in this video."
+          ]
+        },
+        {
+          "video_id": "eJwTTw8Vqt4",
+          "title": "“Ben Gvir Is Racist!” Belarusian ‘ARAB’ Confronts Israeli Over Election, Instant Fail!",
+          "published_at": "2026-11-05T12:30:38Z",
+          "url": "https://www.youtube.com/watch?v=eJwTTw8Vqt4",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran captures a street confrontation in which a self-identified Belarusian 'Arab' individual accuses Israeli far-right politician Itamar Ben Gvir of racism during a discussion about Israeli elections, with Oran framing the exchange as an \"instant fail\" for the critic.",
+            "The video follows the channel's confrontational interview style, where Oran challenges a critic's claims on camera and presents the exchange as discrediting their argument.",
+            "No AI technology is covered; the video is political and cultural commentary tied to Israeli domestic politics."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
