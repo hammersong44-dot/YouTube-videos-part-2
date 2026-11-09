@@ -1,95 +1,184 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-09",
+  "run_timestamp_utc": "2026-11-09T04:59:44Z",
+  "window_start_utc": "2026-11-08T04:59:44Z",
+  "window_end_utc": "2026-11-09T04:59:44Z",
+  "note": "Channel IDs supplied by the task prompt were used exactly as given and verified via channels.list(id) before querying; all 8 resolved to their expected channels. New videos found for SandeepSwadia (1), NickShirley (1), and TheTravelingClatt (9); no new videos for Kanaju, PaulJLipsky, futurepedia_io, natefriedman, and LibertyHangout in this window. Several videos (SandeepSwadia's and NickShirley's, and most of TheTravelingClatt's) carried empty or minimal descriptions via the YouTube Data API, so AI-technology classification and summaries for those videos are based on title, channel context, and category only.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "zHTZeg_Re_E",
+          "title": "Anyone Can Build Cool Apps Now",
+          "published_at": "2026-11-08T13:00:00Z",
+          "url": "https://www.youtube.com/watch?v=zHTZeg_Re_E",
+          "ai_technology": "Other",
+          "summary": [
+            "Sandeep Swadia published \"Anyone Can Build Cool Apps Now\" on November 8, 2026, filed under YouTube's People & Blogs category. The video's description field contains only the title itself, so no additional written detail is available through the YouTube Data API beyond the title and thumbnail.",
+            "The title is consistent with this channel's recurring format of showcasing AI-assisted software and no-code/low-code app-building tools that let viewers create functional applications quickly, a theme Sandeep Swadia covers regularly.",
+            "Because no specific AI product (Claude, ChatGPT, Gemini, or Grok) is named in the available metadata, the AI technology is classified as \"Other\" pending direct review of the video itself; it is very likely AI-related given the channel's typical focus and framing of the title."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
-          "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
+      "videos": []
+    },
+    {
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
+      "videos": []
+    },
+    {
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "aRox5zfNdz0",
+          "title": "Sheriff EXPOSES HORRIFIC data on predators 💀",
+          "published_at": "2026-11-08T20:02:29Z",
+          "url": "https://www.youtube.com/watch?v=aRox5zfNdz0",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "Nick Shirley published \"Sheriff EXPOSES HORRIFIC data on predators\" on November 8, 2026, categorized by YouTube as Entertainment. No description text was supplied with the upload, so the summary below is based on the title, channel, and category alone.",
+            "The title suggests an interview or on-camera conversation with a sheriff who shares statistics or findings about predatory crime, consistent with Nick Shirley's recurring format of street interviews and conversations with public figures or officials on social and legal issues.",
+            "No AI tool, model, or platform is referenced in the title or the available metadata, so this video is classified as \"No AI technology.\""
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "tTrHnypuIlE",
+          "title": "He Wasn’t Expecting To Get DESTROYED In This Interview!",
+          "published_at": "2026-11-09T01:00:23Z",
+          "url": "https://www.youtube.com/watch?v=tTrHnypuIlE",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Tal Oran (TheTravelingClatt) published \"He Wasn't Expecting To Get DESTROYED In This Interview!\" on November 9, 2026, filed under the Travel & Events category. No written description was provided with the upload beyond the channel's standard support-link boilerplate.",
+            "The title points to one of the channel's signature confrontational street-interview segments, where Tal Oran questions a member of the public on a contested social, religious, or political topic and the exchange turns sharply against the interviewee.",
+            "No AI tool or platform is mentioned in the title or metadata, so this video is classified as \"No AI technology.\""
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "LtsJ3Q6QoKg",
+          "title": "He Loves Islam…But Won’t Go To Muslim Areas",
+          "published_at": "2026-11-08T23:00:35Z",
+          "url": "https://www.youtube.com/watch?v=LtsJ3Q6QoKg",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This video, \"He Loves Islam...But Won't Go To Muslim Areas,\" was published November 8, 2026 under the Travel & Events category. The description contains only the channel's recurring support/membership links, with no further written detail on the specific content.",
+            "The title indicates a street-interview segment in which Tal Oran presses an interviewee about an apparent contradiction between professed admiration for Islam and reluctance to visit predominantly Muslim neighborhoods, fitting the channel's pattern of probing religious and cultural attitudes on camera.",
+            "No AI technology is referenced in the title or available metadata, so it is classified as \"No AI technology.\""
+          ]
+        },
+        {
+          "video_id": "INiGNxahDjc",
+          "title": "Lebanon and Israel need PEACE NOW!",
+          "published_at": "2026-11-08T23:00:06Z",
+          "url": "https://www.youtube.com/watch?v=INiGNxahDjc",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"Lebanon and Israel need PEACE NOW!\" was published November 8, 2026 under the Travel & Events category, with no additional description text beyond the channel's standard support links.",
+            "The title suggests commentary or an interview segment focused on the Lebanon-Israel relationship and calls for de-escalation or peace, consistent with the channel's recurring coverage of Middle East geopolitics through street interviews and personal commentary.",
+            "No AI tool or technology is referenced in the title or metadata, so it is classified as \"No AI technology.\""
+          ]
+        },
+        {
+          "video_id": "19ZJEZOjNfQ",
+          "title": "She Can’t Be Serious About This!",
+          "published_at": "2026-11-08T21:00:11Z",
+          "url": "https://www.youtube.com/watch?v=19ZJEZOjNfQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"She Can't Be Serious About This!\" was published November 8, 2026 under the Travel & Events category. No description was included beyond the recurring channel boilerplate, so no further specifics are available via the API.",
+            "The exclamatory title suggests a street-interview clip in which an interviewee makes a surprising or controversial statement that Tal Oran reacts to on camera, matching the channel's typical reaction-driven interview format.",
+            "No AI product or technology is referenced in the title or metadata, so it is classified as \"No AI technology.\""
+          ]
+        },
+        {
+          "video_id": "breCBqRXF2g",
+          "title": "Muslim Cops DEMAND NY Dog Owner Follow Sharia Law, Then THIS Happened",
+          "published_at": "2026-11-08T20:45:25Z",
+          "url": "https://www.youtube.com/watch?v=breCBqRXF2g",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"Muslim Cops DEMAND NY Dog Owner Follow Sharia Law, Then THIS Happened\" was published November 8, 2026 under the Travel & Events category, with only the channel's standard support-link boilerplate as description text.",
+            "The title describes an incident involving New York police officers and a dog owner over religious law, suggesting the video presents or reacts to a specific confrontation or news clip, in keeping with the channel's focus on religion-and-society flashpoints.",
+            "No AI tool or platform is referenced in the title or available metadata, so it is classified as \"No AI technology.\""
+          ]
+        },
+        {
+          "video_id": "21T3GcNSJfM",
+          "title": "Islamists Thought They Owned Italy, Boy Were They WRONG!",
+          "published_at": "2026-11-08T18:30:25Z",
+          "url": "https://www.youtube.com/watch?v=21T3GcNSJfM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"Islamists Thought They Owned Italy, Boy Were They WRONG!\" was published November 8, 2026 under the Travel & Events category. Its description links to a separate YouTube video (https://youtu.be/sGnmQ4zG8cM) alongside the channel's standard support links, suggesting this upload reacts to or discusses that linked clip.",
+            "The title frames a confrontation or pushback against Islamist activity in Italy, consistent with the channel's recurring coverage of religion, immigration, and cultural tension in Europe.",
+            "No AI tool or technology is referenced in the title or metadata, so it is classified as \"No AI technology.\""
+          ]
+        },
+        {
+          "video_id": "ytyhQUVLKDA",
+          "title": "Syrian Muslim Woman MAKES PEACE with Israeli Zionist Jew! 🇸🇾🤝🇮🇱",
+          "published_at": "2026-11-08T18:00:05Z",
+          "url": "https://www.youtube.com/watch?v=ytyhQUVLKDA",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"Syrian Muslim Woman MAKES PEACE with Israeli Zionist Jew!\" was published November 8, 2026 under the Travel & Events category, with no description text beyond the channel's standard support links.",
+            "The title points to a filmed encounter or interview in which a Syrian Muslim woman and an Israeli Jewish interviewee find common ground, continuing the channel's pattern of staging and documenting cross-cultural, Israel/Palestine-adjacent conversations.",
+            "No AI tool or technology is referenced in the title or metadata, so it is classified as \"No AI technology.\""
+          ]
+        },
+        {
+          "video_id": "hCCbPdWH9Uo",
+          "title": "Douglas Murray: “They Told Me To Stay QUIET But I Need To WARN America…”",
+          "published_at": "2026-11-08T16:00:38Z",
+          "url": "https://www.youtube.com/watch?v=hCCbPdWH9Uo",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video quotes commentator Douglas Murray and was published November 8, 2026 under the Travel & Events category. Its description links to a separate YouTube video (https://youtu.be/46aB207bARA) plus the channel's standard support links, indicating this upload is a clip or excerpt drawn from that longer interview.",
+            "The quoted title suggests Douglas Murray delivering commentary or a warning about a social or political trend in America, framed as content he says he was discouraged from sharing, consistent with the channel's practice of clipping notable interview moments with public commentators.",
+            "No AI tool or technology is referenced in the title or metadata, so it is classified as \"No AI technology.\""
+          ]
+        },
+        {
+          "video_id": "w3Tkc2yazs8",
+          "title": "Muslim Boxer Jumps On Tommy, Tommy Hits Back!",
+          "published_at": "2026-11-08T13:53:10Z",
+          "url": "https://www.youtube.com/watch?v=w3Tkc2yazs8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "\"Muslim Boxer Jumps On Tommy, Tommy Hits Back!\" was published November 8, 2026 under the Travel & Events category, with only the channel's standard support-link boilerplate as description text.",
+            "The title describes a physical altercation between a boxer and a person named Tommy, with Tommy responding, suggesting the video documents or reacts to a confrontation caught on camera during one of the channel's street-interview or public-outreach segments.",
+            "No AI tool or technology is referenced in the title or metadata, so it is classified as \"No AI technology.\""
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
