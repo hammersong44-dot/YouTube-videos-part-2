@@ -1,29 +1,59 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-09",
+  "run_timestamp_utc": "2026-11-10T04:59:46Z",
+  "window_start_utc": "2026-11-09T04:59:46Z",
+  "window_end_utc": "2026-11-10T04:59:46Z",
+  "note": "All 8 channel IDs used exactly as supplied in the task prompt (no re-verification against handles). 15 new videos found across 5 of 8 channels in this 24-hour window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
       "videos": []
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
+      "videos": [
+        {
+          "video_id": "fj8gNYp9QdA",
+          "title": "No Man's Sky Forsaken Review! Was It Good for 2026? | Deep Space Travel Break Ep. 48",
+          "published_at": "2026-11-09T14:00:13Z",
+          "url": "https://www.youtube.com/watch?v=fj8gNYp9QdA",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Kanaju's 48th episode of the Deep Space Travel Break podcast reviews No Man's Sky's new \"Forsaken\" update, covering the game's expansion to iOS devices alongside quality-of-life additions like a minimal HUD option and a new weapon wheel.",
+            "The episode walks through the update's features in sequence, from the iOS launch and Forsaken-specific mechanics to the interface changes, before pivoting to a broader look back at No Man's Sky's \"Cosmos\" update and the game's overall trajectory through 2026.",
+            "True to the channel's recurring format, the video closes with housekeeping segments covering new NMS merchandise, the return of a collaborator's \"CobraTV\" segment, and a state-of-the-channel update, rather than any AI-related content."
+          ]
+        }
+      ]
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "5oHVBWzSBT8",
+          "title": "Fable 5.2 Just Dropped (Full Breakdown)",
+          "published_at": "2026-11-09T20:08:53Z",
+          "url": "https://www.youtube.com/watch?v=5oHVBWzSBT8",
+          "ai_technology": "Claude",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky's video breaks down the newly released Fable 5.2, Anthropic's latest Claude-family model, continuing the channel's pattern of same-day \"full breakdown\" coverage whenever a major Claude release lands.",
+            "The video's description offers no further detail beyond a sponsor plug for PepoChat, so the specifics of the breakdown, such as benchmark comparisons, new capabilities, or pricing changes typically covered in these videos, are confined to the video itself rather than the written description.",
+            "Posted the same day as his Meta Muse update coverage, this video keeps Lipsky's channel positioned as a fast-turnaround source for new AI model releases, with Fable 5.2 treated as the day's headline AI story."
+          ]
+        },
+        {
+          "video_id": "FAhzpiTmwqw",
+          "title": "Meta Muse Just Got Insanely Powerful (3 Free Updates)",
+          "published_at": "2026-11-09T14:00:21Z",
+          "url": "https://www.youtube.com/watch?v=FAhzpiTmwqw",
+          "ai_technology": "other",
+          "summary": [
+            "Paul J Lipsky covers three new free updates to Meta's \"Muse\" AI assistant: Spaces, improved memory and focus, and a new voice mode, with the video sponsored in part by Abacus AI's SuperComputer product.",
+            "He demonstrates building dashboards, apps, games, and reports by talking to Muse through its voice mode, then shows how to keep the resulting \"Spaces\" organized and automatically updated over time.",
+            "Structured with timestamped chapters covering Spaces, better models, the Abacus AI sponsor segment, building with voice, and organizing/automating Spaces, the video frames Meta Muse's latest updates as a meaningful jump in capability for hands-free AI workflows."
           ]
         }
       ]
@@ -33,63 +63,172 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "JMrZEdQrHP8",
+          "title": "One Claude chat can run all your other chats",
+          "published_at": "2026-11-09T23:12:21Z",
+          "url": "https://www.youtube.com/watch?v=JMrZEdQrHP8",
+          "ai_technology": "Claude",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
-    },
-    {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
-      "videos": [
-        {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
-          "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Futurepedia shows how to set up a single \"master\" Claude Code session that monitors, launches, and manages a user's other Claude Code chats, effectively turning one conversation into an orchestration layer for the rest.",
+            "The short video focuses narrowly on this master-session workflow, positioning it as a way to supervise multiple in-progress coding sessions without manually switching between them.",
+            "Consistent with Futurepedia's practical, workflow-focused style, the video treats this as a power-user technique for getting more out of Claude Code rather than as a general product announcement."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "6w9PtRnSP50",
+          "title": "Claude designs look generic until you do this.",
+          "published_at": "2026-11-09T20:23:37Z",
+          "url": "https://www.youtube.com/watch?v=6w9PtRnSP50",
+          "ai_technology": "Claude",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "Futurepedia explains why Claude's design outputs often default to generic, \"middle of the road\" styling: the model plays it safe by giving users something it's confident will look acceptable rather than distinctive.",
+            "The fix demonstrated is supplying Claude with concrete references, such as screenshots, websites, or specific examples of a desired look, and explicitly telling it which elements to borrow from each reference rather than leaving the style open-ended.",
+            "The video points viewers to a linked, free Claude design guide for the full technique, continuing Futurepedia's pattern of pairing a short diagnostic tip with a deeper linked resource."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
+    },
+    {
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": []
+    },
+    {
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": [
+        {
+          "video_id": "TuaDqRNaaUg",
+          "title": "TRIGGERED Democrats Call COPS On Pregnant Woman",
+          "published_at": "2026-11-10T00:45:09Z",
+          "url": "https://www.youtube.com/watch?v=TuaDqRNaaUg",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Liberty Hangout's Kaitlin recounts an incident in which Florida Democrats reportedly called the police on her after she asked them whether they were excited about the state having its first Black governor.",
+            "The video frames the exchange as an example of Democratic overreaction, presenting it in the channel's typical confrontational, clip-driven commentary style.",
+            "As with most Liberty Hangout content, the video is political commentary with no AI-related subject matter, and it closes with a plug for the channel's merchandise store."
+          ]
+        },
+        {
+          "video_id": "3m9pfrW6th8",
+          "title": "THIS Is What Democrats Voted For",
+          "published_at": "2026-11-09T16:15:31Z",
+          "url": "https://www.youtube.com/watch?v=3m9pfrW6th8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This short Liberty Hangout video is framed as a \"friendly reminder\" clip highlighting consequences the channel attributes to Democratic voters' choices.",
+            "With a sparse description, the video relies entirely on its clip or commentary content to make its point, consistent with the channel's rapid-fire reaction-video format.",
+            "No AI tools or technology are referenced; the content is purely political commentary."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "JwRxQPwuZxM",
+          "title": "Sorry, I Won\u2019t Pay Your Jizya!",
+          "published_at": "2026-11-10T04:50:01Z",
+          "url": "https://www.youtube.com/watch?v=JwRxQPwuZxM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran posts a video objecting to being asked to pay a \"jizya,\" using the term, historically a tax non-Muslims paid under Islamic rule, to frame a confrontation or demand he says he's rejecting.",
+            "As with most of his uploads, the video description contains only his standard support-the-channel links rather than details of the specific confrontation or its context.",
+            "The video fits the channel's recurring format of reaction-style commentary on religion and culture-war flashpoints, with no AI-related content."
+          ]
+        },
+        {
+          "video_id": "TSLjT7wJCEw",
+          "title": "His Supporters Are Turning On Him!",
+          "published_at": "2026-11-10T03:30:13Z",
+          "url": "https://www.youtube.com/watch?v=TSLjT7wJCEw",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video carries no description at all, leaving only the title, \"His Supporters Are Turning On Him!\", to indicate its subject, likely a political figure facing backlash from his own base.",
+            "Given the channel's typical output, the video is almost certainly reaction or commentary content rather than anything related to AI tools.",
+            "No further detail is available without watching the video itself, as neither a description nor AI-related keywords were provided."
+          ]
+        },
+        {
+          "video_id": "p5oDcoxtZMI",
+          "title": "Tommy Robinson Just Dropped A Bomb On Piers Morgan\u2026",
+          "published_at": "2026-11-10T02:30:29Z",
+          "url": "https://www.youtube.com/watch?v=p5oDcoxtZMI",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran covers a reported exchange between British activist Tommy Robinson and broadcaster Piers Morgan, framed in the title as Robinson delivering a major rebuttal or revelation.",
+            "The description again contains only the channel's standard support and merch links, offering no additional detail about the specific claims discussed in the clip.",
+            "The video continues the channel's focus on UK and international political commentary, with no AI technology referenced."
+          ]
+        },
+        {
+          "video_id": "vIffsuN-jo0",
+          "title": "Tal VS Islamist Hijabis from Mauritius!",
+          "published_at": "2026-11-10T01:41:22Z",
+          "url": "https://www.youtube.com/watch?v=vIffsuN-jo0",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video, with no description provided, appears from its title to document a confrontation or debate between Tal Oran and a group of hijab-wearing women he identifies as from Mauritius.",
+            "Consistent with the channel's confrontational interview and debate format, the video likely centers on religious or cultural disagreement rather than any technology topic.",
+            "No AI tools or products are referenced in the available metadata."
+          ]
+        },
+        {
+          "video_id": "tDKe0NXijU0",
+          "title": "Watch Carefully: Victor Davis Hanson Drops Bombshell Findings On JD Vance!",
+          "published_at": "2026-11-10T00:18:31Z",
+          "url": "https://www.youtube.com/watch?v=tDKe0NXijU0",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran shares and credits footage, linked to another YouTube video, in which historian Victor Davis Hanson reportedly makes significant claims regarding Vice President JD Vance.",
+            "The video appears to be commentary built around re-shared source footage rather than original reporting, per the \"Credit Video\" link included in the description.",
+            "The content is political and historical commentary with no connection to AI technology."
+          ]
+        },
+        {
+          "video_id": "yjjbKpMdeQk",
+          "title": "I Love What Just Happened In Philadelphia!!",
+          "published_at": "2026-11-09T22:18:12Z",
+          "url": "https://www.youtube.com/watch?v=yjjbKpMdeQk",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Labeled a \"Tal News update,\" this video reacts positively to an unspecified recent event in Philadelphia.",
+            "The description gives no further detail beyond flagging it as a news-update segment, consistent with the channel's rapid daily-news-reaction format.",
+            "No AI-related subject matter is present; the video is political and news commentary."
+          ]
+        },
+        {
+          "video_id": "wB9Dg7U5Hu8",
+          "title": "Russel Brand Just F*cked Up Even Worse\u2026",
+          "published_at": "2026-11-09T17:02:27Z",
+          "url": "https://www.youtube.com/watch?v=wB9Dg7U5Hu8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Another \"Tal News Update\" segment, this video criticizes comedian and commentator Russell Brand over an unspecified recent misstep.",
+            "As with the channel's other news-update clips, the description offers no substantive detail beyond identifying it as a news segment.",
+            "The content is celebrity and political commentary with no AI technology involved."
+          ]
+        },
+        {
+          "video_id": "zumnT0v0Fyk",
+          "title": "Actions Actually Have F***ing Consequences\u2026",
+          "published_at": "2026-11-09T14:38:10Z",
+          "url": "https://www.youtube.com/watch?v=zumnT0v0Fyk",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video's title suggests commentary on an individual or group facing consequences for their actions, though the description contains only the channel's standard support-the-channel boilerplate.",
+            "As with the channel's other uploads in this batch, it is reaction and commentary content without additional contextual detail in the metadata.",
+            "No AI technology is referenced."
+          ]
+        }
+      ]
     }
   ]
 }
