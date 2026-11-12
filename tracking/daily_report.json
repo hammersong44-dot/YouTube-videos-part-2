@@ -1,13 +1,18 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-12",
+  "run_timestamp_utc": "2026-11-12T04:59:52Z",
+  "window_start_utc": "2026-11-11T04:59:52Z",
+  "window_end_utc": "2026-11-12T04:59:52Z",
+  "note": "Monitored channel list for this run: SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt (channel IDs as supplied in the task prompt, used as-is). New videos found for PaulJLipsky (1), futurepedia_io (1), NickShirley (2), LibertyHangout (1), and TheTravelingClatt (9); no new videos for SandeepSwadia, Kanaju, and natefriedman in this window. Email sent to hammersong44@gmail.com, Gmail message id 1a1ce24f196913ff.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": []
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
@@ -15,15 +20,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "o8hqvv3Cbls",
+          "title": "Fable 5.2: 18 Wild Things You Can Build",
+          "published_at": "2026-11-11T23:39:42Z",
+          "url": "https://www.youtube.com/watch?v=o8hqvv3Cbls",
+          "ai_tech_id": "Anthropic's Claude, specifically the newly released Fable 5.2 model (with a comparison to Opus 5.5), showcased through 18 community and creator-built examples spanning games, animation, video editing, and hardware design",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul Lipsky curated 18 examples built with Claude's Fable 5.2 model, spanning playable games, animations, video editing tools, and even hardware design projects, several of which are his own creations.",
+            "He highlights what impressed him most about Fable 5.2's capabilities while also being candid about where the model still falls short, giving viewers a balanced read on the model's current strengths and limitations.",
+            "Despite the new release, Lipsky notes he still uses Claude's Opus 5.5 for many everyday tasks, and the video links out to the original creators, including Felix Rieseberg's first-person shooter and Kevin's multi-world boat ride, so viewers can explore the source projects themselves."
           ]
         }
       ]
@@ -33,63 +38,185 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "2V0GoU9e3fo",
+          "title": "One scene, 86 animation styles, all made by Claude",
+          "published_at": "2026-11-11T17:02:39Z",
+          "url": "https://www.youtube.com/watch?v=2V0GoU9e3fo",
+          "ai_tech_id": "Anthropic's Claude, used to generate 86 different animation styles for the same scene entirely through code it wrote, with no separate video-generation model involved",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "Futurepedia showcases a single robot scene rendered in 86 different animation styles, with every frame generated entirely as code written by Claude rather than through a traditional video generation model.",
+            "The video samples 13 of those styles to demonstrate the visual range Claude can produce from one underlying scene description, illustrating how a code-first approach to animation can yield highly varied artistic results.",
+            "Viewers interested in reproducing the effects are pointed to a related video containing all 86 styles along with copy-paste prompts, making this a practical showcase rather than just a demo reel."
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "NkjArtpQ1Ss",
+          "title": "I have a correction to make",
+          "published_at": "2026-11-12T04:04:03Z",
+          "url": "https://www.youtube.com/watch?v=NkjArtpQ1Ss",
+          "ai_tech_id": "No AI technology referenced in title or description",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Nick Shirley posts a short correction video, though the description provides no additional detail about what is being corrected.",
+            "Based on the title alone, this appears to address an error or clarification related to one of his earlier reports, a format he has used before to maintain accuracy with his audience.",
+            "No AI tools or technologies are referenced in the title or description of this upload."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "JiErG-mKur4",
+          "title": "Border Patrol Whistleblower Speaks Out!",
+          "published_at": "2026-11-11T22:23:11Z",
+          "url": "https://www.youtube.com/watch?v=JiErG-mKur4",
+          "ai_tech_id": "No AI technology referenced in title or description",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This video features an interview with a self-described Border Patrol whistleblower, continuing Shirley's pattern of on-the-ground interview journalism covering immigration and border enforcement topics.",
+            "The description does not elaborate further, but the title suggests the whistleblower is sharing firsthand claims about conditions or practices within Border Patrol operations.",
+            "No AI technology is mentioned in connection with this video."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": [
+        {
+          "video_id": "yVKUyI3TewU",
+          "title": "The Most EVIL Person I've Ever Talked To",
+          "published_at": "2026-11-11T23:45:07Z",
+          "url": "https://www.youtube.com/watch?v=yVKUyI3TewU",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "Liberty Hangout host Kaitlin interviews an OBGYN in a street-interview style segment, with the title framing the subject as the most morally objectionable person she has spoken with on the channel.",
+            "The description confirms the conversation centers on the doctor's views, which apparently struck Kaitlin as especially troubling, though specifics of the exchange are not detailed in the description itself.",
+            "The video promotes the channel's merchandise line but contains no reference to AI tools or technology."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "6-OFKI3-0y0",
+          "title": "She Got Caught In A HUGE Lie.",
+          "published_at": "2026-11-12T02:16:17Z",
+          "url": "https://www.youtube.com/watch?v=6-OFKI3-0y0",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "Tal Oran posts another reaction/commentary video in his ongoing man-on-the-street series, this time focused on an interviewee allegedly caught contradicting herself.",
+            "As with several of his recent uploads, the description is left blank, so the specifics of the lie and its context come only from the video itself.",
+            "No AI technology is referenced in this upload."
+          ]
+        },
+        {
+          "video_id": "TptswDHJmYI",
+          "title": "Does What Goes Around, Eventually Comes Around?",
+          "published_at": "2026-11-12T00:00:27Z",
+          "url": "https://www.youtube.com/watch?v=TptswDHJmYI",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "This video poses a karma-themed question as its title, consistent with Oran's recurring format of rhetorical questions tied to a street-interview segment.",
+            "No description was provided, leaving the specific subject matter and interviewees unclear without watching the video directly.",
+            "No AI technology is mentioned."
+          ]
+        },
+        {
+          "video_id": "OGd6oKLX9mQ",
+          "title": "Woke Couple Hosted Migrants…Goes Horribly Wrong!",
+          "published_at": "2026-11-11T22:30:29Z",
+          "url": "https://www.youtube.com/watch?v=OGd6oKLX9mQ",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "Oran covers a story about a couple who reportedly hosted migrants in their home, framing the outcome as having gone badly, and links to a related video from another creator as source or companion content.",
+            "The description otherwise consists of the channel's standard support links (merchandise, PayPal, Buy Me a Coffee, Ko-fi, and Patreon) rather than additional narrative detail.",
+            "No AI technology is referenced in this video."
+          ]
+        },
+        {
+          "video_id": "7dZhny0YfqU",
+          "title": "No Voter ID Required!",
+          "published_at": "2026-11-11T22:00:32Z",
+          "url": "https://www.youtube.com/watch?v=7dZhny0YfqU",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "This upload appears to address voter identification policy, a recurring political topic on the channel, though the description provides no further explanation.",
+            "The title's framing suggests a critical or sarcastic take on jurisdictions that do not require voter ID at the polls.",
+            "No AI technology is mentioned in this video."
+          ]
+        },
+        {
+          "video_id": "XRUpKaLc7SQ",
+          "title": "Dutch Muslims Have NO CLUE The Hell They Just Unleashed!",
+          "published_at": "2026-11-11T19:56:22Z",
+          "url": "https://www.youtube.com/watch?v=XRUpKaLc7SQ",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "Oran reacts to and credits an original video showing an incident involving Dutch Muslim individuals, continuing his channel's format of commentary on clips sourced from other creators.",
+            "The description links to the credited original video but gives no further detail about the specific events being discussed.",
+            "No AI technology is referenced."
+          ]
+        },
+        {
+          "video_id": "vExA0U3tCk0",
+          "title": "Tal WRECKS Keffiyah Batman! 😂",
+          "published_at": "2026-11-11T19:00:09Z",
+          "url": "https://www.youtube.com/watch?v=vExA0U3tCk0",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "This video appears to be a comedic confrontation or reaction segment involving a person dressed as a \"Keffiyah Batman,\" a recurring type of street-encounter content for the channel.",
+            "No description text was provided, so additional context comes only from watching the clip itself.",
+            "No AI technology is mentioned in this upload."
+          ]
+        },
+        {
+          "video_id": "MmGkLXLUbLA",
+          "title": "Tommy Robinson “Something BIG Is About To Happen In The UK…”",
+          "published_at": "2026-11-11T17:11:09Z",
+          "url": "https://www.youtube.com/watch?v=MmGkLXLUbLA",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "Oran shares and reacts to commentary from UK activist Tommy Robinson, who reportedly teases a significant upcoming development in the UK, with the original video credited in the description.",
+            "The description is otherwise filled with the channel's standard support and membership links rather than elaboration on Robinson's claim.",
+            "No AI technology is referenced in this video."
+          ]
+        },
+        {
+          "video_id": "oJGUHaCCOaI",
+          "title": "Muslims Build Mosque In South Korea, Then Koreans Make PORK BBQ Right Outside",
+          "published_at": "2026-11-11T15:10:39Z",
+          "url": "https://www.youtube.com/watch?v=oJGUHaCCOaI",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "This video covers a reported local dispute in South Korea involving the construction of a mosque and a neighboring pork barbecue protest, crediting an original source video for the footage.",
+            "As with other recent uploads, the description mainly contains the channel's support links rather than additional background on the dispute.",
+            "No AI technology is mentioned in connection with this video."
+          ]
+        },
+        {
+          "video_id": "VEEQySTEy8U",
+          "title": "“If Arabs Can Have 56 Can Jews Have One?”",
+          "published_at": "2026-11-11T05:02:47Z",
+          "url": "https://www.youtube.com/watch?v=VEEQySTEy8U",
+          "ai_tech_id": "No AI technology referenced in title or description",
+          "summary": [
+            "This video's title poses a rhetorical question about the number of Arab-majority states compared to the existence of a single Jewish state, suggesting a commentary or debate-style segment on the topic.",
+            "The description contains no additional narrative detail beyond the channel's recurring support and membership call-to-action.",
+            "No AI technology is referenced in this upload."
+          ]
+        }
+      ]
     }
   ]
 }
