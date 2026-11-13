@@ -1,95 +1,145 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-13",
+  "run_timestamp_utc": "2026-11-13T04:59:45Z",
+  "window_start_utc": "2026-11-12T04:59:45Z",
+  "window_end_utc": "2026-11-13T04:59:45Z",
+  "note": "All 8 task-prompt-supplied channel IDs re-verified via channels.list(id) and resolved correctly to their expected channels. New videos found for SandeepSwadia (2), PaulJLipsky (1), futurepedia_io (2), and TheTravelingClatt (2); no new videos for Kanaju, natefriedman, NickShirley, and LibertyHangout in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_title": "Sandeep Swadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "QZhjswyoh0k",
+          "title": "17 Minutes To Understand Money For The Rest Of Your Life",
+          "published_at": "2026-11-12T13:00:09Z",
+          "url": "https://www.youtube.com/watch?v=QZhjswyoh0k",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "In this 17-minute episode, Sandeep Swadia lays out his \"FREE\" framework for building and protecting wealth, arguing that money has two scoreboards: the visible one people flaunt and the invisible one that determines actual life control.",
+            "He walks through the framework's four pillars: Freedom (measuring wealth in months of runway rather than dollars), Resilience (recovering from market setbacks), Ego (a three-line pre-investment checklist to curb overconfidence), and Enough (balancing \"to-be\" and \"to-do\" priorities so people don't gamble away what they need).",
+            "The video is pure personal-finance philosophy with no AI tools, models, or products mentioned; it closes with a parable about a peasant to illustrate the \"enough\" principle."
+          ]
+        },
+        {
+          "video_id": "J-yoFr6EhZ8",
+          "title": "How To Become Disgustingly Financially Literate",
+          "published_at": "2026-11-12T19:45:05Z",
+          "url": "https://www.youtube.com/watch?v=J-yoFr6EhZ8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Sandeep Swadia posts a short companion piece titled \"How To Become Disgustingly Financially Literate,\" built around the same wealth-building themes as his longer episode released the same day.",
+            "The video's description points directly to the companion deep-dive (\"17 Minutes To Understand Money For The Rest Of Your Life\"), suggesting this upload functions as a trailer or short-form teaser rather than a standalone lesson.",
+            "No AI tools, models, or products are referenced in the title or description; the content is purely personal-finance commentary, consistent with the channel's general focus on wealth psychology and money management."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_title": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
+      "channel_title": "Paul J Lipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "bm8x0hopWTU",
+          "title": "Gemini 4 Hydrogen Just Dropped (Personally Tested)",
+          "published_at": "2026-11-12T18:39:24Z",
+          "url": "https://www.youtube.com/watch?v=bm8x0hopWTU",
+          "ai_technology": "Gemini",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky reviews Google's newly released Gemini 4 Hydrogen, a fast, cost-efficient model positioned as an everyday \"daily driver,\" after roughly a day of early access.",
+            "He covers where Hydrogen is currently available, walks through Google's published benchmarks, and compares its pricing against Gemini 3.8 Flash and Gemini 4 Carbon to place it within Google's current model lineup.",
+            "Lipsky then demos several things he built using Hydrogen, offering his take on where the model best fits relative to its faster/cheaper and more capable siblings."
           ]
         }
       ]
     },
     {
       "channel_name": "futurepedia_io",
+      "channel_title": "Futurepedia",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "P_I98bc9uHg",
+          "title": "Claude can now add features to itself",
+          "published_at": "2026-11-12T23:03:42Z",
+          "url": "https://www.youtube.com/watch?v=P_I98bc9uHg",
+          "ai_technology": "Claude",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
-    },
-    {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
-      "videos": [
-        {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
-          "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Futurepedia covers Anthropic's new \"Mods\" capability, which lets Claude add features directly to its own app based on a user's description of what they want.",
+            "The short video frames Mods as a self-extension tool: rather than waiting on Anthropic to ship a feature, users can describe the functionality they want and have Claude build it into the app itself.",
+            "Consistent with the channel's quick-hit format, the video is a brief product-update style clip highlighting a single new Claude capability without a lengthy tutorial walkthrough."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "ZxaMmG71g8c",
+          "title": "Claude Makes 3D Animations Easy Now",
+          "published_at": "2026-11-12T19:01:24Z",
+          "url": "https://www.youtube.com/watch?v=ZxaMmG71g8c",
+          "ai_technology": "Claude",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "Futurepedia demonstrates how Claude can now generate polished 3D animations using Three.js, contrasting this approach with the frame-by-frame JavaScript method shown in an earlier motion-graphics video on the channel.",
+            "The host walks through building an animation from a single prompt, then introduces a free \"3D Style Atlas\" of 37 ready-made styles that can be copied directly into Claude, complete with built-in sound effects.",
+            "The video closes with a voiceover-mode demo, showing a volcano-themed animation synced to narration, with chapters covering the mechanics, style atlas, and voiceover workflow."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "channel_name": "natefriedman",
+      "channel_title": "Nate Friedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
+    },
+    {
+      "channel_name": "NickShirley",
+      "channel_title": "Nick Shirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": []
+    },
+    {
+      "channel_name": "LibertyHangout",
+      "channel_title": "Liberty Hangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_title": "Tal Oran - TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "ZhXm91j85F0",
+          "title": "He Calls Me An Islamophobe, BIG MISTAKE",
+          "published_at": "2026-11-12T15:33:41Z",
+          "url": "https://www.youtube.com/watch?v=ZhXm91j85F0",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran posts another confrontational street-interview style clip, this one centered on being accused of Islamophobia during an on-camera exchange.",
+            "As with the channel's other upload today, the video description is entirely boilerplate (merch links, donation platforms, Discord, Instagram) and gives no additional detail about the video's content.",
+            "No AI technology appears in the title or description; the upload is consistent with the channel's recurring man-on-the-street confrontation/commentary format."
+          ]
+        },
+        {
+          "video_id": "UHmRBqRm01A",
+          "title": "Pakistani Gets Absolutely SCHOOLED By Indian - This Is Hilarious",
+          "published_at": "2026-11-13T00:46:28Z",
+          "url": "https://www.youtube.com/watch?v=UHmRBqRm01A",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran, posting as TheTravelingClatt, shares a comedic street-interaction clip framed as a lighthearted cultural exchange between a Pakistani and Indian subject.",
+            "The description contains none of the video's actual content and is instead the channel's standard support/monetization block (merch, PayPal, Patreon, Discord, Instagram links).",
+            "No AI technology, tool, or model is referenced anywhere in the title or description; this is standard entertainment/vlog content for the channel."
+          ]
+        }
+      ]
     }
   ]
 }
