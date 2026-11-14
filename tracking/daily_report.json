@@ -1,13 +1,18 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-14",
+  "run_timestamp_utc": "2026-11-14T04:59:54Z",
+  "window_start_utc": "2026-11-13T04:59:54Z",
+  "window_end_utc": "2026-11-14T04:59:54Z",
+  "note": "Channel roster changed from the previous report per this run's task prompt. Monitored channels are now: SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt. All 8 supplied channel IDs were verified via channels.list and resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), NickShirley (1), and TheTravelingClatt (9); no new videos for SandeepSwadia, Kanaju, natefriedman, and LibertyHangout in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": []
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
@@ -15,15 +20,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "nTXUndFOTCw",
+          "title": "The Craziest AI Week of The Year...",
+          "published_at": "2026-11-13T14:00:32Z",
+          "url": "https://www.youtube.com/watch?v=nTXUndFOTCw",
+          "ai_technology": "Multiple (Claude, Gemini, Grok)",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky frames this episode as a recap of an unusually dense week in AI, opening with the surprise resignation of NVIDIA's CEO before moving into the model releases that followed: Anthropic's Claude Fable 5.2 and Google's Gemini 4, released in two variants he calls Carbon and Hydrogen.",
+            "The middle of the video is built around a sponsored demo for Kortex, a tool that connects Claude to Gemini's NotebookLM via MCP, which Lipsky uses to argue for picking different models for different tasks; he also walks through a new Claude Office Suite feature and the initial rollout of xAI's Grok Bot 1.0.",
+            "The video closes with a segment on using AI assistants on an Apple Watch and a rapid-fire rundown of smaller updates, continuing the channel's recurring format of stitching competing vendors' weekly releases into one chronological, timestamped digest rather than focusing on a single AI product."
           ]
         }
       ]
@@ -33,63 +38,160 @@
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "-wxmK-0GrRU",
+          "title": "Claude 2.0 just dropped",
+          "published_at": "2026-11-13T17:21:54Z",
+          "url": "https://www.youtube.com/watch?v=-wxmK-0GrRU",
+          "ai_technology": "Claude",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "Futurepedia posts a short, under-a-minute update flagging what it calls \"Claude 2.0,\" a new version of Anthropic's Claude consumer app rather than a new underlying model, with the description promising a rundown of everything that changed in the interface.",
+            "The two headline items named in the video are live dashboards and \"mods,\" suggesting Anthropic added at-a-glance data widgets and some form of customization or extensibility layer to the Claude app, though the clip is too brief to go deep on either feature.",
+            "Consistent with Futurepedia's short-form style, the video functions as a rapid heads-up rather than a tutorial, telling viewers an update shipped and broadly what it touches so they can go explore the new app surface themselves."
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "6xwVr2R5vCo",
+          "title": "Inside San Francisco's Deadly Fentanyl Crisis",
+          "published_at": "2026-11-13T14:00:27Z",
+          "url": "https://www.youtube.com/watch?v=6xwVr2R5vCo",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Nick Shirley returns to street-level interview journalism, walking through San Francisco neighborhoods affected by the fentanyl crisis and talking directly to people who are using drugs, overdosing, or living on the street, per chapter markers like \"Almost Dead With a Pipe From the City Box\" and \"Overdosed 9 Times, Legally Dead 3.\"",
+            "The video also covers the city's harm-reduction supply programs, showing officials or outreach workers handing out pipes, foil, and Narcan, and includes a segment confronting what Shirley frames as a fraudster exploiting the situation, alongside a father searching the area for his missing daughter.",
+            "There is no AI product, model, or tool discussed anywhere in the video; it sits squarely in the channel's established format of unscripted, on-the-ground interviews about homelessness and addiction in major cities."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "VHl2dlJLSdE",
+          "title": "MIZRAHI JEWS TO THE FRONT!",
+          "published_at": "2026-11-13T06:31:52Z",
+          "url": "https://www.youtube.com/watch?v=VHl2dlJLSdE",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran posted this clip with no description text, so the content is inferred from the title alone: it appears to spotlight Mizrahi Jewish identity or voices, a recurring theme on this channel, which regularly centers Jewish and Israeli identity in its street-interview and reaction videos.",
+            "Given the channel's established format, the video likely features Oran interviewing people on the street or reacting to footage of others discussing Mizrahi Jewish heritage, history, or representation within broader conversations about Jewish identity.",
+            "No AI tool, model, or technology is referenced in the available title or metadata; the video fits the channel's ongoing coverage of Jewish identity and Middle East-related cultural and political commentary rather than any technology topic."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "vXB4j8yeJWM",
+          "title": "Are The Expectations SO Low?!",
+          "published_at": "2026-11-13T14:00:21Z",
+          "url": "https://www.youtube.com/watch?v=vXB4j8yeJWM",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "No description was provided for this upload, so its specific content can't be confirmed beyond the title, which reads as Oran's reaction to a comment or incident he considers a sign of lowered standards, a framing he frequently uses for street-interview or clip-reaction content.",
+            "Based on the channel's typical structure, the video likely shows Oran questioning a person on camera or responding to someone else's statement, building toward the exasperated rhetorical question in the title.",
+            "There is no indication of any AI product or technology being discussed; the video falls under the channel's usual cultural and political commentary rather than a tech-focused topic."
+          ]
+        },
+        {
+          "video_id": "XiB9jRLLKfE",
+          "title": "“Arab” Pakistani LOSES It Over Indian, Then Watch What Happens!",
+          "published_at": "2026-11-13T16:21:39Z",
+          "url": "https://www.youtube.com/watch?v=XiB9jRLLKfE",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The description field is blank, but the title describes an on-camera confrontation in which a Pakistani interviewee, described as self-identifying as \"Arab,\" has a heated exchange with an Indian person, a format consistent with this channel's man-on-the-street interview style.",
+            "The phrase \"Then Watch What Happens\" signals the video builds toward some kind of turn or resolution in the exchange, likely edited for a dramatic payoff typical of the channel's confrontational interview clips.",
+            "No AI technology, product, or company is mentioned anywhere in the available metadata; this is a social and cultural commentary video with no connection to Claude, ChatGPT, Gemini, Grok, or any other AI tool."
+          ]
+        },
+        {
+          "video_id": "DsIj0EXSL-o",
+          "title": "Saudi Arab Says Quran Is INCOHERENT",
+          "published_at": "2026-11-13T18:36:02Z",
+          "url": "https://www.youtube.com/watch?v=DsIj0EXSL-o",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video carries a short support/merch blurb but no content description; the title indicates an interviewee identified as Saudi criticizing the coherence of the Quran, a religious-commentary angle the channel has used before when interviewing people about their personal views on Islam.",
+            "Given the channel's recurring format, the clip most likely shows Oran interviewing this person directly and pressing them to elaborate on or defend the claim on camera.",
+            "No AI tool or technology is discussed in the available metadata; the subject matter is religious and cultural commentary, unrelated to Claude, ChatGPT, Gemini, Grok, or any other AI system."
+          ]
+        },
+        {
+          "video_id": "EUUHklUNi1M",
+          "title": "Who Doesn’t Like PUPPIES?!",
+          "published_at": "2026-11-13T20:00:01Z",
+          "url": "https://www.youtube.com/watch?v=EUUHklUNi1M",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "No description accompanies this upload; the lighthearted title suggests a change of pace from the channel's usual political and religious interview content, possibly a street segment involving a dog or a reaction to someone expressing dislike of puppies.",
+            "Without further detail in the metadata, the exact framing can't be confirmed, but it reads as a shorter, more casual clip rather than one of the channel's longer confrontational interviews.",
+            "There is no mention of any AI product or technology in the title or description; the video is unrelated to Claude, ChatGPT, Gemini, Grok, or any other AI system."
+          ]
+        },
+        {
+          "video_id": "WlDc6SnQcEQ",
+          "title": "“But Everyone Hates Israel” Backfires Instantly!",
+          "published_at": "2026-11-13T21:00:34Z",
+          "url": "https://www.youtube.com/watch?v=WlDc6SnQcEQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The description is a generic support/merch blurb with no video-specific detail; the title indicates an interviewee argues that \"everyone hates Israel\" and that the claim quickly falls apart, a classic setup for this channel's pro-Israel street-interview and debate format.",
+            "Consistent with Oran's recurring style, the clip likely shows him challenging the interviewee's claim on camera, pointing to counterexamples or follow-up questions that undercut the original statement.",
+            "No AI technology is referenced anywhere in the available metadata; the subject matter is Middle East politics and public opinion, not a technology topic."
+          ]
+        },
+        {
+          "video_id": "YRC4Tyyogas",
+          "title": "He Delivers A Message of Hope In Florida.",
+          "published_at": "2026-11-13T22:00:02Z",
+          "url": "https://www.youtube.com/watch?v=YRC4Tyyogas",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "No description was supplied for this video; the title suggests a segment filmed in Florida in which a person, possibly a preacher, activist, or interviewee, delivers an uplifting or hopeful message, a departure in tone from some of the channel's more combative clips.",
+            "Without additional detail in the metadata, the specific speaker and context can't be confirmed, but the title points to a positive, human-interest style segment rather than a confrontational interview.",
+            "There is no AI product, model, or technology mentioned in the available information; the video has no connection to Claude, ChatGPT, Gemini, Grok, or any other AI system."
+          ]
+        },
+        {
+          "video_id": "UhKX3jn3C5M",
+          "title": "Genocide in Sudan & Yemen but He Only Hates Israel!",
+          "published_at": "2026-11-13T23:00:02Z",
+          "url": "https://www.youtube.com/watch?v=UhKX3jn3C5M",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The description is the channel's standard support/merch text with no video-specific summary; the title frames an on-camera confrontation where Oran points out that an interviewee focused on criticizing Israel while reportedly saying little about ongoing conflicts and reported atrocities in Sudan and Yemen.",
+            "This fits the channel's recurring rhetorical approach of highlighting what it presents as a double standard in an interviewee's political focus, typically by asking pointed follow-up questions on camera.",
+            "No AI tool or technology is discussed in the available metadata; the video is Middle East and international-conflict commentary with no technology angle."
+          ]
+        },
+        {
+          "video_id": "IXooUBX6hNc",
+          "title": "We Let These People VOTE?!",
+          "published_at": "2026-11-14T00:00:11Z",
+          "url": "https://www.youtube.com/watch?v=IXooUBX6hNc",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "No description was provided; the title suggests a segment questioning the political knowledge or judgment of people interviewed on camera, a format the channel has used before to highlight uninformed or inconsistent answers to political questions.",
+            "Based on the channel's typical structure, this likely involves Oran asking interviewees about current events or policy and reacting to answers he considers poorly informed, building toward the exasperated title.",
+            "There is no mention of any AI product or technology anywhere in the available metadata; the subject is political commentary, unrelated to Claude, ChatGPT, Gemini, Grok, or any other AI system."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
