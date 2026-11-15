@@ -1,95 +1,152 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-14",
+  "run_timestamp_utc": "2026-11-15T04:59:26Z",
+  "window_start_utc": "2026-11-14T04:59:26Z",
+  "window_end_utc": "2026-11-15T04:59:26Z",
+  "note": "Channel list and channel IDs supplied by the task prompt this run differ from prior reports' roster; all 8 supplied IDs were verified via channels.list(id) and resolved correctly to the expected channel names. New videos found for futurepedia_io (2, both Claude) and TheTravelingClatt (6, all No AI technology); no new videos for SandeepSwadia, Kanaju, PaulJLipsky, natefriedman, NickShirley, and LibertyHangout in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": []
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
-          "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "Pf8lwhokfp0",
+          "title": "Turn this on before Claude works overnight",
+          "published_at": "2026-11-15T04:30:36Z",
+          "url": "https://www.youtube.com/watch?v=Pf8lwhokfp0",
+          "ai_technology": "Claude",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-      "videos": []
-    },
-    {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
-      "videos": [
-        {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
-          "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "In this quick tip, Futurepedia flags two settings worth switching on before leaving Claude to work unattended overnight, aimed at anyone who runs long, unsupervised sessions.",
+            "The short frames the settings as a safety net for autonomous runs, helping make sure Claude keeps working safely (or stops cleanly) without a human checking in every few minutes, though the clip itself is a quick visual tip rather than a detailed walkthrough of the exact toggles.",
+            "It continues Futurepedia's pattern of bite-sized, practical Claude workflow tips rather than news coverage, aimed at viewers who already run Claude for extended or overnight tasks."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "SZG_7dSYnoY",
+          "title": "Claude made this 3D animation from one prompt",
+          "published_at": "2026-11-14T18:52:57Z",
+          "url": "https://www.youtube.com/watch?v=SZG_7dSYnoY",
+          "ai_technology": "Claude",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "Futurepedia demonstrates a workflow for generating a 3D-styled explainer clip: pick a style from the free \"3D Style Atlas,\" type in a topic, copy the resulting prompt, and paste it into Claude.",
+            "The example shown is a volcano explainer, which Claude produced as a short animated piece directly from the copied prompt, demonstrating the style-atlas-to-Claude pipeline start to finish.",
+            "Like the channel's other \"one prompt\" demos, it's positioned as a low-effort way to get visually polished short-form video content out of Claude using a pre-built prompt template rather than hand-written instructions."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
+    },
+    {
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": []
+    },
+    {
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "G6kY669Bndc",
+          "title": "My Favorite Israel Gaza Debate (Maybe Ever)",
+          "published_at": "2026-11-15T03:20:20Z",
+          "url": "https://www.youtube.com/watch?v=G6kY669Bndc",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran shares what he calls one of his favorite Israel-Gaza debates on the channel, a roughly 22-minute street-style discussion in his usual man-on-the-street debate format.",
+            "As with his other Israel/Gaza content, the video centers on a direct back-and-forth confrontation over the conflict, testing the other party's arguments and reactions on camera.",
+            "It fits the channel's regular lineup of pro-Israel advocacy debates and interviews filmed in public settings, closing with the creator's standard links to merch, Patreon, and other channel-support options."
+          ]
+        },
+        {
+          "video_id": "6GLNs_Hjwgk",
+          "title": "Tal Turns Islamist Arab to ZIONISM! 🇨🇱😍🤑💵💰💸",
+          "published_at": "2026-11-15T02:00:24Z",
+          "url": "https://www.youtube.com/watch?v=6GLNs_Hjwgk",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This 18-second short clips a moment from one of Tal Oran's street conversations, with the title claiming he persuaded a self-described Islamist Arab interviewee toward a pro-Zionist position.",
+            "No description accompanies the short, consistent with the channel's habit of posting quick highlight cuts from longer debate or interview sessions to drive views back to the full video.",
+            "It's part of a frequent stream of short-form highlight clips built around attention-grabbing claims about ideological \"conversions\" during the creator's street interviews."
+          ]
+        },
+        {
+          "video_id": "eDQoBXXn0mc",
+          "title": "He Wasn’t Prepared To Answer This!",
+          "published_at": "2026-11-15T01:00:33Z",
+          "url": "https://www.youtube.com/watch?v=eDQoBXXn0mc",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "In this roughly 12-minute video, Tal Oran puts a question to an interview subject that, per the title, catches them off guard and unable to answer comfortably.",
+            "The video continues the channel's confrontational interview style, where Oran presses subjects on political or social positions and highlights moments where they struggle to respond.",
+            "As with the channel's other entries, the description is boilerplate support-the-channel text rather than content specifics, so the clip's exact subject is indicated mainly by the title and thumbnail."
+          ]
+        },
+        {
+          "video_id": "aLC-JMH8nVw",
+          "title": "Is JD Vance A Scapegoat?!",
+          "published_at": "2026-11-15T00:00:07Z",
+          "url": "https://www.youtube.com/watch?v=aLC-JMH8nVw",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This short, under-two-minute video poses the question of whether U.S. Vice President JD Vance is being unfairly blamed, or scapegoated, for something in the current political discourse.",
+            "Given the brevity, it likely functions as a quick reaction or opinion clip rather than a full debate or street-interview segment.",
+            "It reflects the channel's broader mix of U.S. political commentary alongside its usual Israel/Gaza-focused street debates."
+          ]
+        },
+        {
+          "video_id": "YSk0mUsJaqs",
+          "title": "They Don’t Call Themselves British…",
+          "published_at": "2026-11-14T22:00:05Z",
+          "url": "https://www.youtube.com/watch?v=YSk0mUsJaqs",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This short clip appears to touch on questions of national identity in Britain, with the title suggesting a conversation about how certain groups or individuals identify, or decline to identify, as British.",
+            "At under two and a half minutes, it is likely a highlight or reaction cut rather than a full-length interview.",
+            "The topic marks a shift from the channel's usual Israel/Gaza focus toward the broader identity and immigration themes it occasionally covers."
+          ]
+        },
+        {
+          "video_id": "ghl4fcuYPXY",
+          "title": "“Show Me The Genocide!” Polish Palestinian Gets A Reality Check",
+          "published_at": "2026-11-14T21:00:02Z",
+          "url": "https://www.youtube.com/watch?v=ghl4fcuYPXY",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "In this 15-minute video, Tal Oran confronts a Polish-Palestinian interview subject, challenging them to substantiate genocide claims related to the Israel-Gaza conflict.",
+            "The video follows the channel's established format of pointed, on-camera challenges aimed at pro-Palestinian interviewees, with Oran pushing back on their framing of the conflict.",
+            "It sits alongside the day's other Clatt uploads as part of a steady cadence of Israel/Gaza-focused debate content, again closing with the channel's standard support and membership links rather than video-specific notes."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "email_sent": {
+    "to": "hammersong44@gmail.com",
+    "subject": "YouTube Daily Update",
+    "message_id": "1a1dd96e7d2719d5"
+  }
 }
