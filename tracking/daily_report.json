@@ -1,95 +1,148 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-16",
+  "run_timestamp_utc": "2026-11-16T04:59:43Z",
+  "window_start_utc": "2026-11-15T04:59:43Z",
+  "window_end_utc": "2026-11-16T04:59:43Z",
+  "note": "All 8 supplied channel IDs were re-verified via channels.list(id) before querying and resolved to the expected channels/handles (SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt). New videos found for futurepedia_io (1), NickShirley (1), and TheTravelingClatt (6); no new videos for SandeepSwadia, Kanaju, PaulJLipsky, natefriedman, and LibertyHangout in this window. Email send used Gmail create_draft because no Gmail send_message tool was available in this session; the draft was left for the user to send.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "Sandeep Swadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
       "videos": []
     },
     {
-      "channel_name": "PaulJLipsky",
-      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
-          "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
-          ]
-        }
-      ]
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
+      "videos": []
     },
     {
-      "channel_name": "futurepedia_io",
+      "channel_name": "Paul J Lipsky",
+      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "videos": []
+    },
+    {
+      "channel_name": "Futurepedia",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
       "videos": [
         {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
+          "video_id": "hl2QYat81A4",
+          "title": "Claude Design exploder trick",
+          "published_at": "2026-11-16T01:36:20Z",
+          "url": "https://www.youtube.com/watch?v=hl2QYat81A4",
+          "ai_tech_id": "Claude",
           "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
+            "Futurepedia's latest short highlights a single-prompt workflow in Claude that the channel calls the \"design exploder trick,\" using one instruction to generate six distinct visual design directions at once rather than iterating on one concept at a time.",
+            "The appeal of the technique is the side-by-side comparison it produces: instead of refining a single design idea through back-and-forth prompting, a creator can see six stylistically different options in one pass and pick a direction to develop further, speeding up early-stage concepting.",
+            "The clip fits Futurepedia's recurring short-form format of quick, practical Claude and ChatGPT tips aimed at non-technical creators and marketers looking for fast ways to fold AI tools into an existing design workflow."
           ]
         }
       ]
     },
     {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_name": "Nate Friedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
-      "videos": []
-    },
-    {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "Nick Shirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "Wx_ErCO53Kg",
+          "title": "Catching homeless Medicaid fraudster live in action 😳",
+          "published_at": "2026-11-16T00:18:45Z",
+          "url": "https://www.youtube.com/watch?v=Wx_ErCO53Kg",
+          "ai_tech_id": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "In this video, Nick Shirley documents a live, on-the-ground confrontation with someone the title identifies as a Medicaid fraudster posing as homeless, continuing the channel's recurring format of unscripted street-level investigations into public-benefits abuse.",
+            "YouTube did not supply a written description for this upload, so the available context is limited to the title and the channel's established style: direct-to-camera interviews and confrontations filmed in public, often built around catching a subject in an inconsistency on camera.",
+            "The video carries no AI technology angle; it sits squarely in Nick Shirley's social-issues and street-journalism lane rather than the channel's occasional tech-focused content."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Liberty Hangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "Tal Oran - TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "BYtjVqkAZl4",
+          "title": "The UMMAH Is Over Now…",
+          "published_at": "2026-11-16T04:00:37Z",
+          "url": "https://www.youtube.com/watch?v=BYtjVqkAZl4",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "Tal Oran's latest upload is a reaction/commentary piece titled \"The UMMAH Is Over Now…,\" continuing the channel's recurring focus on commentary about Islamist politics and the broader Muslim world (\"ummah\") from a critical, pro-Western vantage point.",
+            "The video description contains only the channel's standard merch, membership, and support links rather than a content summary, so the specific news hook behind the title isn't independently confirmed beyond what the title itself signals.",
+            "It fits TheTravelingClatt's established format: rapid-turnaround reaction content tied to current events, released multiple times a day, with no AI technology angle."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "aiwJM2bf-xE",
+          "title": "History Is Being Made In Australia!",
+          "published_at": "2026-11-16T02:00:22Z",
+          "url": "https://www.youtube.com/watch?v=aiwJM2bf-xE",
+          "ai_tech_id": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This upload reacts to an unspecified news development out of Australia, continuing the channel's pattern of same-day commentary on international political stories.",
+            "No written description was provided for this video, so details beyond the headline-style title aren't available from the metadata alone.",
+            "Consistent with the rest of the channel's output, it carries no AI technology content."
+          ]
+        },
+        {
+          "video_id": "BcF6NQhjPOE",
+          "title": "Marco Rubio Just BROKE Iran…",
+          "published_at": "2026-11-16T00:20:24Z",
+          "url": "https://www.youtube.com/watch?v=BcF6NQhjPOE",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "The video is a reaction to comments or actions attributed to Secretary of State Marco Rubio regarding Iran, framed with the channel's characteristically dramatic headline style.",
+            "As with the channel's other uploads today, the description field holds only the standard support-link boilerplate rather than a synopsis of the specific Rubio-Iran story being discussed.",
+            "It's part of the channel's rapid foreign-policy commentary cadence and has no AI technology component."
+          ]
+        },
+        {
+          "video_id": "DQZQga4uKOg",
+          "title": "Piers Won’t Defend His Own Country.",
+          "published_at": "2026-11-16T00:00:25Z",
+          "url": "https://www.youtube.com/watch?v=DQZQga4uKOg",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "This video appears to be a reaction to commentary from a public figure named Piers — most likely British broadcaster Piers Morgan, given the channel's recurring targets — criticized here for not defending \"his own country.\"",
+            "No description was supplied beyond the title, so the exact source clip or statement being reacted to isn't confirmed from the metadata.",
+            "The video continues the channel's media-criticism and commentary format with no AI technology content."
+          ]
+        },
+        {
+          "video_id": "6X4y9Qb5FBg",
+          "title": "She Got Exactly What She Deserved…",
+          "published_at": "2026-11-15T22:05:19Z",
+          "url": "https://www.youtube.com/watch?v=6X4y9Qb5FBg",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "This is another same-day reaction video with a provocative, clickbait-style title; the description supplies only the channel's standard support and merch links rather than context on who \"she\" refers to or what prompted the reaction.",
+            "The format matches the channel's typical short commentary clips reacting to a clip or news item circulating online, without naming the underlying source in the metadata available.",
+            "No AI technology is referenced in this video."
+          ]
+        },
+        {
+          "video_id": "tNYeJ6Malf8",
+          "title": "Anti-Islamist Comedian Just Went Viral For This…",
+          "published_at": "2026-11-15T19:42:11Z",
+          "url": "https://www.youtube.com/watch?v=tNYeJ6Malf8",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "This video spotlights a comedy clip that went viral, with the description crediting several comedians — Aryanne Wexler, Nicholas De Santos, Ben Bankas, and Mark Normand — as the performers behind the material being discussed.",
+            "True to the channel's format, Tal Oran reacts to and amplifies the comedic bit rather than producing original stand-up content, framing it as \"anti-Islamist\" humor that resonated with his audience.",
+            "The video has no AI technology angle; it's a commentary/reaction piece built around other creators' comedy content."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
