@@ -1,95 +1,159 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-17",
+  "run_timestamp_utc": "2026-11-18T04:59:33Z",
+  "window_start_utc": "2026-11-17T04:59:33Z",
+  "window_end_utc": "2026-11-18T04:59:33Z",
+  "note": "All 8 channel IDs re-verified via channels.list(id) before querying; every supplied ID resolved to its expected channel name. New videos found for Paul J Lipsky (1) and Tal Oran - TheTravelingClatt (8); no new videos for Sandeep Swadia, Kanaju, Futurepedia, Nate Friedman, Nick Shirley, and Liberty Hangout in this window. Email could not be sent automatically: the Gmail MCP connection available to this session exposes create_draft but no send tool, so a complete draft was created in Gmail (subject 'YouTube Daily Update') instead of a sent message.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "Sandeep Swadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
       "videos": []
     },
     {
-      "channel_name": "PaulJLipsky",
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
+      "videos": []
+    },
+    {
+      "channel_name": "Paul J Lipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "LnNX_ZsTzxw",
+          "title": "Claude Now Creates Cinematic Animations (Free Skill)",
+          "published_at": "2026-11-17T14:00:14Z",
+          "url": "https://www.youtube.com/watch?v=LnNX_ZsTzxw",
+          "ai_technology": "Claude",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky demonstrates a new Claude Code \"skill\" that generates cinematic animations, walking through how to choose a visual style and build out a 3D animated scene directly inside Claude Code.",
+            "He covers setting up Claude Code, installing his free downloadable animation skill package, using a provided copy-paste prompt template, and layering in improved voiceovers and music generated with Google's Gemini and Lyria models.",
+            "The video includes timestamped chapters (Intro, Animation Examples, Claude Code Setup, Use My Animation Skill, Explore Animation Styles, Bonus Style) and links to downloadable resources, continuing the channel's recurring format of hands-on AI tool tutorials."
           ]
         }
       ]
     },
     {
-      "channel_name": "futurepedia_io",
+      "channel_name": "Futurepedia",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
-          "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "Nate Friedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "Nick Shirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": []
+    },
+    {
+      "channel_name": "Liberty Hangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "Tal Oran - TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "fiWI85I769k",
+          "title": "Muslims Thought They Could Make Georgia Islamic, YIKES, Did It Backfire!",
+          "published_at": "2026-11-17T14:45:09Z",
+          "url": "https://www.youtube.com/watch?v=fiWI85I769k",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "This video discusses an effort the host characterizes as an attempt to increase Islamic influence in the U.S. state of Georgia, which the title claims backfired.",
+            "As with the channel's other same-day uploads, the posted description contains only the channel's standard support-link boilerplate rather than details on the specific incident referenced.",
+            "The video is commentary/opinion content with no AI-technology subject matter, continuing the channel's focus on religious and cultural demographic-change narratives."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "ROabTLBF6YI",
+          "title": "Muslims Takeover Times Square For Prayer, What Happens Next Is EPIC!",
+          "published_at": "2026-11-17T16:44:31Z",
+          "url": "https://www.youtube.com/watch?v=ROabTLBF6YI",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "Tal Oran covers a public prayer gathering by Muslim worshippers in New York's Times Square, describing a follow-on reaction the title bills as \"EPIC.\"",
+            "The posted description is limited to the channel's recurring support-link boilerplate, leaving the specific events referenced in the title undetailed in the metadata.",
+            "No AI-technology content appears in this video; it is a reaction/commentary piece on a religious public gathering in a prominent U.S. location."
+          ]
+        },
+        {
+          "video_id": "sM7aF2nPxag",
+          "title": "Ladies & Gentleman We Got Him...",
+          "published_at": "2026-11-17T19:38:02Z",
+          "url": "https://www.youtube.com/watch?v=sM7aF2nPxag",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video appears to address the capture, exposure, or comeuppance of an unnamed individual, framed as a triumphant \"gotcha\" moment for the host's audience.",
+            "The posted description contains only the channel's standard support and monetization links, with no further detail on who \"him\" refers to or the circumstances involved.",
+            "The video carries no AI-technology content and fits the channel's recurring reaction-commentary format."
+          ]
+        },
+        {
+          "video_id": "H6kDBrymisM",
+          "title": "Glenn Beck: “We’re About to See an UNPRECEDENTED Event in the United States…”",
+          "published_at": "2026-11-17T22:05:12Z",
+          "url": "https://www.youtube.com/watch?v=H6kDBrymisM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The video features or reacts to commentary from conservative media figure Glenn Beck (tagged @glennbeck in the description), who warns of a major upcoming event in the United States.",
+            "Beyond the @glennbeck tag, the posted description is limited to the channel's standard support-link boilerplate, so the specific prediction or event Beck references is not detailed in the metadata.",
+            "The video is political commentary/reaction content with no AI-technology subject matter, continuing the channel's practice of amplifying and reacting to other conservative commentators' statements."
+          ]
+        },
+        {
+          "video_id": "yIvlXB5weZs",
+          "title": "Islamists NEVER Expected British Patriots To UNITE & Totally TAKEOVER The UK!",
+          "published_at": "2026-11-18T00:30:17Z",
+          "url": "https://www.youtube.com/watch?v=yIvlXB5weZs",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran discusses a reported organizing effort by British nationalist/patriot groups pushing back against Islamist influence in the UK, framed triumphantly in the title.",
+            "The posted description is the channel's boilerplate support-link block (merch, PayPal, Buy Me a Coffee, Ko-fi, Patreon, membership), with no additional substantive detail about the specific events referenced.",
+            "This is political/cultural commentary with no AI-technology angle, part of the channel's recurring coverage of immigration and religious-cultural tension narratives in Europe."
+          ]
+        },
+        {
+          "video_id": "_aDz3D3srRI",
+          "title": "Koreans Are NOT Happy About This.",
+          "published_at": "2026-11-18T02:00:18Z",
+          "url": "https://www.youtube.com/watch?v=_aDz3D3srRI",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video covers a reaction from South Korea or the Korean community to an unspecified recent development, continuing the channel's pattern of covering international reactions to news events.",
+            "No video description was supplied with the upload, so the specific subject generating the reported unhappiness is not detailed beyond the title itself.",
+            "The video is a short-form reaction/commentary piece with no AI-technology content, in keeping with the channel's rapid daily-upload format."
+          ]
+        },
+        {
+          "video_id": "E_vFunQKilk",
+          "title": "I’m Going To PISS Off A Lot Of Jews By Saying This…",
+          "published_at": "2026-11-18T03:05:08Z",
+          "url": "https://www.youtube.com/watch?v=E_vFunQKilk",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran previews a self-described controversial take aimed at parts of the Jewish community, framed as commentary he expects will draw backlash.",
+            "The posted description consists entirely of the channel's standard support-and-monetization links (merch store, PayPal, Buy Me a Coffee, Ko-fi, Patreon, YouTube membership) rather than substantive detail about the video's actual argument.",
+            "Consistent with the channel's opinion-commentary format, the video carries no AI-technology content and is part of the creator's ongoing series of reaction and opinion videos on Jewish and Israeli political topics."
+          ]
+        },
+        {
+          "video_id": "zeG-nzhiy8w",
+          "title": "Egyptian MONSTER Proud of SCAMMING GAZANS!",
+          "published_at": "2026-11-18T04:30:15Z",
+          "url": "https://www.youtube.com/watch?v=zeG-nzhiy8w",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "In this video, Tal Oran reacts to footage or reporting involving an Egyptian figure the host accuses of defrauding people in Gaza, continuing the channel's ongoing commentary on the Israel-Gaza conflict and the surrounding region.",
+            "As with other entries in this channel's rapid-fire posting schedule, no written description was provided with the upload, so the video's specific claims and sourcing are not detailed in the metadata; the title alone signals a strongly worded, opinion-driven take.",
+            "The video fits the channel's established format of reaction-style political commentary aimed at a pro-Israel, culturally conservative audience, posted without any reference to AI tools or technology."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
