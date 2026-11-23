@@ -1,95 +1,158 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-23",
+  "run_timestamp_utc": "2026-11-23T05:00:12Z",
+  "window_start_utc": "2026-11-22T05:00:12Z",
+  "window_end_utc": "2026-11-23T05:00:12Z",
+  "note": "Channel IDs re-verified via channels.list(id) before querying; all 8 task-prompt-supplied IDs resolved correctly to their expected channel names. New videos found only for TheTravelingClatt (9); no new videos for SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, and LibertyHangout in this window. None of the 9 TheTravelingClatt videos covered any AI technology.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": []
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
-          "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
-          "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
+      "videos": []
+    },
+    {
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": []
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "KlYrn2Aa5HU",
+          "title": "HE DEFENDS ISLAM! “When Did Christians Force Jews To Pay A Tax?”",
+          "published_at": "2026-11-23T02:16:06Z",
+          "url": "https://www.youtube.com/watch?v=KlYrn2Aa5HU",
+          "ai_tech_id": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "In this 23-minute upload, Tal Oran reacts to a debate-style clip in which a guest defends Islam by invoking the historical jizya tax some Christian-ruled states levied on Jewish subjects, apparently as a counterpoint to criticism of Islamic rule.",
+            "The title's framing (\"HE DEFENDS ISLAM!\") signals that Oran pushes back on the comparison, walking through the original clip and layering his own rebuttal on top as part of the channel's ongoing commentary on religion and the Middle East.",
+            "As with the channel's typical format, the video pairs reaction footage with running commentary rather than original reporting, and contains no AI-technology subject matter."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "I1QtYp0kg4I",
+          "title": "Poland Stays PROUD!",
+          "published_at": "2026-11-23T02:15:09Z",
+          "url": "https://www.youtube.com/watch?v=I1QtYp0kg4I",
+          "ai_tech_id": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This under-two-minute clip is a short reaction or highlight piece centered on a display of Polish national pride, consistent with the channel's recurring short-form uploads.",
+            "No description text accompanies the video, so the specific event or source clip being reacted to is not stated beyond the title itself.",
+            "It serves as a short-form companion to the channel's longer same-day uploads and contains no AI-technology content."
+          ]
+        },
+        {
+          "video_id": "hfI53MbQbSY",
+          "title": "Islamists Throw TANTRUM After Allen B West Destroys Islam!!",
+          "published_at": "2026-11-23T00:19:04Z",
+          "url": "https://www.youtube.com/watch?v=hfI53MbQbSY",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "Credited to YAFTV, this nearly 18-minute video has Tal Oran reacting to footage of commentator Allen West making critical remarks about Islam, with the title framing the reaction from \"Islamists\" as a tantrum.",
+            "The video continues the channel's pattern of reacting to political commentators' takes on religion, overlaying Oran's own commentary on the sourced clip.",
+            "No AI-technology subject matter appears in the video; it is a reaction/commentary upload."
+          ]
+        },
+        {
+          "video_id": "B_rTqISiU54",
+          "title": "She Had This Coming…",
+          "published_at": "2026-11-23T00:15:13Z",
+          "url": "https://www.youtube.com/watch?v=B_rTqISiU54",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "A short, under-two-minute clip apparently reacting to a viral incident involving a female subject, in keeping with the channel's short-form reaction format.",
+            "No description accompanies the video, so the underlying clip or event is not otherwise specified beyond the title.",
+            "Contains no AI-technology content."
+          ]
+        },
+        {
+          "video_id": "hSYpmQkjV34",
+          "title": "Jihadist LEARNS A VALUABLE LESSON from Zionist Jew!",
+          "published_at": "2026-11-22T22:15:37Z",
+          "url": "https://www.youtube.com/watch?v=hSYpmQkjV34",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "A short, roughly two-and-a-half-minute clip reacting to footage described in the title as a confrontation in which a \"Jihadist\" is challenged by a \"Zionist Jew,\" continuing the channel's Middle-East-focused commentary clips.",
+            "No description text is provided beyond the title, so the source of the underlying footage is not specified.",
+            "No AI-technology content appears in the video."
+          ]
+        },
+        {
+          "video_id": "BL4AglMQAto",
+          "title": "Arab Storeowner Thought He Can Order Cops Around, Watch What Happened Next",
+          "published_at": "2026-11-22T20:51:24Z",
+          "url": "https://www.youtube.com/watch?v=BL4AglMQAto",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "At nearly 28 minutes, this is one of the day's longer uploads, crediting a separate source video and reacting to footage of a storeowner's confrontation with police officers.",
+            "Oran narrates and reacts to the original footage, consistent with the channel's long-form reaction format for law-enforcement encounter clips.",
+            "No AI-technology content appears in the video."
+          ]
+        },
+        {
+          "video_id": "dXpDnK74dJo",
+          "title": "This Comedian Is Going VIRAL For This.",
+          "published_at": "2026-11-22T20:15:31Z",
+          "url": "https://www.youtube.com/watch?v=dXpDnK74dJo",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "A short, under-ninety-second clip reacting to a viral comedy bit, titled generically without naming the comedian in question.",
+            "No description accompanies it beyond the title, so the source clip is not otherwise identified.",
+            "Contains no AI-technology content."
+          ]
+        },
+        {
+          "video_id": "8sQ3WHjSTDo",
+          "title": "Sneako SUDDENLY Realizes He Shouldn’t Have Gone To Afghanistan!",
+          "published_at": "2026-11-22T18:06:16Z",
+          "url": "https://www.youtube.com/watch?v=8sQ3WHjSTDo",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "This roughly 16-minute video reacts to online personality Sneako's trip to Afghanistan, with the title framing it as the influencer encountering regret or trouble during the visit.",
+            "Oran's commentary follows the channel's established pattern of reacting to other creators' controversial travel or public appearances.",
+            "No AI-technology content appears in the video."
+          ]
+        },
+        {
+          "video_id": "DZEJyjZwnY8",
+          "title": "Islamist Bodyguard DEMANDS Cop To Follow His Orders, Then See What Happens!",
+          "published_at": "2026-11-22T15:52:04Z",
+          "url": "https://www.youtube.com/watch?v=DZEJyjZwnY8",
+          "ai_tech_id": "No AI technology",
+          "summary": [
+            "A five-minute clip reacting to footage of a bodyguard, described in the title as \"Islamist,\" attempting to direct a police officer, continuing the channel's recurring law-enforcement-encounter reaction format.",
+            "As with similar uploads, Oran narrates over the original clip rather than producing new footage.",
+            "No AI-technology content appears in the video."
           ]
         }
       ]
-    },
-    {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
     }
   ]
 }
