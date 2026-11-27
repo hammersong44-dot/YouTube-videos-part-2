@@ -1,95 +1,171 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-26",
+  "run_timestamp_utc": "2026-11-27T04:59:54Z",
+  "window_start_utc": "2026-11-26T04:59:54Z",
+  "window_end_utc": "2026-11-27T04:59:54Z",
+  "note": "Channel list and IDs supplied by task prompt: SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt. All 8 channel IDs resolved successfully via channels.list. New videos found for NickShirley (2) and TheTravelingClatt (8); no new videos for SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, and LibertyHangout in this window. None of the 10 new videos referenced any AI technology (Claude, ChatGPT, Gemini, or Grok) in title or description.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": []
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
       "channel_name": "PaulJLipsky",
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-      "videos": [
-        {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
-          "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
-          ]
-        }
-      ]
+      "videos": []
     },
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
-          "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "HcZUQVUauD0",
+          "title": "My Thanksgiving Message ❤️",
+          "published_at": "2026-11-26T22:18:19Z",
+          "url": "https://www.youtube.com/watch?v=HcZUQVUauD0",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Nick Shirley, known for his street-interview and debate-style content, steps away from his usual on-the-ground format to deliver a short, direct Thanksgiving message to his audience.",
+            "No description accompanies the upload, so the video appears to be a brief, heartfelt address rather than one of the channel's typical investigative or debate pieces; the heart emoji in the title signals a warmer, more personal tone than usual.",
+            "The upload fits a common pattern among commentary creators of pausing regular programming around the Thanksgiving holiday to thank subscribers; the video does not reference any AI tools or platforms."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "Mrwlz1sPCFc",
+          "title": "The Truth About The Learing Center",
+          "published_at": "2026-11-26T21:28:14Z",
+          "url": "https://www.youtube.com/watch?v=Mrwlz1sPCFc",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "Continuing his signature investigative approach, Nick Shirley turns his attention to an organization the title calls \"The Learing Center\" (likely a typo for \"Learning Center\"), promising to reveal the truth behind it.",
+            "No video description is attached, so the specific claims are not spelled out in the metadata, but the framing matches Shirley's recurring format of visiting or investigating a specific institution and presenting findings that run counter to its public image.",
+            "As with the channel's other recent uploads, the video does not reference any AI tools or platforms; it is an investigative/interview-driven piece with no AI technology component."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
       "videos": []
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "_ZRyoAeDsLQ",
+          "title": "Cowboy Has An URGENT Message.",
+          "published_at": "2026-11-27T03:30:15Z",
+          "url": "https://www.youtube.com/watch?v=_ZRyoAeDsLQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran shares a clip in which a \"cowboy\" delivers what the title calls an urgent message, continuing the channel's practice of reacting to short clips of everyday people speaking on cultural and political topics.",
+            "No description accompanies the upload, so the specific subject of the message is not detailed in the metadata, but the urgent framing matches the channel's typical hook used to draw viewers into reaction-style content.",
+            "The video contains no reference to AI technology, consistent with the channel's exclusively political/commentary focus."
+          ]
+        },
+        {
+          "video_id": "tZy_lwdDLF8",
+          "title": "EVERY European Country Opened Its Doors To Islam - Except Poland DIDN’T!!",
+          "published_at": "2026-11-27T02:28:06Z",
+          "url": "https://www.youtube.com/watch?v=tZy_lwdDLF8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video argues that Poland stands apart from other European nations in its approach to Islamic immigration, framing the country as an exception to a broader continental trend the creator criticizes.",
+            "The description contains only the channel's standard support-link boilerplate (merchandise, PayPal, Patreon, etc.) rather than additional context, so the analysis rests on the title's framing of Poland as a holdout.",
+            "The piece is part of Tal Oran's recurring commentary on immigration and Islam in Europe and does not touch on AI technology."
+          ]
+        },
+        {
+          "video_id": "6PFF4YZgXxw",
+          "title": "They Thought They Could Get Away With THIS!",
+          "published_at": "2026-11-27T01:30:17Z",
+          "url": "https://www.youtube.com/watch?v=6PFF4YZgXxw",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "A reaction-style video with a deliberately vague, clickbait title, following the channel's established pattern of teasing a dramatic incident without naming its subject up front.",
+            "No description is provided, leaving the specific incident referenced in the title unclear from the metadata alone, though the phrasing suggests footage of people facing consequences or exposure for a controversial act.",
+            "No AI technology is discussed in this video."
+          ]
+        },
+        {
+          "video_id": "nUQ8mX_ySSQ",
+          "title": "NO MORE MOSQUES IN THE COUNTRY ",
+          "published_at": "2026-11-26T23:58:32Z",
+          "url": "https://www.youtube.com/watch?v=nUQ8mX_ySSQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Credited in the description to @NationsUnravel with a link to a full-length source video, this upload is a reaction/commentary piece built around footage concerning opposition to mosque construction or operation in an unspecified country.",
+            "The description confirms this is reaction content layered on top of another creator's original video, a format the channel uses frequently, alongside its standard support-link boilerplate.",
+            "The subject matter is immigration/religion-focused commentary with no AI technology referenced."
+          ]
+        },
+        {
+          "video_id": "fMEQ2FPNIk4",
+          "title": "Zionist DEBATES Islamist and WINS!",
+          "published_at": "2026-11-26T23:30:36Z",
+          "url": "https://www.youtube.com/watch?v=fMEQ2FPNIk4",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The video appears to document or react to a debate between a self-identified Zionist and an Islamist, with the title declaring a clear winner in line with the channel's partisan framing of such exchanges.",
+            "No description is attached, so the participants and specific arguments are not detailed in the metadata beyond the title's framing of the outcome.",
+            "This is political/religious debate commentary; no AI technology is covered."
+          ]
+        },
+        {
+          "video_id": "i6XiU0ic5pQ",
+          "title": "Islamists Launch Global JIHAD On Christmas, Then Watch What Happens!",
+          "published_at": "2026-11-26T21:30:29Z",
+          "url": "https://www.youtube.com/watch?v=i6XiU0ic5pQ",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Using highly charged language, this video claims that Islamists are organizing a global call to action timed to Christmas, with the \"watch what happens\" framing suggesting a reaction or pushback sequence follows.",
+            "The description contains only the channel's standard donation/support links rather than elaboration on the specific claim, so further detail is not available in the metadata.",
+            "The video is religious/political commentary and does not reference AI technology."
+          ]
+        },
+        {
+          "video_id": "wBXPYlhR7Ps",
+          "title": "Islamists Harassed The WRONG American Family To Eat Halal On Thanksgiving!",
+          "published_at": "2026-11-26T16:47:11Z",
+          "url": "https://www.youtube.com/watch?v=wBXPYlhR7Ps",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This video recounts an incident in which, per the title, a group described as Islamists confronted an American family over halal food practices during Thanksgiving, with \"the WRONG family\" suggesting the family pushed back effectively.",
+            "The description again consists solely of the channel's recurring support-link block, so additional narrative detail is not present in the metadata.",
+            "No AI technology is covered; this is a Thanksgiving-timed culture-war incident video."
+          ]
+        },
+        {
+          "video_id": "gTehA5wWNyM",
+          "title": "After Thanksgiving, I May Delete This Video…",
+          "published_at": "2026-11-26T13:09:05Z",
+          "url": "https://www.youtube.com/watch?v=gTehA5wWNyM",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Tal Oran frames this upload as potentially controversial enough that he may remove it after the Thanksgiving holiday, a device used to heighten urgency and encourage viewers to watch before it is taken down.",
+            "The description provides only the channel's standard support-link boilerplate, leaving the specific controversial content teased by the title undetailed in the metadata.",
+            "The video carries no AI technology content, consistent with the channel's political/commentary focus."
+          ]
+        }
+      ]
     }
   ]
 }
