@@ -1,13 +1,31 @@
 {
-  "report_date": "2026-10-24",
-  "run_timestamp_utc": "2026-10-24T05:00:26Z",
-  "window_start_utc": "2026-10-23T05:00:26Z",
-  "window_end_utc": "2026-10-24T05:00:26Z",
-  "note": "Channel IDs re-verified via channels.list(id) before querying; task-prompt-supplied IDs for PaulJLipsky, futurepedia_io, nateherk, simonscrapes, sabrina_ramonov, and JeffSu again did not resolve to those handles, so the corrected IDs (matching prior verified reports) were used; theAIsearch's supplied ID resolved correctly. New videos found for PaulJLipsky (1), futurepedia_io (1), and sabrina_ramonov (2); no new videos for theAIsearch, nateherk, simonscrapes, and JeffSu in this window.",
+  "report_date": "2026-11-28",
+  "run_timestamp_utc": "2026-11-28T05:00:15Z",
+  "window_start_utc": "2026-11-27T05:00:15Z",
+  "window_end_utc": "2026-11-28T05:00:15Z",
+  "note": "Channel IDs used exactly as supplied in the scheduled task prompt (SandeepSwadia, Kanaju, PaulJLipsky, futurepedia_io, natefriedman, NickShirley, LibertyHangout, TheTravelingClatt), queried via youtube#search with order=date and publishedAfter=24h window. New videos found for SandeepSwadia (1), PaulJLipsky (1), NickShirley (2), LibertyHangout (1), and TheTravelingClatt (3); no new videos for Kanaju, futurepedia_io, and natefriedman in this window.",
   "channels": [
     {
-      "channel_name": "theAIsearch",
-      "channel_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "channel_name": "SandeepSwadia",
+      "channel_id": "UC4ZVkG3RQPzvZk7alIVjcCg",
+      "videos": [
+        {
+          "video_id": "x-kQiHnY5Ks",
+          "title": "How to Think Like a Strategist and Always Get What You Want",
+          "published_at": "2026-11-27T13:00:29Z",
+          "url": "https://www.youtube.com/watch?v=x-kQiHnY5Ks",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Sandeep Swadia opens this episode, sponsored by Zapier MCP, with the premise that most people negotiate poorly because they either cave too fast, lean on manipulation, or push aggressively for a 'win,' and argues that having a system beats having a tactic.",
+            "He walks through his four-step 'PACE' framework for negotiating at work and at home: reading the Person across the table (Fighters, Fact Checkers, or Friends), building leverage by knowing your Arm (your BATNA and alternatives), Calibrating through active-listening tools like echoing and asking 'how/what' instead of 'why,' and working to Earn a lasting deal rather than a one-time concession.",
+            "The episode is framed as general negotiation and communication coaching rather than an AI or tech-tool video; beyond the Zapier MCP sponsor read at the top, no AI model or assistant is discussed or demonstrated, so it is classified as No AI technology for this report."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "Kanaju",
+      "channel_id": "UCGS61aaitswZUJdEZGr6ogA",
       "videos": []
     },
     {
@@ -15,15 +33,15 @@
       "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
       "videos": [
         {
-          "video_id": "vDYqh1FGrgQ",
-          "title": "AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and NotebookLM Upgrade",
-          "published_at": "2026-10-23T13:00:11Z",
-          "url": "https://www.youtube.com/watch?v=vDYqh1FGrgQ",
-          "ai_tech_id": "Anthropic's new 'Claude Duet' feature, covered as the lead story alongside xAI's Grok Bot, OpenAI's ChatGPT, and Google's Gemini/NotebookLM in a multi-tool AI news roundup",
+          "video_id": "U5Fnz5jaBzE",
+          "title": "AI News: New Claude Apps (Insane), Jensen's Back, and So Many ChatGPT Updates.",
+          "published_at": "2026-11-27T14:00:21Z",
+          "url": "https://www.youtube.com/watch?v=U5Fnz5jaBzE",
+          "ai_technology": "Claude",
           "summary": [
-            "Paul J Lipsky opens this news-roundup episode with Claude Duet, Anthropic's newly launched feature, spending the first several minutes of the video breaking down what it is and what it means for Claude users before moving on to other vendors' updates.",
-            "The rest of the episode surveys the week's broader AI news: new Grok Bot capabilities (an action button, dedicated pages, and iPhone app integrations), ChatGPT updates (locked chats and slide generation), and Gemini/NotebookLM upgrades including a Google Sites export path, alongside a sponsored Wispr Flow dictation segment and a demo of using Claude Code to vibe-code a simpler TV remote interface.",
-            "Consistent with the channel's recurring news-digest format, the video stitches together competing vendors' releases into one chronological walkthrough with timestamps, positioning Claude Duet as this cycle's headline item while still giving roughly equal screen time to Grok, ChatGPT, and Gemini developments."
+            "Paul J Lipsky frames this as a 'slow week that wasn't,' opening with NVIDIA CEO Jensen Huang's return to the news cycle before moving into the episode's headline story: Anthropic's new Claude Apps feature, which gets the longest single segment in the video per its own timestamps.",
+            "After a DataImpulse sponsor break, the episode runs through a broad rapid-fire AI news roundup: Gemini gaining GIF support, several AI tools dropping premium features down to their cheaper subscription tiers, a long-requested iPhone dictation fix, and quick hits from OpenAI, Google, Meta and other labs.",
+            "Consistent with the channel's recurring news-digest format, Claude Apps is positioned as this cycle's lead item while ChatGPT, Gemini, and other vendors each get shorter rapid-fire coverage in the same episode, with Claude reported here as the primary AI technology covered."
           ]
         }
       ]
@@ -31,65 +49,102 @@
     {
       "channel_name": "futurepedia_io",
       "channel_id": "UC_RovKmk0OCbuZjA8f08opw",
-      "videos": [
-        {
-          "video_id": "eMFpzUYNv3o",
-          "title": "using Claude video generator to add captions and timestamps",
-          "published_at": "2026-10-23T18:42:53Z",
-          "url": "https://www.youtube.com/watch?v=eMFpzUYNv3o",
-          "ai_tech_id": "Anthropic's Claude, used to generate word-level SRT caption and timestamp files directly from an audio file, replacing a paid captioning service",
-          "summary": [
-            "Futurepedia demonstrates a workflow for getting free, word-by-word captions by dropping an audio file into Claude and prompting it for a 'word level SRT transcript' that can be copy-pasted straight into a caption editor.",
-            "The video distinguishes between requesting a plain SRT, which times captions by line and suits longer videos, versus the word-level variant, which produces much larger files but gives tighter per-word timing better suited to short-form clips.",
-            "Framed as a way to stop paying for third-party captioning tools, the tutorial fits Futurepedia's recurring pattern of showing practical, cost-saving uses for Claude beyond chat or coding, with a pointer to a linked video covering the creator's broader free style/caption resource."
-          ]
-        }
-      ]
-    },
-    {
-      "channel_name": "nateherk",
-      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
       "videos": []
     },
     {
-      "channel_name": "simonscrapes",
-      "channel_id": "UCdCR4-uYOg5ju-IUuDnfnQA",
+      "channel_name": "natefriedman",
+      "channel_id": "UCkZPmCUf37R_DZgKYH3duPg",
       "videos": []
     },
     {
-      "channel_name": "sabrina_ramonov",
-      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "channel_name": "NickShirley",
+      "channel_id": "UC2Uioh1tYQkNuHLSBpzdfCg",
       "videos": [
         {
-          "video_id": "d-IgmwcNhHI",
-          "title": "Make ChatGPT Sound More Human",
-          "published_at": "2026-10-23T19:00:25Z",
-          "url": "https://www.youtube.com/watch?v=d-IgmwcNhHI",
-          "ai_tech_id": "OpenAI's ChatGPT, directed with a saved style-instruction prompt (also described as applicable to Claude) designed to strip robotic phrasing such as em dashes from AI-generated writing",
+          "video_id": "ptdU4EUuPaE",
+          "title": "Exposing How Muslim Fraudsters only pay in Cash",
+          "published_at": "2026-11-28T02:00:23Z",
+          "url": "https://www.youtube.com/watch?v=ptdU4EUuPaE",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov shares a technique for making ChatGPT's writing sound less robotic: saving a persistent style instruction in ChatGPT's preferences so the same voice guidance automatically applies across future chats rather than needing to be re-pasted each time.",
-            "The method asks users to tell the model which words and patterns sound unlike their own voice, supply examples of their own writing, and instruct it to self-check drafts before replying, with the shared prompt specifically telling the model to remove em dashes, a now-common tell of AI-generated text.",
-            "The video closes by directing viewers to a linked guide covering the full prompt for both ChatGPT and Claude, continuing the channel's pattern of giving creators copy-paste-ready prompt engineering tactics rather than a one-off generic tip."
+            "Nick Shirley posted no video description for this upload, so this summary is based only on the title and the channel's established format of unscripted, on-camera street interviews and confrontations built around a provocative premise.",
+            "The title indicates the video centers on an 'exposing' narrative about cash-only payment behavior tied to fraud allegations, a format consistent with the channel's typical structure of the host approaching subjects in public and pressing them on a claim in real time.",
+            "No AI tool, model, or technology is referenced in the title or the (empty) description, so this video is classified as No AI technology for this report."
           ]
         },
         {
-          "video_id": "V-c8yDu4Rls",
-          "title": "6 Free Videos for 6 Life Skills",
-          "published_at": "2026-10-23T14:00:27Z",
-          "url": "https://www.youtube.com/watch?v=V-c8yDu4Rls",
-          "ai_tech_id": "A curated six-video learning path that includes Sabrina Ramonov's own 'Claude Cowork for Dummies 101' tutorial on Anthropic's Claude alongside non-AI confidence, branding, and business content",
+          "video_id": "bhM4iHlEXTg",
+          "title": "Delivering Ilhan Omar a special Christmas Gift",
+          "published_at": "2026-11-27T21:52:56Z",
+          "url": "https://www.youtube.com/watch?v=bhM4iHlEXTg",
+          "ai_technology": "No AI technology",
           "summary": [
-            "Sabrina Ramonov curates a six-video 'path' meant to be watched in order, moving a viewer from general learning and confidence skills through AI productivity, money mindset, personal branding, and finally AI-business building.",
-            "The AI-specific step in the sequence links out to her own earlier video, 'Claude Cowork for Dummies 101,' positioned as the entry point for learning to use ChatGPT and Claude productively, flanked by her separate video on nine AI businesses that can be started with zero employees.",
-            "Rather than new instructional content of its own, the video functions as a curated syllabus stitching together prior uploads (her own and others') into a single recommended watch order, consistent with the channel's teach-first, resource-aggregation style."
+            "This video also carries no creator-supplied description, so the summary below is drawn solely from the title and the channel's recurring confrontational, politically-themed content style.",
+            "The title suggests a staged or attempted in-person delivery of a satirical 'gift' aimed at Rep. Ilhan Omar, likely built around a political stunt or attempted confrontation typical of this channel's content.",
+            "Nothing in the available title or description references any AI product or technology, so this video is classified as No AI technology for this report."
           ]
         }
       ]
     },
     {
-      "channel_name": "JeffSu",
-      "channel_id": "UCwAnu01qlnVg1Ai2AbtTMaA",
-      "videos": []
+      "channel_name": "LibertyHangout",
+      "channel_id": "UCQMb7c66tJ7Si8IrWHOgAPg",
+      "videos": [
+        {
+          "video_id": "L3vZqkx_9a0",
+          "title": "Trump Stopping Illegal Border Crossings Is BAD?!",
+          "published_at": "2026-11-27T21:00:09Z",
+          "url": "https://www.youtube.com/watch?v=L3vZqkx_9a0",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "Liberty Hangout host Kaitlin Bennett (per the channel's recurring format) interviews a pair of elderly self-identified Democrats who argue that the U.S. border should remain wide open and criticize the Trump administration's crackdown on illegal crossings.",
+            "The conversation is framed by the channel as exposing a contradiction: the subjects are presented as objecting to tighter border enforcement even while describing it, in the host's framing, as having curbed an 'invasion,' consistent with the channel's man-on-the-street debate format.",
+            "The video closes with the channel's standard merchandise plug and a promotion for the Keet messaging app; no AI tool or technology is discussed, so it is classified as No AI technology."
+          ]
+        }
+      ]
+    },
+    {
+      "channel_name": "TheTravelingClatt",
+      "channel_id": "UCVZAfsaiMUbv50gz9TvMrZQ",
+      "videos": [
+        {
+          "video_id": "Y9OeYKfwjS8",
+          "title": "Liberal Converts To Islam, Then DISOBEYS Her Husband!",
+          "published_at": "2026-11-27T20:49:08Z",
+          "url": "https://www.youtube.com/watch?v=Y9OeYKfwjS8",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "The video's own description contains only the channel's standard support-link boilerplate (merch, PayPal, Patreon, Discord), so this summary is based on the title and Tal Oran's recurring format of street-level religious and political debate content.",
+            "Based on the title, the video appears to document an exchange involving a woman described as a political liberal who converted to Islam, framed around a conflict between her stated beliefs and her described conduct toward her husband.",
+            "Consistent with the channel's typical approach, the clip is likely structured as a confrontational or debate-style interview rather than a scripted explainer; no AI tool or technology is referenced, so it is classified as No AI technology."
+          ]
+        },
+        {
+          "video_id": "meC6c-genJs",
+          "title": "Catholic Bishop Just ENDED The Islam Is Peace Movement!!",
+          "published_at": "2026-11-27T18:23:31Z",
+          "url": "https://www.youtube.com/watch?v=meC6c-genJs",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "As with the channel's other videos today, the posted description is only generic support-link boilerplate, so this summary relies on the title and the channel's established interview/debate format.",
+            "The title indicates a segment featuring a Catholic bishop pushing back forcefully against the 'Islam is peace' framing in what is likely a recorded debate or interview exchange, a recurring theme for this channel's religious-debate content.",
+            "No AI product or technology is mentioned in the title or description, so this video is classified as No AI technology."
+          ]
+        },
+        {
+          "video_id": "mMEaJQXLPAk",
+          "title": "He Got Exactly What He Asked For\u2026",
+          "published_at": "2026-11-27T14:24:23Z",
+          "url": "https://www.youtube.com/watch?v=mMEaJQXLPAk",
+          "ai_technology": "No AI technology",
+          "summary": [
+            "This upload's description is also limited to the channel's standard support-link boilerplate, leaving the title as the only signal available for this summary.",
+            "The vague, reaction-bait title gives no specific subject matter, but is consistent with this channel's pattern of short, confrontational street-interview clips where a subject's own statement or request leads to an ironic outcome.",
+            "No AI tool or technology is referenced in the available material, so this video is classified as No AI technology."
+          ]
+        }
+      ]
     }
   ]
 }
